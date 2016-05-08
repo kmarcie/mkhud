@@ -256,8 +256,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
-				"tall"		"20"
+				"name"		"Product Sans"
+				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"antialias"	"1"
@@ -315,7 +315,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"	
 				"weight"	"500"
 				"antialias"    "1"

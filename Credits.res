@@ -17,3 +17,4 @@ ahud 			// sourcescheme.res, a couple elements are from ahud. main menu from ahu
 omphud			// itemeffectmeters, health and ammo concept
 cbhud 			// materials
 knuckles		// custom crosshair font
+hudas iscariote // class icon font

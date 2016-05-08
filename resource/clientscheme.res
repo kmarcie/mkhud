@@ -468,7 +468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Days"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias"	"1"
@@ -478,7 +478,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Days"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias"	"1"
@@ -489,7 +489,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Days"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias"	"1"
@@ -500,7 +500,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Days"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
@@ -510,7 +510,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Days"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
@@ -532,7 +532,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"antialias"	"1"
@@ -542,7 +542,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"BigNoodleTitling"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias"	"1"
@@ -552,7 +552,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-BoldItalic"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
@@ -562,7 +562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-Bold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
@@ -572,7 +572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-BoldItalic"
+				"name"		"Product Sans"
 				"tall"		"26"
 				"weight"	"500"
 				"antialias"	"1"
@@ -611,7 +611,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"antialias"	"1"
@@ -621,7 +621,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"500"
 				"antialias"	"1"
@@ -631,7 +631,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
@@ -641,7 +641,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
@@ -652,7 +652,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
@@ -662,7 +662,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
@@ -672,7 +672,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias"	"1"
@@ -682,7 +682,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias"	"1"
@@ -692,7 +692,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias"	"1"
@@ -702,7 +702,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"21"
 				"weight"	"500"
 				"antialias"	"1"
@@ -712,7 +712,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
@@ -722,7 +722,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"26"
 				"weight"	"500"
 				"antialias"	"1"
@@ -732,7 +732,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias"	"1"
@@ -742,7 +742,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"30"
 				"weight"	"500"
 				"antialias"	"1"
@@ -752,7 +752,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias"	"1"
@@ -762,7 +762,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias"	"1"
@@ -772,7 +772,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"38"
 				"weight"	"500"
 				"antialias"	"1"
@@ -782,7 +782,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"40"
 				"weight"	"500"
 				"antialias"	"1"
@@ -792,7 +792,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"42"
 				"weight"	"500"
 				"antialias"	"1"
@@ -802,7 +802,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"44"
 				"weight"	"500"
 				"antialias"	"1"
@@ -812,7 +812,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias"	"1"
@@ -822,7 +822,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias"	"1"
@@ -833,7 +833,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"50"
 				"weight"	"500"
 				"antialias"	"1"
@@ -843,7 +843,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"52"
 				"weight"	"500"
 				"antialias"	"1"
@@ -853,7 +853,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
@@ -863,7 +863,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
@@ -874,7 +874,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"60"
 				"weight"	"500"
 				"antialias"	"1"
@@ -884,7 +884,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"64"
 				"weight"	"500"
 				"antialias"	"1"
@@ -894,7 +894,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"68"
 				"weight"	"500"
 				"antialias"	"1"
@@ -904,7 +904,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"72"
 				"weight"	"500"
 				"antialias"	"1"
@@ -914,7 +914,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"antialias"	"1"
@@ -924,7 +924,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"500"
 				"antialias"	"1"
@@ -934,7 +934,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
@@ -944,7 +944,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
@@ -954,7 +954,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
@@ -964,7 +964,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias"	"1"
@@ -974,7 +974,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias"	"1"
@@ -984,7 +984,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias"	"1"
@@ -994,7 +994,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"21"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1004,7 +1004,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1014,7 +1014,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"26"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1024,7 +1024,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1034,7 +1034,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"30"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1044,7 +1044,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1054,7 +1054,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1064,7 +1064,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"38"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1074,7 +1074,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"40"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1084,7 +1084,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"42"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1094,7 +1094,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"44"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1104,7 +1104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1114,7 +1114,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"50"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1124,7 +1124,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"52"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1134,7 +1134,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1144,7 +1144,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1155,7 +1155,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"60"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1165,7 +1165,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"64"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1175,7 +1175,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"68"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1185,7 +1185,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"72"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1195,7 +1195,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"7"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1205,7 +1205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1215,7 +1215,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1226,7 +1226,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1236,7 +1236,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1246,7 +1246,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1256,7 +1256,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1266,7 +1266,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1276,7 +1276,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1286,7 +1286,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1296,7 +1296,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"21"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1306,7 +1306,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1316,7 +1316,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1327,7 +1327,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"26"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1337,7 +1337,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1347,7 +1347,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"30"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1357,7 +1357,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1367,7 +1367,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1377,7 +1377,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"38"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1387,7 +1387,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"40"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1397,7 +1397,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"42"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1407,7 +1407,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"44"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1417,7 +1417,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"44"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1428,7 +1428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1438,7 +1438,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"50"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1448,7 +1448,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"52"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1458,7 +1458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1468,7 +1468,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"60"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1478,7 +1478,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"64"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1488,7 +1488,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"68"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1498,7 +1498,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"72"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1508,7 +1508,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1518,7 +1518,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1528,7 +1528,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1538,7 +1538,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1548,7 +1548,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1558,7 +1558,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1569,7 +1569,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1579,7 +1579,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1589,7 +1589,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1599,7 +1599,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1610,7 +1610,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"21"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1620,7 +1620,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1630,7 +1630,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1641,7 +1641,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"26"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1651,7 +1651,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1661,7 +1661,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"30"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1671,7 +1671,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1681,7 +1681,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1691,7 +1691,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"38"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1701,7 +1701,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"40"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1711,7 +1711,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"42"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1721,7 +1721,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"42"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1732,7 +1732,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"44"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1742,7 +1742,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1752,7 +1752,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"50"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1762,7 +1762,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"52"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1772,7 +1772,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1782,7 +1782,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1793,7 +1793,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"60"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1803,7 +1803,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"64"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1813,7 +1813,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"68"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1823,7 +1823,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"72"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2951,65 +2951,58 @@ Scheme
 			}
 		}
 		// End of Knuckle's Crosshairs
+		// Default Fonts
 		"Default"
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
-				"tall"		"12"
+				"name"		"Product Sans"
+				"tall"		"11"
 				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
-				"tall"		"500"	[$WIN32]
-				"tall"		"20"	[$X360]
-				"weight"	"900"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"name"		"Product Sans"
+				"tall"		"12"	
+				"weight"	"500"
+				"antialias"	"1"
+
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 			"6"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"500"
+				"weight"	"500"
+				"antialias"	"1"
 			}
 			"7"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
-				"range" 		"0x0000 0x00FF"
-				"weight"		"500"
+				"weight"	"500"
+				"antialias"	"1"
 			}
 
 			
@@ -3018,7 +3011,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"underline" "1"
@@ -3026,7 +3019,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -3036,7 +3029,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3044,7 +3037,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3052,7 +3045,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3061,7 +3054,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3070,7 +3063,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -3079,7 +3072,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -3091,7 +3084,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3099,7 +3092,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3107,7 +3100,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3116,7 +3109,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3125,7 +3118,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3137,7 +3130,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3145,7 +3138,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"21"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3153,7 +3146,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"22"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3162,7 +3155,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"28"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3171,7 +3164,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"30"
 				"weight"	"900"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3180,14 +3173,14 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"900"
 			}
 			"7"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"800"
@@ -3198,7 +3191,7 @@ Scheme
 			// note that this scales with the screen resolution
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold" [!$OSX]
+				"name"		"Product Sans" [!$OSX]
 				"name"		"Helvetica" [$OSX]
 				"tall"		"18"
 				"weight"	"900"
@@ -3211,7 +3204,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"6"
 				"weight"	"500"
 				"additive"	"0"
@@ -3222,14 +3215,14 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"	"480 599"
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"13"	[$WIN32]
 				"tall"		"23"	[$X360]
 				"weight"	"700"
@@ -3237,21 +3230,21 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"	"768 1023"
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"	"1024 1199"
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"	"1200 10000"
@@ -3261,7 +3254,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"tall_lodef"	"80"
 				"weight"	"500"
@@ -3271,7 +3264,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"32"
 				"tall_hidef"	"120"
 				"weight"	"500"
@@ -3281,7 +3274,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"44"
 				"weight"	"500"
 				"additive"	"0"
@@ -3290,7 +3283,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"48"
 				"weight"	"500"
 				"additive"	"0"
@@ -3299,7 +3292,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"52"
 				"weight"	"500"
 				"additive"	"0"
@@ -3311,7 +3304,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"44"
 				"tall_lodef"	"52"
 				"weight"	"500"
@@ -3324,7 +3317,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"35"
 				"tall_lodef"	"40"
 				"weight"	"500"
@@ -3337,7 +3330,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -3349,7 +3342,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -3360,7 +3353,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"30"
 				"weight"	"500"
 				"additive"	"0"
@@ -3371,7 +3364,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -3383,7 +3376,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3394,7 +3387,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -3405,7 +3398,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"500"
 				"additive"	"0"
@@ -3416,7 +3409,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -3429,7 +3422,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -3442,7 +3435,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"tall_lodef"	"16"
 				"weight"	"500"
@@ -3454,7 +3447,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -3465,7 +3458,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3476,7 +3469,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -3488,7 +3481,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3499,7 +3492,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3511,7 +3504,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3522,7 +3515,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"4"
 				"weight"	"500"
 				"additive"	"0"
@@ -3533,7 +3526,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -3544,7 +3537,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"500"
 				"additive"	"0"
@@ -3555,7 +3548,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -3566,7 +3559,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"weight"	"0"
 				"additive"	"0"
@@ -3577,7 +3570,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"6"
 				"weight"	"0"
 				"additive"	"0"
@@ -3588,7 +3581,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"tall_hidef"	"14"
 				"tall_lodef"	"16"
@@ -3601,7 +3594,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -3676,7 +3669,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -3689,7 +3682,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"tall_hidef"	"22"
 				"tall_lodef"	"22"
@@ -3702,7 +3695,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -3713,7 +3706,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
@@ -3724,7 +3717,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"tall_hidef"	"9"
 				"tall_lodef"	"10"
@@ -3737,7 +3730,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"tall_hidef"	"7"
 				"weight"	"500"
@@ -3749,7 +3742,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"15"
 				"weight"	"700"
 				"antialias" 	"1"
@@ -3759,7 +3752,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"15"	[$WIN32]
 				"tall"		"21"	[$X360]
 				"weight"	"700"
@@ -3770,7 +3763,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -3779,7 +3772,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"21"
 				"weight"	"900"
 				"antialias" 	"1"
@@ -3788,7 +3781,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"1000"
 				"antialias" 	"1"
@@ -3862,7 +3855,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"  "SpiegelCdOT-SemiBold"
+				"name"  "Product Sans"
 				"tall"  "28"
 				"weight" "0"
 				"additive" "1"
@@ -3954,7 +3947,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"antialias" "1"
 				"weight"	"500"
@@ -3964,7 +3957,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"tall_lodef"	"14"
 				"antialias" "1"
@@ -3975,7 +3968,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"antialias" "1"
 				"weight"	"500"
@@ -3986,7 +3979,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"13"
 				"tall_hidef"	"14"
 				"tall_lodef"	"17"
@@ -4000,7 +3993,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"SpiegelCdOT-SemiBold"
+				"name"			"Product Sans"
 				"tall"			"28"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -4030,7 +4023,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"tall_lodef"	"36"
 				"tall_hidef"	"36"
@@ -4043,7 +4036,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"SpiegelCdOT-SemiBold"
+				"name"			"Product Sans"
 				"tall"			"14" [!$OSX]
 				"tall"			"15" [$OSX]
 				"tall_lodef"	"32"
@@ -4057,7 +4050,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"14"
@@ -4070,7 +4063,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -4083,7 +4076,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"400"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -4095,7 +4088,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"400"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -4107,7 +4100,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -4121,7 +4114,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
@@ -4135,7 +4128,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"34"
 				"tall_hidef"	"38"
 				"tall_lodef"	"38"
@@ -4150,7 +4143,7 @@ Scheme
  		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"tall_hidef"	"48"
 				"weight"	"500"
@@ -4162,7 +4155,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"52"
 				"tall_lodef"		"80"
 				"range" 	"0x0000 0x00FF"
@@ -4172,7 +4165,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"72"
 				"tall_hidef"	"120"
 				"range" 	"0x0000 0x00FF"
@@ -4182,7 +4175,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"100"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -4191,7 +4184,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"140"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -4200,7 +4193,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"180"
 				"range" 	"0x0000 0x00FF"
 				"weight"	"400"
@@ -4212,7 +4205,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"SpiegelCdOT-SemiBold"
+				"name"	"Product Sans"
 				"tall"	"36"
 				"weight"	"500"
 				"range"	"0x0000 0x007F"	//	Basic Latin
@@ -4224,7 +4217,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"	"SpiegelCdOT-SemiBold"
+				"name"	"Product Sans"
 				"tall"	"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -4235,7 +4228,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -4246,7 +4239,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -4258,7 +4251,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"tall_hidef"	"12"
 				"tall_lodef"	"14"
@@ -4272,7 +4265,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -4280,7 +4273,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -4288,7 +4281,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -4296,7 +4289,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -4304,7 +4297,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -4315,7 +4308,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -4323,7 +4316,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -4331,7 +4324,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -4339,7 +4332,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -4347,7 +4340,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -4358,7 +4351,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"480 599"
@@ -4366,7 +4359,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"700"
 				"yres"		"600 767"
@@ -4374,7 +4367,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"13"
 				"weight"	"700"
 				"yres"		"768 1023"
@@ -4382,7 +4375,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"700"
 				"yres"		"1024 1199"
@@ -4390,7 +4383,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"15"
 				"weight"	"700"
 				"yres"		"1200 10000"
@@ -4402,7 +4395,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"SpiegelCdOT-SemiBold"
+				"name"			"Product Sans"
 				"tall"			"8"
 				"tall_lodef"	"12"
 				"range" 		"0x0000 0x00FF"
@@ -4415,7 +4408,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"tall_lodef"	"18"
 				"range" 		"0x0000 0x00FF"
@@ -4428,7 +4421,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4440,7 +4433,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4453,7 +4446,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"tall_hidef"	"10"
 				"tall_lodef"	"12"
@@ -4466,7 +4459,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"tall_hidef"	"10"
 				"tall_lodef"	"16"
@@ -4480,7 +4473,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"  [!$OSX]
 				"tall"		"9"  [$OSX]
 				"weight"	"800"
@@ -4493,7 +4486,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"tall_lodef"		"28"
 				"weight"	"500"
@@ -4503,7 +4496,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"30"
 				"tall_lodef"		"22"
 				"weight"	"500"
@@ -4513,7 +4506,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"28"
 				"tall_lodef"	"24"
 				"weight"	"500"
@@ -4523,7 +4516,7 @@ Scheme
 		{
 			"1"			// brower item hostname
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"22"
 				"weight"	"900"
 			}
@@ -4532,7 +4525,7 @@ Scheme
 		{
 			"1"			// browser item players and map name
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"900"
 			}
@@ -4541,7 +4534,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"22"
 				"weight"	"500"
 			}
@@ -4550,7 +4543,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"500"
 			}
@@ -4559,7 +4552,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"22"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -4569,7 +4562,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"tall_lodef"		"18"
 				"weight"	"900"
@@ -4579,7 +4572,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"15"
 				"weight"	"900"
 			}
@@ -4589,7 +4582,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"36"
 				"weight"	"500"
 				"additive"	"0"
@@ -4600,7 +4593,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"600"
 				"additive"	"0"
@@ -4611,7 +4604,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -4622,7 +4615,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"900"
 				"antialias" "1"
@@ -4632,7 +4625,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"600"
 				"additive"	"0"
@@ -4643,7 +4636,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -4654,7 +4647,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"7"
 				"weight"	"400"
 				"additive"	"0"
@@ -4666,7 +4659,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4675,7 +4668,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4684,7 +4677,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"15"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -4697,7 +4690,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-BoldItalic"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -4708,7 +4701,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-BoldItalic"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -4719,7 +4712,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-BoldItalic"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"500"
 				"additive"	"0"
@@ -4730,7 +4723,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-BoldItalic"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -4741,7 +4734,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-BoldItalic"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -4752,7 +4745,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"antialias" "1"
 				"weight"	"500"
@@ -4762,7 +4755,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"500"
 				"additive"	"0"
@@ -4773,7 +4766,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -4784,7 +4777,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -4796,7 +4789,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
@@ -4807,7 +4800,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"500"
 				"blur"		"3"
@@ -4820,7 +4813,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"1"
@@ -4831,7 +4824,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"0"
 				"additive"	"1"
@@ -4842,7 +4835,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -4852,7 +4845,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"0"
 				"blur"		"3"
@@ -4865,7 +4858,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -4876,7 +4869,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -4885,7 +4878,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -4894,7 +4887,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"400"
 				"additive"	"0"
@@ -4907,7 +4900,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -4916,7 +4909,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -4925,7 +4918,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -4938,7 +4931,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -4950,7 +4943,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"antialias" "1"
 				"custom"		"1" [$OSX]
@@ -4962,7 +4955,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -4971,7 +4964,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -4980,7 +4973,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -4993,7 +4986,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"400"
 				"yres"		"480 599"
@@ -5003,7 +4996,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"400"
 				"additive"	"0"
@@ -5013,7 +5006,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"22"
 				"weight"	"400"
 				"additive"	"0"
@@ -5027,7 +5020,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"800"
 				"yres"		"480 599"
@@ -5036,7 +5029,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"800"
 				"additive"	"0"
@@ -5045,7 +5038,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"800"
 				"additive"	"0"
@@ -5058,7 +5051,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"13"
 				"weight"	"400"
 				"additive"	"0"
@@ -5070,7 +5063,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"400"
 				"additive"	"0"
@@ -5082,7 +5075,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"10"
 				"weight"	"400"
 				"additive"	"0"
@@ -5094,7 +5087,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"400"
 				"additive"	"0"
@@ -5105,7 +5098,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"0"
 				"antialias" 	"1"
@@ -5116,7 +5109,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"8"
 				"weight"	"400"
 				"antialias" "1"
@@ -5128,7 +5121,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"9"
 				"weight"	"400"
 				"antialias" "1"
@@ -5144,7 +5137,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -5152,7 +5145,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -5160,7 +5153,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -5169,7 +5162,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -5178,7 +5171,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"16"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -5190,7 +5183,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -5201,7 +5194,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -5209,7 +5202,7 @@ Scheme
 			}
 			"2"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"13"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -5217,7 +5210,7 @@ Scheme
 			}
 			"3"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -5226,7 +5219,7 @@ Scheme
 			}
 			"4"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"20"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -5235,7 +5228,7 @@ Scheme
 			}
 			"5"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
@@ -5244,7 +5237,7 @@ Scheme
 			}
 			"6"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"12"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
@@ -5254,7 +5247,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
@@ -5265,7 +5258,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -5276,7 +5269,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"18"
@@ -5289,7 +5282,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -5300,7 +5293,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"18"
 				"tall_hidef"	"24"
 				"tall_lodef"	"20"
@@ -5317,7 +5310,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"14"
 				"weight"	"500"
 				"additive"	"0"
@@ -5328,7 +5321,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"24"
 				"weight"	"500"
 				"additive"	"0"
@@ -5340,7 +5333,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"SpiegelCdOT-SemiBold"
+				"name"		"Product Sans"
 				"tall"		"15"
 				"weight"	"500"
 				"range"		"0x0000 0x007F"	//	Basic Latin
@@ -7673,56 +7666,35 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	// Range specificies the characters to be used from the custom font before falling back to a default font
 	// characters in the range not specificed in the font will appear empty
-	// For SpiegelCdOT-SemiBold: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/spiegelcdot-semibold.otf"
-			"name" "SpiegelCdOT-SemiBold"
+			"font" "resource/ProductSans.otf"
+			"name" "Product Sans"
 		}
 		"4" "resource/ocra.ttf"
 		"5"
 		{
-			"font" "resource/spiegelcdot-semibolditalic.otf"
-			"name" "SpiegelCdOT-SemiBoldItalic"
-		}
-		"6"
-		{
-			"font" "resource/BigNoodleTitling.ttf"
-			"name" "BigNoodleTitling"
-		}
-		"7"
-		{
-			"font" "resource/days.ttf"
-			"name" "days"
-		}
-		"8"
-		{
 			"font" "resource/entypo.otf"
 			"name" "Entypo"
 		}
-		"9"
+		"6"
 		{
 			"font" "resource/mkhud.ttf"
 			"name" "mkhud"
 		}
-		"10"
+		"7"
 		{
-			"font" "resource/spiegelcdot-regular.otf"
-			"name" "SpiegelCdOT-Regular"
+			"font" "resource/surface.otf"
+			"name" "surface"
 		}
-		"11"
+		"8"
 		{
-			"font" "resource/spiegelcdot-bold.otf"
-			"name" "SpiegelCdOT-Bold"
-		}
-		"12"
-		{
-			"font" "resource/spiegelcdot-bolditalic.otf"
-			"name" "SpiegelCdOT-BoldItalic"
+			"font" "resource/HudasIscariote.otf"
+			"name" "Hudas Iscariote"
 		}
 	}
 }

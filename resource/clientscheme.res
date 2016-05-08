@@ -7680,9 +7680,49 @@ Scheme
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/ProductSans.ttf"
+			"font" "resource/spiegelcdot-semibold.otf"
 			"name" "SpiegelCdOT-SemiBold"
 		}
 		"4" "resource/ocra.ttf"
+		"5"
+		{
+			"font" "resource/spiegelcdot-semibolditalic.otf"
+			"name" "SpiegelCdOT-SemiBoldItalic"
+		}
+		"6"
+		{
+			"font" "resource/BigNoodleTitling.ttf"
+			"name" "BigNoodleTitling"
+		}
+		"7"
+		{
+			"font" "resource/days.ttf"
+			"name" "days"
+		}
+		"8"
+		{
+			"font" "resource/entypo.otf"
+			"name" "Entypo"
+		}
+		"9"
+		{
+			"font" "resource/mkhud.ttf"
+			"name" "mkhud"
+		}
+		"10"
+		{
+			"font" "resource/spiegelcdot-regular.otf"
+			"name" "SpiegelCdOT-Regular"
+		}
+		"11"
+		{
+			"font" "resource/spiegelcdot-bold.otf"
+			"name" "SpiegelCdOT-Bold"
+		}
+		"12"
+		{
+			"font" "resource/spiegelcdot-bolditalic.otf"
+			"name" "SpiegelCdOT-BoldItalic"
+		}
 	}
 }

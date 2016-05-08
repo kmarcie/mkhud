@@ -279,10 +279,10 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"1"
-		"bgcolor_override"		"mkbgcolor"
+		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"110 110 110 255"
 		"PaintBackgroundType"	"0"
-		"paintborder"	"0"
+		"paintborder"	"1"
 		
 		"text_ypos"			"15"
 		"text_center"		"1"

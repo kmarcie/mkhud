@@ -8,8 +8,11 @@ http://steamcommunity.com/id/nimtra is my profile URL.
 Resolution Support
 ----------
 16:9 - Made on 1920x1080 resolution. Should work fine on other resolutions. There may be slight offsets with other resolutions, however.
+
 16:10 - Not sure
+
 5:6 - Not sure
+
 4:3 - Kind of. Most elements on the right side of the screen get cut off.
 
 

@@ -1,4 +1,4 @@
-<font size="24" color="red">it's not done</font>
+<font size="24">it's not done</font>
 
 there are many bugs
 

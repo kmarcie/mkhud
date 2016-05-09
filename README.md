@@ -12,7 +12,8 @@ The custom crosshair is manageable through HudPlayerClass.res. I made it like th
 
 Screenshots
 ----------
-http://imgur.com/a/3F9jh
+http://imgur.com/a/3F9jh - Team Menu is now moved to the left of the screen to improve compatibility with other resolutions
+
 http://i.imgur.com/sdQVa12.jpg - Freezecam
 
 I apologize for the screenshot's orders. They are in a weird order because I used imgur and didn't know how to sort the pictures.

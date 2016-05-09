@@ -35,6 +35,7 @@ Known Issues
 ------------
 On resolutions other than 1920x1080, some things get offset.
 On resolutions other than 16:9, the vtf files I used for my background, etc all get screwed up and some of the elements that are on the right side of the screen are completely gone from existance.
+The shadow from the original medi-gun on the Vaccinator hud is still there. 
 
 Credits
 ---------

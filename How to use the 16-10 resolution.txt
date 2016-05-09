@@ -1,0 +1,5 @@
+Go to the folder > CTRL + A > CTRL + C > CTRL + V into resource.
+
+Replace/merge folders.
+
+Restart TF2 if TF2 is on. :)

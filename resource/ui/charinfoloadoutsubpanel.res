@@ -284,7 +284,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"ShowBackpackButton"
-		"xpos"				"c-415"
+		"xpos"				"15"
 		"ypos"				"60"
 		"zpos"				"6"
 		"wide"				"100"
@@ -328,7 +328,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
-		"xpos"				"c-415"
+		"xpos"				"15"
 		"ypos"				"90"
 		"zpos"				"6"
 		"wide"				"90"
@@ -373,7 +373,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowArmoryButton"
-		"xpos"				"c-415"
+		"xpos"				"15"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"90"
@@ -418,7 +418,7 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
-		"xpos"				"c-415"
+		"xpos"				"15"
 		"ypos"				"150"
 		"zpos"				"6"
 		"wide"				"70"

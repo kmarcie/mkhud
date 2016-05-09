@@ -39,6 +39,8 @@ On resolutions other than 16:9, the vtf files I used for my background, etc all 
 
 The shadow from the original medi-gun on the Vaccinator hud is still there. 
 
+Bleed/Marked for Death/etc images are cut off right now. I will fix these soon.
+
 Credits
 ---------
 

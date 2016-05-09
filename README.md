@@ -44,7 +44,7 @@ Bleed/Marked for Death/etc images are cut off right now. I will fix these soon.
 Credits
 ---------
 
-<b>BroeselHUD (feeling and broesel)</b> - Lots of inspiration. I borrowed some elements from the hud as well. Specifically the tournament spectator hud.
+<b>BroeselHUD (feeling and broesel)</b> - Lots of inspiration. I borrowed some elements from the hud as well. Specifically the tournament spectator hud. This was the hud I used for a very long time until I figured out how to edit huds.
 
 <b>ahud (Nokk)</b> - Again, a lot of the stuff I put into my hud was inspired by Nokk's hud. An amazing hud. He also answered a lot of my questions, and I greatly appreciate the help.
 

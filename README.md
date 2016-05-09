@@ -1,5 +1,5 @@
 
-mkHUD - It's not done.
+mkHUD - It's not done. But it's almost done.
 =======
 There are a lot of bugs within this hud. Please comment on my profile if you happen to run into any issues using this HUD.
 
@@ -71,3 +71,5 @@ Credits
 <b>PrismHUD (JarateKing)</b> - This hud was really different, and I really liked it. Heavily inspired by this hud as well.
 
 <b>teamfortress.tv HUD mods/HUD Q&A thread</b> - The stuff people have posted in this thread is absolutely amazing. Some of the stuff posted in that thread inspired me quite a bit. I also owe a huge thanks to the people that go on the HUD Q&A thread and answer people's questions about hud editing. I had quite a few and most of them were answered the next hour or day.
+
+<b>truktruk's sub discord</b> - Honestly, I don't think I would have ever finished this or released this if I didn't subscribe to truktruk on Twitch and joined the Discord. Speaking of which, you should subscribe to truktruk on Twitch. http://twitch.tv/truktruk/subscribe

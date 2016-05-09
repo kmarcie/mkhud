@@ -30,6 +30,8 @@ Resolution Support
 
 Currently working on 16:10 support. Will work on the others once I am done.
 
+The backpack button does clip into the class icons, there isn't really much I can do about that.
+
 Fonts
 ------------
 If your fonts aren't working, go to mkHUD/resource/fonts, select all > right click > Install. Restart TF2 and you should be able to see the fonts.

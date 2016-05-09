@@ -201,11 +201,6 @@ event KeyHintMessageHide
 	Animate HudHintKeyDisplay Alpha	0 Linear 0.0 0.5
 }
 
-event ScopeRemoval
-{
-	Animate HudScope Position	"9999 9999" Linear 0.0 0.0
-}
-
 //===========================================
 
 //Health Bonus Pulse

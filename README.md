@@ -22,13 +22,9 @@ Resolution Support
 ----------
 16:9 - Made on 1920x1080 resolution. Should work fine on other resolutions. There may be slight offsets with other resolutions, however.
 
-16:10 - Not sure
+16:10 - Kind of. Currently I am working on making this work with 16:10.
 
-5:6 - Not sure
-
-4:3 - Kind of. Most elements on the right side of the screen get cut off.
-
-Currently working on 16:10 support. Will work on the others once I am done.
+4:3 - Nope. I most likely will not provide support for this resolution because a) it is 2016. Most monitors are widescreen by now and b) my VTF files and many things become offset that I would most likely have to just make a bunch of different files to cater to 4:3.
 
 The backpack button does clip into the class icons, there isn't really much I can do about that.
 

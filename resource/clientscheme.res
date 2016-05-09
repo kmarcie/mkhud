@@ -8106,6 +8106,31 @@ Scheme
 			"font" "resource/fonts/KnucklesCrosses.ttf"
 			"name" "KnucklesCrosses"
 		}
+		"10"
+		{
+			"font" "resource/fonts/HudasIscariote.ttf"
+			"name" "Hudas Iscariote"
+		}
+		"11"	
+		{
+			"font" "resource/fonts/Circles.ttf"
+			"name" "Circles"
+		}
+		"12"
+		{
+			"font" "resource/fonts/Nexa Light.otf"
+			"name" "Nexa Light"
+		}
+		"13"
+		{
+			"font" "resource/fonts/Nexa Bold.otf"
+			"name" "Nexa Bold"
+		}
+		"14"
+		{
+			"font" "resource/fonts/Blank.ttf"
+			"name" "Adobe Blank"
+		}
 
 	}
 }

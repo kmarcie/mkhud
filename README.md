@@ -24,9 +24,7 @@ Resolution Support
 
 16:10 - Kind of. Currently I am working on making this work with 16:10. There are some files you have to manually overwrite. I have included a folder with the things you have to overwrite for the hud to look nice in 16:10. I have yet to modify the .vtf files for 16:10, so some backgrounds may look offset.
 
-4:3 - Nope. I most likely will not provide support for this resolution because a) it is 2016. Most monitors are widescreen by now and b) my VTF files and many things become offset that I would most likely have to just make a bunch of different files to cater to 4:3.
-
-The backpack button does clip into the class icons, there isn't really much I can do about that. I will probably make the font size smaller for these buttons though.
+4:3 - Nope. I most likely will not provide support for this resolution because a) It is 2016. Most monitors are widescreen by now and b) my VTF files and many things become offset that I would most likely have to just make a bunch of different files to cater to 4:3. I would prefer not to do that. Maybe in the future.
 
 Fonts
 ------------
@@ -34,13 +32,14 @@ If your fonts aren't working, go to mkHUD/resource/fonts, select all > right cli
 
 Known Issues
 ------------
-On resolutions other than 1920x1080, some things get offset.
 
-On resolutions other than 16:9, the vtf files I used for my background, etc all get screwed up and some of the elements that are on the right side of the screen are completely gone from existance.
+On resolutions other than 16:9, the vtf files I used for my background are offset. Making separate background images for these soon.
 
 The shadow from the original medi-gun on the Vaccinator hud is still there. 
 
 Bleed/Marked for Death/etc images are cut off right now. I will fix these soon.
+
+Backpack button clips into Scout image. Making the font size smaller will fix this.
 
 Credits (there's a lot)
 ---------
@@ -73,4 +72,4 @@ Credits (there's a lot)
 
 <b>teamfortress.tv HUD mods/HUD Q&A thread</b> - The stuff people have posted in this thread is absolutely amazing. Some of the stuff posted in that thread inspired me quite a bit. I also owe a huge thanks to the people that go on the HUD Q&A thread and answer people's questions about hud editing. I had quite a few and most of them were answered the next hour or day.
 
-<b>truktruk's sub discord</b> - Honestly, I don't think I would have ever finished this or released this if I didn't subscribe to truktruk on Twitch and joined the Discord. Speaking of which, you should subscribe to truktruk on Twitch. http://twitch.tv/truktruk/subscribe
+<b>truktruk's sub discord</b> - Honestly, I don't think I would have ever finished this or released this if I didn't subscribe to truktruk on Twitch and joined the Discord. Speaking of which, you should subscribe to truktruk on Twitch. http://twitch.tv/truktruk/subscribe Also, many people from this discord helped out with testing and reporting bugs to me. :)

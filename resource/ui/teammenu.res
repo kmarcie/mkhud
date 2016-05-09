@@ -616,7 +616,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkaccent"
+		"fillcolor"		"mkwhite"
 
 	}		
 	
@@ -633,7 +633,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkaccent"
+		"fillcolor"		"mkwhite"
 
 		
 	}			

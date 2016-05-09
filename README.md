@@ -1,4 +1,4 @@
-![alt tag](http://puu.sh/oLsrP/a7c1ea1976.png)
+![alt tag](http://puu.sh/oLssz/33f1356559.png)
 =========
 There are a lot of bugs within this hud. Please comment on my profile if you happen to run into any issues using this HUD.
 

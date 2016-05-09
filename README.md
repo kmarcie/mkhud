@@ -41,6 +41,8 @@ ompHUD (omp) - A great HUD. I'm sure everyone by now knows what this HUD looks l
 
 wavesui (extracrspy) - Though I started creating my hud before this hud was posted to TF.TV, I did get some inspiration from him when he posted in the hud mod thread on tf.tv. The colour scheme of my hud was not intentionally made to be so close to wavesui, but I had to mention this hud. It's so good.
 
+omnibombulator - For creating huds.tf and posting his gameplay footage on reddit. If he didn't upload his gameplay onto reddit, I probably would have never found out about the font I'm using in my hud. Some of the stuff he has put into his hud are slightly similar, specifically the font and the health/ammo. I hope that's okay with him.
+
 Knuckles - Providing the crosshairs. Very well done. :)
 
 SolarHUD (Stochast1c) - I borrowed the ChatScheme.res / BaseChat.res from this hud. The class selection in my hud and this hud are a little bit similar, the off classes are separated from the meta classes. I first got this idea from SolarHUD. A great hud.

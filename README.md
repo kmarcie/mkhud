@@ -41,7 +41,7 @@ The shadow from the original medi-gun on the Vaccinator hud is still there.
 
 Bleed/Marked for Death/etc images are cut off right now. I will fix these soon.
 
-Credits
+Credits (there's a lot)
 ---------
 
 <b>BroeselHUD (feeling and broesel)</b> - Lots of inspiration. I borrowed some elements from the hud as well. Specifically the tournament spectator hud. This was the hud I used for a very long time until I figured out how to edit huds.

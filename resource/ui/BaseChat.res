@@ -6,9 +6,9 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-410"   // c-380
+		"xpos"			"c-425"   // c-380
 		"ypos"			"r195"	  // r465
-		"wide"	 		"200"	  // 300
+		"wide"	 		"225"	  // 300
 		"tall"	 		"105"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"base3"
@@ -22,7 +22,7 @@
 		"enabled" 		"1"
 		"xpos"			"2"
 		"ypos"			"395"
-		"wide"	 		"220"
+		"wide"	 		"215"
 		"tall"	 		"2"
 		"PaintBackgroundType"	"0"
 	}
@@ -53,8 +53,8 @@
 		"fieldName"		"HudChatHistory"
 		"xpos"			"0"
 		"ypos"			"0"
-		"wide"	 		"300"
-		"tall"			"400"
+		"wide"	 		"225"
+		"tall"			"410"
 		"wrap"			"1"
 		"autoResize"	"1"
 		"pinCorner"		"1"

@@ -10,8 +10,8 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1" // set to 1 to enable crosshair
-		"enabled"		"1"
+		"visible"		"0" // set to 1 to enable crosshair
+		"enabled"		"0" // set to 1 to enable crosshair
 		"labelText"		"i"
 		"textAlignment"	"center"	
 		"font"			"size:20,outline:off"	// size: range 10-50
@@ -27,8 +27,8 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1" // set to 1 to enable crosshair
-		"enabled"		"1"
+		"visible"		"0" // set to 1 to enable crosshair
+		"enabled"		"0" // set to 1 to enable crosshair
 		"labelText"		"l"
 		"textAlignment"	"center"	
 		"font"			"size:15,outline:off"	// size: range 10-50

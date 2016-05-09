@@ -9,6 +9,8 @@ http://steamcommunity.com/id/nimtra is my profile URL.
 
 I would appreciate it if you didn't redistribute this hud as yours. Please give me credit if you happen to release an edit of this hud.
 
+The custom crosshair is manageable through HudPlayerClass.res. I made it like this so when you are dead the crosshair doesn't show up, where as if I put it in hudlayout.res it would show up all the time. 
+
 Screenshots
 ----------
 http://imgur.com/a/3F9jh

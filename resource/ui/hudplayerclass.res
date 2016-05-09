@@ -1,5 +1,5 @@
 "Resource/UI/HudPlayerClass.res"
-{
+{	
 	// crosshair
 	"Crosshair"
 	{
@@ -92,22 +92,21 @@
 		"image"			"../hud/class_spy_outline"
 		"scaleImage"	"1"	
 	}		
-	"bg"
+	"PlayerStatusClassImageBG"
 	{
 		"ControlName"	"CTFImagePanel"
-		"fieldName"		"bg"
-		"xpos"			"0"
-		"ypos"			"455"
+		"fieldName"		"PlayerStatusClassImageBG"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"1"		
-		"wide"			"120"
-		"tall"			"35"
-		"visible"		"1"
-		"enabled"		"1"
+		"wide"			"9999"
+		"tall"			"9999"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage"	"1"
-		"image"				"replay\thumbnails\bg_black"	
-//		"teambg_2"			"replay\thumbnails\bg_hudred"
-//		"teambg_3"			"replay\thumbnails\bg_hudblue"
-		"alpha"				"0"
+		"image"			"../hud/character_red_bg"	
+		"teambg_2"		"../hud/character_red_bg"
+		"teambg_3"		"../hud/character_blue_bg"
 	}
 
 	"classmodelpanelBG"

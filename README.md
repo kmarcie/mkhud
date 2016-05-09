@@ -28,6 +28,8 @@ Resolution Support
 
 4:3 - Kind of. Most elements on the right side of the screen get cut off.
 
+Currently working on 16:10 support. Will work on the others once I am done.
+
 Fonts
 ------------
 If your fonts aren't working, go to mkHUD/resource/fonts, select all > right click > Install. Restart TF2 and you should be able to see the fonts.

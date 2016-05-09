@@ -42,30 +42,30 @@ The shadow from the original medi-gun on the Vaccinator hud is still there.
 Credits
 ---------
 
-BroeselHUD (feeling and broesel) - Lots of inspiration. I borrowed some elements from the hud as well. Specifically the tournament spectator hud.
+<b>BroeselHUD (feeling and broesel)</b> - Lots of inspiration. I borrowed some elements from the hud as well. Specifically the tournament spectator hud.
 
-ahud (Nokk) - Again, a lot of the stuff I put into my hud was inspired by Nokk's hud. An amazing hud. He also answered a lot of my questions, and I greatly appreciate the help.
+<b>ahud (Nokk)</b> - Again, a lot of the stuff I put into my hud was inspired by Nokk's hud. An amazing hud. He also answered a lot of my questions, and I greatly appreciate the help.
 
-cbhud (CoBa) - It sucks that he hasn't updated it, but still a great hud. Some elements in my hud were inspired by this hud.
+<b>MaterialHUD (Rawrsor)</b> - Although it's not completely done yet, a lot of the elements in my hud were inspired by his. The material dropshadows, etc. I used his .vtf files as well (Shadows and the blurfact). He answered the questions I had about hud editing as well. :)
 
-ToonHUD (Griever) - I borrowed the SourceScheme.res from his hud. I hope you are alright with this. A very well made hud. Again, some elements in my hud were inspired by his.
+<b>cbhud (CoBa)</b> - It sucks that he hasn't updated it, but still a great hud. Some elements in my hud were inspired by this hud.
 
-ompHUD (omp) - A great HUD. I'm sure everyone by now knows what this HUD looks like. I borrowed some of the ItemEffectMeters from this hud, and a lot of my elements were inspired by this hud.
+<b>ToonHUD (Griever)</b> - I borrowed the SourceScheme.res from his hud. I hope you are alright with this. A very well made hud. Again, some elements in my hud were inspired by his.
 
-wavesui (extracrspy) - Though I started creating my hud before this hud was posted to TF.TV, I did get some inspiration from him when he posted in the hud mod thread on tf.tv. The colour scheme of my hud was not intentionally made to be so close to wavesui, but I had to mention this hud. It's so good.
+<b>ompHUD (omp)</b> - A great HUD. I'm sure everyone by now knows what this HUD looks like. I borrowed some of the ItemEffectMeters from this hud, and a lot of my elements were inspired by this hud.
 
-omnibombulator - For creating huds.tf and posting his gameplay footage on reddit. If he didn't upload his gameplay onto reddit, I probably would have never found out about the font I'm using in my hud. Some of the stuff he has put into his hud are slightly similar, specifically the font and the health/ammo. I hope that's okay with him.
+<b>wavesui (extracrspy)</b> - Though I started creating my hud before this hud was posted to TF.TV, I did get some inspiration from him when he posted in the hud mod thread on tf.tv. The colour scheme of my hud was not intentionally made to be so close to wavesui, but I had to mention this hud. It's so good.
 
-Knuckles - Providing the crosshairs. Very well done. :)
+<b>omnibombulator</b> - For creating huds.tf and posting his gameplay footage on reddit. If he didn't upload his gameplay onto reddit, I probably would have never found out about the font I'm using in my hud. Some of the stuff he has put into his hud are slightly similar, specifically the font and the health/ammo. I hope that's okay with him.
 
-SolarHUD (Stochast1c) - I borrowed the ChatScheme.res / BaseChat.res from this hud. The class selection in my hud and this hud are a little bit similar, the off classes are separated from the meta classes. I first got this idea from SolarHUD. A great hud.
+<b>Knuckles</b> - Providing the crosshairs. Very well done. :)
 
-Hudas Iscariote (redd0t, cirlo, b4stian, Quartz) - Extremely well made hud. Borrowed the class icon font from this hud.
+<b>SolarHUD (Stochast1c)</b> - I borrowed the ChatScheme.res / BaseChat.res from this hud. The class selection in my hud and this hud are a little bit similar, the off classes are separated from the meta classes. I first got this idea from SolarHUD. A great hud.
 
-yayahud (yttrium) - I really enjoyed using this hud a couple years ago. I liked it a lot, and so I incorporated some of the stuff I saw in this hud into mine.
+<b>Hudas Iscariote (redd0t, cirlo, b4stian, Quartz)</b> - Extremely well made hud. Borrowed the class icon font from this hud.
 
-PrismHUD (JarateKing) - This hud was really different, and I really liked it. Heavily inspired by this hud as well.
+<b>yayahud (yttrium)</b> - I really enjoyed using this hud a couple years ago. I liked it a lot, and so I incorporated some of the stuff I saw in this hud into mine.
 
-MaterialHUD (Rawrsor) - Although it's not completely done yet, a lot of the elements in my hud were inspired by his. The material dropshadows, etc. I used his .vtf files as well (Shadows and the blurfact). He answered the questions I had about hud editing as well. :)
+<b>PrismHUD (JarateKing)</b> - This hud was really different, and I really liked it. Heavily inspired by this hud as well.
 
-teamfortress.tv HUD mods/HUD Q&A thread - The stuff people have posted in this thread is absolutely amazing. Some of the stuff posted in that thread inspired me quite a bit. I also owe a huge thanks to the people that go on the HUD Q&A thread and answer people's questions about hud editing. I had quite a few and most of them were answered the next hour or day.
+<b>teamfortress.tv HUD mods/HUD Q&A thread</b> - The stuff people have posted in this thread is absolutely amazing. Some of the stuff posted in that thread inspired me quite a bit. I also owe a huge thanks to the people that go on the HUD Q&A thread and answer people's questions about hud editing. I had quite a few and most of them were answered the next hour or day.

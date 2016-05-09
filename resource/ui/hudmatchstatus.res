@@ -264,7 +264,6 @@
 
 		if_comp
 		{
-			"ypos_minmode"			"0"
 			"delta_item_x"			"31"
 			"delta_item_start_y"	"23"
 			"delta_item_end_y"		"43"

@@ -20,9 +20,6 @@
 		"brighttext"			"0"
 		"font"					"mk8"
 		"fgcolor_override"		"mkaccent"
-		
-		"xpos_minmode"			"50"
-		"wide_minmode"			"100"
 	}
 	"ChargeMeter"
 	{	
@@ -43,8 +40,5 @@
 		"brighttext"	"0"
 		"bgcolor_override"	"mkblack"
 		"fgcolor_override"	"255 255 255 255"
-		
-		"xpos_minmode"			"50"
-		"wide_minmode"			"100"
 	}					
 }

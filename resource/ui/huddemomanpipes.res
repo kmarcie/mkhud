@@ -8,10 +8,8 @@
 		"ypos"			"9999"
 		"zpos"			"0"
 		"wide"			"76"
-		"wide_minmode"	"56"
 		"tall"			"38"
 		"visible"		"1"
-		"visible_minmode"	"0"
 		"enabled"		"1"
 		"image"			"../hud/misc_ammo_area_blue"
 		"scaleImage"	"1"	
@@ -33,7 +31,6 @@
 		"autoResize"			"1"
 		"pinCorner"				"2"
 		"visible"				"1"
-		"visible_minmode"		"0"
 		"enabled"				"1"
 		"tabPosition"			"0"
 		"labelText"				"#TF_Charge"
@@ -42,9 +39,6 @@
 		"brighttext"			"0"
 		"font"					"mk8"
 		"fgcolor_override"		"mkaccent"
-		
-		"xpos_minmode"			"50"
-		"wide_minmode"			"100"
 	}
 
 	"ChargeMeter"
@@ -66,9 +60,6 @@
 		"brighttext"			"0"
 		"bgcolor_override"		"mkblack"
 		"fgcolor_override"		"255 255 255 255"
-		
-		"xpos_minmode"			"50"
-		"wide_minmode"			"100"
 	}				
 		
 	"PipesPresentPanel"
@@ -81,9 +72,6 @@
 		"wide"			"150"
 		"tall"			"26" // omp -- +8 Mac fix.
 		"visible"		"1"
-		
-		"xpos_minmode"			"50"
-		"wide_minmode"			"100"
 		
 		"PipeIcon"
 		{
@@ -123,8 +111,6 @@
 			"brighttext"	"0"
 			"font"			"mk24"
 			"fgcolor"		"mkwhite"
-			
-			"wide_minmode"			"99"
 		}
 		"NumPipesLabelDropshadow"
 		{
@@ -146,8 +132,6 @@
 			"brighttext"	"0"
 			"font"			"mk24"
 			"fgcolor"		"mkblack"
-			
-			"wide_minmode"			"99"
 		}		
 	}
 	

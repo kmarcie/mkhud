@@ -51,6 +51,7 @@ Scheme
 		"mkDarkerGrey"			"22 22 22 255"
 		"mkBlack"				"34 34 34 255"
 		"mkaccent"				"214 73  51  255"
+		"mkLightBlue"			"146 220 229 255"
       //base colors
 		"White"				"255 255 255 255"
 		"OffWhite"			"0 0 255 255"
@@ -123,7 +124,7 @@ Scheme
 
       //The "say :  " in the chat input line
 		Label.TextDullColor				"mkDullWhite"
-		Label.TextColor					"mkaccent"
+		Label.TextColor					"mkLightBlue"
 		Label.TextBrightColor				"mkWhite"
 		Label.SelectedTextColor				"mkWhite"
 		Label.BgColor					"Blank"

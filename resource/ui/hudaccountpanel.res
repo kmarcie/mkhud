@@ -55,7 +55,6 @@
 		"wide"			"75"
 		"tall"			"20"
 		"visible"		"0"
-		"visible_minmode"	"0"
 		"enabled"		"0"
 		"fillcolor"		"mkHUDBlue"
 		"alpha"			"220"

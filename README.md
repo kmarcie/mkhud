@@ -22,7 +22,7 @@ Resolution Support
 ----------
 16:9 - Made on 1920x1080 resolution. Should work fine on other resolutions. There may be slight offsets with other resolutions, however.
 
-16:10 - Kind of. Currently I am working on making this work with 16:10.
+16:10 - Kind of. Currently I am working on making this work with 16:10. There are some files you have to manually overwrite. I have included a folder with the things you have to overwrite for the hud to look nice in 16:10. I have yet to modify the .vtf files for 16:10, so some backgrounds may look offset.
 
 4:3 - Nope. I most likely will not provide support for this resolution because a) it is 2016. Most monitors are widescreen by now and b) my VTF files and many things become offset that I would most likely have to just make a bunch of different files to cater to 4:3.
 

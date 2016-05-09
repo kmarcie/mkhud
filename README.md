@@ -26,7 +26,7 @@ Resolution Support
 
 4:3 - Nope. I most likely will not provide support for this resolution because a) it is 2016. Most monitors are widescreen by now and b) my VTF files and many things become offset that I would most likely have to just make a bunch of different files to cater to 4:3.
 
-The backpack button does clip into the class icons, there isn't really much I can do about that.
+The backpack button does clip into the class icons, there isn't really much I can do about that. I will probably make the font size smaller for these buttons though.
 
 Fonts
 ------------

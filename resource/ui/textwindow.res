@@ -131,7 +131,7 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"		"ok"
-		"xpos"			"r215"
+		"xpos"			"c-50"
 		"ypos"			"r40"
 		"zpos"			"6"
 		"wide"			"150"
@@ -156,7 +156,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"okbutton"
-		"xpos"			"360"
+		"xpos"			"c-70"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"130"

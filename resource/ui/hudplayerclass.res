@@ -5,12 +5,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"Crosshair"
-		"xpos"			"402"
+		"xpos"			"c-25"
 		"ypos"			"215"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"0" // set to 1 to enable crosshair
+		"visible"		"1" // set to 1 to enable crosshair
 		"enabled"		"1"
 		"labelText"		"i"
 		"textAlignment"	"center"	
@@ -22,12 +22,12 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CrosshairSecond"
-		"xpos"			"402"
+		"xpos"			"c-25"
 		"ypos"			"215"
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"0" // set to 1 to enable crosshair
+		"visible"		"1" // set to 1 to enable crosshair
 		"enabled"		"1"
 		"labelText"		"l"
 		"textAlignment"	"center"	

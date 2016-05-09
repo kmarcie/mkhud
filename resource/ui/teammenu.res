@@ -120,7 +120,7 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton0"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"120"
 		"zpos"			"200"		
 		"wide"			"238"
@@ -147,7 +147,7 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton1"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"160"
 		"zpos"			"200"		
 		"wide"			"238"
@@ -174,7 +174,7 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton2"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"100"
 		"zpos"			"100"
 		"wide"			"238" 
@@ -199,7 +199,7 @@
 	{
 		"ControlName"	"CTFTeamButton"
 		"fieldName"		"teambutton3"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"200"
 		"zpos"			"100"
 		"wide"			"238"
@@ -267,7 +267,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAuto"
-		"xpos"			"c-65"
+		"xpos"			"85"
 		"ypos"			"c-140"
 		"zpos"			"21"
 		"wide"			"110" 
@@ -277,7 +277,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"random"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
@@ -288,7 +288,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuAutoSymbol"
-		"xpos"			"c-143"
+		"xpos"			"-37"
 		"ypos"			"c-155"
 		"zpos"			"21"
 		"wide"			"110" 
@@ -303,14 +303,14 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"Entypo32"
-		"fgcolor"		"mkwhite"
+		"fgcolor"		"mkblack"
 	}
 	
-	"TeamMenuSpectate"
+	"TeamMenuSpectate" // this one doesn't do anything
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate"
-		"xpos"			"c-65"
+		"xpos"			"135"
 		"ypos"			"c-40"
 		"zpos"			"13"
 		"wide"			"110"
@@ -320,7 +320,7 @@
 		"visible"		"0"
 		"enabled"		"0"
 		"labelText"		"spectate"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
@@ -331,7 +331,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectate1"
-		"xpos"			"c-65"
+		"xpos"			"85"
 		"ypos"			"c-40"
 		"zpos"			"13"
 		"wide"			"110"
@@ -341,7 +341,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"spectate"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
@@ -352,7 +352,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TeamMenuSpectateSymbol"
-		"xpos"			"c-143"
+		"xpos"			"-37"
 		"ypos"			"c-55"
 		"zpos"			"21"
 		"wide"			"110" 
@@ -367,7 +367,7 @@
 		"brighttext"	"0"
 		"wrap"			"0"
 		"font"			"Entypo32"
-		"fgcolor"		"mkwhite"
+		"fgcolor"		"mkblack"
 	}
 	"MenuBG"
 	{
@@ -419,7 +419,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueCount"
-		"xpos"			"c-65"
+		"xpos"			"135"
 		"ypos"			"c-110"
 		"zpos"			"1"
 		"wide"			"55"
@@ -429,7 +429,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%bluecount%"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"product24"
@@ -440,7 +440,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedCount"
-		"xpos"			"c-65"
+		"xpos"			"135"
 		"ypos"			"c-70"
 		"zpos"			"1"
 		"wide"			"55"
@@ -450,7 +450,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"%redcount%"
-		"textAlignment"	"west"
+		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"1"
 		"font"			"product24"
@@ -461,7 +461,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"blueframe"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"120"
 		"zpos"			"1"		
 		"wide"			"38"
@@ -479,7 +479,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"graybarblue"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"120"
 		"zpos"			"-1"		
 		"wide"			"200"
@@ -495,7 +495,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"graybarred"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"160"
 		"zpos"			"-1"		
 		"wide"			"200"
@@ -511,7 +511,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"graybarrando"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"100"
 		"zpos"			"-1"		
 		"wide"			"200"
@@ -527,7 +527,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"graybarspec"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"200"
 		"zpos"			"-1"		
 		"wide"			"200"
@@ -544,7 +544,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"redframe"		
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"160"
 		"zpos"			"1"		
 		"wide"			"38"
@@ -566,7 +566,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BlueLabel"
-		"xpos"			"318"
+		"xpos"			"-2"
 		"ypos"			"119"
 		"zpos"			"2"
 		"wide"			"40"
@@ -587,7 +587,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"RedLabel"
-		"xpos"			"318"
+		"xpos"			"-2"
 		"ypos"			"159"
 		"zpos"			"2"
 		"wide"			"40"
@@ -607,7 +607,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"RandomFrame"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"100"
 		"zpos"			"1"		
 		"wide"			"38"
@@ -616,7 +616,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkblack"
+		"fillcolor"		"mkaccent"
 
 	}		
 	
@@ -624,7 +624,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"SpectateFrame"
-		"xpos"			"320"
+		"xpos"			"0"
 		"ypos"			"200"
 		"zpos"			"1"		
 		"wide"			"38"
@@ -633,7 +633,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkblack"
+		"fillcolor"		"mkaccent"
 
 		
 	}			

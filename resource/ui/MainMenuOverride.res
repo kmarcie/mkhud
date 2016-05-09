@@ -655,7 +655,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"WatchStreamButton"
-		"xpos"			"c357"
+		"xpos"			"r71"
 		"ypos"			"-5"
 		"zpos"			"1234"
 		"wide"			"38"
@@ -710,7 +710,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"c185"
+		"xpos"			"r243"
 		"ypos"			"19"
 		"zpos"			"1"
 		"wide"			"240"
@@ -744,7 +744,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"c395" // c-380
+		"xpos"			"r35"
 		"ypos"			"-7"
 		"zpos"			"1"
 		"wide"			"40"
@@ -867,7 +867,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"c340"
+		"xpos"			"r87"
 		"ypos"			"-9"
 		"zpos"			"1123"
 		"wide"			"32"
@@ -1699,7 +1699,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
-		"xpos"			"742"
+		"xpos"			"r113"
 		"ypos"			"-13"
 		"zpos"			"11"
 		"wide"			"40"
@@ -1758,7 +1758,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"690"
+		"xpos"			"r162"
 		"ypos"			"-13"
 		"zpos"			"11"
 		"wide"			"40"
@@ -3063,7 +3063,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"663"
+		"xpos"			"r187"
 		"ypos"			"-12"
 		"zpos"			"11"
 		"wide"			"40"
@@ -3113,7 +3113,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"630"
+		"xpos"			"r222"
 		"ypos"			"-12"
 		"zpos"			"11"
 		"wide"			"50"

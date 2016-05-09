@@ -1,5 +1,6 @@
 "Resource/UI/HudPlayerClass.res"
 {
+	// crosshair
 	"Crosshair"
 	{
 		"ControlName"	"CExLabel"
@@ -9,7 +10,7 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0" // set to 1 to enable crosshair
 		"enabled"		"1"
 		"labelText"		"i"
 		"textAlignment"	"center"	
@@ -26,7 +27,7 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"1"
+		"visible"		"0" // set to 1 to enable crosshair
 		"enabled"		"1"
 		"labelText"		"l"
 		"textAlignment"	"center"	

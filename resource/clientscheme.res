@@ -8103,13 +8103,9 @@ Scheme
 		}
 		"9"
 		{
-			"font" "resource/fonts/Nexa Light.otf"
-			"name" "Nexa Light"
+			"font" "resource/fonts/KnucklesCrosses.ttf"
+			"name" "KnucklesCrosses"
 		}
-		"10"
-		{
-			"font" "resource/fonts/Nexa Bold.otf"
-			"name" "Nexa Bold"
-		}
+
 	}
 }

@@ -39,7 +39,7 @@ ToonHUD (Griever) - I borrowed the SourceScheme.res from his hud. I hope you are
 
 ompHUD (omp) - A great HUD. I'm sure everyone by now knows what this HUD looks like. I borrowed some of the ItemEffectMeters from this hud, and a lot of my elements were inspired by this hud.
 
-wavesui (extracrspy) - Though I started creating my hud before this hud was posted to TF.TV, I did get some inspiration from him. The colour scheme of my hud was not made to be so close to wavesui, but I had to mention this hud. It's so good.
+wavesui (extracrspy) - Though I started creating my hud before this hud was posted to TF.TV, I did get some inspiration from him when he posted in the hud mod thread on tf.tv. The colour scheme of my hud was not intentionally made to be so close to wavesui, but I had to mention this hud. It's so good.
 
 Knuckles - Providing the crosshairs. Very well done. :)
 

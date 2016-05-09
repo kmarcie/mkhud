@@ -6,9 +6,9 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-380"    
-		"ypos"			"r465"
-		"wide"	 		"300"
+		"xpos"			"c-410"   // c-380
+		"ypos"			"r195"	  // r465
+		"wide"	 		"200"	  // 300
 		"tall"	 		"105"
 		"PaintBackgroundType"	"0"
 		"bgcolor_override"		"base3"

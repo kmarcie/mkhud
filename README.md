@@ -41,6 +41,8 @@ Bleed/Marked for Death/etc images are cut off right now. I will fix these soon.
 
 Backpack button clips into Scout image. Making the font size smaller will fix this.
 
+MVM hud is still not finished.
+
 Credits (there's a lot)
 ---------
 

@@ -31,7 +31,7 @@ Credits
 
 BroeselHUD (feeling and broesel) - Lots of inspiration. I borrowed some elements from the hud as well. Specifically the tournament spectator hud.
 
-ahud (Nokk) - Again, a lot of the stuff I put into my hud was inspired by Nokk's hud. An amazing hud.
+ahud (Nokk) - Again, a lot of the stuff I put into my hud was inspired by Nokk's hud. An amazing hud. He also answered a lot of my questions, and I greatly appreciate the help.
 
 cbhud (CoBa) - It sucks that he hasn't updated it, but still a great hud. Some elements in my hud were inspired by this hud.
 
@@ -51,4 +51,6 @@ yayahud (yttrium) - I really enjoyed using this hud a couple years ago. I liked 
 
 PrismHUD (JarateKing) - This hud was really different, and I really liked it. Heavily inspired by this hud as well.
 
-MaterialHUD (Rawrsor) - Although it's not completely done yet, a lot of the elements in my hud were inspired by his. The material dropshadows, etc. I used his .vtf files as well (Shadows and the blurfact)
+MaterialHUD (Rawrsor) - Although it's not completely done yet, a lot of the elements in my hud were inspired by his. The material dropshadows, etc. I used his .vtf files as well (Shadows and the blurfact). He answered the questions I had about hud editing as well. :)
+
+teamfortress.tv HUD mods/HUD Q&A thread - The stuff people have posted in this thread is absolutely amazing. Some of the stuff posted in that thread inspired me quite a bit. I also owe a huge thanks to the people that go on the HUD Q&A thread and answer people's questions about hud editing. I had quite a few and most of them were answered the next hour or day.

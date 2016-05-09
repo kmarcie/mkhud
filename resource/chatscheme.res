@@ -50,7 +50,7 @@ Scheme
 		"mkDarkGrey"			"27 27 27 255"
 		"mkDarkerGrey"			"22 22 22 255"
 		"mkBlack"				"34 34 34 255"
-		"mkHUDBlue"				"0   156 255 255"
+		"mkaccent"				"214 73  51  255"
       //base colors
 		"White"				"255 255 255 255"
 		"OffWhite"			"0 0 255 255"
@@ -73,23 +73,23 @@ Scheme
 		Border.Dark						"Blank"		// the dark/unlit side of a control
 		Border.Selection				"Blank"			// the additional border color for displaying the default/selected button
 
-		Button.TextColor				"mkHUDBlue"
+		Button.TextColor				"mkaccent"
 		Button.BgColor					"mkBlack"
-		Button.ArmedTextColor			"mkHUDBlue"
+		Button.ArmedTextColor			"mkaccent"
 		Button.ArmedBgColor				"mkYellow"				[$WIN32]
-		Button.DepressedTextColor		"mkHUDBlue"
+		Button.DepressedTextColor		"mkaccent"
 		Button.DepressedBgColor			"mkYellow"
 		Button.FocusBorderColor			"Blank"
 		
 		CheckButton.TextColor			"mkDullWhite"
-		CheckButton.SelectedTextColor	"mkHUDBlue"
+		CheckButton.SelectedTextColor	"mkaccent"
 		CheckButton.BgColor				"mkBlack"
 		CheckButton.Border1  			"Border.Dark" 		// the left checkbutton border
 		CheckButton.Border2  			"Border.Bright"		// the right checkbutton border
-		CheckButton.Check				"mkHUDBlue"				// color of the check itself
+		CheckButton.Check				"mkaccent"				// color of the check itself
 
 		ComboBoxButton.ArrowColor		"mkDullWhite"
-		ComboBoxButton.ArmedArrowColor	"mkHUDBlue"
+		ComboBoxButton.ArmedArrowColor	"mkaccent"
 		ComboBoxButton.BgColor			"Blank"
 		ComboBoxButton.DisabledBgColor	"Blank"
 
@@ -102,8 +102,8 @@ Scheme
 		Frame.TransitionEffectTime		"0.3"	// time it takes for a window to fade in/out on open/close
 		Frame.AutoSnapRange				"0"
 		FrameGrip.Color1				"TFTanMedium"
-		FrameGrip.Color2				"mkHUDBlue"
-		FrameTitleButton.FgColor		"mkHUDBlue"
+		FrameGrip.Color2				"mkaccent"
+		FrameTitleButton.FgColor		"mkaccent"
 		FrameTitleButton.BgColor		"Blank"
 		FrameTitleButton.DisabledFgColor	"mkDullWhite"
 		FrameTitleButton.DisabledBgColor	"Blank"
@@ -123,7 +123,7 @@ Scheme
 
       //The "say :  " in the chat input line
 		Label.TextDullColor				"mkDullWhite"
-		Label.TextColor					"mkHUDBlue"
+		Label.TextColor					"mkaccent"
 		Label.TextBrightColor				"mkWhite"
 		Label.SelectedTextColor				"mkWhite"
 		Label.BgColor					"Blank"
@@ -133,15 +133,15 @@ Scheme
 		ListPanel.TextColor					"mkWhite"
 		ListPanel.TextBgColor				"Blank"
 		ListPanel.BgColor					"HudBlack"
-		ListPanel.SelectedTextColor			"mkHUDBlue"
+		ListPanel.SelectedTextColor			"mkaccent"
 		ListPanel.SelectedBgColor			"mkBlack"
 		ListPanel.SelectedOutOfFocusBgColor	"mkBlack"
-		ListPanel.EmptyListInfoTextColor	"mkHUDBlue"
+		ListPanel.EmptyListInfoTextColor	"mkaccent"
 
 		Menu.TextColor					"mkWhite"
 		Menu.BgColor					"HudBlack"
 		Menu.ArmedTextColor				"mkWhite"
-		Menu.ArmedBgColor				"mkHUDBlue"
+		Menu.ArmedBgColor				"mkaccent"
 		Menu.TextInset					"6"
 
 		Panel.FgColor					"Blank"
@@ -257,7 +257,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"16"
+				"tall"		"22"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"antialias"	"1"
@@ -316,7 +316,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"20"	
+				"tall"		"22"	
 				"weight"	"500"
 				"antialias"    "1"
 				"dropshadow" "1"

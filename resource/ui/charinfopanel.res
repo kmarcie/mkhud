@@ -103,8 +103,8 @@
 			"autoResize"	"0"
 			"PaintBackgroundType"	"0"
 			"border"				"NoBorder"
-			"Fgcolor_override"		"mkHUDBlue"
-			"bgcolor_override"		"mkHUDBlue"
+			"Fgcolor_override"		"mktopbar"
+			"bgcolor_override"		"mktopbar"
 		}		
 	"MainMenuBG"
 	{
@@ -119,7 +119,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkHudBlue"
+		"fillcolor"		"mktopbar"
 	}
 	"MainMenuBGShadow"
 	{
@@ -141,10 +141,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Sheet"
-		"tabxindent"	"70"
-		"tabxdelta"		"10"
-		"tabwidth"		"240"
-		"tabheight"		"34"
+		"tabxindent"	"5"
+		"tabxdelta"		"20"
+		"tabwidth"		"110"
+		"tabheight"		"35"
 		"transition_time" "0"
 		
 		"HeaderLine"
@@ -155,7 +155,7 @@
 			"ypos"			"-25"
 			"zpos"			"99999"
 			"wide"			"f0"
-			"tall"			"30"
+			"tall"			"35"
 			"visible"		"1"
 			"enabled"		"1"
 			"autoResize"	"0"
@@ -165,13 +165,13 @@
 		}				
 		"tabskv"
 		{
-			"textinsetx"		"230"
-			"textAlignment"		"center"
-			"font"				"streamlabel"
+			"textinsetx"		"0"
+			"textAlignment"		"west"
+			"font"				"mk16"
 			"ypos"				"0"
 			"zpos"				"10000"
-			"selectedcolor"		"mkWhite"
-			"unselectedcolor"	"mkWhite"	
+			"selectedcolor"		"mklightblue"
+			"unselectedcolor"	"mklightblue"	
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"0 0 0 0"
 			"unselectedBgColor_override"	"0 0 0 0"
@@ -208,9 +208,9 @@
 		"defaultBgColor_override"	"0 0 0 0"
 		"armedBgColor_override"		"0 0 0 0"
 		"depressedBgColor_override"	"0 0 0 0"
-		"defaultFgColor_override"	"mkWhite"
-		"armedFgColor_override" 	"mkHUDBlue"
-		"depressedFgColor_override" "mkHUDBlue"
+		"defaultFgColor_override"	"mklightblue"
+		"armedFgColor_override" 	"mkaccent"
+		"depressedFgColor_override" "mkaccent"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}		

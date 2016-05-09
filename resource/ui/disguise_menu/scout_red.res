@@ -4,8 +4,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Myriad10"
-		"fgcolor"		"mkWhite"
+		"font"			"product10"
+		"fgcolor"		"mkdarkerblue"
 		"xpos"			"80"
 		"ypos"			"90"
 		"zpos"			"100"

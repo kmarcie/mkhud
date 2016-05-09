@@ -8,7 +8,7 @@
 		"PositiveColor"			"255 255 0 255"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		"1.5"
-		"delta_item_font"		"Myriad16"
+		"delta_item_font"		"product16"
 	}
 	
 	"AccountBG"
@@ -79,7 +79,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Myriad20"
+		"font"			"product20"
 	}
 	"AccountValueShadow"
 	{
@@ -100,7 +100,7 @@
 		"textAlignment"	"east"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"Myriad20"
+		"font"			"product20"
 		"fgcolor"		"mkblack"
 	}
 }

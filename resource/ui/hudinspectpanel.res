@@ -40,7 +40,7 @@
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
-			"font"			"Myriad9"
+			"font"			"product9"
 			"xpos"			"10"
 			"ypos"			"3"
 			"zpos"			"1"

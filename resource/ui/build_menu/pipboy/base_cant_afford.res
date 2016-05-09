@@ -57,7 +57,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Myriad9"
+		"font"			"product9"
 		"fgcolor"		"200 10 20 255"
 		"xpos"			"0"
 		"ypos"			"30"
@@ -93,7 +93,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"Myriad20"
+		"font"			"product20"
 		"fgcolor"		"200 10 20 255"
 		"xpos"			"-3"
 		"ypos"			"31"
@@ -112,7 +112,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
-		"font"			"Myriad20"
+		"font"			"product20"
 		"fgcolor"		"mkBlack"
 		"xpos"			"-2"
 		"ypos"			"32"

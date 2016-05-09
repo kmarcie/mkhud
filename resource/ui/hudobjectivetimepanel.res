@@ -2,18 +2,42 @@
 {	
 	"TimePanelBG"
 	{
-		"ControlName"		"imagepanel"
+		"ControlName"		"CTFimagepanel"
 		"fieldName"		"TimePanelBG"
-		"xpos"			"123425"
+		"xpos"			"31"
 		"ypos"			"0"
-		"zpos"			"2"
-		"wide"			"40"
-		"tall"			"20"
+		"zpos"			"1"
+		"wide"			"41"
+		"tall"			"2"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay\thumbnails\bg_black"	
-		"alpha"			"240"
-		"scaleImage"		"1"	
+		"image"			"replay\thumbnails\bg_hudblue"
+		"scaleImage"		"1"
+		"teambg_1"		"replay\thumbnails\bg_hudblue"
+		"teambg_2"		"replay\thumbnails\bg_hudred"
+		"teambg_3"		"replay\thumbnails\bg_hudblue"
+
+		if_comp
+		{
+			"visible"	"0"
+		}
+	}
+	"TimePanelBG1"
+	{
+		"ControlName"		"CTFimagepanel"
+		"fieldName"		"TimePanelBG1"
+		"xpos"			"31"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"41"
+		"tall"			"2"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\bg_hudblue"
+		"scaleImage"		"1"
+		"teambg_1"		"replay\thumbnails\bg_hudblue"
+		"teambg_2"		"replay\thumbnails\bg_hudred"
+		"teambg_3"		"replay\thumbnails\bg_hudblue"
 
 		if_comp
 		{
@@ -54,20 +78,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"WaitingForPlayersLabel"
-		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"15"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
+		"xpos"			"13"
+		"ypos"			"14"
 		"zpos"			"5"
 		"wide"			"78"
-		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
-		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"1"
 		"labelText"		"#game_WaitingForPlayers"
@@ -75,9 +90,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"Myriad10"
-		"font_hidef"	"Myriad10"
-		"font_lodef"	"Myriad10"
+		"font"			"product10"
 
 		if_comp
 		{
@@ -85,28 +98,28 @@
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
 			"ypos_minmode"			"17"
-			"font"					"Myriad10"
-			"font_hidef"			"Myriad10"
-			"font_lodef"			"Myriad10"
+			"font"					"product10"
+			"font_hidef"			"product10"
+			"font_lodef"			"product10"
 		}
 	}			
 	"WaitingForPlayersBG"
 	{
-		"ControlName"		"imagepanel"
+		"ControlName"		"CTFimagepanel"
 		"fieldName"		"WaitingForPlayersBG"
-		"xpos"			"112346"	[$WIN32]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"31"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"41"
+		"tall"			"2"
 		"tall_minmode"	"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"replay\thumbnails\bg_black"	
-		"alpha"			"240"
-		"scaleImage"		"1"	
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\bg_hudblue"
+		"scaleImage"		"1"
+		"teambg_1"		"replay\thumbnails\bg_hudblue"
+		"teambg_2"		"replay\thumbnails\bg_hudred"
+		"teambg_3"		"replay\thumbnails\bg_hudblue"
 
 		if_comp
 		{
@@ -117,13 +130,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"OvertimeLabel"
-		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"28"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
+		"xpos"			"13"
+		"ypos"			"14"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -138,7 +146,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"MyriadHeavy12"
+		"font"			"product12"
 
 		if_comp
 		{
@@ -153,22 +161,21 @@
 	}			
 	"OvertimeBG"
 	{
-		"ControlName"		"imagepanel"
+		"ControlName"		"CTFimagepanel"
 		"fieldName"		"OvertimeBG"
-		"xpos"			"11231236"	[$WIN32]
-		"xpos"			"134234"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"31"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"41"
+		"tall"			"2"
 		"tall_minmode"	"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"replay\thumbnails\bg_black"	
-		"alpha"			"240"
-		"scaleImage"		"1"	
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\bg_hudblue"
+		"scaleImage"		"1"
+		"teambg_1"		"replay\thumbnails\bg_hudblue"
+		"teambg_2"		"replay\thumbnails\bg_hudred"
+		"teambg_3"		"replay\thumbnails\bg_hudblue"
 
 		if_comp
 		{
@@ -179,13 +186,8 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"SuddenDeathLabel"
-		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"15"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
+		"xpos"			"13"
+		"ypos"			"14"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -200,7 +202,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"MyriadHeavy12"
+		"font"			"product12"
 
 		if_comp
 		{
@@ -215,21 +217,21 @@
 	}			
 	"SuddenDeathBG"
 	{
-		"ControlName"		"imagepanel"
+		"ControlName"		"CTFimagepanel"
 		"fieldName"		"SuddenDeathBG"
-		"xpos"			"11236"	[$WIN32]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"31"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"41"
+		"tall"			"2"
 		"tall_minmode"	"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_black"	
-		"alpha"			"240"
-		"scaleImage"		"1"	
+		"image"			"replay\thumbnails\bg_hudblue"
+		"scaleImage"		"1"
+		"teambg_1"		"replay\thumbnails\bg_hudblue"
+		"teambg_2"		"replay\thumbnails\bg_hudred"
+		"teambg_3"		"replay\thumbnails\bg_hudblue"
 
 		if_comp
 		{
@@ -240,13 +242,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"SetupLabel"
-		"xpos"			"16"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"15"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
+		"xpos"			"13"
+		"ypos"			"14"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -261,10 +258,10 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"MyriadHeavy12"
-		"font_minmode"	"MyriadHeavy12"
-		"font_hidef"	"MyriadHeavy12"
-		"font_lodef"	"MyriadHeavy12"
+		"font"			"product12"
+		"font_minmode"	"product12"
+		"font_hidef"	"product12"
+		"font_lodef"	"product12"
 
 		if_comp
 		{
@@ -279,22 +276,21 @@
 	}	
 	"SetupBG"
 	{
-		"ControlName"		"imagepanel"
+		"ControlName"		"CTFimagepanel"
 		"fieldName"		"SetupBG"
-		"xpos"			"12316"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"31"
+		"ypos"			"0"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"41"
+		"tall"			"2"
 		"tall_minmode"	"0"
-		"visible"		"0"
+		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_black"	
-		"alpha"			"240"
-		"scaleImage"		"1"	
+		"image"			"replay\thumbnails\bg_hudblue"
+		"scaleImage"		"1"
+		"teambg_1"		"replay\thumbnails\bg_hudblue"
+		"teambg_2"		"replay\thumbnails\bg_hudred"
+		"teambg_3"		"replay\thumbnails\bg_hudblue"
 
 		if_comp
 		{
@@ -305,13 +301,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"15"
-		"xpos_hidef"	"0"
-		"xpos_lodef"	"0"
-		"ypos"			"15"
-		"ypos_minmode"	"24"
-		"ypos_hidef"	"41"
-		"ypos_lodef"	"41"
+		"xpos"			"12"
+		"ypos"			"1441414"
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
@@ -326,7 +317,7 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"MyriadHeavy12"
+		"font"			"product12"
 		"fgcolor_override"		"mkwhite"
 
 		if_comp
@@ -335,29 +326,28 @@
 			"xpos"					"cs-0.5"
 			"ypos"					"17"
 			"ypos_minmode"			"17"
-			"font"					"Myriad12"
-			"font_hidef"			"Myriad12"
-			"font_lodef"			"Myriad12"
+			"font"					"product12"
+			"font_hidef"			"product12"
+			"font_lodef"			"product12"
 		}
 	}	
 	"ServerTimeLimitLabelBG"
 	{
-		"ControlName"		"imagepanel"
+		"ControlName"		"CTFimagepanel"
 		"fieldName"		"ServerTimeLimitLabelBG"
-		"xpos"			"123416"	[$WIN32]
-		"xpos"			"11"	[$X360]
-		"ypos"			"31"
-		"ypos_hidef"	"-100"	//off-screen
-		"ypos_lodef"	"-100"	//off-screen
+		"xpos"			"25"
+		"ypos"			"42542"
 		"zpos"			"1"
-		"wide"			"78"
-		"tall"			"20"
+		"wide"			"41"
+		"tall"			"2"
 		"tall_minmode"	"0"
 		"visible"		"0"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_black"	
-		"alpha"			"240"
+		"enabled"		"0"
+		"image"			"replay\thumbnails\bg_hudblue"
 		"scaleImage"		"1"
+		"teambg_1"		"replay\thumbnails\bg_hudblue"
+		"teambg_2"		"replay\thumbnails\bg_hudred"
+		"teambg_3"		"replay\thumbnails\bg_hudblue"
 		
 		if_comp
 		{

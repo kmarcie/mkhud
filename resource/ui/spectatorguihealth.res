@@ -75,7 +75,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValue"
-		"xpos"			"-5"
+		"xpos"			"0"
 		"ypos"			"9"
 		"zpos"			"5"
 		"wide"			"30"
@@ -84,15 +84,15 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"MyriadHeavy14"
+		"font"			"mkTargetID"
 		"fgcolor"		"mkWhite"
 	}
 	"PlayerStatusHealthValueShadow"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PlayerStatusHealthValueShadow"
-		"xpos"			"-4"
-		"ypos"			"10"
+		"xpos"			"0"
+		"ypos"			"9"
 		"zpos"			"5"
 		"wide"			"30"
 		"tall"			"20"
@@ -100,7 +100,7 @@
 		"enabled"		"1"
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
-		"font"			"MyriadHeavyBlur14"
+		"font"			"mkTargetIDshdw"
 		"fgcolor"		"0 0 0 255"
 	}
 	"PlayerStatusPlayerLevel"

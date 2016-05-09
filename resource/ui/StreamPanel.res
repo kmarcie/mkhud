@@ -15,12 +15,11 @@
 		"bgcolor_override"	"0 0 0 50"
 	}
 
-
 	"LoadingPanel"
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"LoadingPanel"
-		"xpos"			"12340"
+		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"10"
 		"wide"			"f0"
@@ -49,8 +48,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"DescriptionLabel"
-			"font"			"HudFontSmallestBold"
-			"labelText"		"RETRIEVING STREAMS"
+			"font"			"product16"
+			"labelText"		"gettin em..."
 			"textAlignment"	"west"
 			"xpos"			"90"
 			"ypos"			"0"
@@ -60,7 +59,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"mkWhite"
+			"fgcolor"		"mkdarkerblue"
 
 			"proportionaltoparent"	"1"
 		}
@@ -96,7 +95,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mkWhite"
+		"fgcolor"		"mkdarkerblue"
 	}
 
 	"TextDescriptionLabel"
@@ -114,7 +113,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mkWhite"
+		"fgcolor"		"mkdarkerblue"
 	}
 
 	"ViewerCountLabel"
@@ -132,7 +131,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mkWhite"
+		"fgcolor"		"mkdarkerblue"
 	}
 
 	"Stream_URLButton"

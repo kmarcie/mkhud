@@ -33,8 +33,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"MyriadHeavy14"
-		"fgcolor"		"White"
+		"font"			"product14"
+		"fgcolor"		"mklightblue"
 	}	
 
 	"TextMessage"
@@ -57,7 +57,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkHudBlue"
+		"fillcolor"		"mkTopBar"
 	}
 	"MainMenuBGShadow"
 	{
@@ -123,8 +123,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkbgcolor"
-		"alpha"			"255"
+		"fillcolor"		"0 0 0 255"
+		"alpha"			"150"
 	}
 	
 	"ok"
@@ -150,7 +150,7 @@
 		"default"		"1"
 		"font"			"MenuFont"
 		"bgcolor_override"		"0 0 0 0"
-		"fgcolor_override"		"mkwhite"
+		"fgcolor_override"		"mklightblue"
 	}
 	"okbutton"
 	{
@@ -159,7 +159,7 @@
 		"xpos"			"360"
 		"ypos"			"437"
 		"zpos"			"2"
-		"wide"			"120"
+		"wide"			"130"
 		"tall"			"25"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -179,9 +179,9 @@
 		"defaultBgColor_override"	"0 0 0 0"
 		"armedBgColor_override"		"0 0 0 0"
 		"depressedBgColor_override"	"0 0 0 0"
-		"defaultFgColor_override"	"mkWhite"
-		"armedFgColor_override" 	"mkHUDBlue"
-		"depressedFgColor_override" "mkHUDBlue"
+		"defaultFgColor_override"	"mklightblue"
+		"armedFgColor_override" 	"mkaccent"
+		"depressedFgColor_override" "mkaccent"
 		"border_default"			"ButtonHover"
 		"border_armed"				"ButtonHover"
 	}

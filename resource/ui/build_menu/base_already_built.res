@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"NormalCode11"
+		"font"			"mk11"
 		"xpos"			"0"
 		"ypos"			"4"
 		"zpos"			"1"
@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"189 189 189 255"
+		"fgcolor"		"mkdarkerblue"
 	}
 	
 	"ItemBackground"	
@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Myriad9"
+		"font"			"product9"
 		"xpos"			"0"
 		"ypos"			"30"
 		"zpos"			"2"

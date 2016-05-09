@@ -11,16 +11,42 @@
 		"tall"			"220"
 		"fillcolor"		"mkGUI"
 	}
+	"BlackBGShadow"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlackBGShadow"
+		"xpos"			"46"
+		"ypos"			"100"
+		"zpos"			"0"
+		"wide"			"207"
+		"tall"			"17"
+		"scaleImage"	"1"
+//		"fillcolor"		"mkGUI"
+		"image"			"replay\thumbnails\menu\Shadow3"
+	}
+	"BlackBGShadow2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"BlackBGShadow2"
+		"xpos"			"43"
+		"ypos"			"92"
+		"zpos"			"-9"
+		"wide"			"214"
+		"tall"			"235"
+		"scaleImage"	"1"
+//		"fillcolor"		"mkGUI"
+		"image"			"replay\thumbnails\menu\Shadow4"
+	}
 	"blueheader"
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"blueheader"
 		"xpos"			"50"
 		"ypos"			"100"
-		"zpos"			"0"
+		"zpos"			"5"
 		"wide"			"200"
 		"tall"			"15"
-		"fillcolor"		"mkhudblue"
+		"fillcolor"		"mktopbar"
 	}
 	"top"
 	{
@@ -30,7 +56,7 @@
 		"ypos"			"150"
 		"zpos"			"0"
 		"wide"			"200"
-		"tall"			"70"
+		"tall"			"0"
 		"fillcolor"		"mkguibg"
 	}
 	"bottom"
@@ -41,7 +67,7 @@
 		"ypos"			"220"
 		"zpos"			"0"
 		"wide"			"200"
-		"tall"			"70"
+		"tall"			"0"
 		"fillcolor"		"mkguibg"
 	}
 	"leftline"
@@ -51,7 +77,7 @@
 		"xpos"			"50"
 		"ypos"			"100"
 		"zpos"			"0"
-		"wide"			"2"
+		"wide"			"0"
 		"tall"			"220"
 		"fillcolor"		"mkguibg"
 	}
@@ -62,7 +88,7 @@
 		"xpos"			"250"
 		"ypos"			"100"
 		"zpos"			"0"
-		"wide"			"2"
+		"wide"			"0"
 		"tall"			"220"
 		"fillcolor"		"mkguibg"
 	}
@@ -71,10 +97,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Myriadheavy16"
+		"font"			"product16"
 		"xpos"			"-50"
 		"ypos"			"96"
-		"zpos"			"4"
+		"zpos"			"6"
 		"wide"			"250"
 		"tall"			"22"
 		"autoResize"	"0"
@@ -85,7 +111,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"mkWhite"
+		"fgcolor"		"mklightblue"
 	}
 	
 	"active_item_1"

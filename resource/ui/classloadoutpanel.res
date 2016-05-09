@@ -18,8 +18,8 @@
 		"infocus_bgcolor_override" "mkBGcolor"
 		"outoffocus_bgcolor_override" "mkBGcolor"
 		
-		"item_xpos_offcenter_a"	"-310"
-		"item_xpos_offcenter_b"	"165"
+		"item_xpos_offcenter_a"	"-410"
+		"item_xpos_offcenter_b"	"-265"
 		"item_ypos"		"60"
 		"item_ydelta"	"75"
 		"item_mod_wide"	"40"
@@ -41,8 +41,8 @@
 			"wide"			"140"
 			"tall"			"70"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 0"
-			"noitem_textcolor"		"mkdarkblue"
+			"bgcolor_override"		"0 0 0 220"
+			"noitem_textcolor"		"mklightblue"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"1"
 			
@@ -67,7 +67,23 @@
 				"inventory_image_type"  "1" // High quality item image
 			}
 		}
-
+	"bg"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"bg"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-6"
+		"wide"				"f0"
+		"tall"				"480"
+		"autoResize"		"0"
+		"pinCorner"			"1"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"1"
+		"scaleImage"		"1"
+		"image"				"replay\thumbnails\classloadoutbg"
+	}
 		"itemoptionpanels_kv"
 		{
 			"ControlName"	"CExButton"
@@ -152,8 +168,8 @@
 		"font"			"StreamLabel"
 		"labelText"		"Taunts"
 		"textAlignment"	"center"
-		"xpos"			"c-125"
-		"ypos"			"35"
+		"xpos"			"c-390"
+		"ypos"			"41"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"25"
@@ -195,8 +211,8 @@
 		"enabled"		"1"
 		
 		"render_texture"	"0"
-		"fov"			"28"
-		"allow_rot"		"1"
+		"fov"			"30"
+		"allow_manip"		"1"
 				
 		"model"
 		{
@@ -279,7 +295,7 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"1"
-		"bgcolor_override"		"0 0 0 0"
+		"bgcolor_override"		"0 0 0 220"
 		"noitem_textcolor"		"110 110 110 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"

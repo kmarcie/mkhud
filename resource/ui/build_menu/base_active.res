@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Myriad10"
+		"font"			"product10"
 		"xpos"			"0"
 		"ypos"			"4"
 		"zpos"			"1"
@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"mkwhite"
+		"fgcolor"		"mkdarkerblue"
 	}
 
 	"ItemBackground"
@@ -74,7 +74,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabel"
-		"font"			"Myriad20"
+		"font"			"product20"
 		"fgcolor"		"mkwhite"
 		"xpos"			"-3"
 		"ypos"			"31"
@@ -93,7 +93,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
-		"font"			"Myriad20"
+		"font"			"product20"
 		"fgcolor"		"mkBlack"
 		"xpos"			"-2"
 		"ypos"			"32"

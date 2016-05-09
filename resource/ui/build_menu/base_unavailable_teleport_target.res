@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"200 10 20 255"
+		"fgcolor"		"mkaccent"
 	}
 
 	"ItemBackground"
@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Myriad9"
+		"font"			"product9"
 		"fgcolor"		"200 10 20 255"
 		"xpos"			"0"
 		"ypos"			"30"

@@ -87,7 +87,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Myriad20"
+		"font"			"product20"
 		"xpos"			"0"			// align me to the left edge of the first selection
 		"ypos"			"1"
 		"zpos"			"2"
@@ -108,7 +108,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"Myriad20"
+		"font"			"product20"
 		"fgcolor"		"mkBlack"
 		"xpos"			"1"			// align me to the left edge of the first selection
 		"ypos"			"2"

@@ -27,10 +27,10 @@
 		"fieldName" "HudWeaponAmmo"
 		"visible" "1"
 		"enabled" "1"
-		"xpos"	"c49"
-		"ypos"	"r186" // r136
+		"xpos"	"c49"  // c49
+		"ypos"	"r186" // r186
 		"wide"	"250"
-		"tall"	"65"
+		"tall"	"70"
 	}
 	
 	HudObjectiveStatus
@@ -53,12 +53,9 @@
 		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"160"
-		
-		"blue_active_xpos"			"16"
-		"blue_active_xpos_minmode"	"55"
-	
-		"red_active_xpos"			"106"
-		"red_active_xpos_minmode"	"105"
+		"blue_active_xpos"			"35"
+
+		"red_active_xpos"			"129" // THEY WERE IN HUDLAYOUT.RES THE WHOLE FUCKING TIMEEEEEEEEE
 	}	
 
 	HudItemEffectMeter
@@ -83,26 +80,12 @@
 		"fieldName"		"HudMedicCharge"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"c-78"
-		"ypos"			"r180"
+		"xpos"			"c-78" // c-78
+		"ypos"			"r180" // r180
 		"wide"			"480"
 		"tall"			"100"
 	}
 	
-	HudDemomanCharge
-	{
-		"fieldName"		"HudDemomanCharge"
-		"visible"		"1"
-		"enabled"		"1"
-		"xpos"			"c-100"
-		"ypos"			"c88"
-		"zpos"			"1"			// draw in front of ammo
-		"wide"			"200"
-		"tall"			"6"
-		"MeterFG"		"White"
-		"MeterBG"		"Gray"
-	}	
-
 	HudBowCharge
 	{
 		"fieldName"		"HudBowCharge"
@@ -110,9 +93,9 @@
 		"enabled"		"1"
 		"xpos"			"c-100"
 		"ypos"			"c80"
-		"zpos"			"1"			// draw in front of ammo
+		"zpos"			"2"			// draw in front of ammo
 		"wide"			"200"
-		"tall"			"6"
+		"tall"			"8"
 		"MeterFG"		"White"
 		"MeterBG"		"Gray"
 	}
@@ -245,8 +228,8 @@
 		"fieldName" 	"CMainTargetID"
 		"visible" 	"0"
 		"enabled" 	"1"
-		"xpos"		"c-126"
-		"ypos"		"250"
+		"xpos"		"c0"
+		"ypos"		"255"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"priority"	"40"
@@ -259,7 +242,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"323"
+		"ypos"		"265"
 		"wide"	 	"f0"
 		"tall"	 	"50"
 		"tall_minmode"	 	"28"
@@ -276,7 +259,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"323"
+		"ypos"		"330"
 		"wide"	 	"f0"
 		"tall"	 	"f0"
 		"tall_minmode"	 	"28"
@@ -355,9 +338,9 @@
 	HudRoundTimer
 	{
 		"fieldName" "HudRoundTimer"
-		"xpos"	"c-20"
+		"xpos"	"c-25"
 		"ypos"	"440"
-		"wide"	"120"
+		"wide"	"f0"
 		"tall"  "40"
 		"visible" "1"
 		"enabled" "1"
@@ -467,7 +450,7 @@
 		"visible" "1"
 		"enabled" "1"
 		"xpos"	 "r640"
-		"ypos"	 "12"	
+		"ypos"	 "18"	
 		"wide"	 "628"
 		"tall"	 "468"
 
@@ -475,10 +458,10 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "12"
 		"LineSpacing"	  "1"
-		"CornerRadius"	  "2"
+		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"Myriad11"
+		"TextFont"		"product12"
 		
 		"TeamBlue"		"mkhudblue"
 		"TeamRed"		"mkhudred"
@@ -806,10 +789,9 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"9"	// distance between the icons (including their backgrounds)
+		"separator_width"		"2"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
-		"height_offset"			"0"	[$WIN32] // distance from the bottom of the panel
-		"height_offset"			"26"	[$X360]
+		"height_offset"			"2"	// distance from the bottom of the panel
 	}
 
 	HudCapturePanel
@@ -839,10 +821,12 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
-		"ypos"					"0"
-		"wide"					"300"
-		"tall"					"300"
+		"xpos"					"c-427"
+		"ypos"					"r163"
+		"wide"					"f0"
+		"tall"					"f0"
+		"zpos"					"4"
+		"proportionaltoparent"	"1"
 	}
 
 	ArenaWinPanel
@@ -887,7 +871,7 @@
 		"fieldName"				"FreezePanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"0"
+		"xpos"					"-410"
 		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"480"
@@ -901,7 +885,7 @@
 		"xpos"					"200"
 		"ypos"					"200"
 		"wide"					"100"
-		"tall"					"50"
+		"tall"					"100"
 	}
 
 	AnnotationsPanelCallout
@@ -987,11 +971,11 @@
 		"fieldName" 	"HudEurekaEffectTeleportMenu"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"500"
-		"ypos"			"0"
+		"xpos"			"600"
+		"ypos"			"200"
 		"zpos"			"100"
 		"wide"			"250"
-		"tall"			"195"
+		"tall"			"300"
 		"PaintBackgroundType"	"0"
 	}
 	
@@ -1013,21 +997,32 @@
 		"fieldName"		"HudDemomanPipes"
 		"visible"		"1"
 		"enabled"		"1"
-		"xpos"			"327"	
-		"ypos"			"305"	
-		"zpos"			"100"
-		"wide"			"f0"
-		"tall"			"f0"
-	}	
-
+		"xpos"			"c-100"
+		"ypos"			"c64" // omp -- 2 before due to low-res grid.
+		"wide"			"200"
+		"tall"			"30"
+	}
+	HudDemomanCharge
+	{
+		"fieldName"		"HudDemomanCharge"
+		"visible"		"0"
+		"enabled"		"1"
+		"xpos"			"c-100"
+		"ypos"			"c80"
+		"zpos"			"1"			// draw in front of ammo
+		"wide"			"200"
+		"tall"			"8"
+		"MeterFG"		"White"
+		"MeterBG"		"Gray"
+	}
 	HudTeamGoal
 	{
 		"fieldName"				"HudTeamGoal"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"65"
-		"ypos_lodef"			"75"
+		"xpos"					"280"
+		"ypos"					"0"
+		"ypos_lodef"			"0"
 		"wide"					"320"
 		"tall"					"100"
 	}
@@ -1038,9 +1033,9 @@
 		"fieldName"				"HudTeamGoalTournament"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"15"
-		"ypos_lodef"			"75"
+		"xpos"					"0"
+		"ypos"					"0"
+		"ypos_lodef"			"0"
 		"wide"					"320"
 		"tall"					"245"
 	}
@@ -1050,10 +1045,10 @@
 		"fieldName"				"HudTeamSwitch"
 		"visible"				"0"
 		"enabled"				"1"
-		"xpos"					"c-160"
-		"ypos"					"75"
-		"ypos_hidef"				"90"
-		"ypos_lodef"			"90"
+		"xpos"					"0"
+		"ypos"					"0"
+		"ypos_hidef"				"0"
+		"ypos_lodef"			"0"
 		"wide"					"320"
 		"tall"					"100"
 	}

@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Myriad10"
+		"font"			"product10"
 		"xpos"			"0"
 		"ypos"			"4"
 		"zpos"			"1"
@@ -18,7 +18,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor"		"200 10 20 255"
+		"fgcolor"		"mkaccent"
 	}
 	
 	"DestroyIcon"	
@@ -73,7 +73,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Myriad10"
+		"font"			"product10"
 		"fgcolor"		"200 10 20 255"
 		"xpos"			"0"
 		"ypos"			"49"

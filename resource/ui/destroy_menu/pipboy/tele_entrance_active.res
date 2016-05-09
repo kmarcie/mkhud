@@ -4,7 +4,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemNameLabel"
-		"font"			"Myriad10"
+		"font"			"product10"
 		"xpos"			"0"
 		"ypos"			"4"
 		"zpos"			"1"
@@ -89,7 +89,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"NumberLabel"
-		"font"			"Myriad10"
+		"font"			"product10"
 		"fgcolor"		"200 10 20 255"
 		"xpos"			"0"
 		"ypos"			"49"

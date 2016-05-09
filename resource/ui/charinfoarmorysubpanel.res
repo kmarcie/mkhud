@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"armory_panel"
-		"xpos"			"95"
+		"xpos"			"0"
 		"wide"			"f0"
 		"zpos"			"501"
 		"visible"		"1"
@@ -103,7 +103,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"FiltersLabel"
-		"font"			"MyriadHeavy16"
+		"font"			"product16"
 		"labelText"		"#Store_FilterLabel"
 		"textAlignment"	"west"
 		"xpos"			"c-300"

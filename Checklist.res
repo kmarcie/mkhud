@@ -1,7 +1,7 @@
 Name				| Status			| Quirks
 					|					|
-Item Effects 		DONE				Vaccinator needs work.
-Main Menu  			DONE 				Could use some work on the header/footer
+Item Effect Meters  DONE				Uber shadow shows up on vaccinator hud
+Main Menu  			DONE 				NONE
 Death Notice 		DONE				NONE
 Player Class 		DONE				NONE
 Health // Ammo 		DONE				NONE
@@ -9,16 +9,38 @@ Spy TargetID		DONE				NONE
 Team Select			DONE				NONE
 Class Select	    DONE				NONE
 Knuckles Crosshairs	DONE				NONE
+Engi and Spy Menus  DONE				NONE
+Scoreboard 			DONE				Add shadows to stats. Make scoreboard text bigger, some letters and numbers (i, 1) have scaling issues and they end up looking the same
+Loading Screen		DONE				NONE
+Eureka Effect TP	DONE				NONE
+Taunt Menu			DONE				NONE
+Loadout 			DONE				Top buttons (loadout, stats) have a weird selection box, but it should be fine		
+Backpack 			DONE				I want to make this different from the other huds, but I have no idea how I should make it different.
+Comp Round Counter	DONE				NONE
+Motd				DONE				NONE
+Sourcescheme		DONE				NONE
+Chatscheme			DONE				NONE
+Spydisguisetargetid DONE				Move targetid's health to the left a little bit.
+Trade dialog		DONE				NONE
+Engineer HUD		DONE				Move it to a more convenient spot
+Timers				DONE				NONE
+Winpanel			DONE				NONE
+Auto Font Install	DONE				NONE?	
+ItemModelPanel		DONE				| background shows up in backpack/item select but disappears in class loadout
 					|					|
-Scoreboard 			ALMOST				Could use some work
-Loading Screen		ALMOST				Could use some work (Make the blue box shorter)
 					|					|
-Engi and Spy Menus  NO 					| It works but make it like the scoreboard and team menu
-Loadout 			NO
-Crafting 			NO
-Backpack 			NO
-Auto Font Install	NO
-Eureka Effect TP	NO
-Taunt Menu			NO
+Hudanimations.txt   NO								
+Crafting 			NO						
+Tournament setup	NO
+Tournament hud		NO
+
+
 
 Pretty much updated for competitive. Most of the elements VALVe added are added into the files necessary.
+
+Known Bugs:
+
+When ran in a lower resolution (usually anything below 1920x1080) the font gets incredibly huge
+ItemModelPanel background does not show up in Class loadout, works fine in backpack for some reason
+Some fonts are huge, (Vote hud, Catalog description) I don't know what font controls these but I must have made them huge on accident.
+Competitive door animation at the start of a matchmaking round doesn't display. Other elemnts of matchmaking hud work fine.

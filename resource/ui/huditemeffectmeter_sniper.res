@@ -26,7 +26,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkBlack"		
+		"fillcolor"		"mkblack"		
 	}
 	
 	"ItemEffectMeterLabel"
@@ -47,8 +47,8 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Myriad9"
-		"fgcolor_override"		"mkHudBLue"
+		"font"					"mk9"
+		"fgcolor_override"		"mkaccent"
 	}
 
 	"ItemEffectMeter"
@@ -58,11 +58,11 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		//"ypos_minmode"			"0"
-		//"xpos_minmode"			"0"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		//"wide_minmode"			"50"
+		"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -90,7 +90,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Myriad20"
-		"fgcolor"				"OmpText"
+		"font"					"mk20"
+		"fgcolor"				"mkaccent"
 	}
 }

@@ -6,7 +6,7 @@
 		"fieldName"		"BlackBG"
 		"xpos"			"50"
 		"ypos"			"100"
-		"zpos"			"0"
+		"zpos"			"-2"
 		"wide"			"200"
 		"tall"			"30"
 		"fillcolor"		"mkGUI"
@@ -17,10 +17,42 @@
 		"fieldName"		"blueheader"
 		"xpos"			"50"
 		"ypos"			"100"
-		"zpos"			"0"
+		"zpos"			"15"
 		"wide"			"200"
 		"tall"			"15"
-		"fillcolor"		"mkhudblue"
+		"fillcolor"		"mktopbar"
+	}
+	"dropdownBGShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"dropdownBGShadow"
+		"xpos"			"45"
+		"ypos"			"94"
+		"zpos"			"-5"
+		"wide"			"209"
+		"tall"			"40"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage" 	"1"
+		"image"			"replay\thumbnails\menu\Shadow3"
+	}
+	"dropdownBGShadow1"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"dropdownBGShadow1"
+		"xpos"			"46"
+		"ypos"			"102"
+		"zpos"			"2"
+		"wide"			"207"
+		"tall"			"15"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage" 	"1"
+		"image"			"replay\thumbnails\menu\Shadow3"
 	}
 	"leftline"
 	{
@@ -29,7 +61,7 @@
 		"xpos"			"50"
 		"ypos"			"100"
 		"zpos"			"0"
-		"wide"			"2"
+		"wide"			"0"
 		"tall"			"30"
 		"fillcolor"		"mkguibg"
 	}
@@ -40,7 +72,7 @@
 		"xpos"			"250"
 		"ypos"			"100"
 		"zpos"			"0"
-		"wide"			"2"
+		"wide"			"0"
 		"tall"			"30"
 		"fillcolor"		"mkguibg"
 	}
@@ -48,10 +80,10 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"myriadheavy12"
-		"xpos"			"55"			// align me to the left edge of the first selection
+		"font"			"product12"
+		"xpos"			"52"			// align me to the left edge of the first selection
 		"ypos"			"88"
-		"zpos"			"3"
+		"zpos"			"16"
 		"wide"			"360"
 		"tall"			"38"
 		"autoResize"	"0"
@@ -62,6 +94,7 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
+		"fgcolor_override"	"mklightblue"
 	}
 	
 	"class_item_red_1"

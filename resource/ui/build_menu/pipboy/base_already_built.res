@@ -41,7 +41,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CantBuildReason"
-		"font"			"Myriad9"
+		"font"			"product9"
 		"xpos"			"0"
 		"ypos"			"30"
 		"zpos"			"2"

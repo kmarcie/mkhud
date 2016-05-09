@@ -84,7 +84,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"MyriadHeavy36"
+		"font"			"product36"
 		"labelText"		"trade"
 		"textAlignment"	"east"
 		"xpos"			"515"
@@ -489,7 +489,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back (&Q)"
-		"font"			"Myriad24"
+		"font"			"product24"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"

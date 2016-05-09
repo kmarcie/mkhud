@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkHudBlue"
+		"fillcolor"		"mkTopBar"
 	}	
 	"MainMenuBGShadow"
 	{
@@ -47,8 +47,8 @@
 		"tabPosition"	"0"
 		"labelText"		"select a team"
 		"textAlignment"	"left"
-		"font"			"myriadheavy12"
-		"fgcolor"		"mkwhite"
+		"font"			"product12"
+		"fgcolor"		"mklightblue"
 	}
 	"team"
 	{
@@ -112,9 +112,9 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"		"MyriadHeavy12"
-		"fgcolor"				"mkwhite"
-		"fgcolor_override"		"mkwhite"
+		"font"		"product12"
+		"fgcolor"				"mklightblue"
+		"fgcolor_override"		"mklightblue"
 	}
 	"teambutton0"
 	{
@@ -281,8 +281,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"Myriad12"
-		"fgcolor"		"mkwhite"
+		"font"			"product12"
+		"fgcolor"		"mklightblue"
 	}
 	"TeamMenuAutoSymbol"
 	{
@@ -324,8 +324,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"Myriad12"
-		"fgcolor"		"mkwhite"
+		"font"			"product12"
+		"fgcolor"		"mklightblue"
 	}
 	"TeamMenuSpectate1"
 	{
@@ -345,8 +345,8 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"wrap"			"0"
-		"font"			"Myriad12"
-		"fgcolor"		"mkwhite"
+		"font"			"product12"
+		"fgcolor"		"mklightblue"
 	}
 	"TeamMenuSpectateSymbol"
 	{
@@ -432,8 +432,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Myriad24"
-		"fgcolor"		"mkwhite"
+		"font"			"product24"
+		"fgcolor"		"mklightblue"
 	}		
 	
 	"RedCount"
@@ -453,8 +453,8 @@
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"Myriad24"
-		"fgcolor"		"mkwhite"
+		"font"			"product24"
+		"fgcolor"		"mklightblue"
 	}	
 
 	"blueframe"
@@ -488,7 +488,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkbgcolor"
+		"fillcolor"		"mktopbar"
 
 	}
 	"graybarred"
@@ -504,7 +504,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkbgcolor"
+		"fillcolor"		"mktopbar"
 
 	}
 	"graybarrando"
@@ -520,7 +520,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkbgcolor"
+		"fillcolor"		"mktopbar"
 
 	}
 	"graybarspec"
@@ -536,7 +536,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkbgcolor"
+		"fillcolor"		"mktopbar"
 
 	}
 	
@@ -579,7 +579,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"MyriadHeavy24"
+		"font"			"product24"
 		"fgcolor"		"mkblack"
 	}		
 	
@@ -600,7 +600,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"			"MyriadHeavy24"
+		"font"			"product24"
 		"fgcolor"		"mkblack"
 	}	
 	"RandomFrame"

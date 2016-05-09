@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"Frame"
 		"fieldName"		"crafting_panel"
-		"xpos"			"95"
+		"xpos"			"0"
 		"ypos"			"0"
 		"wide"			"f0"
 		"tall"			"400"
@@ -85,7 +85,7 @@
 					"enabled"		"1"
 					"labelText"		"%itemname%"
 					"textAlignment"	"south"
-					"fgcolor"		"235 226 202 255"
+					"fgcolor"		"200 200 200 255"
 					"wrap"			"1"
 					"centerwrap"	"1"
 				}
@@ -125,9 +125,9 @@
 			"textinsetx"	"0"
 			"defaultFgColor_override" "mkwhite"
 			"defaultBgColor_override" "0 0 0 0"
-			"armedFgColor_override" "235 226 202 255"
+			"armedFgColor_override" "200 200 200 255"
 			"armedBgColor_override" "0 0 0 0"
-			"depressedFgColor_override" "mkdarkblue"
+			"depressedFgColor_override" "mkhudblue"
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		
@@ -307,7 +307,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"mkdarkblue"
+			"fgcolor"		"mkhudblue"
 		}
 		"UpgradeButton"
 		{
@@ -465,7 +465,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"200 200 200 255"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}

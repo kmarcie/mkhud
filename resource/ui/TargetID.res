@@ -70,7 +70,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"mk11"
+		"font"			"mk12"
 		"fgcolor_override"		"mkWhite"
 		"fgcolor"		"mkWhite"
 		"xpos"			"25"
@@ -91,11 +91,11 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabelShadow"
-		"font"			"mkblur11"
+		"font"			"mkblur12"
 		"fgcolor_override"		"0 0 0 255"
 		"fgcolor"		"0 0 0 255"
 		"xpos"			"43"
-		"ypos"			"37"
+		"ypos"			"36"
 		"zpos"			"1"
 		"wide"			"640"
 		"tall"			"13"
@@ -141,7 +141,7 @@
 		"enabled"		"1"	
 		"HealthBonusPosAdj"	"10"
 		"HealthDeathWarning"	"0.49"
-		"TFFont"		"Myriad12"
+		"TFFont"		"product12"
 		"HealthDeathWarningColor"	"HUDDeathWarning"
 		"TextColor"		"mkWhite"
 	}	

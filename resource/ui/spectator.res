@@ -62,7 +62,8 @@
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
 		"textAlignment"		"west"
-		"font"			"myriad16"
+		"font"			"product16"
+		"fgcolor_override"	"mklightblue"
 	}
 	"MainMenuBG"
 	{
@@ -77,7 +78,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkHudBlue"
+		"fillcolor"		"mktopbar"
 	}	
 	"MainMenuBGShadow"
 	{

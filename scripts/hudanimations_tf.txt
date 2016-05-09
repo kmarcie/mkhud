@@ -1541,4 +1541,14 @@ Animate BlueMedals ypos 75 Accel 0 0.1
 Animate RedMedals ypos 75 Accel 0 0.1
 }
 
+event WinPanel_CompPos
+{
+	Animate WinPanel ypos 0 Linear 0 0 // ypos must match winpanel in hudlayout.res
+}
+
+event WinPanel_NormalPos
+{
+	Animate WinPanel ypos 0 Linear 0 0 // ypos must match winpanel in hudlayout.res
+}
+
 //

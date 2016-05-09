@@ -87,7 +87,23 @@
 			"fgcolor"		"153 204 255 255"
 		}
 	}
-	
+	"bg"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"bg"
+		"xpos"				"0"
+		"ypos"				"0"
+		"zpos"				"-6"
+		"wide"				"f0"
+		"tall"				"480"
+		"autoResize"		"0"
+		"pinCorner"			"1"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"1"
+		"scaleImage"		"1"
+		"image"				"replay\thumbnails\itemselectbg"
+	}
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"
@@ -161,7 +177,7 @@
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"mkwhite"
-		"bgcolor_override"	"mkbgcolor"
+		"bgcolor_override"	"0 0 0 100"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
 	}
@@ -205,7 +221,7 @@
 		"labelText"		"#PrimaryWeapon"
 		"textAlignment"	"center"
 		"xpos"			"c-130"
-		"ypos"			"35"
+		"ypos"			"-35"
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"25"
@@ -249,7 +265,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"Back (&Q)"
-		"font"			"Myriad24"
+		"font"			"product24"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -350,13 +366,24 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+				
+		"defaultBgColor_override"	"mktopbar"
+		"armedBgColor_override"		"33  38  48  255"
+		"depressedBgColor_override"	"33  38  48  255"
+		
+		"defaultFgColor_override"	"mklightblue"
+		"armedFgColor_override" 	"mkaccent"
+		"depressedFgColor_override" "mkaccent"
+
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}		
 	
 	"CurPageLabel"
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"CurPageLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"mk16"
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c220"
@@ -368,7 +395,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "mkhudblue"
+		"fgcolor_override" "mklightblue"
 	}
 	
 	"NextPageButton"
@@ -393,6 +420,17 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+				
+		"defaultBgColor_override"	"mktopbar"
+		"armedBgColor_override"		"33  38  48  255"
+		"depressedBgColor_override"	"33  38  48  255"
+		
+		"defaultFgColor_override"	"mklightblue"
+		"armedFgColor_override" 	"mkaccent"
+		"depressedFgColor_override" "mkaccent"
+
+		"border_default"			"NoBorder"
+		"border_armed"				"NoBorder"
 	}		
 	
 	"mouseoveritempanel"

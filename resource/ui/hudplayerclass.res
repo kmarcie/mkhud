@@ -9,11 +9,11 @@
 		"zpos"			"5"
 		"wide"			"50"
 		"tall"			"50"
-		"visible"		"0"
-		"enabled"		"0"
-		"labelText"		"m"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"i"
 		"textAlignment"	"center"	
-		"font"			"size:27,outline:off"	// size: range 10-50
+		"font"			"size:20,outline:off"	// size: range 10-50
 												// outline: on or off
 		"fgcolor"		"255 255 255 255"
 	}
@@ -28,9 +28,9 @@
 		"tall"			"50"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"d"
+		"labelText"		"l"
 		"textAlignment"	"center"	
-		"font"			"size:14,outline:off"	// size: range 10-50
+		"font"			"size:15,outline:off"	// size: range 10-50
 												// outline: on or off
 		"fgcolor"		"255 255 255 255"
 	}
@@ -93,17 +93,20 @@
 	}		
 	"bg"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"CTFImagePanel"
 		"fieldName"		"bg"
 		"xpos"			"0"
-		"ypos"			"445"
+		"ypos"			"455"
 		"zpos"			"1"		
-		"wide"			"90"
-		"tall"			"45"
-		"visible"		"0"
+		"wide"			"120"
+		"tall"			"35"
+		"visible"		"1"
 		"enabled"		"1"
 		"scaleImage"	"1"
-		"fillcolor"		"mkHUDBlue"
+		"image"				"replay\thumbnails\bg_black"	
+//		"teambg_2"			"replay\thumbnails\bg_hudred"
+//		"teambg_3"			"replay\thumbnails\bg_hudblue"
+		"alpha"				"0"
 	}
 
 	"classmodelpanelBG"

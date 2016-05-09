@@ -118,7 +118,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"Myriad9"
+				"font"			"product9"
 				"xpos"			"0"
 				"ypos"			"24"
 				"zpos"			"5"
@@ -147,7 +147,7 @@
 					"wide"				"p0.9"
 					"tall"				"p0.22"
 					"textAlignment"		"west"
-					"font"				"Myriad7"
+					"font"				"product7"
 					"proportionaltoparent" "1"
 				}
 
@@ -434,7 +434,7 @@
 
 	"HudTournamentBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentBG"
 		"xpos"			"0"
 		"ypos"			"0"
@@ -763,7 +763,7 @@
 			"ypos"			"25"
 			"tall"			"35"
 			"visible"		"1"
-			"font"			"Myriad9"
+			"font"			"product9"
 		}
 
 		if_readymode
@@ -995,7 +995,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabel"
-		"font"			"MyriadHeavy24"
+		"font"			"product24"
 		"xpos"			"230"
 		"ypos"			"r15"
 		"wide"			"40"
@@ -1015,7 +1015,7 @@
 			"xpos"			"cs-0.5"
 			"ypos"			"cs-0.1"
 			"fgcolor"		"TanLight"
-			"font"			"MyriadHeavy24"
+			"font"			"product24"
 		}
 
 		if_readymode
@@ -1029,7 +1029,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"CountdownLabelShadow"
-		"font"			"MyriadHeavy24"
+		"font"			"product24"
 		"xpos"			"231"
 		"ypos"			"r54"
 		"wide"			"41"
@@ -1049,7 +1049,7 @@
 		{
 			"xpos"			"cs-0.48"
 			"ypos"			"cs-0.08"
-			"font"			"MyriadHeavy24"
+			"font"			"product24"
 		}
 
 		if_readymode

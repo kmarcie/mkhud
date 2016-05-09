@@ -86,7 +86,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"Myriad20"
+		"font"			"product20"
 		"xpos"			"0"
 		"ypos"			"1"
 		"zpos"			"4"
@@ -107,7 +107,7 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabelDropshadow"
-		"font"			"Myriad20"
+		"font"			"product20"
 		"fgcolor"		"mkBlack"
 		"xpos"			"1"
 		"ypos"			"2"

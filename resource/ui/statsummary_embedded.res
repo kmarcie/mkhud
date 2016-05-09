@@ -104,7 +104,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelA"
-				"font"			"Myriad10"
+				"font"			"product10"
 				"labelText"		"#StatSummary_StatTitle_MostPoints"
 				"textAlignment"		"east"
 				"xpos"			"c-282"
@@ -120,7 +120,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"BarChartLabelB"
-				"font"			"Myriad10"
+				"font"			"product10"
 				"labelText"		"#StatSummary_StatTitle_TotalPlaytime"
 				"textAlignment"		"west"
 				"xpos"			"c-127"
@@ -137,7 +137,7 @@
 			{
 				"ControlName"		"Label"
 				"fieldName"		"OverallRecordLabel"
-				"font"			"Myriad10"
+				"font"			"product10"
 				"labelText"		"#StatSummary_Label_AsAnyClass"
 				"textAlignment"		"west"
 				"xpos"			"c+130"
@@ -299,8 +299,8 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"AveragesLabel"
-			"font"			"Myriad14"
-			"labelText"		"#StatSummary_Label_PerformanceReport"
+			"font"			"product14"
+			"labelText"		"stats"
 			"textAlignment"		"west"
 			"xpos"			"c-285"
 			"ypos"			"185"
@@ -310,6 +310,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
+			"fgcolor_override"	"mklightblue"
 		}
 		"ClassBarBG1A"
 		{
@@ -359,7 +360,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}
 		"ClassBar1B"
@@ -376,14 +377,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel1A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1A"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel1A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -400,7 +401,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel1B"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel1B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -417,7 +418,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel1"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%class1%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -478,7 +479,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar2B"
@@ -495,14 +496,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel2A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2A"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel2A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -519,7 +520,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel2B"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel2B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -536,7 +537,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel2"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%class2%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -597,7 +598,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar3B"
@@ -614,14 +615,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel3A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3A"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel3A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -638,7 +639,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel3B"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel3B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -655,7 +656,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel3"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%class3%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -716,7 +717,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar4B"
@@ -733,14 +734,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel4A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4A"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel4A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -757,7 +758,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel4B"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel4B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -774,7 +775,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel4"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%class4%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -835,7 +836,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar5B"
@@ -852,14 +853,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel5A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5A"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel5A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -876,7 +877,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel5B"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel5B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -893,7 +894,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel5"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%class5%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -954,7 +955,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar6B"
@@ -971,14 +972,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel6A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6A"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel6A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -995,7 +996,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel6B"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel6B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1012,7 +1013,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel6"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%class6%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1073,7 +1074,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar7B"
@@ -1090,14 +1091,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel7A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7A"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel7A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1114,7 +1115,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel7B"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel7B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1131,7 +1132,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel7"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%class7%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1192,7 +1193,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar8B"
@@ -1209,14 +1210,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel8A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8A"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel8A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1233,7 +1234,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel8B"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel8B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1250,7 +1251,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel8"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%class8%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1311,7 +1312,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBar9B"
@@ -1328,14 +1329,14 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"	
-			"fillcolor"		"mkDarkGrey"
+			"fillcolor"		"mkaccent"
 			"PaintBackgroundType"	"0"
 		}	
 		"ClassBarLabel9A"
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9A"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel9A%"
 			"textAlignment"		"west"
 			"xpos"			"c-282"
@@ -1352,7 +1353,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassBarLabel9B"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%classbarlabel9B%"
 			"textAlignment"		"west"
 			"xpos"			"c-127"
@@ -1369,7 +1370,7 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"ClassLabel9"
-			"font"			"Myriad10"
+			"font"			"product10"
 			"labelText"		"%class9%"
 			"textAlignment"		"west"
 			"xpos"			"c+34"
@@ -1400,8 +1401,8 @@
 		{
 			"ControlName"		"Label"
 			"fieldName"		"RecordsLabel1"
-			"font"			"Myriad14"
-			"labelText"		"#StatSummary_Label_BestMoments"
+			"font"			"product14"
+			"labelText"		"best moments"
 			"textAlignment"		"west"
 			"xpos"			"c+124"
 			"ypos"			"185"
@@ -1411,6 +1412,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"	[$WIN32]
 			"enabled"		"1"
+			"fgcolor_override"	"mklightblue"
 		}							
 		"RecordsSubBG1"
 		{
@@ -1975,7 +1977,7 @@
 	{
 		"ControlName"		"Label"
 		"fieldName"		"TipText"
-		"font"			"Myriad10"
+		"font"			"product10"
 		"labelText"		"%tiptext%"
 		"textAlignment"			"west"
 		"xpos"			"c-245"

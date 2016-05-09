@@ -72,7 +72,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Myriad9"
+			"font"			"product9"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -196,7 +196,7 @@
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"Myriad9"
+			"font"			"product9"
 			"xpos"			"13"
 			"ypos"			"3"
 			"wide"			"8"
@@ -224,7 +224,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Myriad9"
+				"font"			"product9"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -243,7 +243,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"Myriad9"
+				"font"			"product9"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
@@ -282,7 +282,7 @@
 				{
 					"ControlName"	"CExLabel"
 					"fieldName"		"RechargeLabel"
-					"font"			"Myriad9"
+					"font"			"product9"
 					"xpos"			"0"
 					"ypos"			"1"
 					"wide"			"200"
@@ -301,7 +301,7 @@
 				{	
 					"ControlName"	"ContinuousProgressBar"
 					"fieldName"		"Recharge"
-					"font"			"Myriad9"
+					"font"			"product9"
 					"xpos"			"0"
 					"ypos"			"11"
 					"wide"			"50"
@@ -330,7 +330,7 @@
 				{	
 					"ControlName"	"CExLabel"
 					"fieldName"		"TimesUsedLabel"
-					"font"			"Myriad9"
+					"font"			"product9"
 					"xpos"			"0"
 					"ypos"			"-6"
 					"wide"			"200"
@@ -350,7 +350,7 @@
 			{	
 				"ControlName"	"CExLabel"
 				"fieldName"		"UpgradeLabel"
-				"font"			"Myriad9"
+				"font"			"product9"
 				"xpos"			"0"
 				"ypos"			"14"
 				"wide"			"200"
@@ -369,7 +369,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"Upgrade"
-				"font"			"Myriad9"
+				"font"			"product9"
 				"xpos"			"0"
 				"ypos"			"24"
 				"wide"			"50"

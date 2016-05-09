@@ -72,7 +72,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NotBuiltLabel"
-			"font"			"Myriad9"
+			"font"			"product9"
 			"xpos"			"60"
 			"ypos"			"0"
 			"wide"			"200"
@@ -102,7 +102,7 @@
 		{	
 			"ControlName"	"CBuildingHealthBar"
 			"fieldName"		"Health"
-			"font"			"Myriad9"
+			"font"			"product9"
 			"xpos"			"13"
 			"ypos"			"2"
 			"wide"			"8"
@@ -130,7 +130,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"BuildingLabel"
-				"font"			"Myriad9"
+				"font"			"product9"
 				"xpos"			"0"
 				"ypos"			"5"
 				"wide"			"200"
@@ -149,7 +149,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"BuildingProgress"
-				"font"			"Myriad9"
+				"font"			"product9"
 				"xpos"			"0"
 				"ypos"			"16"
 				"wide"			"50"
@@ -193,7 +193,7 @@
 			{	
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"TargetHealth"
-				"font"			"Myriad9"
+				"font"			"product9"
 				"xpos"			"22"
 				"ypos"			"12"
 				"wide"			"35"

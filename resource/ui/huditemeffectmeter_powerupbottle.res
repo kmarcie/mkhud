@@ -26,7 +26,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkBlack"
+		"fillcolor"		"mkblack"
 	}
 	
 	"ItemEffectIcon"
@@ -102,7 +102,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Myriad20"
-		"fgcolor_override"		"mkBlack"
+		"font"					"mk20"
+		"fgcolor_override"		"mkaccent"
 	}
 }

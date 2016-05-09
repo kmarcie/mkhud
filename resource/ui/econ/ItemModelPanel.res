@@ -50,7 +50,7 @@
 		{
 			"ControlName"		"CEmbeddedItemModelPanel"
 			"fieldName"		"itemmodelpanel"
-			"fillcolor"		"mkGUI"
+			"bgcolor_override"		"mktopbar"
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"1"		
@@ -94,7 +94,7 @@
 			"enabled"		"1"
 			"labelText"		"%itemname%"
 			"textAlignment"	"south"
-			"fgcolor"		"235 226 202 255"
+			"fgcolor"		"220 220 220 255"
 			"centerwrap"	"1"
 		}
 		"attriblabel"
@@ -158,7 +158,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"Myriad12"
+			"font"			"product12"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -180,7 +180,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"serieslabel"
-			"font"			"Myriad12"
+			"font"			"product12"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -292,10 +292,10 @@
 			"wide"			"18"
 			"tall"			"18"
 			"visible"		"0"
-			"bgcolor_override"		"35 34 35 255"
+			"bgcolor_override"		"0 0 0 100"
 			"noitem_textcolor"		"117 107 94 255"
 			"PaintBackgroundType"	"0"
-			"paintborder"	"0"
+			"paintborder"	"1"
 			"useparentbg"	"0"
 			
 			"enabled"		"1"

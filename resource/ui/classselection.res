@@ -44,7 +44,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkHudBlue"
+		"fillcolor"		"mkTopBar"
 	}	
 	"MainMenuBGShadow"
 	{
@@ -80,17 +80,17 @@
 		"textAlignment"		"west"
 		"Command"			"select 12"
 		"Default"			"1"
-		"font"				"Myriad24"
+		"font"				"product24"
 		"scaleImage"		"1"
 		
 		"image_default"		"class_sel_sm_random_inactive"
 		"image_armed"		"class_sel_sm_random_inactive"
 		
-		"fgcolor"			"mkhudblue"
-		"defaultFgColor_override" "mkhudblue"
-		"armedFgColor_override" "mkhudred"
-		"depressedFgColor_override" "mkdarkblue"
-		"selectedFgColor_override" "mkhudred"
+		"fgcolor"			"mklightblue"
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"selectedFgColor_override" "mkaccent"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -123,8 +123,8 @@
 		"tabPosition"	"0"
 		"labelText"		"select a class"
 		"textAlignment"	"left"
-		"font"			"myriadheavy12"
-		"fgcolor"		"mkwhite"
+		"font"			"product12"
+		"fgcolor"		"mklightblue"
 	}
 	"circle1"
 	{
@@ -143,7 +143,7 @@
 		"labelText"		"o"
 		"textAlignment"	"left"
 		"font"			"circles48"
-		"fgcolor"		"mkbgcolor"
+		"fgcolor"		"mktopbar"
 	}
 	"circle2"
 	{
@@ -162,7 +162,7 @@
 		"labelText"		"o"
 		"textAlignment"	"left"
 		"font"			"circles48"
-		"fgcolor"		"mkbgcolor"
+		"fgcolor"		"mktopbar"
 	}
 	"circle3"
 	{
@@ -181,7 +181,7 @@
 		"labelText"		"o"
 		"textAlignment"	"left"
 		"font"			"circles48"
-		"fgcolor"		"mkbgcolor"
+		"fgcolor"		"mktopbar"
 	}
 	"circle4"
 	{
@@ -200,7 +200,7 @@
 		"labelText"		"o"
 		"textAlignment"	"left"
 		"font"			"circles48"
-		"fgcolor"		"mkbgcolor"
+		"fgcolor"		"mktopbar"
 	}
 	"circle5"
 	{
@@ -219,7 +219,7 @@
 		"labelText"		"o"
 		"textAlignment"	"left"
 		"font"			"circles48"
-		"fgcolor"		"mkbgcolor"
+		"fgcolor"		"mktopbar"
 	}
 	"circle6"
 	{
@@ -238,7 +238,7 @@
 		"labelText"		"o"
 		"textAlignment"	"left"
 		"font"			"circles48"
-		"fgcolor"		"mkbgcolor"
+		"fgcolor"		"mktopbar"
 	}
 	"circle7"
 	{
@@ -257,7 +257,7 @@
 		"labelText"		"o"
 		"textAlignment"	"left"
 		"font"			"circles48"
-		"fgcolor"		"mkbgcolor"
+		"fgcolor"		"mktopbar"
 	}
 	"circle8"
 	{
@@ -276,7 +276,7 @@
 		"labelText"		"o"
 		"textAlignment"	"left"
 		"font"			"circles48"
-		"fgcolor"		"mkbgcolor"
+		"fgcolor"		"mktopbar"
 	}
 	"circle9"
 	{
@@ -295,7 +295,7 @@
 		"labelText"		"o"
 		"textAlignment"	"left"
 		"font"			"circles48"
-		"fgcolor"		"mkbgcolor"
+		"fgcolor"		"mktopbar"
 	}
 	"scout"
 	{
@@ -321,11 +321,11 @@
 		"image_default"		"class_sel_sm_scout_inactive"
 		"image_armed"		"class_sel_sm_scout_inactive"
 		
-		"fgcolor"			"mkhudblue"
-		"defaultFgColor_override" "mkhudblue"
-		"armedFgColor_override" "mkhudred"
-		"depressedFgColor_override" "mkdarkblue"
-		"selectedFgColor_override" "mkhudred"
+		"fgcolor"			"mklightblue"
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"selectedFgColor_override" "mkaccent"
 			
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -365,11 +365,11 @@
 		"image_default"		"class_sel_sm_soldier_inactive"
 		"image_armed"		"class_sel_sm_soldier_inactive"
 		
-		"fgcolor"			"mkhudblue"
-		"defaultFgColor_override" "mkhudblue"
-		"armedFgColor_override" "mkhudred"
-		"depressedFgColor_override" "mkdarkblue"
-		"selectedFgColor_override" "mkhudred"
+		"fgcolor"			"mklightblue"
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"selectedFgColor_override" "mkaccent"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -424,11 +424,11 @@
 		"image_default"		"class_sel_sm_pyro_inactive"
 		"image_armed"		"class_sel_sm_pyro_inactive"
 		
-		"fgcolor"			"mkhudblue"
-		"defaultFgColor_override" "mkhudblue"
-		"armedFgColor_override" "mkhudred"
-		"depressedFgColor_override" "mkdarkblue"
-		"selectedFgColor_override" "mkhudred"
+		"fgcolor"			"mklightblue"
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"selectedFgColor_override" "mkaccent"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -503,11 +503,11 @@
 		"image_default"		"class_sel_sm_demo_inactive"
 		"image_armed"		"class_sel_sm_demo_inactive"
 		
-		"fgcolor"			"mkhudblue"
-		"defaultFgColor_override" "mkhudblue"
-		"armedFgColor_override" "mkhudred"
-		"depressedFgColor_override" "mkdarkblue"
-		"selectedFgColor_override" "mkhudred"
+		"fgcolor"			"mklightblue"
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"selectedFgColor_override" "mkaccent"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -562,11 +562,11 @@
 		"image_default"		"class_sel_sm_heavy_inactive"
 		"image_armed"		"class_sel_sm_heavy_inactive"
 		
-		"fgcolor"			"mkhudblue"
-		"defaultFgColor_override" "mkhudblue"
-		"armedFgColor_override" "mkhudred"
-		"depressedFgColor_override" "mkdarkblue"
-		"selectedFgColor_override" "mkhudred"
+		"fgcolor"			"mklightblue"
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"selectedFgColor_override" "mkaccent"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -621,11 +621,11 @@
 		"image_default"		"class_sel_sm_engineer_inactive"
 		"image_armed"		"class_sel_sm_engineer_inactive"
 		
-		"fgcolor"			"mkhudblue"
-		"defaultFgColor_override" "mkhudblue"
-		"armedFgColor_override" "mkhudred"
-		"depressedFgColor_override" "mkdarkblue"
-		"selectedFgColor_override" "mkhudred"
+		"fgcolor"			"mklightblue"
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"selectedFgColor_override" "mkaccent"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -700,11 +700,11 @@
 		"image_default"		"class_sel_sm_medic_inactive"
 		"image_armed"		"class_sel_sm_medic_inactive"
 		
-		"fgcolor"			"mkhudblue"
-		"defaultFgColor_override" "mkhudblue"
-		"armedFgColor_override" "mkhudred"
-		"depressedFgColor_override" "mkdarkblue"
-		"selectedFgColor_override" "mkhudred"
+		"fgcolor"			"mklightblue"
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"selectedFgColor_override" "mkaccent"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -759,11 +759,11 @@
 		"image_default"		"class_sel_sm_sniper_inactive"
 		"image_armed"		"class_sel_sm_sniper_inactive"
 		
-		"fgcolor"			"mkhudblue"
-		"defaultFgColor_override" "mkhudblue"
-		"armedFgColor_override" "mkhudred"
-		"depressedFgColor_override" "mkdarkblue"
-		"selectedFgColor_override" "mkhudred"
+		"fgcolor"			"mklightblue"
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"selectedFgColor_override" "mkaccent"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -818,11 +818,11 @@
 		"image_default"		"class_sel_sm_spy_inactive"
 		"image_armed"		"class_sel_sm_spy_inactive"
 		
-		"fgcolor"			"mkhudblue"
-		"defaultFgColor_override" "mkhudblue"
-		"armedFgColor_override" "mkhudred"
-		"depressedFgColor_override" "mkdarkblue"
-		"selectedFgColor_override" "mkhudred"
+		"fgcolor"			"mklightblue"
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"selectedFgColor_override" "mkaccent"
 		
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
@@ -1241,7 +1241,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"east"
-		"font"			"Myriad11"
+		"font"			"product11"
 		"fgcolor"		"mkWhite"
 	}	
 	
@@ -1261,7 +1261,7 @@
 		"tabPosition"		"0"
 		"labelText"		"%numSoldier%"
 		"textAlignment"	"east"
-		"font"			"Myriad11"
+		"font"			"product11"
 		"fgcolor"		"mkWhite"
 	}		
 	
@@ -1281,7 +1281,7 @@
 		"tabPosition"		"0"
 		"labelText"		"%numPyro%"
 		"textAlignment"	"east"
-		"font"			"Myriad11"
+		"font"			"product11"
 		"fgcolor"		"mkWhite"
 	}			
 	
@@ -1301,7 +1301,7 @@
 		"tabPosition"		"0"
 		"labelText"		"%numDemoman%"
 		"textAlignment"	"east"
-		"font"			"Myriad11"
+		"font"			"product11"
 		"fgcolor"		"mkWhite"
 	}				
 	
@@ -1321,7 +1321,7 @@
 		"tabPosition"		"0"
 		"labelText"		"%numHeavy%"
 		"textAlignment"	"east"
-		"font"			"Myriad11"
+		"font"			"product11"
 		"fgcolor"		"mkWhite"
 	}					
 	
@@ -1341,7 +1341,7 @@
 		"tabPosition"		"0"
 		"labelText"		"%numEngineer%"
 		"textAlignment"	"east"
-		"font"			"Myriad11"
+		"font"			"product11"
 		"fgcolor"		"mkWhite"
 	}						
 	
@@ -1361,7 +1361,7 @@
 		"tabPosition"		"0"
 		"labelText"		"%numMedic%"
 		"textAlignment"	"east"
-		"font"			"Myriad11"
+		"font"			"product11"
 		"fgcolor"		"mkWhite"
 	}							
 	
@@ -1381,7 +1381,7 @@
 		"tabPosition"		"0"
 		"labelText"		"%numSniper%"
 		"textAlignment"	"east"
-		"font"			"Myriad11"
+		"font"			"product11"
 		"fgcolor"		"mkWhite"
 	}						
 	
@@ -1401,7 +1401,7 @@
 		"tabPosition"		"0"
 		"labelText"		"%numSpy%"
 		"textAlignment"	"east"
-		"font"			"Myriad11"
+		"font"			"product11"
 		"fgcolor"		"mkWhite"
 	}
 	
@@ -1762,8 +1762,9 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_black"
+		"enabled"		"1"	
+		"fillcolor"		"0 0 0 255"
+//		"image"			"replay\thumbnails\bg_black"
 		"scaleImage"		"1"		
 		"alpha"			"150"		
 	}

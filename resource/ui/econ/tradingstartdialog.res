@@ -66,7 +66,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"myriadheavy16"
+		"font"			"product16"
 		"labelText"		"trade"
 		"textAlignment"	"north"
 		"xpos"			"-405"
@@ -78,8 +78,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "mkwhite"
-		"bgcolor_override"	"mkhudblue"
+		"fgcolor_override" "mklightblue"
+		"bgcolor_override"	"mktopbar"
 	}
 	"TradeBG"
 	{
@@ -120,7 +120,7 @@
 		"xpos"			"399"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"3"
+		"wide"			"0"
 		"tall"			"300"
 		"autoResize"	"0"
 		"pinCorner"		"0"

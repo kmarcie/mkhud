@@ -26,14 +26,14 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 0"
+		"fillcolor"		"mkblack"
 	}
 	
 	"ItemEffectMeterLabel"
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterLabel"
-		"xpos"					"50"
+		"xpos"					"5"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"35"
@@ -47,8 +47,8 @@
 		"textAlignment"			"west"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"Myriad9"
-		"fgcolor_override"		"mkwhite"
+		"font"					"mk9"
+		"fgcolor_override"		"mkaccent"
 	}
 
 	"ItemEffectMeter"
@@ -58,11 +58,11 @@
 		"font"					"Default"
 		"xpos"					"25"
 		"ypos"					"23"
-		//"ypos_minmode"			"0"
-		//"xpos_minmode"			"0"
+		"ypos_minmode"			"0"
+		"xpos_minmode"			"0"
 		"zpos"					"2"
 		"wide"					"40"
-		//"wide_minmode"			"50"
+		"wide_minmode"			"50"
 		"tall"					"6"				
 		"autoResize"			"0"
 		"pinCorner"				"0"
@@ -77,7 +77,7 @@
 	{
 		"ControlName"			"CExLabel"
 		"fieldName"				"ItemEffectMeterCount"
-		"xpos"					"15"
+		"xpos"					"45"
 		"ypos"					"0"
 		"zpos"					"2"
 		"wide"					"30"
@@ -90,7 +90,7 @@
 		"textAlignment"			"east"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"font"					"MyriadHeavy20"
-		"fgcolor"				"mkwhite"
+		"font"					"mk20"
+		"fgcolor"				"mkaccent"
 	}
 }

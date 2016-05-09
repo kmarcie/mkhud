@@ -81,7 +81,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"DisguiseNameLabel"
-		"font"			"Myriad12"
+		"font"			"product12"
 		"xpos"			"82"
 		"ypos"			"34"
 		"zpos"			"1"
@@ -101,7 +101,7 @@
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"Myriad9"
+		"font"			"product9"
 		"xpos"			"82"
 		"ypos"			"45"
 		"zpos"			"1"
@@ -121,7 +121,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"52"
+		"xpos"			"48"
 		"ypos"			"23"
 		"wide"			"32"
 		"tall"			"32"

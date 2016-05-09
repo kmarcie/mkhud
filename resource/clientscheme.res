@@ -10,7 +10,7 @@ Scheme
 	{
 		// HUD Colours
 		
-		"mkPink"			"251 208 213 255"
+		"mkTopBar"			"43  48  58  255"
 		"mkHUDBlue"			"0   156 255 255"
 		"mkHudRed"			"244 0 	 24  255"
 		"mkBlack"			"34  34  34  255"
@@ -19,11 +19,16 @@ Scheme
 		"mkBlue"			"111 211 255 255"
 		"mkDarkBlue"		"0   86  140 255"
 		"mkDarkGrey"		"100 100 100 255"
-		"mkGUI"				"40  40  40  255"
-		"mkGUIbg"			"50  50  50  255"
-		"mkGUIselected"		"55  55  55  255"
-		"mkBGcolor"			"31  31  31  255"
-		"ItemPanelBG" 		"22  20  18  255"
+		"mkGUI"				"215 215 215 255"
+		"mkGUIbg"			"225 225 225 255"
+		"mkGUIselected"		"214 73  51  255"
+		"mkBGcolor"			"124 124 124 255"
+		"ItemPanelBG" 		"24  24  30  255"
+		"mkDarkerBlue"		"43  48  58  255"
+		"mkLightBlue"		"146 220 229 255"
+		"mkPanel"			"215 215 215 255"
+		"mkGrey"			"124 124 124 255"
+		"mkAccent"			"214 73  51  255"
 		
 		// tf2 colours
 		"Orange"			"0   156 255 255" // i made these two values blue, the original is 178,82,22
@@ -128,7 +133,7 @@ Scheme
 		"ItemAttribNegative"					"255 64 64 255"
 
 		"ItemSetName"							"225 255 15 255"
-		"ItemSetItemEquipped"					"149 175 12 255"
+		"ItemSetItemEquipped"					"214 73  51  255"
 		"ItemSetItemMissing"					"139 137 137 255"
 		"ItemIsotope"							"225 255 15 255"
 		"ItemBundleItem"						"149 175 12 255"
@@ -188,8 +193,8 @@ Scheme
 		
 		"SaleGreen"								"76 107 34 255"
 		
-		"LightRed"								"0   86  140 255"
-		"LighterRed"							"0   86  140 255"
+		"LightRed"								"214 73  51  255"
+		"LighterRed"							"214 73  51  255"
 		"LighterDarkBrown"						"59 54 48 255"
 		"DarkBrown"								"41 37 38 255"
 		
@@ -469,20 +474,9 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"36"
+				"tall"		"52"
 				"weight"	"500"
 				"antialias"	"1"
-			}
-		}
-		"mkHealthAmmoDropShadow"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"36"
-				"weight"	"500"
-				"antialias"	"1"
-				"dropshadow" "1"
 			}
 		}
 		"mkHealthAmmoBlur"
@@ -490,7 +484,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"36"
+				"tall"		"52"
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
@@ -501,7 +495,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"24"
+				"tall"		"28"
 				"weight"	"500"
 				"antialias"	"1"
 			}
@@ -511,11 +505,31 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"24"
+				"tall"		"28"
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
-				"additive"	"1"
+			}
+		}
+		"mkTargetID"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"mkTargetIDshdw"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
 			}
 		}
 		"mkDMG"
@@ -543,7 +557,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"16"
+				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
 			}
@@ -554,7 +568,6 @@ Scheme
 			{
 				"name"		"Product Sans"
 				"tall"		"11"
-				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
@@ -656,6 +669,17 @@ Scheme
 				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
+			}
+		}
+		"mkblur12"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
 			}
 		}
 		"mk14"
@@ -910,6 +934,18 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"mkblur72"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"72"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		// bold is not actually bold, there's literally no difference but this is for if i use a different typeface
 		"mkBold9"
 		{
 			"1"
@@ -1191,7 +1227,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad7"
+		"product7"
 		{
 			"1"
 			{
@@ -1201,7 +1237,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad9"
+		"product9"
 		{
 			"1"
 			{
@@ -1211,7 +1247,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"MyriadBlur9"
+		"productBlur9"
 		{
 			"1"
 			{
@@ -1222,7 +1258,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"Myriad10"
+		"product10"
 		{
 			"1"
 			{
@@ -1232,7 +1268,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad11"
+		"product11"
 		{
 			"1"
 			{
@@ -1242,7 +1278,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad12"
+		"product12"
 		{
 			"1"
 			{
@@ -1252,7 +1288,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad14"
+		"product14"
 		{
 			"1"
 			{
@@ -1262,7 +1298,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad16"
+		"product16"
 		{
 			"1"
 			{
@@ -1272,7 +1308,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad18"
+		"product18"
 		{
 			"1"
 			{
@@ -1282,7 +1318,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad20"
+		"product20"
 		{
 			"1"
 			{
@@ -1292,7 +1328,18 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad21"
+		"productblur20"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		"product21"
 		{
 			"1"
 			{
@@ -1302,7 +1349,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad24"
+		"product24"
 		{
 			"1"
 			{
@@ -1312,7 +1359,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"MyriadBlur24"
+		"productBlur24"
 		{
 			"1"
 			{
@@ -1323,7 +1370,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"Myriad26"
+		"product26"
 		{
 			"1"
 			{
@@ -1333,7 +1380,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad28"
+		"product28"
 		{
 			"1"
 			{
@@ -1343,7 +1390,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad30"
+		"product30"
 		{
 			"1"
 			{
@@ -1353,7 +1400,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad32"
+		"product32"
 		{
 			"1"
 			{
@@ -1363,7 +1410,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad36"
+		"product36"
 		{
 			"1"
 			{
@@ -1373,7 +1420,18 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad38"
+		"productblur36"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"36"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		"product38"
 		{
 			"1"
 			{
@@ -1383,7 +1441,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad40"
+		"product40"
 		{
 			"1"
 			{
@@ -1393,7 +1451,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad42"
+		"product42"
 		{
 			"1"
 			{
@@ -1403,7 +1461,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad44"
+		"product44"
 		{
 			"1"
 			{
@@ -1413,7 +1471,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"MyriadBlur44"
+		"productBlur44"
 		{
 			"1"
 			{
@@ -1424,7 +1482,7 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		"Myriad48"
+		"product48"
 		{
 			"1"
 			{
@@ -1434,7 +1492,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad50"
+		"product50"
 		{
 			"1"
 			{
@@ -1444,7 +1502,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad52"
+		"product52"
 		{
 			"1"
 			{
@@ -1454,7 +1512,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad56"
+		"product56"
 		{
 			"1"
 			{
@@ -1464,7 +1522,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad60"
+		"product60"
 		{
 			"1"
 			{
@@ -1474,7 +1532,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad64"
+		"product64"
 		{
 			"1"
 			{
@@ -1484,7 +1542,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad68"
+		"product68"
 		{
 			"1"
 			{
@@ -1494,7 +1552,7 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"Myriad72"
+		"product72"
 		{
 			"1"
 			{
@@ -1504,326 +1562,684 @@ Scheme
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy9"
+		"nexaLight9"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"9"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy10"
+		"nexaLight10"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"10"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy11"
+		"nexaLight11"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy12"
+		"nexaLight12"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy14"
+		"nexaLight14"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavyBlur14"
+		"nexaLightBlur14"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
 			}
 		}
-		"MyriadHeavy16"
+		"nexaLight16"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy18"
+		"nexaLightBlur16"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		"nexaLight18"
+		{
+			"1"
+			{
+				"name"		"Nexa Light"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy20"
+		"nexaLight20"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavyBlur20"
+		"nexaLightBlur20"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
 			}
 		}
-		"MyriadHeavy21"
+		"nexaLight21"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"21"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy24"
+		"nexaLight24"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavyBlur24"
+		"nexaLightBlur24"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
 			}
 		}
-		"MyriadHeavy26"
+		"nexaLight26"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"26"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy28"
+		"nexaLight28"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy30"
+		"nexaLight30"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"30"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy32"
+		"nexaLight32"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy36"
+		"nexaLight36"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy38"
+		"nexaLight38"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"38"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy40"
+		"nexaLight40"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"40"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy42"
+		"nexaLight42"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"42"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavyBlur42"
+		"nexaLightBlur42"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"42"
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
 			}
 		}
-		"MyriadHeavy44"
+		"nexaLight44"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"44"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy48"
+		"nexaLight48"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy50"
+		"nexaLight50"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"50"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy52"
+		"nexaLight52"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"52"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy56"
+		"nexaLight56"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavyBlur56"
+		"nexaLightBlur56"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
 			}
 		}
-		"MyriadHeavy60"
+		"nexaLight60"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"60"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy64"
+		"nexaLight64"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"64"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy68"
+		"nexaLight68"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
 				"tall"		"68"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
-		"MyriadHeavy72"
+		"nexaLight72"
 		{
 			"1"
 			{
-				"name"		"Product Sans"
+				"name"		"Nexa Light"
+				"tall"		"72"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexabold9"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"9"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold10"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold11"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold12"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold14"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBoldBlur14"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		"nexaBold16"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold18"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold20"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBoldBlur20"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		"nexaBold21"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"21"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold24"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBoldBlur24"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		"nexaBold26"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"26"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold28"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"28"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBoldblur28"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"28"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		"nexaBold30"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"30"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold32"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBoldblur32"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		"nexaBold36"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"36"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold38"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"38"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold40"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"40"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold42"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"42"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBoldBlur42"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"42"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		"nexaBold44"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"44"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold48"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold50"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"50"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold52"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"52"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold56"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"56"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBoldBlur56"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"56"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
+		"nexaBold60"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold64"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"64"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold68"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
+				"tall"		"68"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"nexaBold72"
+		{
+			"1"
+			{
+				"name"		"Nexa Bold"
 				"tall"		"72"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2951,23 +3367,21 @@ Scheme
 			}
 		}
 		// End of Knuckle's Crosshairs
-		// Default Fonts
 		"Default"
 		{
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"11"
+				"tall"		"10"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"		"Product Sans"
-				"tall"		"12"	
+				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
-
 			}
 			"3"
 			{
@@ -2993,14 +3407,14 @@ Scheme
 			"6"
 			{
 				"name"		"Product Sans"
-				"tall"		"12"
+				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
 			}
 			"7"
 			{
 				"name"		"Product Sans"
-				"tall"		"12"
+				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
 			}
@@ -3012,7 +3426,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"12"
+				"tall"		"14"
 				"weight"	"500"
 				"underline" "1"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
@@ -3030,7 +3444,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"12"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"480 599"
@@ -3038,7 +3452,7 @@ Scheme
 			"2"
 			{
 				"name"		"Product Sans"
-				"tall"		"13"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F"
 				"yres"	"600 767"
@@ -3073,7 +3487,7 @@ Scheme
 			"6"
 			{
 				"name"		"Product Sans"
-				"tall"		"12"
+				"tall"		"14"
 				"range" 		"0x0000 0x00FF"
 				"weight"		"0"
 			}
@@ -3085,7 +3499,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"12"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"480 599"
@@ -3093,7 +3507,7 @@ Scheme
 			"2"
 			{
 				"name"		"Product Sans"
-				"tall"		"12"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"600 767"
@@ -3101,7 +3515,7 @@ Scheme
 			"3"
 			{
 				"name"		"Product Sans"
-				"tall"		"12"
+				"tall"		"14"
 				"weight"	"0"
 				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
 				"yres"	"768 1023"
@@ -4008,7 +4422,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"			"Myriad Std Heavy"
+				"name"			"product Std Heavy"
 				"tall"			"40"
 				"tall_lodef"	"48"
 				"tall_hidef"	"48"
@@ -4046,28 +4460,24 @@ Scheme
 				"weight"		"500"
 			}
 		}
-		"ScoreboardVerySmall"
+		"ScoreboardVerySmall" // scoreboard text
 		{
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"9"
-				"tall_hidef"	"10"
-				"tall_lodef"	"14"
-				"weight"	"400"
+				"tall"		"12"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
 		}
-		"ScoreboardSmall"
+		"ScoreboardSmall" 
 		{
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"10"
-				"tall_hidef"	"12"
-				"tall_lodef"	"14"
-				"weight"	"400"
+				"tall"		"14"
+				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
 			}
@@ -4078,8 +4488,7 @@ Scheme
 			{
 				"name"		"Product Sans"
 				"tall"		"14"
-				"weight"	"400"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"weight"	"500"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4090,8 +4499,7 @@ Scheme
 			{
 				"name"		"Product Sans"
 				"tall"		"20"
-				"weight"	"400"
-				"range"		"0x0000 0x007F"	//	Basic Latin
+				"weight"	"500"
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4105,7 +4513,6 @@ Scheme
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4119,7 +4526,6 @@ Scheme
 				"tall_hidef"	"24"
 				"tall_lodef"	"24"
 				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
 			}
@@ -4691,7 +5097,7 @@ Scheme
 			"1"
 			{
 				"name"		"Product Sans"
-				"tall"		"8"
+				"tall"		"9"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -5894,8 +6300,8 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_rect"			
-			"color"					"ItemPanelBG"
+			"image"					"replay/thumbnails/bg_black"		
+		//	"color"					"ItemPanelBG"
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
@@ -5920,8 +6326,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_rect"			
-			"color"					"ItemPanelBG"
+			"image"					"replay/thumbnails/bg_black"		
 			
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
@@ -6012,7 +6417,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_rect_mouseover"
+			"image"					"replay/thumbnails/bg_item"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
@@ -6023,8 +6428,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect_mouseover_color"
-			"color"					"ItemPanelBG"
+			"image"					"replay/thumbnails/bg_item"
 			
 			"src_corner_height"		"32"				// pixels inside the image
 			"src_corner_width"		"32"
@@ -6100,7 +6504,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"backpack_rect"
+			"image"					"replay/thumbnails/bg_black"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
@@ -6110,7 +6514,7 @@ Scheme
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
-			"image"					"backpack_rect_mouseover"
+			"image"					"replay/thumbnails/mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
@@ -6121,7 +6525,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 
-			"image"					"backpack_rect_selected"
+			"image"					"replay/thumbnails/mouseover"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"2"				// screen size of the corners ( and sides ), proportional
@@ -7666,35 +8070,46 @@ Scheme
 	// specifies all the custom (non-system) font files that need to be loaded to service the above described fonts
 	// Range specificies the characters to be used from the custom font before falling back to a default font
 	// characters in the range not specificed in the font will appear empty
+	// For Product Sans: Any special character will need to be added to our font file
 	CustomFontFiles
 	{
 		"1" "resource/tf.ttf"
 		"2" "resource/tfd.ttf"
 		"3"
 		{
-			"font" "resource/ProductSans.otf"
+			"font" "resource/fonts/ProductSans.ttf"
 			"name" "Product Sans"
 		}
 		"4" "resource/ocra.ttf"
 		"5"
 		{
-			"font" "resource/entypo.otf"
-			"name" "Entypo"
+			"font" "resource/fonts/Surface.otf"
+			"name" "Surface"
 		}
 		"6"
 		{
-			"font" "resource/mkhud.ttf"
+			"font" "resource/fonts/mkhud.ttf"
 			"name" "mkhud"
 		}
 		"7"
 		{
-			"font" "resource/surface.otf"
-			"name" "surface"
+			"font" "resource/fonts/Entypo.otf"
+			"name" "Entypo"
 		}
 		"8"
 		{
-			"font" "resource/HudasIscariote.otf"
-			"name" "Hudas Iscariote"
+			"font" "resource/fonts/days.ttf"
+			"name" "Days"
+		}
+		"9"
+		{
+			"font" "resource/fonts/Nexa Light.otf"
+			"name" "Nexa Light"
+		}
+		"10"
+		{
+			"font" "resource/fonts/Nexa Bold.otf"
+			"name" "Nexa Bold"
 		}
 	}
 }

@@ -1,13 +1,19 @@
 
-mkHUD - It's not done
+mkHUD - It's not done.
 =======
 There are a lot of bugs within this hud. Please comment on my profile if you happen to run into any issues using this HUD.
 
+Constructive criticism is always welcome. Please let me know what I can do fit what other people want.
+
 http://steamcommunity.com/id/nimtra is my profile URL.
+
+I would appreciate it if you didn't redistribute this hud as yours. Please give me credit if you happen to release an edit of this hud.
 
 Screenshots
 ----------
-http://imgur.com/a/7h2cd This is how the hud looks as of April 10.
+http://imgur.com/a/3F9jh
+
+I apologize for the screenshot's orders. They are in a weird order because I used imgur and didn't know how to sort the pictures.
 
 Resolution Support
 ----------
@@ -19,12 +25,14 @@ Resolution Support
 
 4:3 - Kind of. Most elements on the right side of the screen get cut off.
 
-
-This version of my hud is quite far behind. I will update everything when I know everything is how I want it to be. Expect a full release near the end of this month / early June. Even then, I don't expect everything to be bug-free, so please, let me know what bugs there are.
-
 Fonts
 ------------
 If your fonts aren't working, go to mkHUD/resource/fonts, select all > right click > Install. Restart TF2 and you should be able to see the fonts.
+
+Known Issues
+------------
+On resolutions other than 1920x1080, some things get offset.
+On resolutions other than 16:9, the vtf files I used for my background, etc all get screwed up and some of the elements that are on the right side of the screen are completely gone from existance.
 
 Credits
 ---------

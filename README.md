@@ -16,6 +16,8 @@ http://imgur.com/a/3F9jh - Team Menu is now moved to the left of the screen to i
 
 http://i.imgur.com/sdQVa12.jpg - Freezecam
 
+http://puu.sh/oMezA/e183196bd9.png - Tournament Setup
+
 I apologize for the screenshot's orders. They are in a weird order because I used imgur and didn't know how to sort the pictures.
 
 Resolution Support
@@ -42,6 +44,8 @@ Bleed/Marked for Death/etc images are cut off right now. I will fix these soon.
 Backpack button clips into Scout image. Making the font size smaller will fix this.
 
 MVM hud is still not finished.
+
+Top bar of trade window is screwed up.
 
 Credits (there's a lot)
 ---------

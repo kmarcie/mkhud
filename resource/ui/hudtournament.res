@@ -874,19 +874,12 @@
 
 		if_competitive
 		{
-			"xpos"			"c-35"
-			"ypos"			"25"
-			"tall"			"35"
-			"visible"		"1"
-			"font"			"product9"
+			"visible"		"0"
 		}
 
 		if_readymode
 		{
-			"xpos"			"285"
-			"ypos"			"26"
-			"visible"		"1"
-			"font"			"TFFontMedium"
+			"visible"		"0"
 		}
 	}
 	"TeamShadow"
@@ -904,6 +897,21 @@
 		"enabled"		"1"
 		"scaleImage" 	"1"
 		"image"			"replay\thumbnails\menu\Shadow3"
+
+		if_mvm
+		{
+			"visible"		"0"
+		}
+
+		if_competitive
+		{
+			"visible"		"0"
+		}
+
+		if_readymode
+		{
+			"visible"		"0"
+		}
 	}
 	"HudTournamentBGHelp"
 	{

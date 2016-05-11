@@ -310,12 +310,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntimeBG"
-				"font"			"mktargetidshdw"
-				"xpos"			"5"
-				"ypos"			"4"
+				"font"			""
+				"xpos"			"0"
+				"ypos"			"0"
 				"zpos"			"5"
-				"wide"			"23"
-				"tall"			"10"
+				"wide"			"0"
+				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -426,22 +426,19 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-300"	[$WIN32]
-		"ypos"			"50"	[$WIN32]
-		"wide"			"600"	[$WIN32]
-		"tall"			"24"
-		"autoResize"	"0"
+		"xpos"			"c-425"
+		"ypos"			"-2"
+		"zpos"			"1111"
+		"wide"			"600"
+		"tall"			"18"
+		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"labelText"		"#game_respawntime_in_secs"
-		"textAlignment"		"center"
-		"font"			"mk24"
-		
-		if_mvm
-		{
-		"ypos"			"68"	[$WIN32]
-		}
+		"textAlignment"		"west"
+		"font"			"product16"
+		"fgcolor_override"	"mklightblue"
 		
 	}
 	"BuyBackLabel"

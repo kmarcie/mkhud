@@ -18,6 +18,8 @@ http://i.imgur.com/sdQVa12.jpg - Freezecam
 
 http://puu.sh/oMezA/e183196bd9.png - Tournament Setup
 
+http://puu.sh/oNMsV/8c9744270a.png - Spectator Tournament HUD
+
 I apologize for the screenshot's orders. They are in a weird order because I used imgur and didn't know how to sort the pictures.
 
 Resolution Support
@@ -41,11 +43,32 @@ The shadow from the original medi-gun on the Vaccinator hud is still there.
 
 Bleed/Marked for Death/etc images are cut off right now. I will fix these soon.
 
-Backpack button clips into Scout image. Making the font size smaller will fix this.
+Backpack button clips into Scout image on other resolutions. Making the font size smaller will fix this.
 
 MVM hud is still not finished.
 
-Top bar of trade window is screwed up.
+Top bar of trade window is screwed up on other resolutions
+
+If you change mat_antialias, or change resolution, the backpack borders change to a different border. However, this different border controls the border that is used when a player is dead in tournament mode, which wasn't made for the backpack panel. I don't really know what I can do for now.
+
+To-Do (basically the known issues list)
+---------
+
+Trade Window
+
+Move Bleed/Marked for Death/Milked icons so you can see them
+
+Fix the colour of the medi gun charge,  when it's charging it's a very slight shade of gray that is extremely hard to see
+
+Add different overheal/low health colours
+
+Create separate background VTF files for 16:10 resolution
+
+Finish making this hud 16:10 compatible. It is almost done, but the vtf backgrounds are not done.
+
+MvM hud and scoreboard
+
+Figure out a way to make the backpack borders not the same as the tournament respawn borders.
 
 Credits (there's a lot)
 ---------

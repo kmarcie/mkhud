@@ -50,7 +50,7 @@ Top bar of trade window is screwed up.
 Credits (there's a lot)
 ---------
 
-<b>BroeselHUD (feeling and broesel)</b> - Lots of inspiration. I borrowed some elements from the hud as well. Specifically the tournament spectator hud. This was the hud I used for a very long time until I figured out how to edit huds.
+<b>BroeselHUD (feeling and broesel)</b> - Lots of inspiration. I borrowed some elements from the hud as well. This was the hud I used for a very long time until I figured out how to edit huds.
 
 <b>ahud (Nokk)</b> - Again, a lot of the stuff I put into my hud was inspired by Nokk's hud. An amazing hud. He also answered a lot of my questions, and I greatly appreciate the help. After I got bored of BroeselHUD, I used ahud. It's a great hud.
 
@@ -58,7 +58,7 @@ Credits (there's a lot)
 
 <b>cbhud (CoBa)</b> - It sucks that he hasn't updated it, but still a great hud. Some elements in my hud were inspired by this hud.
 
-<b>rayshud (raysfire)</b> - An amazing streamer and maker of a very well crafted hud. His tutorials helped me out a ton, and I highly recommend you check out his stream. http://twitch.tv/raysfire/ :)
+<b>rayshud (raysfire)</b> - An amazing streamer and maker of a very well crafted hud. His tutorials helped me out a ton, and I highly recommend you check out his stream. http://twitch.tv/raysfire/ :) I borrowed his SpectatorTournament.res to use with my hud as well. Hope you don't mind, Rays!
 
 <b>ToonHUD (Griever)</b> - I borrowed the SourceScheme.res from his hud. I hope you are alright with this. A very well made hud. Again, some elements in my hud were inspired by his.
 

@@ -233,7 +233,7 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"265"
+		"ypos"		"310"
 		"wide"	 	"f0"
 		"tall"	 	"50"
 		"priority"	"40"
@@ -456,7 +456,7 @@
 		"IconColor"		"mkWhite"
 		"LocalPlayerColor"	"mkblack"
 
-		"BaseBackgroundColor"	"0 0 0 220"		
+		"BaseBackgroundColor"	"mktopbar"		
 		"LocalBackgroundColor"	"mkWhite"	
 	}
 

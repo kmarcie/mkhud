@@ -465,7 +465,7 @@
 	{
 		"ControlName"	"Label"
 		"fieldName"		"ClassLabel"
-		"font"			"HudFontSmallBold"
+		"font"			"Blank"
 		"labelText"		"classname"
 		"textAlignment"	"north"
 		"xpos"			"0"

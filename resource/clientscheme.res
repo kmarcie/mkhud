@@ -8108,7 +8108,7 @@ Scheme
 		}
 		"10"
 		{
-			"font" "resource/fonts/HudasIscariote.ttf"
+			"font" "resource/fonts/HudasIscariote.otf"
 			"name" "Hudas Iscariote"
 		}
 		"11"	

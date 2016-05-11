@@ -772,13 +772,6 @@ event NotificationsPresentBlinkStop
 
 //===========================================
 
-event DamagedPlayer
-{
-	RunEvent ScopeRemoval 0.0
-}
-
-//===========================================
-
 event SpyWarningFlash
 {
 	Animate	EnemyCountImageBG	BgColor	"RedSolid"		Linear 0.0 0.01

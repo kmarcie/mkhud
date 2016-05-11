@@ -5929,20 +5929,20 @@ Scheme
 		ButtonBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		// this is the border used for default buttons (the button that gets pressed when you hit enter)
 		ButtonKeyFocusBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		ButtonDepressedBorder
 		{
 			"inset" "0 0 0 0"
-			"backgroundtype" "2"
+			"backgroundtype" "0"
 		}
 
 		ComboBoxBorder
@@ -6098,7 +6098,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_round_rect_selected"
+			"image"					"replay/thumbnails/bg_item"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6109,7 +6109,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_round_rect_selected"
+			"image"					"replay/thumbnails/bg_item"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6120,7 +6120,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_round_rect"
+			"image"					"replay/thumbnails/bg_item"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6131,7 +6131,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"loadout_round_rect"
+			"image"					"replay/thumbnails/bg_item"
 			"src_corner_height"		"24"				// pixels inside the image
 			"src_corner_width"		"24"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6143,7 +6143,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/tournament_panel_brown"
+			"image"					"replay/thumbnails/bg_item"
 			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
@@ -6155,7 +6155,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_brown_opaque"
+			"image"					"replay/thumbnails/bg_item"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6166,7 +6166,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_brown"
+			"image"					"replay/thumbnails/bg_item"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6233,7 +6233,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/color_panel_clear"
+			"image"					"replay/thumbnails/bg_item"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"
 			"draw_corner_width"		"0"				// screen size of the corners ( and sides ), proportional
@@ -6300,7 +6300,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/bg_black"		
+			"image"					"replay/thumbnails/bg_item"		
 		//	"color"					"ItemPanelBG"
 			
 			"src_corner_height"		"24"				// pixels inside the image
@@ -8108,7 +8108,7 @@ Scheme
 		}
 		"10"
 		{
-			"font" "resource/fonts/HudasIscariote.otf"
+			"font" "resource/fonts/HudasIscariote.ttf"
 			"name" "Hudas Iscariote"
 		}
 		"11"	

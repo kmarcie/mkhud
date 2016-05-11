@@ -70,6 +70,8 @@ MvM hud and scoreboard
 
 Figure out a way to make the backpack borders not the same as the tournament respawn borders.
 
+Create more font versions. I would like to make hotswappable clientschemes to have different fonts, similar to what extracrspy did with wavesui. Mainly looking to support Roboto / Roboto Condensed though.
+
 Credits (there's a lot)
 ---------
 

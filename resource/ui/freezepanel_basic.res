@@ -233,11 +233,11 @@
 	{
 		"ControlName"					"CItemModelPanel"
 		"fieldName"						"itempanel"
-		"xpos"							"r222222230" //r230
-		"ypos"							"rs1"
+		"xpos"							"0" //r230
+		"ypos"							"0"
 		"zpos"							"10"
-		"wide"							"220"
-		"tall"							"f0"
+		"wide"							"0"
+		"tall"							"0"
 		"visible"						"0"
 		"bgcolor_override"				"255 255 255 0"
 		"PaintBackgroundType"			"0"
@@ -273,7 +273,7 @@
 			"xpos"						"5"
 			"ypos"						"3"
 			"zpos"						"1"
-			"wide"						"200"
+			"wide"						"0"
 			"tall"						"11"
 			"autoResize"				"0"
 			"pinCorner"					"0"

@@ -10,8 +10,9 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"255 255 255 0"
+		"bgcolor_override"		"38 47 49 255"
 		"PaintBackgroundType"	"0"
+		"paintBorder"	"0"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -35,15 +36,14 @@
 			"useparentbg"		"1"
 			"inventory_image_type"  "1" // High quality item image
 		}
-		
 		"ItemLabel"
 		{	
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"product9"
-			"xpos"			"10"
+			"xpos"			"12"
 			"ypos"			"3"
-			"zpos"			"1"
+			"zpos"			"100"
 			"wide"			"270"
 			"tall"			"9"
 			"autoResize"	"0"
@@ -51,9 +51,30 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"labelText"		"#FreezePanel_Item"
-			"textAlignment"	"Left"
+			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
+			"bgcolor_override"		"ItemPanelBG"
+		}	
+		"ItemLabel2"
+		{	
+			"ControlName"	"Label"
+			"fieldName"		"ItemLabel2"
+			"font"			"product9"
+			"xpos"			"10"
+			"ypos"			"3"
+			"zpos"			"-99"
+			"wide"			"270"
+			"tall"			"500"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"labelText"		"#FreezePanel_Item"
+			"textAlignment"	"west"
+			"dulltext"		"0"
+			"brighttext"	"0"
+			"bgcolor_override"		"ItemPanelBG"
 		}
 	}
 

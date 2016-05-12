@@ -61,7 +61,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel2"
 			"font"			"product9"
-			"xpos"			"10"
+			"xpos"			"0"
 			"ypos"			"3"
 			"zpos"			"-99"
 			"wide"			"270"

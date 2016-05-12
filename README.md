@@ -54,6 +54,8 @@ If you change mat_antialias, or change resolution, the backpack borders change t
 To-Do (basically the known issues list)
 ---------
 
+Remake team select and class selection
+
 Trade Window
 
 Move Bleed/Marked for Death/Milked icons so you can see them

@@ -41,10 +41,11 @@
 			"wide"			"140"
 			"tall"			"70"
 			"visible"		"0"
-			"bgcolor_override"		"0 0 0 220"
+			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"mklightblue"
 			"PaintBackgroundType"	"0"
 			"paintborder"	"1"
+			"border"		"OutlinedGreyBox"
 			
 			"model_center_x"	"1"
 			"model_ypos"		"5"			
@@ -300,6 +301,7 @@
 		"noitem_textcolor"		"110 110 110 255"
 		"PaintBackgroundType"	"0"
 		"paintborder"	"1"
+		"border"		"OutlinedGreyBox"
 		
 		"text_ypos"			"15"
 		"text_center"		"1"

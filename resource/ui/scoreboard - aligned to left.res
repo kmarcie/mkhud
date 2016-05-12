@@ -61,10 +61,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"BlueScoreBG"
-		"xpos"			"135"
+		"xpos"			"-4"
 		"ypos"			"16"
 		"zpos"			"100"
-		"wide"			"290"
+		"wide"			"25"
 		"tall"			"21"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -78,32 +78,11 @@
 			"visible"		"0"
 		}
 	}
-	"ScoreboardBG"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"ScoreboardBG"
-		"xpos"			"c-291"
-		"ypos"			"28"
-		"zpos"			"-100"
-		"wide"			"582"
-		"tall"			"250"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"image"			"replay\thumbnails\mk_scoreboard"
-		"scaleImage"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
 	"blueBGShadow"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"blueBGShadow"
-		"xpos"			"c-299"
+		"xpos"			"-14"
 		"ypos"			"12"
 		"zpos"			"-5"
 		"wide"			"302"
@@ -119,11 +98,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"redBGShadow"
-		"xpos"			"c-10"
-		"ypos"			"12"
+		"xpos"			"-14"
+		"ypos"			"197"
 		"zpos"			"-5"
 		"wide"			"302"
-		"tall"			"29"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -135,10 +114,10 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
-		"xpos"			"c-5"
-		"ypos"			"16"
+		"xpos"			"-4"
+		"ypos"			"201"
 		"zpos"			"100"
-		"wide"			"292"
+		"wide"			"25"
 		"tall"			"21"
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -156,16 +135,15 @@
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"StatsBG"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-98"
-		"wide"			"125"
-		"tall"			"110"
+		"xpos"			"285"
+		"ypos"			"16"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"mkGUI"
+		"visible"		"0"
+		"enabled"		"0"
+		"fillcolor"		"0 0 0 220"
 //		"image"			"replay\thumbnails\bg_black"
 //		"alpha"			"220"
 		"scaleImage"		"1"
@@ -175,28 +153,6 @@
 			"visible"		"0"
 		}
 	}	
-	"StatsBGShadow"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"StatsBGShadow"
-		"xpos"			"-5"
-		"ypos"			"-5"
-		"zpos"			"-99"
-		"wide"			"134"
-		"tall"			"118"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-//		"fillcolor"		"mkGUI"
-		"image"			"replay\thumbnails\menu\Shadow4"
-		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
 	"MainBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -204,7 +160,7 @@
 		"xpos"			"0"
 		"ypos"			"16"
 		"zpos"			"66"
-		"wide"			"0" // 284
+		"wide"			"284" // 285
 		"tall"			"21" // 265
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -225,7 +181,7 @@
 		"xpos"			"0"
 		"ypos"			"201"
 		"zpos"			"66"
-		"wide"			"0" // 284
+		"wide"			"284" // 285
 		"tall"			"21" // 265
 		"autoResize"	"0"
 		"pinCorner"		"0"
@@ -243,11 +199,11 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamLabel1"
-		"font"			"product24"
+		"font"			"product12"
 		"labelText"		"blu"
 		"textAlignment"		"west"	
 		"fgcolor"		"mkBlack"
-		"xpos"			"c-287"
+		"xpos"			"3"
 		"ypos"			"18"
 		"zpos"			"101"
 		"wide"			"200"
@@ -290,12 +246,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamScore"
-		"font"			"product32"
+		"font"			"product20"
 		"labelText"		"%blueteamscore%"
 		"fgcolor"		"mklightblue"
 		"textAlignment"		"east"
-		"xpos"			"c-117"
-		"ypos"			"-5"
+		"xpos"			"180"
+		"ypos"			"-1"
 		"zpos"			"4212"
 		"wide"			"100"
 		"tall"			"55"
@@ -308,108 +264,16 @@
 		{
 			"visible"		"0"
 		}
-	}					
-	"BlueTeamScoreBG"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamScoreBG"
-		"font"			"circles36"
-		"labelText"		"o"
-		"fgcolor"		"mkgrey"
-		"textAlignment"		"east"
-		"xpos"			"c-109"
-		"ypos"			"-5"
-		"zpos"			"4212"
-		"wide"			"100"
-		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}			
-	"BlueTeamScoreBGShadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"BlueTeamScoreBGShadow"
-		"font"			"circlesBlur36"
-		"labelText"		"o"
-		"fgcolor"		"0 0 0 255"
-		"textAlignment"		"east"
-		"xpos"			"c-109"
-		"ypos"			"-4"
-		"zpos"			"4212"
-		"wide"			"100"
-		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}	
-	"RedTeamScoreBG"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamScoreBG"
-		"font"			"circles36"
-		"labelText"		"o"
-		"fgcolor"		"mkgrey"
-		"textAlignment"		"east"
-		"xpos"			"c-62"
-		"ypos"			"-5"
-		"zpos"			"4212"
-		"wide"			"100"
-		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}			
-	"RedTeamScoreBGShadow"
-	{
-		"ControlName"		"CExLabel"
-		"fieldName"		"RedTeamScoreBGShadow"
-		"font"			"circlesBlur36"
-		"labelText"		"o"
-		"fgcolor"		"0 0 0 255"
-		"textAlignment"		"east"
-		"xpos"			"c-62"
-		"ypos"			"-4"
-		"zpos"			"4212"
-		"wide"			"100"
-		"tall"			"55"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
+	}						
 	"BlueTeamPlayerCount"
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"product14"
-		"fgcolor"		"mkdarkerblue"
+		"font"			"product10"
+		"fgcolor"		"mklightblue"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
-		"xpos"			"c-110"
+		"xpos"			"25"
 		"ypos"			"16"
 		"zpos"			"1234"
 		"wide"			"130"
@@ -428,12 +292,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamLabel1"
-		"font"			"product24"
+		"font"			"product12"
 		"labelText"		"red"
 		"textAlignment"		"west"
 		"Fgcolor"		"mkblack"
-		"xpos"			"c253"
-		"ypos"			"12"
+		"xpos"			"3"
+		"ypos"			"196"
 		"zpos"			"1234"
 		"wide"			"200"
 		"tall"			"30"
@@ -451,12 +315,12 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamScore"
-		"font"			"product32"
+		"font"			"product20"
 		"labelText"		"%redteamscore%"
-		"textAlignment"		"west"
-		"xpos"			"c13"
-		"ypos"			"-5" 
-		"zpos"			"12314"
+		"textAlignment"		"east"
+		"xpos"			"180"
+		"ypos"			"184" 
+		"zpos"			"1234"
 		"wide"			"100"
 		"tall"			"55"
 		"autoResize"	"0"
@@ -474,15 +338,15 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"product14"
+		"font"			"product10"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"west"
-		"xpos"			"c50"
-		"ypos"			"16"
+		"xpos"			"25"
+		"ypos"			"201" 
 		"zpos"			"1235"
 		"wide"			"130"
 		"tall"			"20"
-		"fgcolor"		"mkdarkerblue"
+		"fgcolor"		"mklightblue"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -586,8 +450,8 @@
 		"font"			"product16"
 		"labelText"		"%servertime%"
 		"textAlignment"		"center"
-		"xpos"			"22"
-		"ypos"			"15"
+		"xpos"			"c-50"
+		"ypos"			"-3"
 		"zpos"			"212"
 		"wide"			"72"
 		"tall"			"20"
@@ -595,7 +459,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mkdarkerblue"
+		"fgcolor"		"mklightblue"
 		"centerwrap"	"0"
 		
 		if_mvm
@@ -653,8 +517,8 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-287"
-		"ypos"			"24"
+		"xpos"			"0"
+		"ypos"			"25"
 		"zpos"			"-20"
 		"wide"			"287"
 		"tall"			"167"
@@ -677,8 +541,8 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"c0	"
-		"ypos"			"24"
+		"xpos"			"0"
+		"ypos"			"210"
 		"zpos"			"-20"
 		"wide"			"287"
 		"tall"			"167"
@@ -1439,8 +1303,8 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
-		"xpos"			"5"
-		"ypos"			"25"
+		"xpos"			"290"
+		"ypos"			"6"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"448"
@@ -1458,55 +1322,110 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"KillsLabel1"
-			"font"			"product11"
-			"labelText"		"kills"
-			"textAlignment"		"west"
-			"xpos"			"0"
-			"ypos"			"6"
-			"zpos"			"31"
+			"font"			"Entypo48"
+			"labelText"		"4"
+			"textAlignment"		"east"
+			"xpos"			"-49"
+			"ypos"			"-42"
+			"zpos"			"3"
 			"wide"			"100"
-			"tall"			"20"
+			"tall"			"100"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"mkdarkerblue"
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor"		"238 238 144 255"
+			"alpha"			"100"
+		}			
+		"KillsLabel2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"KillsLabel2"
+			"font"			"product9"
+			"labelText"		"KILLS"
+			"textAlignment"		"west"
+			"xpos"			"30"
+			"ypos"			"-15"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"100"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor"		"238 238 144 255"
 		}			
 		"DeathsLabel1"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"DeathsLabel1"
-			"font"			"product11"
-			"labelText"		"deaths"
-			"textAlignment"		"west"
-			"xpos"			"0"
-			"ypos"			"20"
+			"font"			"Entypo48"
+			"labelText"		"6"
+			"textAlignment"		"east"
+			"xpos"			"23"
+			"ypos"			"-22"
 			"zpos"			"3"
-			"wide"			"100"
-			"tall"			"20"
+			"wide"			"95"
+			"tall"			"60"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"mkdarkerblue"
-		}					
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor"		"255 100 100 100"
+		}			
+		"DeathsLabel2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"DeathsLabel2"
+			"font"			"product9"
+			"labelText"		"DEATHS"
+			"textAlignment"		"east"
+			"xpos"			"23"
+			"ypos"			"20"
+			"zpos"			"3"
+			"wide"			"95"
+			"tall"			"30"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor"		"255 100 100 255"
+		}			
 		"AssistsLabel1"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"AssistsLabel1"
-			"font"			"product11"
-			"labelText"		"assists"
-			"textAlignment"		"west"
-			"xpos"			"0"
-			"ypos"			"33"
+			"font"			"Entypo48"
+			"labelText"		"8"
+			"textAlignment"		"east"
+			"xpos"			"82"
+			"ypos"			"-45"
 			"zpos"			"3"
 			"wide"			"100"
-			"tall"			"20"
+			"tall"			"100"
 			"autoResize"	"0"
 			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor"		"mkdarkerblue"
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor"		"144 238 144 100"
+		}
+		"AssistsLabel2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"AssistsLabel2"
+			"font"			"product9"
+			"labelText"		"ASSISTS"
+			"textAlignment"		"east"
+			"xpos"			"83"
+			"ypos"			"-16"
+			"zpos"			"3"
+			"wide"			"100"
+			"tall"			"100"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"0"
+			"fgcolor"		"144 238 144 255"
 		}
 		"DestructionLabel"
 		{
@@ -1532,7 +1451,7 @@
 			"font"			"product20"
 			"labelText"		"%kills%"
 			"textAlignment"		"west"
-			"xpos"			"35"
+			"xpos"			"0"
 			"ypos"			"6"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1541,7 +1460,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"mkdarkerblue"
+			"fgcolor"		"mkwhite"
 			
 			"if_mvm"
 			{
@@ -1557,7 +1476,7 @@
 			"font"			"product20"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
-			"xpos"			"35"
+			"xpos"			"0"
 			"ypos"			"20"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1566,7 +1485,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"mkdarkerblue"
+			"fgcolor"		"mkwhite"
 			
 			"if_mvm"
 			{
@@ -1600,7 +1519,7 @@
 			"font"			"product20"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
-			"xpos"			"35"
+			"xpos"			"0"
 			"ypos"			"34"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1609,7 +1528,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"mkdarkerblue"
+			"fgcolor"		"mkwhite"
 			
 			"if_mvm"
 			{
@@ -1635,10 +1554,10 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}						
-		"CapturesLabel1"
+		"CapturesLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"CapturesLabel1"
+			"fieldName"		"CapturesLabel"
 			"font"			"product9"
 			"labelText"		"#TF_ScoreBoard_CapturesLabel"
 			"textAlignment"		"west"
@@ -1651,7 +1570,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"mkdarkerblue"
 			
 			"if_mvm"
 			{
@@ -1709,10 +1627,10 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}						
-		"Capturesssssssssssssss1"
+		"Capturesssssssssssssss"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Capturesssssssssssssss1"
+			"fieldName"		"Capturesssssssssssssss"
 			"font"			"product9"
 			"labelText"		"%captures%"
 			"textAlignment"		"west"
@@ -1725,7 +1643,6 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"mkdarkerblue"
 			"if_mvm"
 			{
 				"visible"		"0"
@@ -1782,10 +1699,10 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}						
-		"HealingLabel1"
+		"HealingLabel"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"HealingLabel1"
+			"fieldName"		"HealingLabel"
 			"font"			"product9"
 			"labelText"		"#TF_ScoreBoard_HealingLabel"
 			"textAlignment"		"east"
@@ -1798,7 +1715,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"mkdarkerblue"
+			"Fgcolor_override"	"mkwhite"
 
 			"if_mvm"
 			{
@@ -1858,10 +1775,10 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}						
-		"Healingssssssssssssss1"
+		"Healingssssssssssssss"
 		{
 			"ControlName"		"CExLabel"
-			"fieldName"		"Healingssssssssssssss1"
+			"fieldName"		"Healingssssssssssssss"
 			"font"			"product9"
 			"labelText"		"%healing%"
 			"textAlignment"		"west"
@@ -1874,7 +1791,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"mkdarkerblue"
+			"fgcolor_override"	"mkwhite"
 			
 			"if_mvm"
 			{
@@ -2037,10 +1954,10 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}
-		"DamageLabel1"
+		"DamageLabel"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"DamageLabel1"
+			"fieldName"		"DamageLabel"
 			"font"			"product9"
 			"labelText"		"#TF_Scoreboard_Damage"
 			"textAlignment"	"east"
@@ -2053,7 +1970,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"mkdarkerblue"
+			"fgcolor_override"	"mkwhite"
 			
 			"if_mvm"
 			{
@@ -2062,10 +1979,10 @@
 				"textAlignment"		"west"
 			}
 		}
-		"Damagessssssssssssss1"
+		"Damagessssssssssssss"
 		{
 			"ControlName"	"CExLabel"
-			"fieldName"		"Damagessssssssssssss1"
+			"fieldName"		"Damagessssssssssssss"
 			"font"			"product9"
 			"labelText"		"%damage%"
 			"textAlignment"	"west"
@@ -2078,7 +1995,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"mkdarkerblue"
+			"fgcolor_override"	"mkwhite"
 			
 			"if_mvm"
 			{

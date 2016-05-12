@@ -226,6 +226,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
+		"border"		"OutlinedGreyBox"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -263,7 +264,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"Hudblack"
+			"fillcolor"		"itempanelbg"
 		}
 		
 		"ItemLabel"

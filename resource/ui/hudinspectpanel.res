@@ -12,7 +12,8 @@
 		"visible"		"0"
 		"bgcolor_override"		"38 47 49 255"
 		"PaintBackgroundType"	"0"
-		"paintBorder"	"0"
+		"paintBorder"	"1"
+		"border"		"OutlinedGreyBox"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -41,7 +42,7 @@
 			"ControlName"	"Label"
 			"fieldName"		"ItemLabel"
 			"font"			"product9"
-			"xpos"			"12"
+			"xpos"			"5"
 			"ypos"			"3"
 			"zpos"			"100"
 			"wide"			"270"
@@ -54,7 +55,6 @@
 			"textAlignment"	"west"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"bgcolor_override"		"ItemPanelBG"
 		}	
 		"ItemLabel2"
 		{	
@@ -64,7 +64,7 @@
 			"xpos"			"0"
 			"ypos"			"3"
 			"zpos"			"-99"
-			"wide"			"270"
+			"wide"			"0"
 			"tall"			"500"
 			"autoResize"	"0"
 			"pinCorner"		"0"

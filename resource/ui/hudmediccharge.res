@@ -134,8 +134,8 @@
 		"textAlignment"	"Left"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"fgcolor_override"		"mkwhite"
-		"Bgcolor_override"		"mklback"
+		"fgcolor_override"		"mklightblue"
+		"Bgcolor_override"		"mktopbar"
 	}		
 
 	"ChargeMeter1"

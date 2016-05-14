@@ -29,7 +29,7 @@ Scheme
 		"mkGUI"				"215 215 215 255"
 		"mkGUIbg"			"225 225 225 255"
 		"mkGUIselected"		"214 73  51  255"
-		"mkBGcolor"			"34  34  34  255"
+		"mkBGcolor"			"22  25  30  255"
 	// 	"mkBGcolor"			"124 124 124 255"
 		"ItemPanelBG" 		"27  32  37  255"
 		"mkDarkerBlue"		"43  48  58  255"

@@ -1137,14 +1137,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"mapname"
-		"font"			"product20"
+		"font"			"nexalight42"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
  		"xpos"			"1"
-		"ypos"			"380"
+		"ypos"			"415"
 		"zpos"			"3"
 		"wide"			"f0"
-		"tall"			"15"
+		"tall"			"100"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1160,14 +1160,14 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"MapNameShadow"
-		"font"			"productBlur20"
+		"font"			"nexaLightBlur42"
 		"labelText"		"%mapname%"
 		"textAlignment"	"west"
  		"xpos"			"1"
-		"ypos"			"380"
+		"ypos"			"415"
 		"zpos"			"3"
 		"wide"			"f0"
-		"tall"			"16"
+		"tall"			"100"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1549,7 +1549,32 @@
 				"ypos"			"10"
 				"textAlignment"		"east"
 			}
-		}						
+		}	
+		"Killssssssssssssssss"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Killssssssssssssssss"
+			"font"			"productblur20"
+			"labelText"		"%kills%"
+			"textAlignment"		"west"
+			"xpos"			"10"
+			"ypos"			"10"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"MKBLACK"
+			
+			"if_mvm"
+			{
+				"xpos"			"320"
+				"ypos"			"10"
+				"textAlignment"		"east"
+			}
+		}		
 		"Deathsssssssssssssss"
 		{
 			"ControlName"		"CExLabel"
@@ -1557,7 +1582,7 @@
 			"font"			"product20"
 			"labelText"		"%deaths%"
 			"textAlignment"		"west"
-			"xpos"			"45"
+			"xpos"			"53"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1567,6 +1592,31 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"MKWHITE"
+			
+			"if_mvm"
+			{
+				"xpos"			"320"
+				"ypos"			"24"
+				"textAlignment"		"east"
+			}
+		}	
+		"Deathssssssssssssssss"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Deathssssssssssssssss"
+			"font"			"productblur20"
+			"labelText"		"%deaths%"
+			"textAlignment"		"west"
+			"xpos"			"53"
+			"ypos"			"10"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"MKBLACK"
 			
 			"if_mvm"
 			{
@@ -1600,7 +1650,7 @@
 			"font"			"product20"
 			"labelText"		"%assists%"
 			"textAlignment"		"west"
-			"xpos"			"75"
+			"xpos"			"95"
 			"ypos"			"10"
 			"zpos"			"3"
 			"wide"			"35"
@@ -1617,7 +1667,32 @@
 				"ypos"			"38"
 				"textAlignment"		"east"
 			}
-		}						
+		}		
+		"Assistssssssssssssssss"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"Assistssssssssssssssss"
+			"font"			"productblur20"
+			"labelText"		"%assists%"
+			"textAlignment"		"west"
+			"xpos"			"95"
+			"ypos"			"10"
+			"zpos"			"3"
+			"wide"			"35"
+			"tall"			"20"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor"		"MKBLACK"
+			
+			"if_mvm"
+			{
+				"xpos"			"320"
+				"ypos"			"38"
+				"textAlignment"		"east"
+			}
+		}			
 		"Destructionssssssssssssss"
 		{
 			"ControlName"		"CExLabel"

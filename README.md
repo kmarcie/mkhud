@@ -1,4 +1,4 @@
-![alt tag](http://puu.sh/oLssz/33f1356559.png)
+![alt tag](http://puu.sh/oRmPM/a3392e6879.png)
 =========
 There are a lot of bugs within this hud. Please comment on my profile if you happen to run into any issues using this HUD.
 
@@ -10,21 +10,13 @@ I would appreciate it if you didn't redistribute this hud as yours. Please give 
 
 The custom crosshair is manageable through HudPlayerClass.res. I made it like this so when you are dead the crosshair doesn't show up, where as if I put it in hudlayout.res it would show up all the time. 
 
-Screenshots
+Screenshots - Last Updated May 14
 ----------
-http://imgur.com/a/3F9jh - Team Menu is now moved to the left of the screen to improve compatibility with other resolutions
-
-http://i.imgur.com/sdQVa12.jpg - Freezecam
-
-http://puu.sh/oMezA/e183196bd9.png - Tournament Setup
-
-http://puu.sh/oNMsV/8c9744270a.png - Spectator Tournament HUD
-
-I apologize for the screenshot's orders. They are in a weird order because I used imgur and didn't know how to sort the pictures.
+http://imgur.com/a/mvUhd
 
 Resolution Support
 ----------
-16:9 - Made on 1920x1080 resolution. Should work fine on other resolutions. There may be slight offsets with other resolutions, however.
+16:9 - Made on 1920x1080 resolution. Should work fine on other resolutions. There may be slight offsets with other resolutions, however. 1920x1080 works the best with this hud.
 
 16:10 - Kind of. Currently I am working on making this work with 16:10. There are some files you have to manually overwrite. I have included a folder with the things you have to overwrite for the hud to look nice in 16:10. I have yet to modify the .vtf files for 16:10, so some backgrounds may look offset.
 

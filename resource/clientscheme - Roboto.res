@@ -40,7 +40,6 @@ Scheme
 			{
 				"name"		"Roboto"
 				"tall"		"28"
-				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
 			}

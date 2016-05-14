@@ -110,8 +110,8 @@
 		"xpos"		"114" // 114
 		"ypos"		"24" // 24
 		"zpos"		"6"
-		"wide"		"81"
-		"tall"		"28"
+		"wide"		"80"
+		"tall"		"27"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"		

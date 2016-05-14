@@ -41,8 +41,6 @@ MVM hud is still not finished.
 
 Top bar of trade window is screwed up on other resolutions
 
-If you change mat_antialias, or change resolution, the backpack borders change to a different border. However, this different border controls the border that is used when a player is dead in tournament mode, which wasn't made for the backpack panel. I don't really know what I can do for now.
-
 To-Do (basically the known issues list)
 ---------
 
@@ -52,19 +50,11 @@ Trade Window
 
 Move Bleed/Marked for Death/Milked icons so you can see them
 
-Fix the colour of the medi gun charge,  when it's charging it's a very slight shade of gray that is extremely hard to see
-
-Add different overheal/low health colours
-
 Create separate background VTF files for 16:10 resolution
 
 Finish making this hud 16:10 compatible. It is almost done, but the vtf backgrounds are not done.
 
 MvM hud and scoreboard
-
-Figure out a way to make the backpack borders not the same as the tournament respawn borders.
-
-Create more font versions. I would like to make hotswappable clientschemes to have different fonts, similar to what extracrspy did with wavesui. Mainly looking to support Roboto / Roboto Condensed though.
 
 Work on the tournament hud more (not spectator tournament hud)
 
@@ -85,7 +75,7 @@ Credits (there's a lot)
 
 <b>ompHUD (omp)</b> - A great HUD. I'm sure everyone by now knows what this HUD looks like. I borrowed some of the ItemEffectMeters from this hud, and a lot of my elements were inspired by this hud.
 
-<b>wavesui (extracrspy)</b> - Though I started creating my hud before this hud was posted to TF.TV, I did get some inspiration from him when he posted in the hud mod thread on tf.tv. The colour scheme of my hud was not intentionally made to be so close to wavesui, it was a complete coincidence. I was using a colour scheme generator- specifically this one: https://coolors.co/app/2b303a-92dce5-ededed-7c7c7c-d64933 - Anyway, you should check wavesui out. His hud is so good.
+<b>wavesui (extracrispy)</b> - Though I started creating my hud before this hud was posted to TF.TV, I did get some inspiration from him when he posted in the hud mod thread on tf.tv. The colour scheme of my hud was not intentionally made to be so close to wavesui, it was a complete coincidence. I was using a colour scheme generator- specifically this one: https://coolors.co/app/2b303a-92dce5-ededed-7c7c7c-d64933 - Anyway, you should check wavesui out. His hud is so good. I implemented his font swapper into my HUD. Hopefully you are okay with this, extracrispy.
 
 <b>omnibombulator</b> - For creating huds.tf and posting his gameplay footage on reddit. If he didn't upload his gameplay onto reddit, I probably would have never found out about the font I'm using in my hud. Some of the stuff he has put into his hud are slightly similar, specifically the font and the health/ammo. I hope that's okay with him.
 

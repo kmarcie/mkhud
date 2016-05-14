@@ -1,13 +1,10 @@
-///////////////////////////////////////////////////////////
-// Tracker scheme resource file
-//
-// sections:
-//		Colors			- all the colors used by the scheme
-//		BaseSettings	- contains settings for app to use to draw controls
-//		Fonts			- list of all the fonts used by app
-//		Borders			- description of all the borders
-//
-///////////////////////////////////////////////////////////
+//////////////////////////////////////////////////////////////////////////////////////////
+////  FONT SWITCHER, INSPIRED BY WAVESUI / EXTRACRISPY
+
+#base "ChatScheme - productsans.res" 
+//#base "ChatScheme - surface.res"
+//#base "ChatScheme - roboto.res"
+
 Scheme
 {
 	//////////////////////// COLORS ///////////////////////////
@@ -51,7 +48,6 @@ Scheme
 		"mkDarkerGrey"			"22 22 22 255"
 		"mkBlack"				"34 34 34 255"
 		"mkaccent"				"214 73  51  255"
-		"mkLightBlue"			"146 220 229 255"
       //base colors
 		"White"				"255 255 255 255"
 		"OffWhite"			"0 0 255 255"
@@ -124,7 +120,7 @@ Scheme
 
       //The "say :  " in the chat input line
 		Label.TextDullColor				"mkDullWhite"
-		Label.TextColor					"mkLightBlue"
+		Label.TextColor					"mkaccent"
 		Label.TextBrightColor				"mkWhite"
 		Label.SelectedTextColor				"mkWhite"
 		Label.BgColor					"Blank"
@@ -242,89 +238,6 @@ Scheme
 	{
 		// UI buttons, custom font, (256x64)
 		"Buttons"		"materials/vgui/fonts/buttons_32.vbf"
-	}
-
-	//////////////////////// FONTS /////////////////////////////
-	//
-	// describes all the fonts
-   
-   //for whatever reason the font size for the chat is much smaller than value
-   //exceptions for this are right clicking in chat history and the filter box
-	Fonts
-	{
-
-		"Default"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"22"
-				"weight"	"0"
-				"range"		"0x0000 0x017F"
-				"antialias"	"1"
-				"dropshadow" "1"
-			}
-		}
-		
-		// this is the symbol font
-		"Marlett"
-		{
-
-			"1"
-			{
-				"name"		"Marlett"
-				"tall"		"10"
-				"weight"	"0"
-				"yres"		"480 599"
-				"symbol"	"1"
-			}
-			"2"
-			{
-				"name"		"Marlett"
-				"tall"		"14"
-				"weight"	"0"
-				"yres"		"600 767"
-				"symbol"	"1"
-			}
-			"3"
-			{
-				"name"		"Marlett"
-				"tall"		"13"
-				"weight"	"0"
-				"yres"		"768 1023"
-				"symbol"	"1"
-			}
-			"4"
-			{
-				"name"		"Marlett"
-				"tall"		"17"
-				"weight"	"0"
-				"yres"		"1024 1199"
-				"symbol"	"1"
-			}
-			"5"
-			{
-				"name"		"Marlett"
-				"tall"		"22"
-				"weight"	"0"
-				"yres"		"1200 10000"
-				"symbol"	"1"
-			}
-		}
-
-		"ChatFont"
-		{
-			"1"
-			{
-				"name"		"Product Sans"
-				"tall"		"22"	
-				"weight"	"500"
-				"antialias"    "1"
-				"dropshadow" "1"
-			}
-		}
-
-
 	}
 
 	//
@@ -733,8 +646,18 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"
       "3"
       {
-         "font" "resource/fonts/AvenirLTStd-Roman.ttf"
-         "name" "AvenirLTStd-Roman"
-      }      
+         "font" "resource/fonts/ProductSans.ttf"
+         "name" "Product Sans"
+      }     
+      "4"
+      {
+         "font" "resource/fonts/Roboto-Regular_1.ttf"
+         "name" "Roboto"
+      }     
+	  "5"
+      {
+         "font" "resource/fonts/Surface.otf"
+         "name" "Surface"
+      }   
    }
 }

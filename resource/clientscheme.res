@@ -2,8 +2,8 @@
 ////  FONT SWITCHER, INSPIRED BY WAVESUI / EXTRACRISPY
 	
 	//#base 	"clientscheme - surface.res"
-	//#base 	"clientscheme - roboto.res"
-	#base 		"clientscheme - productsans.res"
+	#base 	"clientscheme - roboto.res"
+	//#base 		"clientscheme - productsans.res"
 
 Scheme
 {
@@ -39,11 +39,11 @@ Scheme
 		"mkAccent"			"214 73  51  255"
 		
 		// tf2 colours
-		"Orange"			"0   156 255 255" // i made these two values blue, the original is 178,82,22
-		"OrangeDim"			"0   156 255 120"
+		"Orange"			"214 73  51 255" // i made these two values blue, the original is 178,82,22
+		"OrangeDim"			"214 73  51 120"
 		"LightOrange"		"188 112 0   128"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"0   0   0   220" // selected
+		"TFOrange"			"0   0   0   0" // selected
 
 		"QuestGold"			"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"

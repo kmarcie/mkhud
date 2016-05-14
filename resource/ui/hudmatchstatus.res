@@ -264,6 +264,8 @@
 
 		if_comp
 		{
+			"xpos"				"c-40"
+			"ypos"				"-15"	
 			"delta_item_x"			"31"
 			"delta_item_start_y"	"23"
 			"delta_item_end_y"		"43"
@@ -300,7 +302,7 @@
 			"font"			"mk16"
 			"fgcolor"		"mkwhite"
 			"xpos"			"30"
-			"ypos"			"2"
+			"ypos"			"1"
 			"zpos"			"3"
 			"wide"			"45"
 			"tall"			"15"

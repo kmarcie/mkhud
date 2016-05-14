@@ -61,7 +61,6 @@
 		"zpos"		"5"
 		"wide"		"200"
 		"tall"		"65"
-		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"east"	
@@ -78,7 +77,6 @@
 		"zpos"		"5"
 		"wide"		"201"
 		"tall"		"66"
-		"tall_lodef"	"45"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"east"	
@@ -110,8 +108,8 @@
 		"xpos"		"114" // 114
 		"ypos"		"24" // 24
 		"zpos"		"6"
-		"wide"		"80"
-		"tall"		"27"
+		"wide"		"81"
+		"tall"		"28"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"		

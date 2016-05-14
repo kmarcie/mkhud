@@ -4,7 +4,6 @@
 #base "SourceSchemeBase.res" // leave this
 
 #base "SourceScheme - productsans.res" 
-//#base "SourceScheme - surface.res"
 //#base "SourceScheme - roboto.res"
 
 Scheme
@@ -12,8 +11,8 @@ Scheme
 	Colors
 	{
 	
-		"G_ActiveWindow"			"43  48  58  155" // Active window bg color
-		"G_InctiveWindow"			"43  48  58  100" // Inactive window bg color
+		"G_ActiveWindow"			"43  48  58  220" // Active window bg color
+		"G_InctiveWindow"			"43  48  58  180" // Inactive window bg color
 		"G_TitleBg"					"43  48  58  255" // Title bg color
 		"G_TitleText"				"146 220 229 255" // Title text color
 		"G_Highlight"				"214 73  51  255" // Highlight color

@@ -2,7 +2,6 @@
 ////  FONT SWITCHER, INSPIRED BY WAVESUI / EXTRACRISPY
 
 #base "ChatScheme - productsans.res" 
-//#base "ChatScheme - surface.res"
 //#base "ChatScheme - roboto.res"
 
 Scheme

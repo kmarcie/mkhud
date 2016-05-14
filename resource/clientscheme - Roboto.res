@@ -40,6 +40,7 @@ Scheme
 			{
 				"name"		"Roboto"
 				"tall"		"28"
+				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
 			}
@@ -117,7 +118,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"
+				"name"		"Roboto Bold"
 				"tall"		"26"
 				"weight"	"500"
 				"antialias"	"1"
@@ -1283,9 +1284,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Light"
 				"tall"		"42"
-				"weight"	"500"
 				"antialias"	"1"
 			}
 		}
@@ -1293,9 +1293,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Light"
 				"tall"		"42"
-				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
 			}
@@ -1924,6 +1923,16 @@ Scheme
 			{
 				"name"		"Circles"
 				"tall"		"12"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Circles18"
+		{
+			"1"
+			{
+				"name"		"Circles"
+				"tall"		"18"
 				"weight"	"500"
 				"antialias"	"1"
 			}

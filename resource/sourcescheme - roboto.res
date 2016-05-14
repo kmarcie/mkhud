@@ -61,43 +61,30 @@ Scheme
 			{
 				"name"		"Roboto Bold"
 				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"480 599"
+				"antialias"	"1"
 			}
 			"2"
 			{
 				"name"		"Roboto Bold"
 				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"600 767"
+				"antialias"	"1"
 			}
 			"3"
 			{
 				"name"		"Roboto Bold"
 				"tall"		"16"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"768 1023"
 				"antialias"	"1"
 			}
 			"4"
 			{
 				"name"		"Roboto Bold"
 				"tall"		"19"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1024 1199"
 				"antialias"	"1"
 			}
 			"5"
 			{
 				"name"		"Roboto Bold"
 				"tall"		"19"
-				"weight"	"0"
-				"range"		"0x0000 0x017F" //	Basic Latin, Latin-1 Supplement, Latin Extended-A
-				"yres"	"1200 6000"
 				"antialias"	"1"
 			}
 		}
@@ -109,10 +96,7 @@ Scheme
 			{
 				"name"		"Roboto Bold" [!$OSX]
 				"name"		"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"16" [!$OSX]
-				"tall"			"18" [$OSX]
-				"antialias"		"1"
+				"antialias"	"1"
 			}
 		}
 		
@@ -122,10 +106,7 @@ Scheme
 			{
 				"name"		"Roboto Bold" [!$OSX]
 				"name"		"Verdana Bold" [$OSX]
-				"weight"		"1500"
-				"tall"			"18" [!$OSX]
-				"tall"			"19" [$OSX]
-				"antialias"		"1"
+				"antialias"	"1"
 			}
 		}
 		
@@ -135,10 +116,7 @@ Scheme
 			{
 				"name"		"Roboto Bold" [!$OSX]
 				"name"		"Verdana" [$OSX]
-				"weight"		"1000"
-				"tall"			"14" [!$OSX]
-				"tall"			"12" [$OSX]
-				"antialias"		"1" [!$OSX]
+				"antialias"	"1"
 			}
 		}
 

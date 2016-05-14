@@ -155,7 +155,7 @@
 		"ControlName"	"CExImageButton"
 		"fieldName"		"HUDlabel"
 		"font"			"product16"
-		"labelText"		"mkhud"
+		"labelText"		"mkHUD"
 		"textAlignment"	"west"
 		"xpos"			"2"
 		"ypos"			"-3"
@@ -714,11 +714,11 @@
 		"ypos"			"19"
 		"zpos"			"1"
 		"wide"			"240"
-		"tall"			"243"
+		"tall"			"255"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"0"
-		"border"		"MainMenuHighlightBorder"
+		"border"		"mkBorder"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this

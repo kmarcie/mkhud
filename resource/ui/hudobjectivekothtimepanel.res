@@ -31,9 +31,7 @@
 		{
 			"proportionaltoparent"	"1"
 			"xpos"					"cs-0.5"
-			"xpos_minmode"			"cs-0.5"
 			"ypos"					"-1"
-			"ypos_minmode"			"0"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -64,15 +62,10 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"15"
-				"xpos_minmode"	"15"
 				"ypos"			"12"
-				"ypos_minmode"	"12"
 				"tall"			"10"
 				"wide"			"35"
-				"wide_minmode"	"35"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
 			
 			}
 		}	
@@ -86,7 +79,6 @@
 		"zpos"			"1"
 		"wide"			"41"
 		"tall"			"2"
-		"tall_minmode"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay\thumbnails\bg_hudblue"
@@ -153,15 +145,10 @@
 				"proportionaltoparent"	"1"
 
 				"xpos"			"rs1-15"
-				"xpos_minmode"	"rs1-15"
 				"ypos"			"12"
-				"ypos_minmode"	"12"
 				"wide"			"35"
-				"wide_minmode"	"35"
 				"tall"			"10"
 				"font"			"HudFontSmall"
-				"font_minmode"	"HudFontSmall"
-				"font_lodef"	"HudFontSmall"
 			
 			}
 		}	
@@ -175,7 +162,6 @@
 		"zpos"			"1"
 		"wide"			"41"
 		"tall"			"2"
-		"tall_minmode"	"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay\thumbnails\bg_hudred"

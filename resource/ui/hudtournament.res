@@ -147,7 +147,7 @@
 					"wide"				"p0.9"
 					"tall"				"p0.22"
 					"textAlignment"		"west"
-					"font"				"product7"
+					"font"				"product8"
 					"proportionaltoparent" "1"
 				}
 
@@ -897,7 +897,7 @@
 		"enabled"		"1"
 		"scaleImage" 	"1"
 		"image"			"replay\thumbnails\menu\Shadow3"
-
+		
 		if_mvm
 		{
 			"visible"		"0"
@@ -905,11 +905,13 @@
 
 		if_competitive
 		{
+			"xpos"			"325"
 			"visible"		"0"
 		}
 
 		if_readymode
 		{
+			"xpos"			"325"
 			"visible"		"0"
 		}
 	}

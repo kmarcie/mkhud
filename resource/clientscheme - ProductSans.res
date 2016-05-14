@@ -1931,6 +1931,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Circles18"
+		{
+			"1"
+			{
+				"name"		"Circles"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
 		"Circles24"
 		{
 			"1"

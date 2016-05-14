@@ -1,9 +1,8 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 ////  FONT SWITCHER, INSPIRED BY WAVESUI / EXTRACRISPY
-	
-	//#base 	"clientscheme - surface.res"
-	#base 	"clientscheme - roboto.res"
-	//#base 		"clientscheme - productsans.res"
+
+	//#base 	"clientscheme - roboto.res"
+	#base 		"clientscheme - productsans.res"
 
 Scheme
 {
@@ -43,7 +42,7 @@ Scheme
 		"OrangeDim"			"214 73  51 120"
 		"LightOrange"		"188 112 0   128"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"0   0   0   0" // selected
+		"TFOrange"			"0   0   0   200" // selected
 
 		"QuestGold"			"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
@@ -808,7 +807,27 @@ Scheme
 			"image"					"loadout_header"
 			"tiled"					"1"
 		}
-		
+		mkBorder
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/mk_gui"
+		}
+		mkButton
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/bg_dead"
+		}			
+		mkButtonSelected
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			
+			"image"					"replay/thumbnails/bg_selected"
+		}	
 		OutlinedGreyBox
 		{
 			"bordertype"			"scalable_image"

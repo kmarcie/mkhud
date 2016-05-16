@@ -1,8 +1,8 @@
 //////////////////////////////////////////////////////////////////////////////////////////
 ////  FONT SWITCHER, INSPIRED BY WAVESUI / EXTRACRISPY
 
-	//#base 	"clientscheme - roboto.res"
-	#base 		"clientscheme - productsans.res"
+	#base 	"clientscheme - roboto.res"
+	//#base 		"clientscheme - productsans.res"
 
 Scheme
 {

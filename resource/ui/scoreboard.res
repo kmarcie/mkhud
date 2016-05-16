@@ -70,7 +70,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_hudblue"
+		"fillcolor"		"mkGUI"
+//		"image"			"replay\thumbnails\bg_hudblue"
 		"scaleImage"		"1"
 		
 		if_mvm
@@ -144,7 +145,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_hudred"
+		"fillcolor"		"mkGUI"
+	//	"image"			"replay\thumbnails\bg_hudred"
 		"scaleImage"		"1"
 
 		if_mvm
@@ -246,7 +248,7 @@
 		"font"			"product24"
 		"labelText"		"%blueteamname%"
 		"textAlignment"		"west"	
-		"fgcolor"		"mkBlack"
+		"fgcolor"		"mkhudblue"
 		"xpos"			"c-287"
 		"ypos"			"18"
 		"zpos"			"101"
@@ -292,10 +294,10 @@
 		"fieldName"		"BlueTeamScore"
 		"font"			"product32"
 		"labelText"		"%blueteamscore%"
-		"fgcolor"		"mklightblue"
+		"fgcolor"		"mkdarkerblue"
 		"textAlignment"		"center"
 		"xpos"			"c-74"
-		"ypos"			"-5"
+		"ypos"			"-5" // -5
 		"zpos"			"4212"
 		"wide"			"100"
 		"tall"			"55"
@@ -315,7 +317,7 @@
 		"fieldName"		"BlueTeamScoreBG"
 		"font"			"circles36"
 		"labelText"		"o"
-		"fgcolor"		"mkgrey"
+		"fgcolor"		"mkhudblue"
 		"textAlignment"		"east"
 		"xpos"			"c-107"
 		"ypos"			"-5"
@@ -361,7 +363,7 @@
 		"fieldName"		"RedTeamScoreBG"
 		"font"			"circles36"
 		"labelText"		"o"
-		"fgcolor"		"mkgrey"
+		"fgcolor"		"mkhudred"
 		"textAlignment"		"east"
 		"xpos"			"c-62"
 		"ypos"			"-5"
@@ -431,7 +433,7 @@
 		"font"			"product24"
 		"labelText"		"%redteamname%"
 		"textAlignment"		"west"
-		"Fgcolor"		"mkblack"
+		"Fgcolor"		"mkhudred"
 		"xpos"			"c244"
 		"ypos"			"12"
 		"zpos"			"1234"
@@ -455,7 +457,7 @@
 		"labelText"		"%redteamscore%"
 		"textAlignment"		"center"
 		"xpos"			"c-28"
-		"ypos"			"-5" 
+		"ypos"			"-5"  // -5
 		"zpos"			"12314"
 		"wide"			"100"
 		"tall"			"55"
@@ -463,7 +465,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mklightblue"
+		"fgcolor"		"mkdarkerblue"
 		
 		if_mvm
 		{

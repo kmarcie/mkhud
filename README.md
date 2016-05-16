@@ -6,13 +6,15 @@ Constructive criticism is always welcome. Please let me know what I can do fit w
 
 http://steamcommunity.com/id/nimtra is my profile URL.
 
+I recently updated this HUD to use Roboto instead of Product Sans. If you still prefer Product Sans, you can swap between them. How to do that is explained in the first image of my Screenshot album.
+
 I would appreciate it if you didn't redistribute this hud as yours. Please give me credit if you happen to release an edit of this hud.
 
 The custom crosshair is manageable through HudPlayerClass.res. I made it like this so when you are dead the crosshair doesn't show up, where as if I put it in hudlayout.res it would show up all the time. 
 
 Screenshots - Last Updated May 14
 ----------
-http://imgur.com/a/mvUhd
+http://imgur.com/a/mvUhd - Background of the Main Menu, Class/Backpack/Loadout panels, Team/Class Selection are not updated yet. The new font is not updated also.
 
 Resolution Support
 ----------
@@ -22,14 +24,20 @@ Resolution Support
 
 4:3 - Nope. I most likely will not provide support for this resolution because a) It is 2016. Most monitors are widescreen by now and b) my VTF files and many things become offset that I would most likely have to just make a bunch of different files to cater to 4:3. I would prefer not to do that. Maybe in the future.
 
-Fonts
+Font Switcher
 ------------
-If your fonts aren't working, go to mkHUD/resource/fonts, select all > right click > Install. Restart TF2 and you should be able to see the fonts.
+I have included a font switcher (inspired by RSbear/extracrispy) into my HUD. You uncomment the font you don't want to use and comment the font you want.
+
+Image representation of the fonts: http://i.imgur.com/OvUNxWH.png
+
+Please keep in mind you have to restart TF2 and edit all 3 of the files: SourceScheme.res, ClientScheme.res, and ChatScheme.res.
 
 Known Issues
 ------------
 
 On resolutions other than 16:9, the vtf files I used for my background are offset. Making separate background images for these soon.
+
+Some elements get cut off on 16:10, currently working on alternate files to support these because editing the value with C or R does not fix this.
 
 The shadow from the original medi-gun on the Vaccinator hud is still there. 
 
@@ -44,8 +52,6 @@ Top bar of trade window is screwed up on other resolutions
 To-Do (basically the known issues list)
 ---------
 
-Remake team select and class selection
-
 Trade Window
 
 Move Bleed/Marked for Death/Milked icons so you can see them
@@ -58,8 +64,12 @@ MvM hud and scoreboard
 
 Work on the tournament hud more (not spectator tournament hud)
 
-Credits (there's a lot)
+Work on matchmaking elements
+
+Credits
 ---------
+
+The reason I made my own HUD is because I liked so many different HUDs, I had no idea which one to use. Because I had a hard time deciding, why not just think of everything I like and make them into one HUD? So most of the things I have credited here is because 1) you have a cool HUD or 2) you helped out a lot :)
 
 <b>BroeselHUD (feeling and broesel)</b> - Lots of inspiration. I borrowed some elements from the hud as well. This was the hud I used for a very long time until I figured out how to edit huds.
 
@@ -71,13 +81,13 @@ Credits (there's a lot)
 
 <b>rayshud (raysfire)</b> - An amazing streamer and maker of a very well crafted hud. His tutorials helped me out a ton, and I highly recommend you check out his stream. http://twitch.tv/raysfire/ :) I borrowed his SpectatorTournament.res to use with my hud as well. Hope you don't mind, Rays!
 
+<b>wavesui (extracrispy)</b> - Though I started creating my hud before this hud was posted to TF.TV, I did get quite a bit of inspiration from him when he posted in the hud mod thread on tf.tv. The colour scheme of my hud was not intentionally made to be so close to wavesui, it was a complete coincidence. I was using a colour scheme generator- specifically this one: https://coolors.co/app/2b303a-92dce5-ededed-7c7c7c-d64933 - After using wavesui for a short amount of time, I can say that he has put a shit ton of work into it, and it's very VERY well made. I kinda wish my HUD didn't have the dark blue top border with the light blue text on it, because now it looks like I am copying him. But anyway, you should check wavesui out. His hud is so good. I implemented his font swapper into my HUD. Hopefully you are okay with this, extracrispy.
+
 <b>ToonHUD (Griever)</b> - I borrowed the SourceScheme.res from his hud. I hope you are alright with this. A very well made hud. Again, some elements in my hud were inspired by his.
 
-<b>ompHUD (omp)</b> - A great HUD. I'm sure everyone by now knows what this HUD looks like. I borrowed some of the ItemEffectMeters from this hud, and a lot of my elements were inspired by this hud.
+<b>ompHUD (omp)</b> - A great HUD. I'm sure everyone by now knows what this HUD looks like. I borrowed the ItemEffectMeters from this hud, and a lot of my elements were inspired by this hud.
 
-<b>wavesui (extracrispy)</b> - Though I started creating my hud before this hud was posted to TF.TV, I did get some inspiration from him when he posted in the hud mod thread on tf.tv. The colour scheme of my hud was not intentionally made to be so close to wavesui, it was a complete coincidence. I was using a colour scheme generator- specifically this one: https://coolors.co/app/2b303a-92dce5-ededed-7c7c7c-d64933 - Anyway, you should check wavesui out. His hud is so good. I implemented his font swapper into my HUD. Hopefully you are okay with this, extracrispy.
-
-<b>omnibombulator</b> - For creating huds.tf and posting his gameplay footage on reddit. If he didn't upload his gameplay onto reddit, I probably would have never found out about the font I'm using in my hud. Some of the stuff he has put into his hud are slightly similar, specifically the font and the health/ammo. I hope that's okay with him.
+<b>omnibombulator</b> - For creating huds.tf, and some of the stuff he has posted in the TF.TV hud mod thread was just amazing. 
 
 <b>Knuckles</b> - Providing the crosshairs. Very well done. :)
 
@@ -91,4 +101,4 @@ Credits (there's a lot)
 
 <b>teamfortress.tv HUD mods/HUD Q&A thread</b> - The stuff people have posted in this thread is absolutely amazing. Some of the stuff posted in that thread inspired me quite a bit. I also owe a huge thanks to the people that go on the HUD Q&A thread and answer people's questions about hud editing. I had quite a few and most of them were answered the next hour or day.
 
-<b>truktruk's sub discord</b> - Honestly, I don't think I would have ever finished this or released this if I didn't subscribe to truktruk on Twitch and joined the Discord. Speaking of which, you should subscribe to truktruk on Twitch. http://twitch.tv/truktruk/subscribe Also, many people from this discord helped out with testing and reporting bugs to me. :)
+<b>truktruk's sub discord</b> - Honestly, I don't think I would have ever finished this or released this if I didn't subscribe to truktruk on Twitch and joined the Discord. Speaking of which, you should subscribe to truktruk on Twitch. http://twitch.tv/truktruk/subscribe Also, many people from this discord helped out with feedback, testing and reporting bugs to me. :)

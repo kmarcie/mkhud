@@ -53,7 +53,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"	"mkhudBlue"
+			"fillcolor"	"mkgui"
 		}
 		"redBG1"
 		{
@@ -68,14 +68,14 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"	"mkhudRed"
+			"fillcolor"	"mkgui"
 		}
 		"BlueTeamLabel"
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamLabel" 
 			"font"			"mk20"
-			"fgcolor"		"mkblack"
+			"fgcolor"		"mkhudblue"
 			"labelText"		"%blueteamname%"
 			"textAlignment"		"west"
 			"xpos"			"2"
@@ -92,12 +92,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
-			"font"			"mk20"
-			"fgcolor"		"mkblack"
+			"font"			"mk32"
+			"fgcolor"		"mkdarkerblue"
 			"labelText"		"%blueteamscore%"
-			"textAlignment"		"east"
-			"xpos"			"380"
-			"ypos"			"11"
+			"textAlignment"		"center"
+			"xpos"			"382"
+			"ypos"			"8"
 			"zpos"			"3"
 			"wide"			"44"
 			"tall"			"30"
@@ -106,6 +106,52 @@
 			"visible"		"1"
 			"enabled"		"1"
 		}
+	"BlueTeamScoreBG"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"BlueTeamScoreBG"
+		"font"			"circles36"
+		"labelText"		"o"
+		"fgcolor"		"mkhudblue"
+		"textAlignment"		"east"
+		"xpos"			"c-107"
+		"ypos"			"-5"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"55"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"BlueTeamScoreBGShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"BlueTeamScoreBGShadow"
+		"font"			"circlesBlur36"
+		"labelText"		"o"
+		"fgcolor"		"0 0 0 255"
+		"textAlignment"		"east"
+		"xpos"			"c-107"
+		"ypos"			"-4"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"55"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 		"BlueTeamScoreDropshadow"
 		{
 			"ControlName"		"CExLabel"
@@ -131,10 +177,10 @@
 			"xpos"			"2"
 			"ypos"			"11"
 			"zpos"			"3"
-			"wide"			"35"
-			"tall"			"35"
-			"visible"		"1"
-			"enabled"		"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
+			"enabled"		"0"
 			"image"			""
 			"scaleImage"	"1"	
 			"color_outline"	"mkblack"
@@ -146,9 +192,9 @@
 			"xpos"			"2"
 			"ypos"			"11"
 			"zpos"			"3"
-			"wide"			"39"
-			"tall"			"39"
-			"visible"		"1"
+			"wide"			"0"
+			"tall"			"0"
+			"visible"		"0"
 			"PaintBackgroundType"	"0"
 			"bgcolor_override"	"mkblack"
 		}
@@ -157,7 +203,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamLabel"
 			"font"			"mk20"
-			"fgcolor"		"mkblack"
+			"fgcolor"		"mkhudred"
 			"labelText"		"%redteamname%"
 			"textAlignment"		"east"
 			"xpos"			"795"
@@ -174,12 +220,12 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
-			"font"			"mk20"
-			"fgcolor"		"mkblack"
+			"font"			"mk32"
+			"fgcolor"		"mkdarkerblue"
 			"labelText"		"%redteamscore%"
-			"textAlignment"		"west"
-			"xpos"			"430"
-			"ypos"			"11"
+			"textAlignment"		"center"
+			"xpos"			"427"
+			"ypos"			"8"
 			"zpos"			"3"
 			"wide"			"44"
 			"tall"			"30"
@@ -206,6 +252,52 @@
 			"visible"		"0"
 			"enabled"		"0"
 		}
+	"RedTeamScoreBG"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeamScoreBG"
+		"font"			"circles36"
+		"labelText"		"o"
+		"fgcolor"		"mkhudred"
+		"textAlignment"		"east"
+		"xpos"			"c-62"
+		"ypos"			"-5"
+		"zpos"			"2"
+		"wide"			"100"
+		"tall"			"55"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}			
+	"RedTeamScoreBGShadow"
+	{
+		"ControlName"		"CExLabel"
+		"fieldName"		"RedTeamScoreBGShadow"
+		"font"			"circlesBlur36"
+		"labelText"		"o"
+		"fgcolor"		"0 0 0 255"
+		"textAlignment"		"east"
+		"xpos"			"c-62"
+		"ypos"			"-4"
+		"zpos"			"1"
+		"wide"			"100"
+		"tall"			"55"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
 		"RedLeaderAvatar"
 		{
 			"ControlName"		"CAvatarImagePanel"
@@ -264,7 +356,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 200"
+		"fillcolor"		"mkdarkerblue"
+		"alpha"			"100"
 	}
 	"WinningTeamLabel"
 	{	

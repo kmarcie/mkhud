@@ -2,14 +2,21 @@
 =========
 There are a lot of bugs within this hud. Please comment on my profile if you happen to run into any issues using this HUD.
 
-Constructive criticism is always welcome. Please let me know what I can do fit what other people want.
+Constructive criticism is always welcome. Please let me know what I can do fit what other people want. And please tell me what I can do to improve the readability, etc.
 
-http://steamcommunity.com/id/nimtra is my profile URL.
+http://steamcommunity.com/id/nimtra is my profile URL if you would like to report bugs or give me feedback. 
 
-I recently updated this HUD to use Roboto instead of Product Sans. If you still prefer Product Sans, you can swap between them. How to do that is explained in the first image of my Screenshot album.
+This HUD is very reliant on VTF files. There are a couple VTF files that are quite large in size, specifically the background of the loadout panels, main menu, and class images. I do not recommend running this HUD on a potato. You may get 10x more lag if you run this HUD on a potato.
+
+Notes
+------------
+
+I recently updated this HUD to use Roboto instead of Product Sans. If you still prefer Product Sans, you can swap between them. How to do that is explained in the first image of my Screenshot album. Though the HUD may not look as good with Product Sans because Product Sans does not have different weights, the option is still available if you really would like it.
 
 I would appreciate it if you didn't redistribute this hud as yours. Please give me credit if you happen to release an edit of this hud.
 
+Crosshair
+--------------
 The custom crosshair is manageable through HudPlayerClass.res. I made it like this so when you are dead the crosshair doesn't show up, where as if I put it in hudlayout.res it would show up all the time. 
 
 Screenshots - Last Updated May 14
@@ -18,11 +25,11 @@ http://imgur.com/a/mvUhd - Background of the Main Menu, Class/Backpack/Loadout p
 
 Resolution Support
 ----------
-16:9 - Made on 1920x1080 resolution. Should work fine on other resolutions. There may be slight offsets with other resolutions, however. 1920x1080 works the best with this hud.
+16:9 - 100% Yes. Made on 1920x1080 resolution. Should work fine on other 16:9 resolutions. There may be slight offsets with other resolutions, however. 1920x1080 works the best with this hud, and I highly recommend running it on 1080p for the best experience with this HUD. By offsets, I mean stuff like this: http://puu.sh/oVYZ6/6467059c6f.png and http://puu.sh/oUnhz/204d4e00fa.png. If you can deal with those minor issues, you are fine.
 
-16:10 - Kind of. Currently I am working on making this work with 16:10. There are some files you have to manually overwrite. I have included a folder with the things you have to overwrite for the hud to look nice in 16:10. I have yet to modify the .vtf files for 16:10, so some backgrounds may look offset.
+16:10 - Kind of. Unfortunately things like this happen: http://puu.sh/oVYLF/f663a93772.png, http://puu.sh/oVYMB/ee2bebda86.png and http://puu.sh/oVYW4/58582a69ff.png - Because the "background" is hardcoded into the image and not just an ImagePanel. I would have to create separate VTF files and RES files for these, and that's something I plan on doing later in the future.
 
-4:3 - Nope. I most likely will not provide support for this resolution because a) It is 2016. Most monitors are widescreen by now and b) my VTF files and many things become offset that I would most likely have to just make a bunch of different files to cater to 4:3. I would prefer not to do that. Maybe in the future.
+4:3 - Nope. I most likely will not provide support for this resolution because a) It is 2016. Most monitors are widescreen by now and b) my VTF files and many things become offset that I would most likely have to just make a bunch of different files to cater to 4:3. I would prefer not to do that. Maybe in the future. Apologies for acting so arrogant about it, but I really would prefer to not go through the process of editing files for a resolution that the minority uses. Plus, this HUD is very VTF reliant so running this HUD on a potato would probably not be the greatest experience at all.
 
 Font Switcher
 ------------
@@ -32,39 +39,26 @@ Image representation of the fonts: http://i.imgur.com/OvUNxWH.png
 
 Please keep in mind you have to restart TF2 and edit all 3 of the files: SourceScheme.res, ClientScheme.res, and ChatScheme.res.
 
-Known Issues
-------------
-
-On resolutions other than 16:9, the vtf files I used for my background are offset. Making separate background images for these soon.
-
-Some elements get cut off on 16:10, currently working on alternate files to support these because editing the value with C or R does not fix this.
-
-The shadow from the original medi-gun on the Vaccinator hud is still there. 
-
-Bleed/Marked for Death/etc images are cut off right now. I will fix these soon.
-
-Backpack button clips into Scout image on other resolutions. Making the font size smaller will fix this.
-
-MVM hud is still not finished.
-
-Top bar of trade window is screwed up on other resolutions
-
-To-Do (basically the known issues list)
+To-Do
 ---------
 
-Trade Window
+Reposition Quickplay Panel
+
+Fix trade window
 
 Move Bleed/Marked for Death/Milked icons so you can see them
 
-Create separate background VTF files for 16:10 resolution
+Finish 16:10 compatibility
 
-Finish making this hud 16:10 compatible. It is almost done, but the vtf backgrounds are not done.
+Finish MVM hud/scoreboard (sorry Sentrionic)
 
-MvM hud and scoreboard
+Finish the tournament hud more
 
-Work on the tournament hud more (not spectator tournament hud)
+Finish working on Matchmaking elements
 
-Work on matchmaking elements
+Find a workaround for the Medi-Gun Ubercharge shadow staying there when using Vaccinator. Maybe just add a opaque box on top of the shadow and add the vaccinator stuff there.
+
+Bleed/Marked for Death/etc images are cut off/in the wrong position. I will fix these soon.
 
 Credits
 ---------

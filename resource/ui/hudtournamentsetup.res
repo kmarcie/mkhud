@@ -152,6 +152,13 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"mktopbar"
 		"bgcolor_override"	"0 0 0 0"
+				"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 	}
 
 	"TournamentReadyButton"
@@ -177,5 +184,12 @@
 		"font"			"HudFontSmallestBold"
 		"fgcolor"		"mktopbar"
 		"bgcolor_override"	"0 0 0 0"
+				"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 	}
 }

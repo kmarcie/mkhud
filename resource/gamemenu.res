@@ -2,35 +2,35 @@
 {
 	"ResumeGameButton"
 	{
-		"label"			"resume"
+		"label"			"RESUME"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
 		"subimage" "icon_resume"
 	}
 	"QuickplayButton"
 	{
-		"label" "pub" 
+		"label" "PUB" 
 		"command" "quickplay"
 		"subimage" "glyph_multiplayer"
 		"OnlyAtMenu" "1"
 	}
 	"QuickplayChangeButton"
 	{
-		"label" "pub" 
+		"label" "PUB" 
 		"command" "quickplay"
 		"subimage" "glyph_server"
 		"OnlyInGame" "1"
 	}
 	"PlayPVEButton"
 	{
-		"label" "robots" 
+		"label" "ROBOTS" 
 		"command" "playpve"
 		"subimage" "glyph_coop"
 		"OnlyAtMenu" "1"
 	}
 	"PlayCompetitiveButton"
 	{
-		"label" "comp" 
+		"label" "COMP" 
 		"command" "ladder_ui_show"
 		"subimage" "glyph_practice"
 		"OnlyAtMenu" "1"
@@ -38,14 +38,14 @@
 	}
 	"ServerBrowserButton"
 	{
-		"label" "servers" 
+		"label" "SERVERS" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyAtMenu" "1"
 	} 
 	"ChangeServerButton"
 	{
-		"label" "servers" 
+		"label" "SERVERS" 
 		"command" "OpenServerBrowser"
 		"subimage" "glyph_server_browser"
 		"OnlyInGame" "1"
@@ -93,7 +93,7 @@
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "inventory"
+		"label" "INVENTORY"
 		"command" "engine open_charinfo"
 		"subimage" "glyph_items"
 	}
@@ -102,7 +102,7 @@
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			"vote"
+		"label"			"CALL VOTE"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
 		"subimage" "icon_checkbox"

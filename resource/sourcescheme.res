@@ -11,8 +11,8 @@ Scheme
 	Colors
 	{
 	
-		"G_ActiveWindow"			"43  48  58  220" // Active window bg color
-		"G_InctiveWindow"			"43  48  58  180" // Inactive window bg color
+		"G_ActiveWindow"			"43  48  58  150" // Active window bg color
+		"G_InctiveWindow"			"43  48  58  125" // Inactive window bg color
 		"G_TitleBg"					"43  48  58  255" // Title bg color
 		"G_TitleText"				"146 220 229 255" // Title text color
 		"G_Highlight"				"214 73  51  255" // Highlight color
@@ -50,7 +50,7 @@ Scheme
 	    "TFMediumBrown"				"69 64 58 255"
 
 	    "QuickListBGDeselected"		"0 0 0 0"
-	    "QuickListBGSelected"       "0 107 255 255" // Highlight color
+	    "QuickListBGSelected"       "214 73  51  255" // Highlight color
 	    
 	    "Blank"				"0 0 0 0"
 	    

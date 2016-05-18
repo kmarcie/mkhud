@@ -121,7 +121,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"ItemFontAttribSmall"
+			"font"			"RobotoL10"
 			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
@@ -134,7 +134,7 @@
 			"labelText"		"#ItemPanelEquipped"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
+			"bgcolor_override"		"0 0 0 150"
 			"PaintBackgroundType"	"2"
 			"PaintBackgroundType"	"0"
 			"border"		"NoBorder"

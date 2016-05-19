@@ -2874,5 +2874,10 @@ Scheme
 			"font" "resource/fonts/Roboto-Black_1.ttf"
 			"name" "Roboto Black"
 		}
+		"23"
+		{
+			"font" "resource/fonts/Roboto-Light_2.ttf"
+			"name" "Roboto Light"
+		}
 	}
 }

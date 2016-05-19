@@ -29,7 +29,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"
+				"name"		"Roboto Condensed Bold"
 				"tall"		"28"
 				"antialias"	"1"
 			}
@@ -38,7 +38,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto"
+				"name"		"Roboto Condensed Bold"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias"	"1"

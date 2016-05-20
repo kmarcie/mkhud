@@ -1,7 +1,7 @@
 ![alt tag](http://puu.sh/oRp0y/a594ec6009.png)
 =========
 
-IF YOU FOUND THIS PAGE through Google or a friend, please do not link it anywhere else. I would prefer if only the people I told about used this HUD until I actually release this HUD to the public. Not spending money to get a private Git T_T. I would greatly appreciate if you didn't leak it or w/e
+IF YOU FOUND THIS PAGE through Google or a friend, please do not link it on TF.TV or whereever. I would prefer if only the people I told about used this HUD until I actually release this HUD to the public. Not spending money to get a private Git T_T. I would greatly appreciate if you didn't leak it or w/e
 
 There are a lot of bugs within this hud. Please comment on my profile if you happen to run into any issues using this HUD.
 
@@ -22,9 +22,9 @@ Crosshair
 --------------
 The custom crosshair is manageable through HudPlayerClass.res. I made it like this so when you are dead the crosshair doesn't show up, where as if I put it in hudlayout.res it would show up all the time. 
 
-Screenshots - Last Updated May 14
+Screenshots - Last Updated May 19
 ----------
-http://imgur.com/a/mvUhd - Background of the Main Menu, Class/Backpack/Loadout panels, Team/Class Selection are not updated yet. The new font is not updated also.
+http://imgur.com/a/fgPVI
 
 Resolution Support
 ----------

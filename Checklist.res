@@ -10,7 +10,7 @@ Team Select			DONE				NONE
 Class Select	    DONE				NONE
 Knuckles Crosshairs	DONE				NONE
 Engi and Spy Menus  DONE				NONE
-Scoreboard 			DONE				Add shadows to stats. Make scoreboard text bigger, some letters and numbers (i, 1) have scaling issues and they end up looking the same
+Scoreboard 			DONE				NONE
 Loading Screen		DONE				NONE
 Eureka Effect TP	DONE				NONE
 Taunt Menu			DONE				NONE
@@ -20,18 +20,18 @@ Comp Round Counter	DONE				NONE
 Motd				DONE				NONE
 Sourcescheme		DONE				NONE
 Chatscheme			DONE				NONE
-Spydisguisetargetid DONE				Move targetid's health to the left a little bit.
+Spydisguisetargetid DONE				NONE
 Trade dialog		DONE				NONE
 Engineer HUD		DONE				Move it to a more convenient spot
 Timers				DONE				NONE
 Winpanel			DONE				NONE
 Auto Font Install	DONE				NONE?	
-ItemModelPanel		DONE				| background shows up in backpack/item select but disappears in class loadout
+ItemModelPanel		DONE				NONE
+Tournament setup	DONE				NONE
 					|					|
 					|					|
 Hudanimations.txt   NO								
 Crafting 			NO						
-Tournament setup	NO
 Tournament hud		NO
 
 

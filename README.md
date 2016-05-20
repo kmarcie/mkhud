@@ -1,7 +1,7 @@
 ![alt tag](http://puu.sh/oRp0y/a594ec6009.png)
 =========
 
-IF YOU FOUND THIS PAGE through Google or a friend, please do not link it on TF.TV or whereever. I would prefer if only the people I told about used this HUD until I actually release this HUD to the public. Not spending money to get a private Git T_T. I would greatly appreciate if you didn't leak it or w/e
+IF YOU FOUND THIS PAGE through Google or a friend, please do not link it on TF.TV or whereever. I would prefer if only the people I told about used this HUD until I actually release this HUD to the public. Not spending money to get a private Git, unless I used this for more than just hud editing. I would greatly appreciate if you didn't leak it or w/e
 
 There are a lot of bugs within this hud. Please comment on my profile if you happen to run into any issues using this HUD.
 

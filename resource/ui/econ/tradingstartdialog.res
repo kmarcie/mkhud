@@ -12,7 +12,7 @@
 		"bgcolor_override"		"46 43 42 0"
 		"paintbackgroundtype"	"2"
 		"settitlebarvisible"	""
-		"border"				"GrayDialogBorder"
+		"border"				"Blank"
 		
 		"button_kv"
 		{
@@ -42,6 +42,13 @@
 				"default"		"1"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+								"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 			}
 			
 			"avatar"
@@ -61,7 +68,6 @@
 			}
 		}
 	}
-	
 	"TitleLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -69,17 +75,47 @@
 		"font"			"product16"
 		"labelText"		"trade"
 		"textAlignment"	"north"
-		"xpos"			"-405"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
+		"xpos"			"c-450"
+		"ypos"			"10"
+		"zpos"			"9999"
+		"wide"			"100"
 		"tall"			"16"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"fgcolor_override" "mklightblue"
-		"bgcolor_override"	"mktopbar"
+	}
+	"TopbarBG"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"TopbarBG"
+		"xpos"			"c-423"
+		"ypos"			"10"
+		"zpos"			"9998"
+		"wide"			"392"
+		"tall"			"16"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fillcolor"	"mktopbar"
+	}
+	"MainMenuBGShadow"
+	{
+		"ControlName"	"CTFImagePanel"
+		"fieldName"		"MainMenuBGShadow"
+		"xpos"			"c-428"
+		"ypos"			"6"
+		"zpos"			"0"
+		"wide"			"404"
+		"tall"			"23"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage" 	"1"
+		"image"			"replay\thumbnails\menu\Shadow3"
 	}
 	"TradeBG"
 	{
@@ -88,46 +124,14 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"300"
+		"wide"			"400"
+		"tall"			"310"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType" "2"
-		"fillcolor"		"mkGUI"
-	}	
-	"LeftLine"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"LeftLine"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"2"
-		"tall"			"300"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType" "2"
-		"fillcolor"		"mkguibg"
-	}	
-	"RightLine"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"RightLine"
-		"xpos"			"399"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"0"
-		"tall"			"300"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"PaintBackgroundType" "2"
-		"fillcolor"		"mkguibg"
+		"PaintBackgroundType" "0"
+		"border"		"mkBorder"
 	}	
 	"PlayerListScroller"
 	{
@@ -138,8 +142,8 @@
 		"wide"			"380"
 		"tall"			"130"
 		"PaintBackgroundType"	"2"
-		"fgcolor_override"	"117 107 94 255"
-		"bgcolor_override"	"0 0 0 64"
+		"fgcolor_override"	"mklightblue"
+		"bgcolor_override"	"mkdarkerblue"
 		
 		"PlayerList"
 		{
@@ -181,7 +185,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "mkdarkerblue"
 		}	
 
 		"subbutton0"
@@ -207,6 +211,13 @@
 			"Command"		"friends"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 		}
 		"subbutton1"
 		{
@@ -231,6 +242,13 @@
 			"Command"		"server"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+							"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 		}
 		"subbutton2"
 		{
@@ -255,6 +273,13 @@
 			"Command"		"profile"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+							"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 		}
 	}
 	"StatePanel1"
@@ -284,7 +309,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "mkdarkerblue"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -305,7 +330,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "mkdarkerblue"
 		}	
 	}
 	"StatePanel2"
@@ -336,7 +361,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "mkdarkerblue"
 		}	
 		
 		"EmptyPlayerListLabel"
@@ -357,7 +382,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "mkdarkerblue"
 		}	
 	}
 	"StatePanel3"
@@ -388,7 +413,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override" "200 187 161 255"
+			"fgcolor_override" "mkdarkerblue"
 		}	
 		
 		"URLHelpLabel"
@@ -409,7 +434,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "117 107 94 255"
+			"fgcolor_override" "mkdarkerblue"
 		}	
 		
 		"URLFailLabel"
@@ -430,7 +455,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "mkaccent"
 		}	
 		"URLSearchingLabel"
 		{
@@ -450,7 +475,7 @@
 			"enabled"		"1"
 			"wrap"			"1"
 			"centerwrap"	"1"
-			"fgcolor_override" "200 80 60 255"
+			"fgcolor_override" "mkaccent"
 		}	
 		
 		"URLEntry"
@@ -472,8 +497,8 @@
 			"NumericInputOnly"	"0"
 			"unicode"			"0"
 			"wrap"				"0"
-			"fgcolor_override"	"235 226 202 255"
-			"bgcolor_override"	"0 0 0 60"
+			"fgcolor_override"	"mklightblue"
+			"bgcolor_override"	"mkdarkerblue"
 			"paintbackgroundtype" "2"
 			"labelText"			""
 			"font"				"HudFontSmall"
@@ -503,6 +528,13 @@
 			"Command"		"url_ok"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+							"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 		}
 	}
 	
@@ -529,5 +561,12 @@
 		"Command"		"cancel"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+						"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 	}
 }

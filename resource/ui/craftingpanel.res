@@ -125,9 +125,9 @@
 			"textinsetx"	"0"
 			"defaultFgColor_override" "mkwhite"
 			"defaultBgColor_override" "0 0 0 0"
-			"armedFgColor_override" "200 200 200 255"
+			"armedFgColor_override" "180 180 180 255"
 			"armedBgColor_override" "0 0 0 0"
-			"depressedFgColor_override" "mkhudblue"
+			"depressedFgColor_override" "mklightblue"
 			"depressedBgColor_override" "0 0 0 0"
 		}
 		
@@ -307,7 +307,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"wrap"			"1"
-			"fgcolor"		"mkhudblue"
+			"fgcolor"		"mklightblue"
 		}
 		"UpgradeButton"
 		{

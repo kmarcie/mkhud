@@ -116,8 +116,8 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"NumPipesLabelDropshadow"
-			"xpos"			"1"
-			"ypos"			"1"
+			"xpos"			"0"
+			"ypos"			"0"
 			"zpos"			"2"
 			"wide"			"149"
 			"tall"			"25"
@@ -130,7 +130,7 @@
 			"textAlignment"	"center"
 			"dulltext"		"0"
 			"brighttext"	"0"
-			"font"			"mk24"
+			"font"			"mkblur24"
 			"fgcolor"		"mkblack"
 		}		
 	}

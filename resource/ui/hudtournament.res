@@ -928,7 +928,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"../HUD/tournament_panel_brown"
+		"image"			"replay/thumbnails/bg_item"
 
 
 		"src_corner_height"	"23"				// pixels inside the image

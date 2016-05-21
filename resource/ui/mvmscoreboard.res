@@ -4,7 +4,7 @@
 	{
 		"ControlName"		"CWaveStatusPanel"
 		"fieldName"			"WaveStatusPanel"
-		"xpos"				"450"
+		"xpos"				"c-300"
 		"ypos"				"15"
 		"zpos"				"0"
 		"wide"				"600"
@@ -35,11 +35,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"product20"
+		"font"			"MK14"
 		"labelText"		"%popfile%"
-		"textAlignment"	"east"
-		"xpos"			"550"
-		"ypos"			"83"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"15"
 		"wide"			"290"
 		"tall"			"20"
 		"fgcolor"		"mkwhite"
@@ -48,11 +48,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabelShdw"
-		"font"			"productblur20"
+		"font"			"mktargetidshdw"
 		"labelText"		"%popfile%"
-		"textAlignment"	"east"
-		"xpos"			"550"
-		"ypos"			"83"
+		"textAlignment"	"west"
+		"xpos"			"5"
+		"ypos"			"15"
 		"zpos"			"-1"
 		"wide"			"290"
 		"tall"			"20"
@@ -63,8 +63,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"DifficultyContainer"
-		"xpos"			"c310"
-		"ypos"			"95"
+		"xpos"			"5"
+		"ypos"			"20"
 		"wide"			"150"
 		"tall"			"30"
 		"visible"		"1"
@@ -75,7 +75,7 @@
 			"fieldName"		"DifficultyLabel"
 			"font"			"HudFontSmallest"
 			"labelText"		"#TF_MvM_Difficulty"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"0"
 			"wide"			"0"
@@ -89,7 +89,7 @@
 			"fieldName"		"DifficultyValue"
 			"font"			"mk20"
 			"labelText"		"%difficultyvalue%"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"9"
 			"wide"			"150"
@@ -102,13 +102,13 @@
 			"fieldName"		"DifficultyValueshdw"
 			"font"			"productblur20"
 			"labelText"		"%difficultyvalue%"
-			"textAlignment"	"center"
+			"textAlignment"	"west"
 			"xpos"			"0"
 			"ypos"			"9"
 			"zpos"			"-1"
 			"wide"			"150"
 			"tall"			"20"
-			"fgcolor"		"mkblack"
+			"fgcolor"		"0 0 0 255"
 		}
 	}
 	
@@ -119,27 +119,21 @@
 		"xpos"			"25"
 		"ypos"			"75"
 		"zpos"			"-1"
-		"wide"			"550"
-		"tall"			"150"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../hud/tournament_panel_brown"
+		"image"			"replay/thumbnails/bg_item"
 		
 		"scaleImage"		"1"
-		
-		"src_corner_height"	"22"				// pixels inside the image
-		"src_corner_width"	"22"
-	
-		"draw_corner_width"	"5"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"5"	
 	}
 	
 	"MvMPlayerList"
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"MvMPlayerList"
-		"xpos"			"35"
-		"ypos"			"79"
+		"xpos"			"c-265"
+		"ypos"			"160"
 		"wide"			"530"
 		"tall"			"150"
 		"pinCorner"		"0"
@@ -155,10 +149,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"CreditStatsContainer"
-		"xpos"			"100"
-		"ypos"			"230"
+		"xpos"			"c-200"
+		"ypos"			"325"
 		"wide"			"400"
-		"tall"			"205"
+		"tall"			"200"
 		"visible"		"1"
 		
 		"CreditStatsBackground"
@@ -168,13 +162,13 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"400"
-			"tall"			"135"
+			"wide"			"400" // 400
+			"tall"			"200"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"../HUD/tournament_panel_brown"
+			"image"			"replay/thumbnails/bg_item"
 
 			"src_corner_height"	"22"				// pixels inside the image
 			"src_corner_width"	"22"
@@ -187,14 +181,14 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"CreditsLabel"
-			"font"			"HudFontMediumSmall"
-			"labelText"		"#TF_PVE_Currency"
+			"font"			"mk16"
+			"labelText"		"money collected"
 			"textAlignment" "north-west"
 			"xpos"			"8"
 			"ypos"			"8"
-			"wide"			"100"
+			"wide"			"125"
 			"tall"			"25"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"mklightblue"
 		}
 		
 		"PreviousWaveCreditInfoPanel"
@@ -256,7 +250,7 @@
 			"ypos"			"8"
 			"wide"			"275"
 			"tall"			"20"
-			"fgcolor"		"tanlight"
+			"fgcolor"		"mklightblue"
 		}
 	}
 }

@@ -97,7 +97,11 @@
 		
 		if_mvm
 		{
-			"visible"		"0"
+			"xpos"			"c-272"
+			"ypos"			"160"
+			"visible"		"1"
+			"wide"			"542"
+			"tall"			"250"
 		}
 	}
 	"blueBGShadow"
@@ -115,6 +119,10 @@
 		"enabled"		"1"
 		"scaleImage" 	"1"
 		"image"			"replay\thumbnails\menu\Shadow3"
+		if_mvm
+		{
+			"visible"		"0"
+		}	
 	}
 	"redBGShadow"
 	{
@@ -131,6 +139,15 @@
 		"enabled"		"1"
 		"scaleImage" 	"1"
 		"image"			"replay\thumbnails\menu\Shadow3"
+		if_mvm
+		{
+			"xpos"			"c-279"
+			"ypos"			"147"
+			"zpos"			"-5"
+			"wide"			"552"
+			"tall"			"29"
+			"visible"		"1"
+		}
 	}
 	"RedScoreBG"
 	{
@@ -151,7 +168,13 @@
 
 		if_mvm
 		{
-			"visible"		"0"
+			"xpos"			"c-268"
+			"ypos"			"152"
+			"zpos"			"9999"
+			"wide"			"534"
+			"tall"			"21"
+			"visible"		"1"
+			"visible"		"1"
 		}
 	}
 	"StatsBG"
@@ -445,8 +468,12 @@
 		"enabled"		"1"
 		
 		if_mvm
-		{
-			"visible"		"0"
+		{	
+			"xpos"			"c-265"
+			"ypos"			"148"
+			"zpos"			"10000"
+			"labelText"		"MANN CO."
+			"visible"		"1"
 		}
 	}							
 	"RedTeamScore"
@@ -1453,6 +1480,8 @@
 		
 		if_mvm
 		{
+			"xpos"			"c-275"
+			"ypos"			"120"
 			"visible"		"1"
 		}
 
@@ -1544,13 +1573,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"MKWHITE"
-			
-			"if_mvm"
-			{
-				"xpos"			"320"
-				"ypos"			"10"
-				"textAlignment"		"east"
-			}
 		}	
 		"Killssssssssssssssss"
 		{
@@ -1569,13 +1591,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"MKBLACK"
-			
-			"if_mvm"
-			{
-				"xpos"			"320"
-				"ypos"			"10"
-				"textAlignment"		"east"
-			}
 		}		
 		"Deathsssssssssssssss"
 		{
@@ -1594,13 +1609,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"MKWHITE"
-			
-			"if_mvm"
-			{
-				"xpos"			"320"
-				"ypos"			"24"
-				"textAlignment"		"east"
-			}
+
 		}	
 		"Deathssssssssssssssss"
 		{
@@ -1619,13 +1628,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"MKBLACK"
-			
-			"if_mvm"
-			{
-				"xpos"			"320"
-				"ypos"			"24"
-				"textAlignment"		"east"
-			}
 		}	
 		"GameType"
 		{
@@ -1662,13 +1664,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"MKWHITE"
-			
-			"if_mvm"
-			{
-				"xpos"			"320"
-				"ypos"			"38"
-				"textAlignment"		"east"
-			}
 		}		
 		"Assistssssssssssssssss"
 		{
@@ -1687,13 +1682,6 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"fgcolor"		"MKBLACK"
-			
-			"if_mvm"
-			{
-				"xpos"			"320"
-				"ypos"			"38"
-				"textAlignment"		"east"
-			}
 		}			
 		"Destructionssssssssssssss"
 		{

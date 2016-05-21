@@ -14,7 +14,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"fillcolor"		"mkgui"
-	//	"image"			"../HUD/tournament_panel_brown"
+	//	"image"			"replay/thumbnails/bg_item"
 	}
 	"MainMenuBG"
 	{

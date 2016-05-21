@@ -29,7 +29,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"28"
 				"antialias"	"1"
 			}
@@ -38,7 +38,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed Bold"
+				"name"		"Roboto Bold"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias"	"1"
@@ -244,6 +244,17 @@ Scheme
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
+			}
+		}
+		"mkblur24"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
 			}
 		}
 		"mk26"
@@ -5376,7 +5387,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Light"
-				"tall"		"8"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
 			}
@@ -5386,7 +5397,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Light"
-				"tall"		"8"
+				"tall"		"9"
 				"antialias" "1"
 			}
 		}
@@ -5395,7 +5406,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Light"
-				"tall"		"8"
+				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
 			}

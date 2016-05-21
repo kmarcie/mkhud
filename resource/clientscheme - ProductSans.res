@@ -248,6 +248,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"mkblur24"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"1"
+			}
+		}
 		"mk26"
 		{
 			"1"

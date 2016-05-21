@@ -32,11 +32,11 @@
 	{
 		"ControlName"		"CTFImagePanel"
 		"fieldName"		"DisguiseStatusTeamIndicator"
-		"xpos"			"50"
-		"ypos"			"30"
+		"xpos"			"51"
+		"ypos"			"32"
 		"zpos"			"-1"
-		"wide"			"25"
-		"tall"	 		"25"
+		"wide"			"150"
+		"tall"	 		"0"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -66,7 +66,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 220"
+		"fillcolor"		"0 0 0 0"
 	}
 
 	"DisguiseNameLabel"
@@ -88,12 +88,31 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	
+	"DisguiseNameLabelShadow"
+	{	
+		"ControlName"	"Label"
+		"fieldName"		"DisguiseNameLabelShadow"
+		"font"			"mkblur12"
+		"xpos"			"82"
+		"ypos"			"34"
+		"zpos"			"1"
+		"wide"			"110"
+		"tall"			"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%disguisename%"
+		"textAlignment"		"North-West"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"fgcolor_override"	"0 0 0 255"
+	}
 	"WeaponNameLabel"
 	{	
 		"ControlName"	"Label"
 		"fieldName"		"WeaponNameLabel"
-		"font"			"product9"
+		"font"			"product11"
 		"xpos"			"82"
 		"ypos"			"45"
 		"zpos"			"1"
@@ -108,7 +127,26 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
-	
+	"WeaponNameLabelShdw"
+	{	
+		"ControlName"	"Label"
+		"fieldName"		"WeaponNameLabelShdw"
+		"font"			"mkblur11"
+		"xpos"			"82"
+		"ypos"			"45"
+		"zpos"			"1"
+		"wide"			"110"
+		"tall"			"24"
+		"autoResize"		"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"labelText"		"%weaponname%"
+		"textAlignment"		"North-West"
+		"dulltext"		"0"
+		"brighttext"		"0"
+		"fgcolor_override"	"0 0 0 255"
+	}
 	"SpectatorGUIHealth"
 	{
 		"ControlName"		"EditablePanel"

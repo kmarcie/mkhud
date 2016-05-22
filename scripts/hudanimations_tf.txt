@@ -214,9 +214,9 @@ event HudHealthBonusPulse
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"255"		Linear 0.0 0.2
 	Animate	PlayerStatusHealthBonusImage 	Alpha		"0"			Linear 0.2 0.4
 	
-	Animate PlayerStatusHealthValue 		 FgColor "157 242 0 255" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueSpectator FgColor "157 242 0 255" Accel 0.0 0.0
-	Animate PlayerStatusHealthValueFreezePanel FgColor "157 242 0 255" Accel 0.0 0.0
+	Animate PlayerStatusHealthValue 		 FgColor "mkLightBlue" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueSpectator FgColor "mkLightBlue" Accel 0.0 0.0
+	Animate PlayerStatusHealthValueFreezePanel FgColor "mkLightBlue" Accel 0.0 0.0
 
 	RunEvent HudHealthBonusPulseLoop	0.4
 }
@@ -474,7 +474,7 @@ event HudMedicChargedStop
 	StopEvent HudMedicChargedLoop 0.0
 	
 	Animate	ChargeLabel 	FgColor		"234 234 234 255"		Linear 0.0 0.0001
-	Animate	ChargeMeter 	FgColor		"mktopbar"		Linear 0.0 0.0001
+	Animate	ChargeMeter 	FgColor		"mklightblue"		Linear 0.0 0.0001
 }
 
 //====================================

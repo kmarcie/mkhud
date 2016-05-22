@@ -75,8 +75,8 @@
 		"xpos"		"-90"
 		"ypos"		"4"
 		"zpos"		"5"
-		"wide"		"201"
-		"tall"		"66"
+		"wide"		"200"
+		"tall"		"65"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"east"	
@@ -96,8 +96,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
-		"fgcolor"		"mklightblue"
-		"fgcolor_override"		"mklightblue"
+		"fgcolor_override"		"mkaccent"
 	}
 	"AmmoInReserveShadow"
 	{
@@ -108,8 +107,8 @@
 		"xpos"		"114" // 114
 		"ypos"		"24" // 24
 		"zpos"		"6"
-		"wide"		"81"
-		"tall"		"28"
+		"wide"		"80"
+		"tall"		"27"
 		"visible"		"0"
 		"enabled"		"1"
 		"textAlignment"	"west"		

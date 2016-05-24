@@ -389,7 +389,7 @@
 		"ControlName"		"ComboBox"
 		"fieldName"			"SortByComboBox"
 		"Font"				"product14"
-		"xpos"				"c131137" // c137
+		"xpos"				"c137" // c137
 		"ypos"				"37"
 		"zpos"				"1111"
 		"wide"				"150"

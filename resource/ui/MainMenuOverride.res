@@ -728,34 +728,18 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"StreamListPanel"
-		"xpos"			"r243"
-		"ypos"			"19"
-		"zpos"			"1"
-		"wide"			"240"
-		"tall"			"255"
+		"xpos"			"-4"
+		"ypos"			"8"
+		"zpos"			"-99"
+		"wide"			"9999"
+		"tall"			"65"
 		"visible"		"0"
 		"PaintBackgroundType"	"0"
 		"paintbackground"	"0"
-		"border"		"mkBorder"
+		"border"		"noborder"
 
 		"navDown"		"SettingsButton"		// when a sub element can't nav down it will pass through this
 		"navLeft"		"WatchStreamButton"	// when a sub element can't nav left it will pass through this
-		
-		"BlackBGShadow"
-		{
-			"ControlName"	"ImagePanel"
-			"fieldName"		"BlackBGShadow"
-			"xpos"			"c145"
-			"ypos"			"19"
-			"zpos"			"1"
-			"wide"			"240"
-			"tall"			"243"
-			"scaleImage"	"1"
-	//		"fillcolor"		"mkGUI"
-			"visible"		"1"
-			"enabled"		"1"
-			"image"			"replay\thumbnails\menu\Shadow3"
-		}
 	}
 
 	"QuestLogButton"

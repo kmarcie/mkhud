@@ -23,7 +23,7 @@
 			"tall"			"p0.75"
 			"visible"		"0"
 			"enabled"		"0"
-			"image"			"bg_Blank"
+			"image"			"replay/thumbnails/bg_black"
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
 		}

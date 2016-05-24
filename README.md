@@ -63,6 +63,10 @@ Find a workaround for the Medi-Gun Ubercharge shadow staying there when using Va
 
 Bleed/Marked for Death/etc images are cut off/in the wrong position. I will fix these soon.
 
+ConfirmDialog.res
+
+Make symbols for report and mute
+
 Credits
 ---------
 

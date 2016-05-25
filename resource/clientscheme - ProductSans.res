@@ -816,6 +816,15 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"RobotoL15"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"15"
+				"antialias"	"1"
+			}
+		}
 		"RobotoL16"
 		{
 			"1"
@@ -833,6 +842,15 @@ Scheme
 				"name"		"Product Sans"
 				"tall"		"18"
 				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"RobotoL19"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"19"
 				"antialias"	"1"
 			}
 		}
@@ -1124,6 +1142,16 @@ Scheme
 			{
 				"name"		"Product Sans"
 				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"RobotoBold15"
+		{
+			"1"
+			{
+				"name"		"Product Sans"
+				"tall"		"15"
 				"weight"	"500"
 				"antialias"	"1"
 			}

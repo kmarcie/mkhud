@@ -36,6 +36,8 @@ Scheme
 		"mkPanel"			"215 215 215 255"
 		"mkGrey"			"124 124 124 255"
 		"mkAccent"			"214 73  51  255"
+		"mkPureWhite"		"255 255 255 255"
+		"mkPureBlack"		"0   0   0   255"
 		
 		// tf2 colours
 		"Orange"			"214 73  51 255" // i made these two values blue, the original is 178,82,22
@@ -1047,7 +1049,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "mkdarkerblue"
 					"offset" "0 0"
 				}
 			}
@@ -1056,7 +1058,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "mkdarkerblue"
 					"offset" "0 0"
 				}
 			}
@@ -1065,7 +1067,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "mkdarkerblue"
 					"offset" "0 0"
 				}
 			}
@@ -1074,7 +1076,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "mkdarkerblue"
 					"offset" "0 0"
 				}
 			}
@@ -1086,7 +1088,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "mkdarkerblue"
 					"offset" "0 0"
 				}
 			}
@@ -1095,7 +1097,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "mkdarkerblue"
 					"offset" "0 0"
 				}
 			}
@@ -1104,7 +1106,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "mkdarkerblue"
 					"offset" "0 0"
 				}
 			}
@@ -1113,7 +1115,7 @@ Scheme
 			{
 				"1"
 				{
-					"color" "15 255 255 255"
+					"color" "mkdarkerblue"
 					"offset" "0 0"
 				}
 			}
@@ -2715,7 +2717,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../hud/tournament_panel_brown"
+			"image"					"replay/thumbnails/bg_item"
 			//"image"					"../hud/color_panel_browner"
 			"src_corner_height"		"23"				// pixels inside the image
 			"src_corner_width"		"23"

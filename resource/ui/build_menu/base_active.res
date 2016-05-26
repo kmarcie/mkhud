@@ -25,11 +25,11 @@
 	{
 		"ControlName"	"CIconPanel"
 		"fieldName"		"ItemBackground"
-		"xpos"			"4123"
+		"xpos"			"9999"
 		"ypos"			"14"
 		"zpos"			"0"
-		"wide"			"98"
-		"tall"			"105"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"0"
 		"scaleImage"	"1"	
@@ -50,7 +50,6 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"0 0 0 0"
 	}
 	
 	"MetalIcon"	
@@ -93,11 +92,11 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"CostLabelShadow"
-		"font"			"product20"
+		"font"			"productblur20"
 		"fgcolor"		"mkBlack"
-		"xpos"			"-2"
-		"ypos"			"32"
-		"zpos"			"3"
+		"xpos"			"-3"
+		"ypos"			"31"
+		"zpos"			"4"
 		"wide"			"59"
 		"tall"			"13"
 		"autoResize"	"0"

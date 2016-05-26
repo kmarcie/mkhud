@@ -45,25 +45,9 @@ Please keep in mind you have to restart TF2 and edit all 3 of the files: SourceS
 To-Do
 ---------
 
-Reposition Quickplay Panel
-
-Fix trade window
-
-Move Bleed/Marked for Death/Milked icons so you can see them
-
 Finish 16:10 compatibility
 
-Finish MVM hud/scoreboard (sorry Sentrionic)
-
-Finish the tournament hud more
-
-Finish working on Matchmaking elements
-
-Find a workaround for the Medi-Gun Ubercharge shadow staying there when using Vaccinator. Maybe just add a opaque box on top of the shadow and add the vaccinator stuff there.
-
-Bleed/Marked for Death/etc images are cut off/in the wrong position. I will fix these soon.
-
-ConfirmDialog.res
+Finish MVM hud
 
 Make symbols for report and mute
 

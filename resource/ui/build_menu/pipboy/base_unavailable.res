@@ -14,8 +14,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Object_Sentry"
-		"labelText_lodef"		"#TF_Object_Sentry_360"
+		"labelText"		"Gun"
+		"labelText_lodef"		"Gun"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -125,7 +125,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"mkwhite"
+		"iconColor"		"0 0 0 0"
 	}
 	
 	"NumberLabel"

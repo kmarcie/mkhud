@@ -1172,7 +1172,7 @@
 		"tabPosition"	"0"
 		"labelText"		"%numScout%"
 		"textAlignment"	"east"
-		"font"			"RobotoBold12"
+		"font"			"product11"
 		"fgcolor"		"mkdarkerblue"
 	}	
 	

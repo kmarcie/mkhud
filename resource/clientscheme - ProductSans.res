@@ -73,8 +73,8 @@ Scheme
 			{
 				"name"		"Surface"
 				"tall"		"24"
-				"weight"	"500"
 				"antialias"	"1"
+				"outline"	"1"
 			}
 		}
 		"mk8"

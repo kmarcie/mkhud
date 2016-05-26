@@ -96,7 +96,7 @@
 		"enabled"		"1"
 		"textAlignment"	"west"		
 		"labelText"		"%AmmoInReserve%"
-		"fgcolor_override"		"mkaccent"
+		"fgcolor_override"		"mklightblue"
 	}
 	"AmmoInReserveShadow"
 	{

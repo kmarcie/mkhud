@@ -302,7 +302,7 @@
 		"wide"		"f0"
 		"tall"		"480"
 		
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 	
 	HudProgressBar
@@ -317,7 +317,7 @@
 
 		"BorderThickness" "1"
 
-		"PaintBackgroundType"	"2"
+		"PaintBackgroundType"	"0"
 	}
 
 	HudRoundTimer
@@ -453,7 +453,7 @@
 		"IconColor"		"mkWhite"
 		"LocalPlayerColor"	"mkblack"
 
-		"BaseBackgroundColor"	"mktopbar"		
+		"BaseBackgroundColor"	"ItemPanelBG"		
 		"LocalBackgroundColor"	"mkWhite"	
 	}
 

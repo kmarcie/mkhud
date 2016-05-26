@@ -166,7 +166,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TauntLabel"
-		"font"			"StreamLabel"
+		"font"			"Blank"
 		"labelText"		"Taunts"
 		"textAlignment"	"center"
 		"xpos"			"c-390"

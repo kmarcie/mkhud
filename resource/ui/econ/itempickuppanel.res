@@ -16,9 +16,9 @@
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
-		"infocus_bgcolor_override" "46 43 42 255"
-		"outoffocus_bgcolor_override" "46 43 42 255"
+		"bgcolor_override"	"0 0 0 100"
+		"infocus_bgcolor_override" "0 0 0 100"
+		"outoffocus_bgcolor_override" "0 0 0 100"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -84,8 +84,27 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
-		"font"			"HudFontMediumBigBold"
-		"labelText"		"#NewItemsAcquired"
+		"font"			"RobotoBold24"
+		"labelText"		"YOU HAVE NUU WEAPON"
+		"fgcolor_override"	"mklightblue"
+		"textAlignment"	"center"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"1"
+		"wide"			"0"
+		"tall"			"0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"0"
+	}
+	"ItemsFoundLabel1"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ItemsFoundLabel1"
+		"font"			"RobotoBold24"
+		"labelText"		"YOU HAVE NUU WEAPON"
+		"fgcolor_override"	"mklightblue"
 		"textAlignment"	"center"
 		"xpos"			"0"
 		"ypos"			"20"
@@ -96,8 +115,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-	}
-	
+	}	
 	"SelectedItemFoundMethodLabel"
 	{
 		"ControlName"	"CExLabel"
@@ -173,6 +191,11 @@
 		"Command"		"nextitem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"mkButton"
+		"border_armed"				"mkselected"
+		"defaultFgColor_override"		"mklightblue"
+		"armedFgColor_override"		"mkaccent"
+		"depressedFgColor_override"	"mkaccent"
 	}
 	"PrevButton"
 	{
@@ -196,6 +219,11 @@
 		"Command"		"previtem"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"mkButton"
+		"border_armed"				"mkselected"
+		"defaultFgColor_override"		"mklightblue"
+		"armedFgColor_override"		"mkaccent"
+		"depressedFgColor_override"	"mkaccent"
 	}
 	
 	"CloseButton"
@@ -221,6 +249,11 @@
 		"default"		"1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"mkButton"
+		"border_armed"				"mkselected"
+		"defaultFgColor_override"		"mklightblue"
+		"armedFgColor_override"		"mkaccent"
+		"depressedFgColor_override"	"mkaccent"
 	}
 	"OpenLoadoutButton"
 	{
@@ -244,6 +277,11 @@
 		"Command"		"changeloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"			"mkButton"
+		"border_armed"				"mkselected"
+		"defaultFgColor_override"		"mklightblue"
+		"armedFgColor_override"		"mkaccent"
+		"depressedFgColor_override"	"mkaccent"
 	}
 	
 	"DiscardButton"
@@ -269,12 +307,14 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultBgColor_override" "117 107 94 255"
-		"armedBgColor_override" "145 73 59 255"
-		"depressedBgColor_override" "117 107 94 255"
+		"border_default"			"mkButton"
+		"border_armed"				"mkselected"
+		"defaultFgColor_override"		"mklightblue"
+		"armedFgColor_override"		"mkaccent"
+		"depressedFgColor_override"	"mkaccent"
 			
-		"image_drawcolor"	"235 226 202 255"		
-		"image_armedcolor"	"235 226 202 255"		
+		"image_drawcolor"	"MKWHITE"		
+		"image_armedcolor"	"MKWHITE"		
 		
 		"SubImage"
 		{
@@ -342,8 +382,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "200 80 60 255"
-		"bgcolor_override"	"46 43 42 255"
+		"fgcolor_override" "MKLIGHTBLUE"
+		"bgcolor_override"	"MKDARKERBLUE"
 	}
 	
 	"ScoreEntry"

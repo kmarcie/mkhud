@@ -14,7 +14,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"labelText"		"#TF_Object_Sentry"
+		"labelText"		"Gun"
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -50,7 +50,7 @@
 		"enabled"		"1"
 		"scaleImage"	"1"	
 		"icon"			"hud_menu_sentry_build"
-		"iconColor"		"mkwhite"
+		"iconColor"		"0 0 0 0"
 	}
 	
 	"MetalIcon"	
@@ -66,7 +66,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_metal"
-		"iconColor"		"mkwhite"
+		"iconColor"		"0 0 0 0"
 		"textAlignment"	"center"
 	}
 	
@@ -140,7 +140,7 @@
 		"enabled"		"0"
 		"scaleImage"	"1"	
 		"icon"			"ico_key_blank"
-		"iconColor"		"mkwhite"
+		"iconColor"		"0 0 0 0"
 	}
 	
 	"NumberLabel"

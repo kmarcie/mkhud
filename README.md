@@ -1,9 +1,7 @@
 ![alt tag](http://puu.sh/oRp0y/a594ec6009.png)
 =========
 
-IF YOU FOUND THIS PAGE through Google or a friend, please do not link it on TF.TV or whereever. I would prefer if only the people I told about used this HUD until I actually release this HUD to the public. Not spending money to get a private Git, unless I used this for more than just hud editing. I would greatly appreciate if you didn't leak it or w/e
-
-There are a lot of bugs within this hud. Please comment on my profile if you happen to run into any issues using this HUD.
+A hud for Team Fortress 2.
 
 Constructive criticism is always welcome. Please let me know what I can do fit what other people want. And please tell me what I can do to improve the readability, etc.
 
@@ -20,19 +18,20 @@ I would appreciate it if you didn't redistribute this hud as yours. Please give 
 
 Crosshair
 --------------
-The custom crosshair is manageable through HudPlayerClass.res. I made it like this so when you are dead the crosshair doesn't show up, where as if I put it in hudlayout.res it would show up all the time. 
+The custom crosshair is manageable through HudPlayerClass.res. I made it like this so when you are dead/in scoreboard/freezecam the crosshair doesn't show up, where as if I put it in hudlayout.res it would show up all the time. 
 
-Screenshots - Last Updated May 19
+Screenshots - Last Updated May 25
 ----------
-http://imgur.com/a/fgPVI
+Menus: http://imgur.com/a/B7iVc
+In-Game: http://imgur.com/a/OIJLc
 
 Resolution Support
 ----------
 16:9 - 100% Yes. Made on 1920x1080 resolution. Should work fine on other 16:9 resolutions. There may be slight offsets with other resolutions, however. 1920x1080 works the best with this hud, and I highly recommend running it on 1080p for the best experience with this HUD. By offsets, I mean stuff like this: http://puu.sh/oVYZ6/6467059c6f.png and http://puu.sh/oUnhz/204d4e00fa.png. If you can deal with those minor issues, you are fine.
 
-16:10 - Kind of. Unfortunately things like this happen: http://puu.sh/oVYLF/f663a93772.png, http://puu.sh/oVYMB/ee2bebda86.png and http://puu.sh/oVYW4/58582a69ff.png - Because the "background" is hardcoded into the image and not just an ImagePanel. I would have to create separate VTF files and RES files for these, and that's something I plan on doing later in the future.
+16:10 - Kind of. Unfortunately things like this happen: http://puu.sh/oVYLF/f663a93772.png, http://puu.sh/oVYMB/ee2bebda86.png and http://puu.sh/oVYW4/58582a69ff.png - Because the "background" is hardcoded into the image and not just an image panel,. I would have to create separate VTF files and RES files for these. That's something I plan on doing later in the future.
 
-4:3 - Nope. I most likely will not provide support for this resolution because a) It is 2016. Most monitors are widescreen by now and b) my VTF files and many things become offset that I would most likely have to just make a bunch of different files to cater to 4:3. I would prefer not to do that. Maybe in the future. Apologies for acting so arrogant about it, but I really would prefer to not go through the process of editing files for a resolution that the minority uses. Plus, this HUD is very VTF reliant so running this HUD on a potato would probably not be the greatest experience at all.
+4:3 - No. I don't see much of a point in doing so because not a lot of people use this resolution. I may be wrong with that, but I don't see myself supporting 4:3 any time soon.
 
 Font Switcher
 ------------
@@ -42,6 +41,8 @@ Image representation of the fonts: http://i.imgur.com/OvUNxWH.png
 
 Please keep in mind you have to restart TF2 and edit all 3 of the files: SourceScheme.res, ClientScheme.res, and ChatScheme.res.
 
+Product Sans may not look as good because the font does not have additional weights. 
+
 To-Do
 ---------
 
@@ -49,12 +50,16 @@ Finish 16:10 compatibility
 
 Finish MVM hud
 
+Finish competitive menu and mvm menu
+
+Despite these, the hud is 100% usable, and there are no bugs AFAIK.
+
 Make symbols for report and mute
 
 Credits
 ---------
 
-The reason I made my own HUD is because I liked so many different HUDs, I had no idea which one to use. Because I had a hard time deciding, why not just think of everything I like and make them into one HUD? So most of the things I have credited here is because 1) you have a cool HUD or 2) you helped out a lot :)
+The reason I made my own HUD is because I liked so many different HUDs, I had no idea which one to use. Because I had a hard time deciding, why not just think of everything I like and make them into one HUD? So most of the things I have credited here is because 1) you have a cool HUD or 2) you helped out a lot :) 3)
 
 <b>BroeselHUD (feeling and broesel)</b> - Lots of inspiration. I borrowed some elements from the hud as well. This was the hud I used for a very long time until I figured out how to edit huds.
 
@@ -86,4 +91,4 @@ The reason I made my own HUD is because I liked so many different HUDs, I had no
 
 <b>teamfortress.tv HUD mods/HUD Q&A thread</b> - The stuff people have posted in this thread is absolutely amazing. Some of the stuff posted in that thread inspired me quite a bit. I also owe a huge thanks to the people that go on the HUD Q&A thread and answer people's questions about hud editing. I had quite a few and most of them were answered the next hour or day.
 
-<b>truktruk's sub discord</b> - Honestly, I don't think I would have ever finished this or released this if I didn't subscribe to truktruk on Twitch and joined the Discord. Speaking of which, you should subscribe to truktruk on Twitch. http://twitch.tv/truktruk/subscribe Also, many people from this discord helped out with feedback, testing and reporting bugs to me. :)
+<b>truktruk's sub discord</b> - Honestly, I don't think I would have ever finished this or released this if I didn't subscribe to truktruk on Twitch and joined the Discord. Speaking of which, you should check out truktruk on Twitch. http://twitch.tv/truktruk/ Also, many people from this discord helped out with feedback, testing and reporting bugs to me. :)

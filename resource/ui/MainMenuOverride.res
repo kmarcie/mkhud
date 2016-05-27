@@ -564,7 +564,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"Notifications_ShowButtonPanel"
-		"xpos"			"r243"
+		"xpos"			"r273"
 		"ypos"			"-8"
 		"zpos"			"10"
 		"wide"			"40"

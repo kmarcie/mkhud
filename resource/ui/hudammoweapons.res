@@ -73,7 +73,7 @@
 		"font"		"mkHealthAmmoBlur"
 		"fgcolor"		"0 0 0 255"
 		"xpos"		"-90"
-		"ypos"		"4"
+		"ypos"		"5"
 		"zpos"		"5"
 		"wide"		"200"
 		"tall"		"65"
@@ -105,7 +105,7 @@
 		"font"		"mkReserveSHDW"
 		"fgcolor"		"0 0 0 255"
 		"xpos"		"114" // 114
-		"ypos"		"24" // 24
+		"ypos"		"25" // 24
 		"zpos"		"6"
 		"wide"		"80"
 		"tall"		"27"
@@ -137,7 +137,7 @@
 		"font"		"mkHealthAmmoBlur"
 		"fgcolor"		"0 0 0 255"
 		"xpos"		"35"
-		"ypos"		"4"
+		"ypos"		"5"
 		"zpos"		"5"
 		"wide"		"126"
 		"tall"		"66"

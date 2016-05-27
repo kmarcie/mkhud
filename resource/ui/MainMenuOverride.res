@@ -746,7 +746,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"QuestLogButton"
-		"xpos"			"r35"
+		"xpos"			"r30"
 		"ypos"			"-7"
 		"zpos"			"1"
 		"wide"			"40"
@@ -869,7 +869,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_ShowButtonPanel"
-		"xpos"			"r87"
+		"xpos"			"r90"
 		"ypos"			"-9"
 		"zpos"			"1123"
 		"wide"			"32"
@@ -1701,7 +1701,7 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"ReplayBrowserButton"
-		"xpos"			"r113"
+		"xpos"			"r119"
 		"ypos"			"-13"
 		"zpos"			"11"
 		"wide"			"40"
@@ -1760,10 +1760,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"GeneralStoreButton"
-		"xpos"			"r162"
+		"xpos"			"r172"
 		"ypos"			"-13"
 		"zpos"			"11"
-		"wide"			"40"
+		"wide"			"38"
 		"tall"			"40"
 		"visible"		"1"
 		"PaintBackgroundType"	"0"
@@ -3065,10 +3065,10 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"TF2SettingsButton"
-		"xpos"			"r187"
+		"xpos"			"r192"
 		"ypos"			"-12"
 		"zpos"			"11"
-		"wide"			"40"
+		"wide"			"29"
 		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"3"
@@ -3115,7 +3115,7 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"SettingsButton"
-		"xpos"			"r222"
+		"xpos"			"r243"
 		"ypos"			"-12"
 		"zpos"			"11"
 		"wide"			"50"

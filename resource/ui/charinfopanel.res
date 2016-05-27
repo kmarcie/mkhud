@@ -185,7 +185,7 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"BackButton"
-		"xpos"			"c-400"
+		"xpos"			"25"
 		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
@@ -196,7 +196,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"labelText"		"&Q   Back"
-		"font"			"nexaBold16"
+		"font"			"robotobold16"
 		"textAlignment"	"west"
 		"dulltext"		"0"
 		"brighttext"	"0"
@@ -219,7 +219,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"BackBG"
-		"xpos"			"c-400"
+		"xpos"			"25"
 		"ypos"			"425"
 		"zpos"			"1"
 		"wide"			"50"

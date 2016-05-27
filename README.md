@@ -57,6 +57,8 @@ Despite these, the hud is 100% usable, and there are no bugs AFAIK.
 
 Make symbols for report and mute
 
+Do what Wiethoofd did and make it so the HUD updates almost effortlessly using #base
+
 Credits
 ---------
 

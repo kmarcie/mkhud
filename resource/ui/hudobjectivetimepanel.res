@@ -281,7 +281,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ServerTimeLimitLabel"
-		"xpos"			"3"
+		"xpos"			"13"
 		"ypos"			"10"
 		"zpos"			"5"
 		"wide"			"78"

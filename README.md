@@ -36,16 +36,6 @@ Resolution Support
 
 4:3 - As of right now, no. I will work on supporting 4:3 soon.
 
-Font Switcher
-------------
-I have included a font switcher (inspired by RSbear/extracrispy) into my HUD. You uncomment the font you don't want to use and comment the font you want.
-
-Image representation of the fonts: http://i.imgur.com/OvUNxWH.png
-
-Please keep in mind you have to restart TF2 and edit all 3 of the files: SourceScheme.res, ClientScheme.res, and ChatScheme.res.
-
-Product Sans may not look as good because the font does not have additional weights. 
-
 To-Do
 ---------
 

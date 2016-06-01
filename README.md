@@ -23,7 +23,9 @@ The custom crosshair is manageable through HudPlayerClass.res. I made it like th
 Screenshots - Last Updated May 25
 ----------
 Menus: http://imgur.com/a/B7iVc
+
 In-Game: http://imgur.com/a/OIJLc
+
 Tournament Spec HUD: http://i.imgur.com/mCTOP0u.jpg
 
 Resolution Support

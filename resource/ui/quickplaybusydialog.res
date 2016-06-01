@@ -84,7 +84,7 @@
 		{
 			"ControlName"		"CExLabel"
 			"fieldName"		"TitleLabel"
-			"font"			"mk16"
+			"font"			"Blank"
 			"labelText"		"looking..."
 			"textAlignment"	"west"
 			"xpos"			"7"
@@ -98,7 +98,24 @@
 			"enabled"		"1"
 			"fgcolor_override"	"mklightblue"
 		}
-
+		"TitleLabel2"
+		{
+			"ControlName"		"CExLabel"
+			"fieldName"		"TitleLabel2"
+			"font"			"mk16"
+			"labelText"		"looking"
+			"textAlignment"	"west"
+			"xpos"			"7"
+			"ypos"			"9"
+			"zpos"			"11"
+			"wide"			"320"
+			"tall"			"20"
+			"autoResize"	"1"
+			"pinCorner"		"0"
+			"visible"		"1"
+			"enabled"		"1"
+			"fgcolor_override"	"mklightblue"
+		}
 		"Progress"
 		{
 			"ControlName"	"ProgressBar"

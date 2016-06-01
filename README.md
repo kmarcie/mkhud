@@ -30,11 +30,11 @@ Tournament Spec HUD: http://i.imgur.com/mCTOP0u.jpg
 
 Resolution Support
 ----------
-16:9 - 100% Yes. Made on 1920x1080 resolution. Should work fine on other 16:9 resolutions. There may be slight offsets with other resolutions, however. 1920x1080 works the best with this hud, and I highly recommend running it on 1080p for the best experience with this HUD. By offsets, I mean stuff like this: http://puu.sh/oVYZ6/6467059c6f.png and http://puu.sh/oUnhz/204d4e00fa.png. If you can deal with those minor issues, you are fine.
+16:9 - Yes. Looks the best on 1920x1080. There are some offsets in other resolutions, unfortunately. But they aren't very noticeable.
 
-16:10 - Kind of. Unfortunately things like this happen: http://puu.sh/oVYLF/f663a93772.png, http://puu.sh/oVYMB/ee2bebda86.png and http://puu.sh/oVYW4/58582a69ff.png - Because the "background" is hardcoded into the image and not just an image panel,. I would have to create separate VTF files and RES files for these. That's something I plan on doing later in the future.
+16:10 - Yes. Everything should work for the most part. There are some offsets in other resolutions, unfortunately. But they aren't very noticeable.
 
-4:3 - No. I don't see much of a point in doing so because not a lot of people use this resolution. I may be wrong with that, but I don't see myself supporting 4:3 any time soon.
+4:3 - As of right now, no. I will work on supporting 4:3 soon.
 
 Font Switcher
 ------------
@@ -48,8 +48,6 @@ Product Sans may not look as good because the font does not have additional weig
 
 To-Do
 ---------
-
-Finish 16:10 compatibility
 
 Finish MVM hud
 

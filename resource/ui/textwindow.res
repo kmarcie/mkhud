@@ -156,8 +156,8 @@
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"okbutton"
-		"xpos"			"27"
-		"ypos"			"438"
+		"xpos"			"25"
+		"ypos"			"437"
 		"zpos"			"2"
 		"wide"			"100"
 		"tall"			"25"

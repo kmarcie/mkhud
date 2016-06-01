@@ -74,8 +74,8 @@
 		"fieldName"		"TitleLabel"
 		"font"			"product16"
 		"labelText"		"trade"
-		"textAlignment"	"north"
-		"xpos"			"c-450"
+		"textAlignment"	"west"
+		"xpos"			"10"
 		"ypos"			"10"
 		"zpos"			"9999"
 		"wide"			"100"
@@ -90,7 +90,7 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TopbarBG"
-		"xpos"			"c-423"
+		"xpos"			"4"
 		"ypos"			"10"
 		"zpos"			"9998"
 		"wide"			"392"
@@ -105,7 +105,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MainMenuBGShadow"
-		"xpos"			"c-428"
+		"xpos"			"-4"
 		"ypos"			"6"
 		"zpos"			"0"
 		"wide"			"404"

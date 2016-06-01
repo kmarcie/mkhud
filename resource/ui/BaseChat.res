@@ -6,7 +6,7 @@
 		"fieldName" 		"HudChat"
 		"visible" 		"1"
 		"enabled" 		"1"
-		"xpos"			"c-425"   // c-380 - only works on 16:9 resolution. if you're running 16:10 use the alternate basechat file. set to -380 if you're running 16:10
+		"xpos"			"5"   
 		"ypos"			"r195"	  // r465
 		"wide"	 		"225"	  // 300
 		"tall"	 		"105"

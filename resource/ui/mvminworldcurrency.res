@@ -64,7 +64,22 @@
 		"textAlignment"	"east"
 		"labelText"		"%currency%"
 	}
-	
+	"CurrencyGoodShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyGoodShadow"
+		"font"			"mkBlur12"
+		"fgcolor"		"mkPUREBLACK"
+		"xpos"			"47"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"50"
+		"tall"			"19"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"
+		"labelText"		"%currency%"
+	}	
 	"CurrencyBad"
 	{
 		"ControlName"	"CExLabel"
@@ -74,6 +89,22 @@
 		"xpos"			"47"
 		"ypos"			"0"
 		"zpos"			"4"
+		"wide"			"50"
+		"tall"			"19"
+		"visible"		"1"
+		"enabled"		"1"
+		"textAlignment"	"east"	
+		"labelText"		"%currency%"
+	}
+	"CurrencyBadShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"CurrencyBadShadow"
+		"font"			"mkBlur12"
+		"fgcolor"		"mkPUREBLACK"
+		"xpos"			"47"
+		"ypos"			"0"
+		"zpos"			"3"
 		"wide"			"50"
 		"tall"			"19"
 		"visible"		"1"

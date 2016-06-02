@@ -137,9 +137,9 @@ Scheme
 		Label.DisabledFgColor2			"Blank"
 		
 		// List panels
-		ListPanel.TextColor					"G_TitleBg"
+		ListPanel.TextColor					"G_Text"
 		ListPanel.SelectedTextColor			"G_HighlightText"
-		ListPanel.BgColor					"0 0 0 0"
+		ListPanel.BgColor					"G_ListBg"
 		ListPanel.SelectedBgColor			"G_Highlight"
 		ListPanel.SelectedOutOfFocusBgColor	"G_Highlight"
 		
@@ -178,13 +178,13 @@ Scheme
 		TextEntry.BgColor				"G_InputBg"
 		
 		// Selection list (options)
-		SectionedListPanel.TextColor			"G_TitleBg"
+		SectionedListPanel.TextColor			"G_Text"
 		SectionedListPanel.BrightTextColor		"G_Text"
-		SectionedListPanel.BgColor				"0 0 0 0"
-		SectionedListPanel.SelectedTextColor	"220 220 220 90"
-		SectionedListPanel.SelectedBgColor		"220 220 220 90"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"G_Text"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"220 220 220 90"
+		SectionedListPanel.BgColor				"G_ListBg"
+		SectionedListPanel.SelectedTextColor	"G_HighlightText"
+		SectionedListPanel.SelectedBgColor		"G_Highlight"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"G_HighlightText"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"G_Highlight"
 	}
 	CustomFontFiles
 	{

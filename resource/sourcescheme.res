@@ -137,9 +137,9 @@ Scheme
 		Label.DisabledFgColor2			"Blank"
 		
 		// List panels
-		ListPanel.TextColor					"G_Text"
+		ListPanel.TextColor					"G_TitleBg"
 		ListPanel.SelectedTextColor			"G_HighlightText"
-		ListPanel.BgColor					"G_ListBg"
+		ListPanel.BgColor					"0 0 0 0"
 		ListPanel.SelectedBgColor			"G_Highlight"
 		ListPanel.SelectedOutOfFocusBgColor	"G_Highlight"
 		
@@ -178,12 +178,85 @@ Scheme
 		TextEntry.BgColor				"G_InputBg"
 		
 		// Selection list (options)
-		SectionedListPanel.TextColor			"G_Text"
+		SectionedListPanel.TextColor			"G_TitleBg"
 		SectionedListPanel.BrightTextColor		"G_Text"
-		SectionedListPanel.BgColor				"G_ListBg"
-		SectionedListPanel.SelectedTextColor	"G_HighlightText"
-		SectionedListPanel.SelectedBgColor		"G_Highlight"
-		SectionedListPanel.OutOfFocusSelectedTextColor	"G_HighlightText"
-		SectionedListPanel.OutOfFocusSelectedBgColor	"G_Highlight"
+		SectionedListPanel.BgColor				"0 0 0 0"
+		SectionedListPanel.SelectedTextColor	"220 220 220 90"
+		SectionedListPanel.SelectedBgColor		"220 220 220 90"
+		SectionedListPanel.OutOfFocusSelectedTextColor	"G_Text"
+		SectionedListPanel.OutOfFocusSelectedBgColor	"220 220 220 90"
 	}
+	CustomFontFiles
+	{
+		"1" 
+		{
+			"font" "resource/fonts/Roboto-Bold.ttf"
+			"name" "Roboto Bold"
+		}
+		"2"
+		{
+			"font" "resource/fonts/productsans.ttf"
+			"name" "Product Sans"
+		}
+		"6" 
+		{
+			"font" "resource/TF2Build.ttf"
+			"name" "TF2 Build"
+			"turkish"
+			{
+				"range" "0x0000 0x015F"
+			}
+			"swedish"
+			{
+				"range" "0x0000 0x00F6"
+			}
+			"spanish"
+			{
+				"range" "0x0000 0x00FC"
+			}
+			"romanian"
+			{
+				"range" "0x0000 0x021B"
+			}
+			"polish"
+			{
+				"range" "0x0000 0x017C"
+			}
+			"norwegian"
+			{
+				"range" "0x0000 0x00F8"
+			}
+			"danish"
+			{
+				"range" "0x0000 0x00F8"
+			}
+			"hungarian"
+			{
+				"range" "0x0000 0x0171"
+			}
+			"german"
+			{
+				"range" "0x0000 0x00FC"
+			}
+			"french"
+			{
+				"range" "0x0000 0x0178"
+			}
+			"finnish"
+			{
+				"range" "0x0000 0x017E"
+			}
+			"czech"
+			{
+				"range" "0x0000 0x017E"
+			}
+			"bulgarian"
+			{
+				"range" "0x0000 0x0451"
+			}
+			"russian"
+			{
+				"range" "0x0000 0x0451"
+			}	
+		}
 }

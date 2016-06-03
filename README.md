@@ -58,7 +58,7 @@ The reason I made my own HUD is because I liked so many different HUDs, I had no
 
 <b>ahud (Nokk)</b> - Again, a lot of the stuff I put into my hud was inspired by Nokk's hud. An amazing hud. He also answered a lot of my questions, and I greatly appreciate the help. After I got bored of BroeselHUD, I used ahud. It's a great hud.
 
-<b>MaterialHUD (Rawrsor)</b> - Although it's not completely done yet, a lot of the elements in my hud were inspired by his. The material dropshadows, etc. I used his .vtf files as well (Shadows and the blurfact). He answered the questions I had about hud editing as well. :)
+<b>Rawrsor</b> - A lot of the elements in my hud were inspired by his. The material dropshadows, etc. I used some of his materials as well. He answered the questions I had about hud editing as well. :)
 
 <b>cbhud (CoBa)</b> - It sucks that he hasn't updated it, but still a great hud. Some elements in my hud were inspired by this hud.
 

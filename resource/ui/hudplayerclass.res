@@ -224,10 +224,10 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-17"
-				"angles_y"		"203"
+				"angles_y"		"194"
 				"angles_z"		"-5"
 				"origin_x"		"115"
-				"origin_y"		"-1"
+				"origin_y"		"7"
 				"origin_z"		"-85"
 			}
 			"Sniper"
@@ -254,17 +254,17 @@
 			{
 				"fov"			"25"
 				"angles_x"		"-13"
-				"angles_y"		"225"
+				"angles_y"		"180"
 				"angles_z"		"0"
 				"origin_x"		"145"
-				"origin_y"		"-7"
+				"origin_y"		"4"
 				"origin_z"		"-95"
 			}
 			"Medic"
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"225"
+				"angles_y"		"190"
 				"angles_z"		"0"
 				"origin_x"		"150"
 				"origin_y"		"-5"
@@ -274,7 +274,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-5"
-				"angles_y"		"203"
+				"angles_y"		"193"
 				"angles_z"		"0"
 				"origin_x"		"200"
 				"origin_y"		"0"
@@ -284,7 +284,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-10"
-				"angles_y"		"172"
+				"angles_y"		"182"
 				"angles_z"		"0"
 				"origin_x"		"175"
 				"origin_y"		"-1"
@@ -294,7 +294,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-1"
-				"angles_y"		"203"
+				"angles_y"		"183"
 				"angles_z"		"0"
 				"origin_x"		"160"
 				"origin_y"		"0"
@@ -304,7 +304,7 @@
 			{
 				"fov"			"20"
 				"angles_x"		"-10"
-				"angles_y"		"203"
+				"angles_y"		"193"
 				"angles_z"		"0"
 				"origin_x"		"140"
 				"origin_y"		"-2"

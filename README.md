@@ -49,6 +49,8 @@ Make symbols for report and mute
 
 Do what Wiethoofd did and make it so the HUD updates almost effortlessly using #base
 
+Find a way to make it so when you're ingame, there aren't transparent top and bottom bars on the class / backpack / crafting menus
+
 Credits
 ---------
 

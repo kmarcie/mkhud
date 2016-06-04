@@ -14,9 +14,9 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"mkBGcolor"
-		"infocus_bgcolor_override" "mkBGcolor"
-		"outoffocus_bgcolor_override" "mkBGcolor"
+		"bgcolor_override"	"0 0 0 0"
+		"infocus_bgcolor_override" "0 0 0 0"
+		"outoffocus_bgcolor_override" " 0 0 0 0"
 		
 		"thumbnail_bgcolor"			"mkBGcolor"
 		"thumbnail_bgcolor_mouseover"	"mkBGcolor"
@@ -61,7 +61,23 @@
 			}
 		}
 	}
-
+	"bg"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"bg"
+		"xpos"				"0"
+		"ypos"				"-24"
+		"zpos"				"-6"
+		"wide"				"f0"
+		"tall"				"480"
+		"autoResize"		"0"
+		"pinCorner"			"1"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"1"
+		"scaleImage"		"1"
+		"image"				"../console/background_2fort"
+	}
 	"CaratLabel"
 	{
 		"ControlName"		"CExLabel"

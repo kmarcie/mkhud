@@ -91,13 +91,65 @@
 				}
 			}
 		}
+	"craftingpanelTOP"
+	{
+		"controlname"		"ScalableImagePanel"
+		"fieldName"			"craftingpanelTOP"
+		"xpos"				"c-305"
+		"ypos"				"25"
+		"zpos"				"-99"
+		"wide"				"175"
+		"tall"				"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/greymatpanel"
+	}
+	"craftingpanel"
+	{
+		"controlname"		"ScalableImagePanel"
+		"fieldName"			"craftingpanel"
+		"xpos"				"c-300"
+		"ypos"				"50"
+		"zpos"				"-100"
+		"wide"				"165"
+		"tall"				"275"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialpanel"
+	}
+	"IOpanel"
+	{
+		"controlname"		"ScalableImagePanel"
+		"fieldName"			"IOpanel"
+		"xpos"				"c-10"
+		"ypos"				"25"
+		"zpos"				"-100"
+		"wide"				"305"
+		"tall"				"250"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialpanel"
+	}
+	"craftbuttonbg"
+	{
+		"controlname"		"ScalableImagePanel"
+		"fieldName"			"craftbuttonbg"
+		"xpos"				"c-10"
+		"ypos"				"275"
+		"zpos"				"-99"
+		"wide"				"305"
+		"tall"				"40"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialpanel"
+	}
 	"bg"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"bg"
 		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-6"
+		"ypos"				"-24"
+		"zpos"				"-1116"
 		"wide"				"f0"
 		"tall"				"480"
 		"autoResize"		"0"
@@ -106,7 +158,7 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"replay\thumbnails\crafting"
+		"image"				"../console/background_2fort"
 	}
 	"ClassLabel"
 	{
@@ -199,7 +251,7 @@
 		"ControlName"	"EditablePanel"
 		"fieldName"		"selectedrecipecontainer"
 		"xpos"			"c0"
-		"ypos"			"0"
+		"ypos"			"-35"
 		"zpos"			"5"
 		"wide"			"300"
 		"tall"			"350"
@@ -222,7 +274,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"mkwhite"
+			"fgcolor"		"0 0 0 0"
 			"wrap"			"1"
 		}
 		
@@ -242,7 +294,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"mkwhite"
+			"fgcolor"		"0 0 0 0"
 			"wrap"			"1"
 		}
 	
@@ -262,7 +314,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"mkwhite"
+			"fgcolor"		"mklightblue"
 		}
 		"OutputLabel"
 		{
@@ -280,7 +332,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor"		"mkwhite"
+			"fgcolor"		"mklightblue"
 		}
 		
 		"CraftButton"
@@ -288,9 +340,9 @@
 			"ControlName"	"CExButton"
 			"fieldName"		"CraftButton"
 			"xpos"			"0"
-			"ypos"			"318"
+			"ypos"			"315"
 			"zpos"			"20"
-			"wide"			"200"
+			"wide"			"287"
 			"tall"			"30"
 			"autoResize"	"0"
 			"pinCorner"		"0"

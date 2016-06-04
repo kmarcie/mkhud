@@ -5,9 +5,9 @@
 		"ControlName"	"Frame"
 		"fieldName"		"CharInfoLoadoutSubPanel"
 		"xpos"			"0"
-		"ypos"			"40"
+		"ypos"			"0"
 		"wide"			"f0"
-		"tall"			"480"
+		"tall"			"f0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"0"
@@ -22,8 +22,7 @@
 		"selectlabely_default"		"25"
 		"selectlabely_onchanges"	"15"
 		
-		"class_xpos"				"20"
-		"class_ypos"				"70"
+		"class_ypos"				"40"
 		"class_xdelta"				"5"
 		"class_wide_min"			"60"
 		"class_wide_max"			"100"
@@ -40,7 +39,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"bg"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-24"
 		"zpos"				"-6"
 		"wide"				"f0"
 		"tall"				"480"
@@ -50,34 +49,237 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"replay\thumbnails\loadoutpanel"
+		"image"				"../console/background_2fort"
 	}
-	"scout"
+	"modifyloadoutbg"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"modifyloadoutbg"
+		"xpos"				"c-300"
+		"ypos"				"100"
+		"zpos"				"0"
+		"wide"				"135"
+		"tall"				"250"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/greymatpanel"
+
+		"alpha"				"255"
+
+
+	}
+	"Scoutbg"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"Scoutbg"
+		"xpos"				"c-150"
+		"ypos"				"20"
+		"zpos"				"0"
+		"wide"				"100"
+		"tall"				"120"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+
+	}
+	
+	"ScoutBack"
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"ScoutBack"
+		"xpos"				"c-147"
+		"ypos"				"24"
+		"zpos"				"1"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/scoutbw"
+		}
+	}
+
+	"ScoutButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"ScoutButton"
+		"xpos"				"c-147"
+		"ypos"				"24"
+		"zpos"				"2"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"loadout scout"
+		"labeltext"			""
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/scout"
+		}
+	}
+
+	"scout"	//Unused
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"scout"
-		"xpos"				"c-300"
+		"xpos"				"99999"
 		"ypos"				"120"
 		"zpos"				"6"
 		"wide"				"60"
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"&1"
+		"labelText"			""
 		"textAlignment"		"south-west"
-		"Command"			"loadout scout"
+		"Command"			"loadout soldier"
 		"Default"			"0"
-		"font"				"Blank"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay\thumbnails\scout"
-		"inactiveimage"		"replay\thumbnails\scout"
+		"activeimage"		"class_sel_sm_scout_red"
+		"inactiveimage"		"class_sel_sm_scout_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	"soldier"
+
+	"Soldierbg"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"Soldierbg"
+		"xpos"				"c-50"
+		"ypos"				"20"
+		"zpos"				"0"
+		"wide"				"100"
+		"tall"				"120"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+
+	}
+	
+	"SoldierBack"
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"SoldierBack"
+		"xpos"				"c-47"
+		"ypos"				"24"
+		"zpos"				"1"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/soldierbw"
+		}
+	}
+
+	"SoldierButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"SoldierButton"
+		"xpos"				"c-47"
+		"ypos"				"24"
+		"zpos"				"2"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"loadout soldier"
+		"labeltext"			""
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/soldier"
+		}
+	}
+
+	"soldier" //Unused
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"soldier"
@@ -88,21 +290,115 @@
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"&2"
+		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout soldier"
 		"Default"			"0"
-		"font"				"Blank"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay\thumbnails\soldier"
-		"inactiveimage"		"replay\thumbnails\soldier"
+		"activeimage"		"class_sel_sm_soldier_red"
+		"inactiveimage"		"class_sel_sm_soldier_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	"pyro"
+
+	"Pyrobg"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"Pyrobg"
+		"xpos"				"c50"
+		"ypos"				"20"
+		"zpos"				"0"
+		"wide"				"100"
+		"tall"				"120"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+
+	}
+	
+	"PyroBack"
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"PyroBack"
+		"xpos"				"c53"
+		"ypos"				"24"
+		"zpos"				"1"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/Pyrobw"
+		}
+	}
+
+	"PyroButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"PyroButton"
+		"xpos"				"c53"
+		"ypos"				"24"
+		"zpos"				"2"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"loadout Pyro"
+		"labeltext"			""
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/Pyro"
+		}
+	}
+
+	"pyro" //Unused
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"pyro"
@@ -113,22 +409,116 @@
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"&3"
+		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout pyro"
 		"Default"			"0"
-		"font"				"Blank"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay\thumbnails\pyro"
-		"inactiveimage"		"replay\thumbnails\pyro"
+		"activeimage"		"class_sel_sm_pyro_red"
+		"inactiveimage"		"class_sel_sm_pyro_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+
+	"Demobg"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"Demobg"
+		"xpos"				"c-150"
+		"ypos"				"140"
+		"zpos"				"0"
+		"wide"				"100"
+		"tall"				"120"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+
+	}
 	
-	"demoman"
+	"DemoBack"
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"DemoBack"
+		"xpos"				"c-147"
+		"ypos"				"144"
+		"zpos"				"1"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/demomanbw"
+		}
+	}
+
+	"DemoButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"DemoButton"
+		"xpos"				"c-147"
+		"ypos"				"144"
+		"zpos"				"2"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"loadout demoman"
+		"labeltext"			""
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/demoman"
+		}
+	}
+	
+	
+	"demoman" //Unused
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"demoman"
@@ -139,21 +529,114 @@
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"&4"
+		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout demoman"
 		"Default"			"0"
-		"font"				"Blank"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay\thumbnails\demoman"
-		"inactiveimage"		"replay\thumbnails\demoman"
+		"activeimage"		"class_sel_sm_demo_red"
+		"inactiveimage"		"class_sel_sm_demo_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
-	"heavyweapons"
+
+	"Heavybg"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"Heavybg"
+		"xpos"				"c-50"
+		"ypos"				"140"
+		"zpos"				"0"
+		"wide"				"100"
+		"tall"				"120"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+
+	}
+	"HeavyBack"
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"HeavyBack"
+		"xpos"				"c-47"
+		"ypos"				"144"
+		"zpos"				"1"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/Heavyweaponsbw"
+		}
+	}
+
+	"HeavyButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"HeavyButton"
+		"xpos"				"c-47"
+		"ypos"				"144"
+		"zpos"				"2"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"loadout Heavy"
+		"labeltext"			""
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/Heavyweapons"
+		}
+	}
+
+	"heavyweapons" //Unused
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"heavyweapons"
@@ -164,21 +647,115 @@
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"&5"
+		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout heavy"
 		"Default"			"0"
-		"font"				"Blank"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay\thumbnails\heavyweapons"
-		"inactiveimage"		"replay\thumbnails\heavyweapons"
+		"activeimage"		"class_sel_sm_heavy_red"
+		"inactiveimage"		"class_sel_sm_heavy_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	"engineer"
+
+	"Engineerbg"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"Engineerbg"
+		"xpos"				"c50"
+		"ypos"				"140"
+		"zpos"				"0"
+		"wide"				"100"
+		"tall"				"120"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+
+	}
+	
+	"EngineerBack"
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"EngineerBack"
+		"xpos"				"c53"
+		"ypos"				"144"
+		"zpos"				"1"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/Engineerbw"
+		}
+	}
+
+	"EngineerButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"EngineerButton"
+		"xpos"				"c53"
+		"ypos"				"144"
+		"zpos"				"2"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"loadout Engineer"
+		"labeltext"			""
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/engineer"
+		}
+	}
+
+	"engineer" //Unused
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"engineer"
@@ -189,22 +766,115 @@
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"&6"
+		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout engineer"
 		"Default"			"0"
-		"font"				"Blank"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay\thumbnails\engineer"
-		"inactiveimage"		"replay\thumbnails\engineer"
+		"activeimage"		"class_sel_sm_engineer_red"
+		"inactiveimage"		"class_sel_sm_engineer_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
+
+	"Medicbg"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"Medicbg"
+		"xpos"				"c-150"
+		"ypos"				"260"
+		"zpos"				"0"
+		"wide"				"100"
+		"tall"				"120"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+
+	}
 	
-	"medic"
+	"MedicBack"
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"MedicBack"
+		"xpos"				"c-147"
+		"ypos"				"264"
+		"zpos"				"1"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/medicbw"
+		}
+	}
+
+	"MedicButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"MedicButton"
+		"xpos"				"c-147"
+		"ypos"				"264"
+		"zpos"				"2"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"loadout Medic"
+		"labeltext"			""
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/medic"
+		}
+	}
+	
+	"medic" //Unused
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"medic"
@@ -215,21 +885,115 @@
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"&7"
+		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout medic"
 		"Default"			"0"
-		"font"				"Blank"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay\thumbnails\medic"
-		"inactiveimage"		"replay\thumbnails\medic"
+		"activeimage"		"class_sel_sm_medic_red"
+		"inactiveimage"		"class_sel_sm_medic_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	"sniper"
+
+	"Sniperbg"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"Sniperbg"
+		"xpos"				"c-50"
+		"ypos"				"260"
+		"zpos"				"0"
+		"wide"				"100"
+		"tall"				"120"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+
+	}
+	
+	"SniperBack"
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"SniperBack"
+		"xpos"				"c-47"
+		"ypos"				"264"
+		"zpos"				"1"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/sniperbw"
+		}
+	}
+
+	"SniperButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"SniperButton"
+		"xpos"				"c-47"
+		"ypos"				"264"
+		"zpos"				"2"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"loadout Sniper"
+		"labeltext"			""
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/sniper"
+		}
+	}
+
+	"sniper"	//Unused
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"sniper"
@@ -240,21 +1004,115 @@
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"&8"
+		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout sniper"
 		"Default"			"0"
-		"font"				"Blank"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay\thumbnails\sniper"
-		"inactiveimage"		"replay\thumbnails\sniper"
+		"activeimage"		"class_sel_sm_sniper_red"
+		"inactiveimage"		"class_sel_sm_sniper_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	"spy"
+
+	"Spybg"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"			"Spybg"
+		"xpos"				"c50"
+		"ypos"				"260"
+		"zpos"				"0"
+		"wide"				"100"
+		"tall"				"120"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialPanel"
+
+		"alpha"				"255"
+
+
+	}
+	
+	"SpyBack"
+	{
+		"controlname"		"EditablePanel"
+		"fieldName"			"SpyBack"
+		"xpos"				"c53"
+		"ypos"				"264"
+		"zpos"				"1"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+
+		"Image"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"Image"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/spybw"
+		}
+	}
+
+	"SpyButton"
+	{
+		"ControlName"		"CExImageButton"
+		"fieldName"			"SpyButton"
+		"xpos"				"c53"
+		"ypos"				"264"
+		"zpos"				"2"
+		"wide"				"94"
+		"tall"				"113"
+		"visible"			"1"
+		"enabled"			"1"
+		"command"			"loadout Spy"
+		"labeltext"			""
+		"scaleImage"		"1"
+
+		"border"			"noborder"
+		"border_default"	"noborder"
+		"border_armed"		"noborder"
+		"paintbackground"	"1"
+			
+		"defaultFgColor_override" 	"0 0 0 0"
+		"armedFgColor_override" 	"0 0 0 0"
+		"depressedFgColor_override" "0 0 0 0"
+
+		"defaultBgColor_override" 	"0 0 0 0"
+		"armedBgColor_override" 	"0 0 0 0"
+		"depressedBgColor_override" "0 0 0 0"
+
+		"image_drawcolor"			"0 0 0 0"
+		"image_armedcolor"			"255 255 255 255"
+
+		"SubImage"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"SubImage"
+			"xpos"			"0"
+			"ypos"			"0"
+			"wide"			"94"
+			"tall"			"113"
+			"scaleImage"	"1"
+			"visible"		"1"
+			"enabled"		"1"
+
+			"image"			"replay/thumbnails/spy"
+		}
+	}
+
+	"spy" //Unused
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"spy"
@@ -265,17 +1123,17 @@
 		"tall"				"120"
 		"autoResize"		"0"
 		"pinCorner"			"2"
-		"visible"			"1"
-		"enabled"			"1"
+		"visible"			"0"
+		"enabled"			"0"
 		"tabPosition"		"0"
-		"labelText"			"&9"
+		"labelText"			""
 		"textAlignment"		"south-west"
 		"Command"			"loadout spy"
 		"Default"			"0"
-		"font"				"Blank"
+		"font"				"MenuKeys"
 		"scaleImage"		"1"
-		"activeimage"		"replay\thumbnails\spy"
-		"inactiveimage"		"replay\thumbnails\spy"
+		"activeimage"		"class_sel_sm_spy_red"
+		"inactiveimage"		"class_sel_sm_spy_inactive"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}	
@@ -286,8 +1144,8 @@
 		"font"			"RobotoL28"
 		"labelText"		"MODIFY"
 		"textAlignment"	"west"
-		"xpos"				"22"
-		"ypos"				"85"
+		"xpos"				"c-273"
+		"ypos"				"125"
 		"zpos"				"6"
 		"wide"				"100"
 		"tall"				"30"
@@ -304,8 +1162,8 @@
 		"font"			"RobotoBold22"
 		"labelText"		"LOADOUT"
 		"textAlignment"	"west"
-		"xpos"				"22"
-		"ypos"				"105"
+		"xpos"				"c-273"
+		"ypos"				"145"
 		"zpos"				"6"
 		"wide"				"100"
 		"tall"				"30"
@@ -319,8 +1177,8 @@
 	{
 		"ControlName"		"CExImageButton"
 		"fieldName"			"ShowBackpackButton"
-		"xpos"				"15"
-		"ypos"				"165"
+		"xpos"				"c-280"
+		"ypos"				"175"
 		"zpos"				"6"
 		"wide"				"100"
 		"tall"				"30"
@@ -363,8 +1221,8 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowCraftingButton"
-		"xpos"				"15"
-		"ypos"				"195"
+		"xpos"				"c-280"
+		"ypos"				"205"
 		"zpos"				"6"
 		"wide"				"90"
 		"tall"				"30"
@@ -408,8 +1266,8 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowArmoryButton"
-		"xpos"				"15"
-		"ypos"				"225"
+		"xpos"				"c-280"
+		"ypos"				"235"
 		"zpos"				"6"
 		"wide"				"90"
 		"tall"				"30"
@@ -453,8 +1311,8 @@
 	{
 		"ControlName"		"ImageButton"
 		"fieldName"			"ShowTradeButton"
-		"xpos"				"15"
-		"ypos"				"255"
+		"xpos"				"c-280"
+		"ypos"				"265"
 		"zpos"				"6"
 		"wide"				"70"
 		"tall"				"30"
@@ -613,7 +1471,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"400"
+		"tall"				"f0"
 		"zpos"				"500"
 		"visible"			"0"
 	}
@@ -624,7 +1482,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"400"
+		"tall"				"f0"
 		"zpos"				"500"
 		"visible"			"0"
 	}
@@ -1898,7 +2756,7 @@
 		"xpos"				"0"
 		"ypos"				"0"
 		"wide"				"f0"
-		"tall"				"400"
+		"tall"				"f0"
 		"zpos"				"500"
 		"visible"			"1"
 	}

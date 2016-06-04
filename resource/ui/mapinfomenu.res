@@ -46,8 +46,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"0 0 0 0"
-		"alpha"			"0"
+		"fillcolor"		"0 0 0 255"
+		"alpha"			"150"
 	}
 	"MainMenuBG"
 	{

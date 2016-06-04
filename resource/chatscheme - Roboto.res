@@ -10,7 +10,6 @@ Scheme
 				"name"		"Roboto"
 				"tall"		"22"
 				"weight"	"0"
-				"range"		"0x0000 0x017F"
 				"antialias"	"1"
 				"dropshadow" "1"
 			}

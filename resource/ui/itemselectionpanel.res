@@ -93,7 +93,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"bg"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-24"
 		"zpos"				"-6"
 		"wide"				"f0"
 		"tall"				"480"
@@ -103,7 +103,7 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"replay\thumbnails\itemselectbg"
+		"image"				"../console/background_2fort"
 	}
 	"CaratLabel"
 	{

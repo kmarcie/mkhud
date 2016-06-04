@@ -66,6 +66,13 @@
 				"font"				"product11"
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"defaultFgColor_override" 	"mklightblue"
+				"armedFgColor_override" 	"mkaccent"
+				"depressedFgColor_override" "mkaccent"
+
+				"defaultBgColor_override" 	"mkdarkerblue"
+				"armedBgColor_override" 	"mkdarkerblue"
+				"depressedBgColor_override" "mkdarkerblue"
 			}	
 			"New"
 			{
@@ -155,13 +162,65 @@
 			"use_item_sounds"	"1"
 		}
 	}
+	"backpackbg"
+	{
+		"controlname"		"ScalableImagePanel"
+		"fieldName"			"backpackbg"
+		"xpos"				"c-306"
+		"ypos"				"50"
+		"zpos"				"-100"
+		"wide"				"607"
+		"tall"				"240"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialpanel"
+	}
+	"searchBG"
+	{
+		"controlname"		"ScalableImagePanel"
+		"fieldName"			"searchBG"
+		"xpos"				"c-296"
+		"ypos"				"30"
+		"zpos"				"-100"
+		"wide"				"142"
+		"tall"				"25"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialpanel"
+	}
+	"sortBG"
+	{
+		"controlname"		"ScalableImagePanel"
+		"fieldName"			"sortBG"
+		"xpos"				"c130"
+		"ypos"				"32"
+		"zpos"				"-100"
+		"wide"				"164"
+		"tall"				"25"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialpanel"
+	}
+	"pagesBG"
+	{
+		"controlname"		"ScalableImagePanel"
+		"fieldName"			"pagesBG"
+		"xpos"				"c-295"
+		"ypos"				"320"
+		"zpos"				"-100"
+		"wide"				"90"
+		"tall"				"31"
+		"visible"			"1"
+		"enabled"			"1"
+		"image"				"replay/thumbnails/materialpanel"
+	}
 	"bg"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"bg"
 		"xpos"				"0"
-		"ypos"				"0"
-		"zpos"				"-6"
+		"ypos"				"-24"
+		"zpos"				"-236"
 		"wide"				"f0"
 		"tall"				"480"
 		"autoResize"		"0"
@@ -170,7 +229,7 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"replay\thumbnails\backpack"
+		"image"				"../console/background_2fort"
 	}
 	"PrevPageButton"
 	{
@@ -359,7 +418,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mkwhite"
+		"fgcolor"		"mklightblue"
 	}
 
 	"NameFilterTextEntry"
@@ -378,10 +437,10 @@
 		"textHidden"		"0"
 		"editable"		"1"
 		"unicode"		"1"
-		"fgcolor_override"	"mkwhite"
+		"fgcolor_override"	"mklightblue"
 		"bgcolor_override"	"0 0 0 100"
 		"paintbackgroundtype" "0"
-		"font"		"product11"
+		"font"		"robotoL11"
 	}
 	
 	"SortByComboBox"

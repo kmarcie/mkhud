@@ -1,7 +1,7 @@
 "UnlitGeneric"
 {
 	"$translucent" "1"
-	"$baseTexture" "vgui\replay\thumbnails\crafting"
+	"$baseTexture" "vgui\replay\thumbnails\SideGradientPink2"
 	"$alpha" "1"
 	"$vertexalpha" "1"	
 	"$vertexcolor" "1"

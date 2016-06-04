@@ -90,6 +90,9 @@ Changelog
 ----------
 
 May 25 - Release
+
 May 31 - Added 16:10 support. Made quickplay result dialog wider.
+
 June 2 - Added full MvM support. Essentials should be edited, and the HUD should be usable. Please let me know if I messed something up, I don't play MvM often.
+
 June 3 - New backpack, crafting, and class loadout menus. The hud is not as VTF reliant as much now. This should be able to be used in all resolutions. 4:3 support is coming very soon, seeing as there are very few things I have to fix up.

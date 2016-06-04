@@ -20,11 +20,11 @@ Crosshair
 --------------
 The custom crosshair is manageable through HudPlayerClass.res. I made it like this so when you are dead/in scoreboard/freezecam the crosshair doesn't show up, where as if I put it in hudlayout.res it would show up all the time. 
 
-Screenshots - Last Updated May 25
+Screenshots - Last Updated Jun 3
 ----------
-Menus: http://imgur.com/a/B7iVc
+Menus: http://imgur.com/a/Cbjg0
 
-In-Game: http://imgur.com/a/OIJLc
+In-Game: http://imgur.com/a/wfN6c
 
 Tournament Spec HUD: http://i.imgur.com/mCTOP0u.jpg
 

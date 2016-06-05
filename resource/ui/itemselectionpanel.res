@@ -164,7 +164,7 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"classbg"
-		"xpos"				"c-308"
+		"xpos"				"c-305"
 		"ypos"				"72"
 		"zpos"				"-10"
 		"wide"				"620"

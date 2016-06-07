@@ -55,6 +55,17 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"mkTargetIDdropshadow"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+				"dropshadow" "1"
+			}
+		}
 		"mkTargetIDshdw"
 		{
 			"1"
@@ -64,6 +75,17 @@ Scheme
 				"weight"	"500"
 				"antialias"	"1"
 				"blur"		"1"
+			}
+		}
+		"mkTargetIDData"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias"	"1"
+				"dropshadow" "1"
 			}
 		}
 		"mkDMG"

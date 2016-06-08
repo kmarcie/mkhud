@@ -589,7 +589,7 @@
 
 	"HudTournamentBLUEBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentBLUEBG"
 		"xpos"			"c-120"
 		"ypos"			"15"
@@ -600,7 +600,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_hudblue"
+		"fillcolor"		"mkgui"
+	//	"image"			"replay\thumbnails\bg_hudblue"
 		"proportionaltoparent"	"1"
 
 		"src_corner_height"	"15"				// pixels inside the image
@@ -631,7 +632,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUELabel"
 		"font"			"mk16"
-		"fgcolor_override"	"mkblack"
+		"fgcolor_override"	"mkhudblue"
 		"xpos"			"c-119"
 		"ypos"			"15"
 		"zpos"			"-10"
@@ -668,7 +669,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentBLUEStateLabel"
 		"font"			"mk12"
-		"fgcolor_override"	"mkblack"
+		"fgcolor_override"	"mkdarkerblue"
 		"xpos"			"c-70"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -703,7 +704,7 @@
 
 	"HudTournamentREDBG"
 	{
-		"ControlName"		"ScalableImagePanel"
+		"ControlName"		"ImagePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"c0"
 		"ypos"			"15"
@@ -714,7 +715,8 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_hudred"
+		"fillcolor"		"mkgui"
+	//	"image"			"replay\thumbnails\bg_hudred"
 
 		"src_corner_height"	"15"				// pixels inside the image
 		"src_corner_width"	"15"
@@ -745,7 +747,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDLabel"
 		"font"			"mk16"
-		"fgcolor_override"	"mkblack"
+		"fgcolor_override"	"mkhudred"
 		"xpos"			"c53"
 		"ypos"			"15"
 		"zpos"			"1"
@@ -781,7 +783,7 @@
 		"ControlName"		"Label"
 		"fieldName"		"TournamentREDStateLabel"
 		"font"			"mk12"
-		"fgcolor_override"	"mkblack"
+		"fgcolor_override"	"mkdarkerblue"
 		"xpos"			"c5"
 		"ypos"			"15"
 		"zpos"			"1"

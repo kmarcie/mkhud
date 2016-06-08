@@ -455,7 +455,7 @@
 		"CornerRadius"	  "0"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"product12"
+		"TextFont"		"RobotoBold12"
 		
 		"TeamBlue"		"mkhudblue"
 		"TeamRed"		"mkhudred"

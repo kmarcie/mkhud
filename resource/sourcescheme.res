@@ -1,11 +1,4 @@
-//////////////////////////////////////////////////////////////////////////////////////////
-////  FONT SWITCHER, INSPIRED BY WAVESUI / EXTRACRISPY
-
-#base "SourceSchemeBase.res" // leave this
-
-//#base "SourceScheme - productsans.res" 
-#base "SourceScheme - roboto.res"
-
+#base "SourceSchemeBase.res"
 Scheme
 {
 	Colors
@@ -186,17 +179,119 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"G_HighlightText"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"G_Highlight"
 	}
+	Fonts
+	{
+		"MainMenuFont"
+			{
+				"1"
+				{
+					"name"		"Roboto Bold"
+					"tall"		"18"
+					"weight"	"500"
+					"antialias" "1"
+				}
+			}
+
+			"ServerBrowserTitle"
+			{
+				"1"
+				{
+					"name"		"Roboto Bold"
+					"tall"		"35"
+					"antialias" "1"
+				}
+			}
+
+			"Default" [$OSX]
+			{
+				"1"
+				{
+					"name"		"Roboto Bold"
+					"tall"		"18"
+					"weight"	"500"
+					"antialias"	"1"
+				}
+			}
+			
+			"G_DefaultSmall"
+			{
+				"1"
+				{
+					"name"		"Roboto Bold"
+					"tall"		"18"
+					"weight"	"500"
+					"antialias"	"1"
+				}
+			}
+
+			"ServerBrowserSmall"
+			{
+				"1"
+				{
+					"name"		"Roboto Bold"
+					"tall"		"16"
+					"antialias"	"1"
+				}
+				"2"
+				{
+					"name"		"Roboto Bold"
+					"tall"		"16"
+					"antialias"	"1"
+				}
+				"3"
+				{
+					"name"		"Roboto Bold"
+					"tall"		"16"
+					"antialias"	"1"
+				}
+				"4"
+				{
+					"name"		"Roboto Bold"
+					"tall"		"19"
+					"antialias"	"1"
+				}
+				"5"
+				{
+					"name"		"Roboto Bold"
+					"tall"		"19"
+					"antialias"	"1"
+				}
+			}
+			
+					
+			AchievementItemTitle	[$WIN32]
+			{
+				"1"
+				{
+					"name"		"Roboto Bold" [!$OSX]
+					"antialias"	"1"
+				}
+			}
+			
+			AchievementItemTitleLarge	[$WIN32]
+			{
+				"1"
+				{
+					"name"		"Roboto Bold" [!$OSX]
+					"antialias"	"1"
+				}
+			}
+			
+			AchievementItemDescription	[$WIN32]
+			{
+				"1"
+				{
+					"name"		"Roboto Bold" [!$OSX]
+					"antialias"	"1"
+				}
+			}
+	}
 	CustomFontFiles
 	{
 		"1" 
 		{
 			"font" "resource/fonts/Roboto-Bold.ttf"
 			"name" "Roboto Bold"
-		}
-		"2"
-		{
-			"font" "resource/fonts/productsans.ttf"
-			"name" "Product Sans"
 		}
 		"6" 
 		{
@@ -259,4 +354,5 @@ Scheme
 				"range" "0x0000 0x0451"
 			}	
 		}
+	}
 }

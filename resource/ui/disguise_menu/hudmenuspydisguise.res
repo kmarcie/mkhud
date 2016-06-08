@@ -80,8 +80,8 @@
 	{	
 		"ControlName"	"CExLabel"
 		"fieldName"		"TitleLabel"
-		"font"			"product12"
-		"xpos"			"52"			// align me to the left edge of the first selection
+		"font"			"product16"
+		"xpos"			"51"			// align me to the left edge of the first selection
 		"ypos"			"88"
 		"zpos"			"16"
 		"wide"			"360"

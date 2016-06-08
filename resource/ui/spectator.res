@@ -227,6 +227,7 @@
 		"bgcolor_override"		"255 255 255 0"
 		"PaintBackgroundType"	"0"
 		"border"		"OutlinedGreyBox"
+		"paintborder"	"1"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"
@@ -258,13 +259,13 @@
 			"xpos"			"0"
 			"ypos"			"0"
 			"zpos"			"-1"
-			"wide"			"200"
-			"tall"			"1000"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"		"itempanelbg"
+			"fillcolor"		"0 0 0 0"
 		}
 		
 		"ItemLabel"

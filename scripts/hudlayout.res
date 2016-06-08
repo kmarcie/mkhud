@@ -217,9 +217,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c0"
-		"ypos"		"255"
+		"ypos"		"280"
 		"wide"	 	"f0"
-		"tall"	 	"f0"
+		"tall"	 	"35"
 		"priority"	"40"
 		"priority_lodef"	"5"
 	}
@@ -230,9 +230,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"310"
+		"ypos"		"360"
 		"wide"	 	"f0"
-		"tall"	 	"50"
+		"tall"	 	"35"
 		"priority"	"40"
 		
 		"x_offset" "20"
@@ -245,9 +245,9 @@
 		"visible" 	"0"
 		"enabled" 	"1"
 		"xpos"		"c-126"
-		"ypos"		"330"
+		"ypos"		"350"
 		"wide"	 	"f0"
-		"tall"	 	"f0"
+		"tall"	 	"35"
 		"priority"	"35"
 
 		if_vr

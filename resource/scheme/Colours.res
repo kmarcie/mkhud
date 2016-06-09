@@ -26,6 +26,7 @@ Scheme
 		"mkAccent"			"214 73  51  255"
 		"mkPureWhite"		"255 255 255 255"
 		"mkPureBlack"		"0   0   0   255"
+		"mkOVERHEAL"		"0   230 118 255"
 		
 		// tf2 colours
 		"Orange"			"214 73  51 255" // i made these two values blue, the original is 178,82,22

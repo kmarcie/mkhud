@@ -45,11 +45,11 @@
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"PlayerStatusHealthBonusImage"
-		"xpos"			"7"
-		"ypos"			"3"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"3"
-		"wide"			"14"
-		"tall"			"14"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"../hud/health_over_bg"
@@ -83,7 +83,7 @@
 		"labeltext"			"%Health%"
 		"textAlignment"		"center"
 		"font"				"mkTargetID"
-		"fgcolor"			"255 255 255 255"
+		"fgcolor"			"MKWHITE"
 	}
 	"TournamentSpectatorHealthShadow"
 	{	

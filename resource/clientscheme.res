@@ -1,14 +1,20 @@
-#base 	"scheme/Fonts.res"
-#base 	"scheme/BaseSettings.res"
-#base 	"scheme/Colours.res"
-#base 	"scheme/Borders.res"
+///////////////////// FONT SWITCHER ///////////////////
+    #base 	"scheme/Fonts.res" 			// Roboto
+//	#base 	"scheme/Fonts - Neutra.res" // Neutra
 
-// DO NOT UNCOMMENT THESE ///////////
+/////////////////// LEAVE THESE ALONE ///////////////////
+	#base 	"scheme/BaseSettings.res"
+	#base 	"scheme/Colours.res"
+	#base 	"scheme/Borders.res"
+
 ///////////////////////////////////////////////////
 // IF YOU ARE EDITING MY HUD
 // DO NOT EDIT THIS CLIENTSCHEME
 // EDIT THE RESPECTFUL FILES IN THE SCHEME FOLDER
-// THANKS, HAVE FUN
+//
+// IF YOU WANT TO KEEP THE FONTS CONSISTENT
+// MAKE SURE YOU EDIT SOURCESCHEME AND CHATSCHEME
+// HAVE FUN
 ///////////////////////////////////////////////////
 
 

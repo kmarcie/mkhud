@@ -247,7 +247,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TF2Label2"
-		"font"			"RobotoBold17"
+		"font"			"NeutraTITLE17"
 		"labelText"		"TEAM FORTRESS 2"
 		"textAlignment"	"west"
 		"xpos"			"65"
@@ -344,7 +344,7 @@
 		"fieldName"		"Background"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"-200"
+		"zpos"			"-10000"
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"

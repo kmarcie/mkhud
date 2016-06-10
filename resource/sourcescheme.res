@@ -1,4 +1,14 @@
-#base "SourceSchemeBase.res"
+#base "SourceSchemeBase.res" // LEAVE THIS ALONE
+
+/////////////// FONT SWITCHER ///////////
+//
+// #base "scheme/source/neutra.res"
+   #base "scheme/source/roboto.res"
+//
+// comment the one you don't want
+// uncomment the one you want
+// default roboto
+/////////////////////////////////////////
 Scheme
 {
 	Colors
@@ -179,119 +189,17 @@ Scheme
 		SectionedListPanel.OutOfFocusSelectedTextColor	"G_HighlightText"
 		SectionedListPanel.OutOfFocusSelectedBgColor	"G_Highlight"
 	}
-	Fonts
-	{
-		"MainMenuFont"
-			{
-				"1"
-				{
-					"name"		"Roboto Bold"
-					"tall"		"18"
-					"weight"	"500"
-					"antialias" "1"
-				}
-			}
-
-			"ServerBrowserTitle"
-			{
-				"1"
-				{
-					"name"		"Roboto Bold"
-					"tall"		"35"
-					"antialias" "1"
-				}
-			}
-
-			"Default" [$OSX]
-			{
-				"1"
-				{
-					"name"		"Roboto Bold"
-					"tall"		"18"
-					"weight"	"500"
-					"antialias"	"1"
-				}
-			}
-			
-			"G_DefaultSmall"
-			{
-				"1"
-				{
-					"name"		"Roboto Bold"
-					"tall"		"18"
-					"weight"	"500"
-					"antialias"	"1"
-				}
-			}
-
-			"ServerBrowserSmall"
-			{
-				"1"
-				{
-					"name"		"Roboto Bold"
-					"tall"		"16"
-					"antialias"	"1"
-				}
-				"2"
-				{
-					"name"		"Roboto Bold"
-					"tall"		"16"
-					"antialias"	"1"
-				}
-				"3"
-				{
-					"name"		"Roboto Bold"
-					"tall"		"16"
-					"antialias"	"1"
-				}
-				"4"
-				{
-					"name"		"Roboto Bold"
-					"tall"		"19"
-					"antialias"	"1"
-				}
-				"5"
-				{
-					"name"		"Roboto Bold"
-					"tall"		"19"
-					"antialias"	"1"
-				}
-			}
-			
-					
-			AchievementItemTitle	[$WIN32]
-			{
-				"1"
-				{
-					"name"		"Roboto Bold" [!$OSX]
-					"antialias"	"1"
-				}
-			}
-			
-			AchievementItemTitleLarge	[$WIN32]
-			{
-				"1"
-				{
-					"name"		"Roboto Bold" [!$OSX]
-					"antialias"	"1"
-				}
-			}
-			
-			AchievementItemDescription	[$WIN32]
-			{
-				"1"
-				{
-					"name"		"Roboto Bold" [!$OSX]
-					"antialias"	"1"
-				}
-			}
-	}
 	CustomFontFiles
 	{
 		"1" 
 		{
 			"font" "resource/fonts/Roboto-Bold.ttf"
 			"name" "Roboto Bold"
+		}
+		"2" 
+		{
+			"font" "resource/fonts/Neutra2Text-Bold.otf"
+			"name" "Neutraface2Text-Bold"
 		}
 		"6" 
 		{

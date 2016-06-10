@@ -225,7 +225,7 @@
 		"tabPosition"	"0"
 		"labelText"		"CHAMPION"
 		"textAlignment"	"left"
-		"font"			"RobotoBold27"
+		"font"			"NeutraTitle27"
 		"fgcolor"		"mkdarkerblue"
 	}
 	"scout"

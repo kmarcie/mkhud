@@ -83,7 +83,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"RobotoBold11"
+		"font"			"RobotoBold14"
 		"labelText"		"%display_name%"
 		"textAlignment"	"west"
 		"xpos"			"65"
@@ -101,7 +101,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"TextDescriptionLabel"
-		"font"			"Roboto10"
+		"font"			"RobotoBold10"
 		"labelText"		"%text_description%"
 		"textAlignment"	"north-west"
 		"xpos"			"65"

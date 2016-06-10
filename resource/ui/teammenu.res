@@ -85,7 +85,7 @@
 		"tabPosition"	"0"
 		"labelText"		"TEAM"
 		"textAlignment"	"left"
-		"font"			"RobotoBold52"
+		"font"			"NeutraTitle52"
 		"fgcolor"		"mkdarkerblue"
 	}
 	"team"

@@ -79,7 +79,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LiveOnTwitch"
-			"font"			"RobotoBold15"
+			"font"			"NeutraTitle15"
 			"textAlignment"	"west"
 			"labelText"		"LIVE ON TWITCH"
 			"xpos"			"14"

@@ -345,6 +345,14 @@ Scheme
 			
 			"image"					"replay/thumbnails/greymatpanel"
 		}
+		mkBorder2
+		{
+			"bordertype"			"scalable_image"
+			"backgroundtype"		"0"
+			"color"					"mkdarkerblue"
+			
+			"image"					"replay/thumbnails/greymatpanel"
+		}
 		mkButton
 		{
 			"bordertype"			"scalable_image"

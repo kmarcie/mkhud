@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 255"
+		"bgcolor_override"	"0 0 0 0"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
 		"NavDown"		"MvMEconItemsGroupBox"
@@ -28,8 +28,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"f0"
-		"tall"			"p0.8"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
@@ -193,7 +193,7 @@
 					"pinCorner"		"0"
 					"visible"		"1"
 					"enabled"		"1"
-					"fgcolor_override"	"201 79 57 255"
+					"fgcolor_override"	"mklightblue"
 					"auto_wide_tocontents" "0"
 					"wrap"				   "1"
 					"centerwrap"		   "1"
@@ -326,7 +326,7 @@
 		"tall"		"350"
 		"visible"	"1"
 		"enabled"	"1"
-		"border"	"MainMenuHighlightBorder"
+		"border"	"mkborder2"
 		
 		"MannVsMachineLabel"
 		{
@@ -337,10 +337,10 @@
 			"zpos"			"1"
 			"wide"			"370"
 			"tall"			"25"
-			"labelText"		"#TF_MvM_HeaderMannVsMachine"
+			"labelText"		"MANN VS MACHINE"
 			"font"			"HudFontMediumBold"
 			//"fgcolor_override"	"89 81 71 255"
-			"fgcolor_override"	"201 79 57 255"
+			"fgcolor_override"	"MKLIGHTBLUE"
 			"textAlignment"	"west"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
@@ -351,7 +351,7 @@
 			"ControlName"	"CExLabel"
 			"fieldName"		"MannVsMachineExplanation"
 			"font"			"HudFontSmall"
-			"fgcolor_override"	"89 81 71 255"
+			"fgcolor_override"	"mkwhite"
 			"labelText"		"#TF_MvM_MannVsMachineExplaination"
 			"textAlignment"	"north-west"
 			"xpos"			"15"
@@ -464,7 +464,7 @@
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"mkdarkerblue"
 		}
 
 		"DifficultyLabel"
@@ -479,7 +479,7 @@
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"mkdarkerblue"
 		}
 
 		"CompleteLabel"
@@ -494,7 +494,7 @@
 			"zpos"			"0"
 			"wide"			"80"
 			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"mkdarkerblue"
 		}
 
 		"TourLevelLabel"
@@ -509,7 +509,7 @@
 			"zpos"			"0"
 			"wide"			"80"
 			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"mkdarkerblue"
 		}
 
 		"TourlistGroupBox"
@@ -523,8 +523,8 @@
 			"tall"			"197"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"0 0 0 0"
+			"border"		"mkborder2"
 
 			"NavToRelay"	"TourList"
 
@@ -538,7 +538,7 @@
 				"wide"			"400"
 				"tall"			"225"
 				"visible"		"0"
-				"bgcolor_override"	"128 128 128 128"
+				"bgcolor_override"	"0 0 0 0"
 			}
 
 			"TourList"
@@ -570,7 +570,7 @@
 			"visible"	"1"
 			"enabled"	"1"
 			"wrap"		"1"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"mkdarkerblue"
 		}
 	}
 
@@ -585,14 +585,14 @@
 		"tall"		"120"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"0 0 0 0"
+		"border"		"mkborder"
 
 		"TourLootImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"TourLootImage"
-			"xpos"			"280"
+			"xpos"			"285"
 			"ypos"			"6"
 			"zpos"			"0"
 			"wide"			"110"
@@ -611,11 +611,12 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_MvM_TourLootTitle"
 			"textAlignment"	"west"
-			"xpos"			"10"
+			"xpos"			"15"
 			"ypos"			"5"
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"30"
+			"fgcolor_override"	"mkdarkerblue"
 		}
 
 		"ToorLootDetailLabel"
@@ -625,12 +626,13 @@
 			"font"			"HudFontSmall"
 			"labelText"		"%tour_loot_detail%"
 			"textAlignment"	"west"
-			"wrap"			"1"
+			"wrap"			"6"
 			"xpos"			"10"
 			"ypos"			"30"
 			"zpos"			"0"
 			"wide"			"280"
 			"tall"			"50"
+			"fgcolor_override"	"mkdarkerblue"
 		}
 	}
 
@@ -643,8 +645,8 @@
 		"zpos"			"-1"
 		"wide"			"400"
 		"tall"			"120"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"0 0 0 0"
+		"border"		"mkborder2"
 
 		"NavToRelay"	"OpenHelpButton"
 		"NavUp"			"MvMTourOfDutyGroupBox"
@@ -658,7 +660,7 @@
 			"font"			"HudFontSmallBold"
 			"labelText"		"#TF_MvM_InventoryTitle"
 			"textAlignment"	"west"
-			"xpos"			"8"
+			"xpos"			"13"
 			"ypos"			"5"
 			"zpos"			"0"
 			"wide"			"200"
@@ -697,7 +699,7 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"MannUpTicketImage"
-			"xpos"			"6"
+			"xpos"			"10"
 			"ypos"			"61"
 			"zpos"			"0"
 			"wide"			"60"
@@ -716,8 +718,8 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%ticket_count%"
 			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
-			"xpos"			"70"
+			"fgcolor_override"	"mklightblue"
+			"xpos"			"75"
 			"ypos"			"79"
 			"zpos"			"1"
 			"wide"			"60"
@@ -729,7 +731,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"OpenStoreButton"
-			"xpos"			"95"
+			"xpos"			"100"
 			"ypos"			"82"
 			"zpos"			"2"
 			"wide"			"100"
@@ -751,13 +753,20 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 		}
 
 		"SquadSurplusImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SquadSurplusImage"
-			"xpos"			"6"
+			"xpos"			"10"
 			"ypos"			"24"
 			"zpos"			"0"
 			"wide"			"60"
@@ -776,8 +785,8 @@
 			"font"			"HudFontMediumBold"
 			"labelText"		"%voucher_count%"
 			"textAlignment"	"north-west"
-			"fgcolor_override"	"201 79 57 255"
-			"xpos"			"70"
+			"fgcolor_override"	"mklightblue"
+			"xpos"			"75"
 			"ypos"			"43"
 			"zpos"			"1"
 			"wide"			"60"
@@ -789,7 +798,7 @@
 		{
 			"ControlName"	"CExButton"
 			"fieldName"		"OpenStoreButton2"
-			"xpos"			"95"
+			"xpos"			"100"
 			"ypos"			"46"
 			"zpos"			"2"
 			"wide"			"100"
@@ -811,6 +820,13 @@
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 		}
 
 		"SquadSurplusCheckButton"
@@ -853,8 +869,8 @@
 		"tall"		"120"
 		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"0 0 0 0"
+		"border"		"mkborder2"
 
 		"NavToRelay"	"MannUpNowButton"
 		"NavUp"			"MvMEconItemsGroupBox"
@@ -928,6 +944,13 @@
 			"command" "mann_up_now"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"mkButton"
+		"border_armed"		"mkButtonSelected"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 		}
 	}
 
@@ -951,12 +974,12 @@
 			"font"			"HudFontMediumSmallBold"
 			"labelText"		"%tour_name%"
 			"textAlignment"	"south-west"
-			"xpos"			"0"
+			"xpos"			"20"
 			"ypos"			"0"
 			"zpos"			"0"
 			"wide"			"400"
 			"tall"			"26"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"mklightblue"
 		}
 
 		"CompleteLabel"
@@ -971,7 +994,7 @@
 			"zpos"			"0"
 			"wide"			"100"
 			"tall"			"24"
-			"fgcolor_override"	"250 114 45 255"
+			"fgcolor_override"	"mkdarkerblue"
 		}
 
 		"TourLevelImage"
@@ -1010,14 +1033,14 @@
 			"ControlName"	"EditablePanel"
 			"fieldName"		"ChallengeListGroupBox"
 			"xpos"			"0"
-			"ypos"			"28"
+			"ypos"			"32"
 			"zpos"			"-1"
 			"wide"			"400"
 			"tall"			"197"
 			"PaintBackgroundType"	"2"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"0 0 0 0"
+			"border"		"mkborder2"
 
 			"NavToRelay"	"ChallengeList"
 
@@ -1031,7 +1054,7 @@
 				"wide"			"400"
 				"tall"			"225"
 				"visible"		"0"
-				"bgcolor_override"	"128 128 128 128"
+				"bgcolor_override"	"0 0 0 0"
 			}
 
 			"ChallengeList"
@@ -1039,7 +1062,7 @@
 				"ControlName"	"SectionedListPanel"
 				"fieldName"		"ChallengeList"
 				"font"			"HudFontSmall"
-				"xpos"			"70"
+				"xpos"			"77"
 				"ypos"			"5"
 				"zpos"			"0"
 				"wide"			"330"
@@ -1060,8 +1083,8 @@
 		"tall"		"330"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"0 0 0 0"
+		"border"		"mkborder2"
 
 		"NoGCTitle"
 		{
@@ -1108,8 +1131,8 @@
 		"tall"		"330"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"bgcolor_override"	"0 0 0 200"
-		"border"		"QuickplayBorder"
+		"bgcolor_override"	"0 0 0 0"
+		"border"		"mkborder2"
 
 		"SearchActiveTitle"
 		{
@@ -1125,6 +1148,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"mklightblue"
 		}
 
 		"NearbyColumnHead"
@@ -1141,6 +1165,7 @@
 			"textAlignment"	"south-east"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"mklightblue"
 		}
 
 		"WorldwideColumnHead"
@@ -1157,6 +1182,7 @@
 			"textAlignment"	"south-east"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"mklightblue"
 		}
 
 		"PlayersInGameLabel"
@@ -1173,6 +1199,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"mklightblue"
 		}
 
 		"PlayersInGameTotalLabel"
@@ -1189,6 +1216,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"mklightblue"
 		}
 
 			"PlayersInGameTotalNearbyValue"
@@ -1205,6 +1233,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
+				"fgcolor_override"	"mklightblue"
 			}
 
 			"PlayersInGameTotalWorldwideValue"
@@ -1221,6 +1250,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
+				"fgcolor_override"	"mklightblue"
 			}
 
 		"PlayersInGameMatchingLabel"
@@ -1237,6 +1267,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"mklightblue"
 		}
 
 			"PlayersInGameMatchingNearbyValue"
@@ -1253,6 +1284,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
+				"fgcolor_override"	"mklightblue"
 			}
 
 			"PlayersInGameMatchingWorldwideValue"
@@ -1269,6 +1301,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
+				"fgcolor_override"	"mklightblue"
 			}
 
 		"PlayersSearchingLabel"
@@ -1285,6 +1318,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"mklightblue"
 		}
 
 		"PlayersSearchingTotalLabel"
@@ -1301,6 +1335,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"mklightblue"
 		}
 
 			"PlayersSearchingTotalNearbyValue"
@@ -1317,6 +1352,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
+				"fgcolor_override"	"mklightblue"
 			}
 
 			"PlayersSearchingTotalWorldwideValue"
@@ -1333,6 +1369,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
+				"fgcolor_override"	"mklightblue"
 			}
 
 		"PlayersSearchingMatchingLabel"
@@ -1349,6 +1386,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"mklightblue"
 		}
 
 			"PlayersSearchingMatchingNearbyValue"
@@ -1365,6 +1403,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
+				"fgcolor_override"	"mklightblue"
 			}
 
 			"PlayersSearchingMatchingWorldwideValue"
@@ -1381,6 +1420,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
+				"fgcolor_override"	"mklightblue"
 			}
 
 		"EmptyGameserversLabel"
@@ -1397,6 +1437,7 @@
 			"textAlignment"	"north-west"
 			"visible"	"1"
 			"enabled"	"1"
+			"fgcolor_override"	"mklightblue"
 		}
 
 			"EmptyGameserversMatchingNearbyValue"
@@ -1413,6 +1454,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
+				"fgcolor_override"	"mklightblue"
 			}
 
 			"EmptyGameserversMatchingWorldwideValue"
@@ -1429,6 +1471,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"labelText"		"?"
+				"fgcolor_override"	"mklightblue"
 			}
 
 		"PartyHasLowPriorityGroupBox"
@@ -1473,7 +1516,7 @@
 				"visible"	"1"
 				"enabled"	"1"
 				"wrap"		"1"
-				"fgcolor_override"	"250 114 45 255"
+				"fgcolor_override"	"mkdarkerblue"
 			}
 			"PartyLowPriorityPenaltyTimer"
 			{
@@ -1498,10 +1541,10 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"PartyActiveGroupBox"
-		"xpos"			"c+100"
-		"ypos"		"10"
+		"xpos"			"r145"
+		"ypos"		"50"
 		"zpos"		"1"
-		"wide"		"200"
+		"wide"		"150"
 		"tall"		"330"
 		"visible"	"0"
 
@@ -1512,7 +1555,10 @@
 
 		"if_competitive"
 		{
+			"xpos"			"r260"
 			"ypos"		"35"
+			"wide"		"300"
+			"tall"		"330"
 		}
 
 		"PartyGroupBox"
@@ -1522,44 +1568,50 @@
 			"xpos"		"0"
 			"ypos"		"0"
 			"zpos"		"-1"
-			"wide"		"200"
+			"wide"		"141"
 			"tall"		"160"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"0 0 0 0"
+			"border"		"mkborder2"
 
 			"NavToRelay"	"InviteButton"
+			
+			if_competitive
+			{
+				"wide"		"260"
+			}
 
 			"PartyLabel"
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"PartyLabel"
-				"font"			"HudFontMediumBold"
-				"labelText"		"#TF_Matchmaking_Party"
-				"textAlignment"	"west"
-				"xpos"			"5"
+				"font"			"RobotoBold16"
+				"labelText"		""
+				"textAlignment"	"center"
+				"xpos"			"10"
 				"ypos"			"5"
 				"zpos"			"0"
-				"wide"			"120"
+				"wide"			"125"
 				"tall"			"20"
+				"fgcolor_override"	"mkdarkerblue"
 			}
 
 			"InviteButton"
 			{
 				"ControlName"	"CExImageButton"
 				"fieldName"		"InviteButton"
-				"xpos"			"95"
+				"xpos"			"20"
 				"ypos"			"5"
 				"zpos"			"2"
 				"wide"			"100"
-				"tall"			"20"
+				"tall"			"25"
 				"autoResize"	"0"
 				//"pinCorner"		"3"
 				"visible"		"1"
 				"enabled"		"1"
 				"tabPosition"	"0"
-				"labelText"		"#TF_Matchmaking_Invite"
+				"labelText"		"INVITE"
 				"font"			"HudFontSmallBold"
 				"textAlignment"	"center"
 				"dulltext"		"0"
@@ -1569,6 +1621,20 @@
 
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
+				
+				if_competitive
+				{
+					"xpos"		"5"
+					"wide"		"250"
+					"labelText"		"INVITE SOME DUDES"
+				}
 			}
 
 			"TourLevelImage"
@@ -1594,9 +1660,15 @@
 				"xpos"			"5"
 				"ypos"			"30"
 				"zpos"			"0"
-				"wide"			"190"
+				"wide"			"135"
 				"tall"			"125"
 				"linespacing"	"18"
+				"font"			"robotobold9"
+				
+				if_competitive
+				{
+					"wide"		"250"
+				}
 			}
 		}
 
@@ -1604,14 +1676,18 @@
 		{
 			"ControlName"	"RichText"
 			"fieldName"		"ChatLog"
-			"Default"			"ChatMiniFont"
+			"Default"			"robotobold9"
 			"xpos"			"0"
 			"ypos"			"170"
 			"zpos"			"0"
-			"wide"			"200"
+			"wide"			"141"
 			"tall"			"110"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"0 0 0 0"
+			"border"		"mkborder2"
+				if_competitive
+				{
+					"wide"		"262"
+				}
 		}
 
 		"ChatTextEntry"
@@ -1619,13 +1695,17 @@
 			"ControlName"	"TextEntry"
 			"fieldName"		"ChatTextEntry"
 			"font"			"ChatFont"
-			"xpos"			"0"
+			"xpos"			"3"
 			"ypos"			"290"
 			"zpos"			"0"
-			"wide"			"200"
+			"wide"			"135"
 			"tall"			"20"
-			"bgcolor_override"	"0 0 0 200"
-			"border"		"QuickplayBorder"
+			"bgcolor_override"	"mkdarkerblue"
+			"border"		"mkborder2"
+				if_competitive
+				{
+					"wide"		"255"
+				}
 		}
 	}
 
@@ -1640,6 +1720,7 @@
 		"tall"		"20"
 		"font"			"HudFontSmall"
 		"labelText"		"#TF_Matchmaking_JoinInProgress"
+		"fgcolor_override"	"mkdarkerblue"
 	}
 
 	"JoinLateValueLabel"
@@ -1653,6 +1734,7 @@
 		"zpos"		"-1"
 		"wide"		"200"
 		"tall"		"20"
+		"fgcolor_override"	"mkdarkerblue"
 	}
 
 	"CompetitiveModeGroupBox"
@@ -1672,15 +1754,15 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"LadderLabel"
-			"xpos"			"105"
-			"ypos"			"0"
+			"xpos"			"120"
+			"ypos"			"33"
 			"zpos"			"0"
 			"wide"			"50"
 			"tall"			"20"
 			"visible"		"1"
 			"enabled"		"1"
-			"font"			"HudFontSmallestBold"
-			//"fgcolor_override"	"89 81 71 255"
+			"font"			"RobotoBold12"
+			"fgcolor_override"	"mklightblue"
 			"textAlignment"	"west"
 			"labelText"		"#TF_Competitive_Ladder"
 		}
@@ -1691,10 +1773,10 @@
 			"ControlName"		"ComboBox"
 			"fieldName"			"CompetitiveModeComboBox"
 			"Font"				"HudFontSmallestBold"
-			"xpos"				"155"
-			"ypos"				"1"
+			"xpos"				"160"
+			"ypos"				"37"
 			"zpos"				"0"
-			"wide"				"85"
+			"wide"				"35"
 			"tall"				"15"
 			"autoResize"		"0"
 			"pinCorner"			"0"
@@ -1707,12 +1789,12 @@
 			"unicode"			"0"
 			"default"			"0"
 		
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"mklightblue"
 			"bgcolor_override"	"0 0 0 0"
-			"disabledFgColor_override" "235 226 202 255"
+			"disabledFgColor_override" "mklightblue"
 			"disabledBgColor_override" "0 0 0 0"
 			"selectionColor_override" "0 0 0 0"
-			"selectionTextColor_override" "235 226 202 255"
+			"selectionTextColor_override" "mklightblue"
 			"defaultSelectionBG2Color_override" "0 0 0 0"
 		}
 		
@@ -1727,8 +1809,8 @@
 			"tall"			"285"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"25 25 25 200"
-			"border"			"QuickplayBorder"
+			"bgcolor_override"	"25 25 25 0"
+			"border"			"mkborder2"
 
 			"StatsLabel"
 			{
@@ -1741,8 +1823,8 @@
 				"tall"			"20"
 				"visible"		"0"
 				"enabled"		"0"
-				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"89 81 71 255"
+				"font"			"robotol12"
+				"fgcolor_override"	"mkwhite"
 				"textAlignment"	"west"
 				"labelText"		"#TF_Competitive_Stats"
 			}
@@ -1755,8 +1837,8 @@
 				"xpos"			"0"
 				"ypos"			"0"
 				"zpos"			"-1"
-				"wide"			"200"
-				"tall"			"200"
+				"wide"			"0"
+				"tall"			"0"
 				"visible"		"1"
 				"enabled"		"1"
 				"mouseinputenabled" "0"
@@ -1768,7 +1850,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RankLabel"
-				"xpos"			"107"
+				"xpos"			"57"
 				"ypos"			"35"
 				"zpos"			"0"
 				"wide"			"100"
@@ -1776,7 +1858,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				//"fgcolor_override"	"89 81 71 255"
+				"fgcolor_override"	"mklightblue"
 				"textAlignment"	"west"
 				"labelText"		"#TF_Competitive_RankUpper"
 			}
@@ -1785,7 +1867,7 @@
 			{
 				"ControlName"	"ImagePanel"
 				"fieldName"		"RankIcon"
-				"xpos"			"20"
+				"xpos"			"118"
 				"ypos"			"12"
 				"zpos"			"0"
 				"wide"			"75"
@@ -1801,15 +1883,15 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RankNumber"
-				"xpos"			"100"
-				"ypos"			"30"
+				"xpos"			"9999"
+				"ypos"			"9999"
 				"zpos"			"0"
 				"wide"			"30"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				//"fgcolor_override"	"250 114 45 255"
+				//"fgcolor_override"	"mkdarkerblue"
 				"textAlignment"	"west"
 				"labelText"		"%ranknumber%"
 			}
@@ -1818,16 +1900,16 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RankTitle"
-				"xpos"			"115"
-				"ypos"			"30"
+				"xpos"			"78"
+				"ypos"			"80"
 				"zpos"			"0"
 				"wide"			"150"
 				"tall"			"20"
 				"visible"		"1"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				//"fgcolor_override"	"250 114 45 255"
-				"textAlignment"	"west"
+				//"fgcolor_override"	"mkdarkerblue"
+				"textAlignment"	"center"
 				"labelText"		"%ranktitle%"
 			}
 
@@ -1836,7 +1918,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RankLevelLabel"
-				"xpos"			"20"
+				"xpos"			"125"
 				"ypos"			"75"
 				"zpos"			"0"
 				"wide"			"100"
@@ -1853,7 +1935,7 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"RankLevel"
-				"xpos"			"55"
+				"xpos"			"58"
 				"ypos"			"75"
 				"zpos"			"0"
 				"wide"			"20"
@@ -1861,7 +1943,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"250 114 45 255"
+				"fgcolor_override"	"mkdarkerblue"
 				"textAlignment"	"west"
 				"labelText"		"%ranklevel%"
 			}
@@ -1878,7 +1960,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"font"			"HudFontSmallBold"
-				"fgcolor_override"	"250 114 45 255"
+				"fgcolor_override"	"mkdarkerblue"
 				"textAlignment"	"west"
 				"labelText"		"%nextranklevel%"
 			}
@@ -1888,8 +1970,8 @@
 				"ControlName"	"ContinuousProgressBar"
 				"fieldName"		"RankProgressMeter"
 				"font"			"HudFontSmallestBold"
-				"xpos"			"100"
-				"ypos"			"50"
+				"xpos"			"65"
+				"ypos"			"100"
 				"zpos"			"2"
 				"wide"			"185"
 				"tall"			"10"				
@@ -1900,31 +1982,33 @@
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"fgcolor_override"	"132 229 37 255"
+				"fgcolor_override"	"mklightblue"
+				"bgcolor_override"	"mkdarkerblue"
 			}
 
 			"RankProgressMeterBG"
 			{
 				"ControlName"	"EditablePanel"
 				"fieldName"		"RankProgressMeterBG"
-				"xpos"			"99"
-				"ypos"			"49"
+				"xpos"			"63"
+				"ypos"			"100"
 				"zpos"			"-1"
-				"wide"			"187"
-				"tall"			"12"
+				"wide"			"0"
+				"tall"			"0"
 				"PaintBackgroundType"	"0"
 				"paintbackground"		"1"
-				"bgcolor_override"	"75 75 75 200"
-				//"border"			"QuickplayBorder"
+				"fgcolor_override"	"mklightblue"
+				"bgcolor_override"	"mkdarkerblue"
+				//"border"			"mkborder2"
 			}
 
-			"StatsButton"
+			"StatsButton"  // SEASON
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"StatsButton"
 				"xpos"			"50"
-				"ypos"			"110"
-				"zpos"			"1"
+				"ypos"			"115"
+				"zpos"			"13"
 				"wide"			"105"
 				"tall"			"16"
 				"autoResize"	"0"
@@ -1941,15 +2025,22 @@
 				"button_activation_type"	"1"	// only on press
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 			}
 
-			"MatchStatsButton"
+			"MatchStatsButton" // LAST MATCH
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"MatchStatsButton"
 				"xpos"			"160"
-				"ypos"			"110"
-				"zpos"			"1"
+				"ypos"			"115"
+				"zpos"			"13"
 				"wide"			"105"
 				"tall"			"16"
 				"autoResize"	"0"
@@ -1967,6 +2058,13 @@
 				"button_activation_type"	"1"	// only on press
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 			}
 
 			"StatLine"
@@ -1980,7 +2078,7 @@
 				"tall"				"2"
 				"visible"			"1"
 				"proportionaltoparent" "1"
-				"bgcolor_override"	"89 81 71 255"
+				"bgcolor_override"	"0 0 0 0"
 			}
 
 			"StatList"
@@ -2076,15 +2174,15 @@
 		{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"LeaderboardPanel"
-			"xpos"			"c5"
-			"ypos"			"30"
+			"xpos"			"r275"
+			"ypos"			"15"
 			"zpos"			"-1"
 			"wide"			"313"
-			"tall"			"285"
+			"tall"			"350"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			"bgcolor_override"	"25 25 25 200"
-			"border"			"QuickplayBorder"
+			"bgcolor_override"	"0 0 0 0"
+			"border"			"noborder"
 			"mouseinputenabled" "1"
 
 			"Leaderboard"
@@ -2092,26 +2190,43 @@
 				"ControlName"	"CLadderLobbyLeaderboard"
 				"fieldName"		"Leaderboard"
 				"xpos"			"0"
-				"ypos"			"5"
+				"ypos"			"25"
 				"zpos"			"0"
-				"wide"			"313"
+				"wide"			"280"
 				"tall"			"275"
 				"visible"		"1"
 				"enabled"		"1"
 				"mouseinputenabled" "1"
 				"scaleImage"	"1"
-				"entry_step"	"23"
+				"entry_step"	"21" // space between the names/avatars
+				"fgcolor_override"	"mkdarkerblue"
 			}
+			"matpanel"
+			{
+				"ControlName"		"ScalableImagePanel"
+				"fieldName"			"matpanel"
+				"xpos"				"17"
+				"ypos"				"45"
+				"zpos"				"-3"
+				"wide"				"258"
+				"tall"				"260"
+				"visible"			"1"
+				"enabled"			"1"
+				"image"				"replay/thumbnails/materialpanel"
 
+				"alpha"				"255"
+
+
+			}
 			"FriendsLeaderboardButton"
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"FriendsLeaderboardButton"
-				"xpos"			"50"
-				"ypos"			"8"
+				"xpos"			"22"
+				"ypos"			"-3"
 				"zpos"			"100"
-				"wide"			"105"
-				"tall"			"16"
+				"wide"			"250"
+				"tall"			"25"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -2126,17 +2241,24 @@
 				"button_activation_type"	"1"	// only on press
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 			}
 
 			"GlobalLeaderboardButton"
 			{
 				"ControlName"	"CExButton"
 				"fieldName"		"GlobalLeaderboardButton"
-				"xpos"			"160"
-				"ypos"			"8"
+				"xpos"			"22"
+				"ypos"			"21"
 				"zpos"			"100"
-				"wide"			"105"
-				"tall"			"16"
+				"wide"			"250"
+				"tall"			"25"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -2147,11 +2269,17 @@
 				"textAlignment"	"center"
 				"dulltext"		"0"
 				"brighttext"	"0"
-				"bgcolor_override"	"89 81 71 255"
 				"Command"		"global_leaderboard"
 				"button_activation_type"	"1"	// only on press
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
+				"border_default"	"mkButton"
+				"border_armed"		"mkButtonSelected"
+				"paintbackground"	"0"
+				
+				"defaultFgColor_override" "mklightblue"
+				"armedFgColor_override" "mkaccent"
+				"depressedFgColor_override" "mkaccent"
 			}
 		}
 	}

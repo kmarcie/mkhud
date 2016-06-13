@@ -1,5 +1,0 @@
-Go to the folder > CTRL + A > CTRL + C > CTRL + V into mkhud folder
-
-Replace/merge folders/files.
-
-Let me know if there's anything I missed when I was testing 16:10.

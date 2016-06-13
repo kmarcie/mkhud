@@ -5,14 +5,14 @@ A hud for Team Fortress 2.
 
 Constructive criticism is always welcome. Please let me know what I can do fit what other people want. And please tell me what I can do to improve the readability, etc.
 
-http://steamcommunity.com/id/nimtra is my profile URL if you would like to report bugs or give me feedback. 
+Please don't add me for questions about this HUD. Ask them in the huds.tf comments or teamfortress.tv thread.
 
-This HUD is very reliant on VTF files. There are a couple VTF files that are quite large in size, specifically the background of the loadout panels, main menu, and class images. I do not recommend running this HUD on a potato. You may get 10x more lag if you run this HUD on a potato.
+This HUD is very reliant on VTF files. I do not recommend running this HUD on a potato. You may get 10x more lag if you run this HUD on a potato.
 
 Notes
 ------------
 
-I recently updated this HUD to use Roboto instead of Product Sans. If you still prefer Product Sans, you can swap between them. How to do that is explained in the first image of my Screenshot album. Though the HUD may not look as good with Product Sans because Product Sans does not have different weights, the option is still available if you really would like it.
+If your chat font seems too big, go to mkHUD > Resource > Scheme > Chat > Roboto/Neutra depending on what font you're using > Edit tall value of "Default" and "ChatFont" to "14".
 
 I would appreciate it if you didn't redistribute this hud as yours. Please give me credit if you happen to release an edit of this hud.
 
@@ -22,11 +22,7 @@ The custom crosshair is manageable through HudPlayerClass.res. I made it like th
 
 Screenshots - Last Updated Jun 3
 ----------
-Menus: http://imgur.com/a/Cbjg0
-
-In-Game: http://imgur.com/a/wfN6c
-
-Tournament Spec HUD: http://i.imgur.com/mCTOP0u.jpg
+Menus: http://imgur.com/a/ZA9Eb
 
 Resolution Support
 ----------

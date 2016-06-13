@@ -53,9 +53,9 @@
 		"ypos"	"0"
 		"wide"	"200"
 		"tall"	"160"
-		"blue_active_xpos"			"35"
+		"blue_active_xpos"			"30"
 
-		"red_active_xpos"			"129" // THEY WERE IN HUDLAYOUT.RES THE WHOLE FUCKING TIMEEEEEEEEE
+		"red_active_xpos"			"124" // THEY WERE IN HUDLAYOUT.RES THE WHOLE FUCKING TIMEEEEEEEEE
 	}	
 
 	HudItemEffectMeter
@@ -302,7 +302,7 @@
 		"wide"		"f0"
 		"tall"		"480"
 		
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 	
 	HudProgressBar
@@ -317,7 +317,7 @@
 
 		"BorderThickness" "1"
 
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 
 	HudRoundTimer
@@ -452,10 +452,10 @@
 		"IconScale"	  "0.35"
 		"LineHeight"	  "12"
 		"LineSpacing"	  "1"
-		"CornerRadius"	  "0"
+		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"RobotoBold12"
+		"TextFont"		"mkKILLFEED"
 		
 		"TeamBlue"		"mkhudblue"
 		"TeamRed"		"mkhudred"
@@ -681,12 +681,10 @@
 		"fieldName" "HudVoiceSelfStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r42" 	[$WIN32]
-		"ypos" "355"	[$WIN32]
-		"xpos" "r75"	[$X360]
-		"ypos" "375"	[$X360]
-		"wide" "32"
-		"tall" "32"
+		"xpos" "c-150" 
+		"ypos" "295"	
+		"wide" "16"
+		"tall" "16"
 	}
 
 	HudVoiceStatus
@@ -694,16 +692,14 @@
 		"fieldName" "HudVoiceStatus"
 		"visible" "1"
 		"enabled" "1"
-		"xpos" "r145" [$WIN32]
-		"ypos" "0" [$WIN32]
-		"xpos" "r210" [$X360]
-		"ypos" "0" [$X360]
+		"xpos" "5" 
+		"ypos" "-200" 
 		"wide" "145"
 		"tall" "400"
 
 		"item_wide"	"135"
 		
-		"show_avatar"		"0"
+		"show_avatar"		"1"
 		
 		"show_dead_icon"	"1"
 		"dead_xpos"			"1"
@@ -713,11 +709,11 @@
 		
 		"show_voice_icon"	"1"
 		"icon_ypos"			"0"
-		"icon_xpos"			"15"
+		"icon_xpos"			"6"
 		"icon_tall"			"16"
 		"icon_wide"			"16"
 		
-		"text_xpos"			"33"
+		"text_xpos"			"48"
 	}
 
 	HudHintDisplay
@@ -783,7 +779,7 @@
 		"tall"					"200"
 		"visible"				"1"
 		"enabled"				"1"
-		"separator_width"		"2"	// distance between the icons (including their backgrounds)
+		"separator_width"		"5"	// distance between the icons (including their backgrounds)
 		"separator_height"		"7"
 		"height_offset"			"2"	// distance from the bottom of the panel
 	}
@@ -944,7 +940,7 @@
 		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"480"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"HudMenuEngyDestroy"
@@ -957,7 +953,7 @@
 		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"480"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 
 	"HudEurekaEffectTeleportMenu"
@@ -970,7 +966,7 @@
 		"zpos"			"100"
 		"wide"			"250"
 		"tall"			"300"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"HudMenuSpyDisguise"
@@ -983,7 +979,7 @@
 		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"480"	
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}	
 	
 	HudDemomanPipes
@@ -1316,7 +1312,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"PaintBackgroundType"	"2" // rounded corners
 	}
 
 	"HudAlert"
@@ -1341,7 +1337,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"bgcolor_override"	"0 0 0 0"
-		"PaintBackgroundType"	"0" // rounded corners
+		"PaintBackgroundType"	"2" // rounded corners
 	}
 
 	CTFFlagCalloutPanel
@@ -1366,7 +1362,7 @@
 		"zpos"			"100"
 		"wide"			"f0"
 		"tall"			"f0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 
 	"ItemAttributeTracker"
@@ -1378,7 +1374,7 @@
 		"ypos"			"0"
 		"wide"			"f5"
 		"tall"			"f0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 
 	HudMiniGame

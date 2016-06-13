@@ -78,6 +78,8 @@ The reason I made my own HUD is because I liked so many different HUDs, I had no
 
 <b>truktruk's sub discord</b> - Honestly, I don't think I would have ever finished this or released this if I didn't subscribe to truktruk on Twitch and joined the Discord. Speaking of which, you should check out truktruk on Twitch. http://twitch.tv/truktruk/ Also, many people from this discord helped out with feedback, testing and reporting bugs to me. :)
 
+Background of my HUD is from http://annstreetstudio.tumblr.com/post/8227065282/caught-in-the-rain-hope-you-have-a-weekend-full
+
 Changelog
 ----------
 

@@ -57,8 +57,8 @@
 			"wide"							"f0"
 			"tall"							"480"
 
-			"team1_player_base_y"			"20"
-			"team2_player_base_y"			"20"
+			"team1_player_base_y"			"25"
+			"team2_player_base_y"			"25"
 			"team2_player_base_offset_x"	"-2"
 		}
 
@@ -97,20 +97,20 @@
 			
 			if_mvm
 			{
-				"wide"		"55"
-				"tall"		"35"
+				"wide"		"54"
+				"tall"		"40"
 			}
 						
 			if_competitive
 			{
-				"wide"		"42"
-				"tall"		"32"
+				"wide"		"45"
+				"tall"		"39"
 			}
 
 			if_readymode
 			{
-				"wide"		"42"
-				"tall"		"32"
+				"wide"		"45"
+				"tall"		"39"
 			}
 			
 			"playername"
@@ -136,13 +136,13 @@
 					"ypos"				"25"
 					"wide"			"48"
 					"textAlignment"		"center"
-					"font"				"PlayerPanelPlayerName"
+					"font"				"Product9"
 				}
 
 				if_competitive
 				{
-					"xpos"				"2"
-					"ypos"				"21"
+					"xpos"				"4"
+					"ypos"				"24"
 					"wide"				"p0.96"
 					"tall"				"p0.25"
 					"textAlignment"		"west"
@@ -152,9 +152,9 @@
 
 				if_readymode
 				{
-					"xpos"				"2"
-					"ypos"				"21"
-					"wide"				"p0.96"
+					"xpos"				"4"
+					"ypos"				"25"
+					"wide"				"p0.90"
 					"tall"				"p0.25"
 					"textAlignment"		"west"
 					"font"				"Product9"
@@ -197,8 +197,8 @@
 
 				if_readymode
 				{
-					"xpos"			"4"
-					"ypos"			"4"
+					"xpos"			"6"
+					"ypos"			"5"
 					"wide"			"p0.4"
 					"tall"			"p0.5"
 					"image"			"../vgui/hud_connecting"
@@ -218,7 +218,7 @@
 				"visible"		"1"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
-				"PaintBackgroundType"	"0"
+				"PaintBackgroundType"	"2"
 				
 				if_mvm
 				{
@@ -237,8 +237,8 @@
 
 				if_readymode
 				{
-					"xpos"			"4"
-					"ypos"			"4"
+					"xpos"			"6"
+					"ypos"			"6"
 					"wide"			"p0.4"
 					"tall"			"p0.5"
 					"visible"		"1"
@@ -269,6 +269,11 @@
 					"tall"			"p0.96"
 					"visible"		"1"
 					"proportionaltoparent" "1"
+				}
+				if_readymode
+				{
+					"xpos"			"18"	
+					"ypos"			"3"
 				}
 			}
 			
@@ -307,7 +312,7 @@
 				{
 					"xpos"			"24"
 					"ypos"			"5"
-					"wide"			"p0.35	"
+					"wide"			"p0.35"
 					"tall"			"p0.45"
 					"proportionaltoparent" "1"
 					"visible"		"1"
@@ -315,9 +320,9 @@
 				
 				if_readymode
 				{
-					"xpos"			"24"
+					"xpos"			"26"
 					"ypos"			"5"
-					"wide"			"p0.35	"
+					"wide"			"p0.35"
 					"tall"			"p0.45"
 					"proportionaltoparent" "1"
 					"visible"		"1"
@@ -589,26 +594,25 @@
 
 	"HudTournamentBLUEBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentBLUEBG"
-		"xpos"			"c-120"
-		"ypos"			"15"
+		"xpos"			"c-125"
+		"ypos"			"12"
 		"zpos"			"-101"
-		"wide"			"120"
-		"tall"			"16"
+		"wide"			"125"
+		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkgui"
-	//	"image"			"replay\thumbnails\bg_hudblue"
+	//	"fillcolor"		"mkgui"
+		"image"			"replay\thumbnails\materialpanel"
 		"proportionaltoparent"	"1"
 
-		"src_corner_height"	"15"				// pixels inside the image
-		"src_corner_width"	"15"
-		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"	
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 		
 		if_mvm
 		{
@@ -634,7 +638,7 @@
 		"font"			"mk16"
 		"fgcolor_override"	"mkhudblue"
 		"xpos"			"c-119"
-		"ypos"			"15"
+		"ypos"			"17"
 		"zpos"			"-10"
 		"wide"			"65"
 		"tall"			"15"
@@ -671,7 +675,7 @@
 		"font"			"mk12"
 		"fgcolor_override"	"mkdarkerblue"
 		"xpos"			"c-70"
-		"ypos"			"15"
+		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
@@ -704,26 +708,25 @@
 
 	"HudTournamentREDBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentREDBG"
 		"xpos"			"c0"
-		"ypos"			"15"
+		"ypos"			"12"
 		"zpos"			"-111"
-		"wide"			"120"
-		"tall"			"16"
+		"wide"			"125"
+		"tall"			"25"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkgui"
-	//	"image"			"replay\thumbnails\bg_hudred"
-
-		"src_corner_height"	"15"				// pixels inside the image
-		"src_corner_width"	"15"
-		
-		"draw_corner_width"	"4"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"4"	
+	//	"fillcolor"		"mkgui"
+		"image"			"replay\thumbnails\materialpanel"
 		"proportionaltoparent"	"1"
+
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 		
 		if_mvm
 		{
@@ -749,7 +752,7 @@
 		"font"			"mk16"
 		"fgcolor_override"	"mkhudred"
 		"xpos"			"c53"
-		"ypos"			"15"
+		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
@@ -785,7 +788,7 @@
 		"font"			"mk12"
 		"fgcolor_override"	"mkdarkerblue"
 		"xpos"			"c5"
-		"ypos"			"15"
+		"ypos"			"17"
 		"zpos"			"1"
 		"wide"			"65"
 		"tall"			"15"
@@ -821,7 +824,7 @@
 		"font"			"mkTargetId"
 		"fgcolor"		"mkwhite"
 		"xpos"			"c-125"
-		"ypos"			"22"
+		"ypos"			"27"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"35"
@@ -848,8 +851,8 @@
 		}
 		if_readymode
 		{
-			"font"			"mk9"
-			"ypos"			"42"
+			"font"			"mk12"
+			"ypos"			"55"
 			"visible"		"1"
 		}
 	}
@@ -860,7 +863,7 @@
 		"font"			"mkTargetIdshdw"
 		"fgcolor"		"mkblack"
 		"xpos"			"c-125"
-		"ypos"			"22"
+		"ypos"			"27"
 		"zpos"			"1"
 		"wide"			"250"
 		"tall"			"35"
@@ -883,8 +886,8 @@
 		}
 		if_readymode
 		{
-			"font"			"productblur9"
-			"ypos"			"42"
+			"font"			"mkblur12"
+			"ypos"			"55"
 			"visible"		"1"
 		}
 	}
@@ -896,7 +899,7 @@
 		"ypos"			"12"
 		"zpos"			"-1111"
 		"wide"			"249"
-		"tall"			"21"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -1369,7 +1372,7 @@
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
 		"BluePlayerList"
@@ -1491,7 +1494,7 @@
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"117 107 94 255"
 		}
 		"RedPlayerList"

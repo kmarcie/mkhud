@@ -30,8 +30,8 @@
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"PreviewImage"
-			"xpos"			"20"
-			"ypos"			"0"
+			"xpos"			"5"
+			"ypos"			"10"
 			"zpos"			"1"
 			"wide"			"24"
 			"tall"			"24"
@@ -65,6 +65,7 @@
 	}
 
 
+
 	"PreviewImage"
 	{
 		"ControlName"	"ImagePanel"
@@ -83,7 +84,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"DisplayNameLabel"
-		"font"			"RobotoBold14"
+		"font"			"RobotoBold12"
 		"labelText"		"%display_name%"
 		"textAlignment"	"west"
 		"xpos"			"65"
@@ -94,7 +95,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mkdarkerblue"
+		"fgcolor"		"mklightblue"
 	}
 
 	"TextDescriptionLabel"
@@ -112,7 +113,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mkdarkerblue"
+		"fgcolor"		"mkLightBlue2"
 		"wrap"			"1"
 	}
 
@@ -120,7 +121,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ViewerCountLabel"
-		"font"			"RobotoBold11"
+		"font"			"RobotoBold12"
 		"labelText"		"%viewer_count%"
 		"textAlignment"	"west"
 		"xpos"			"10"
@@ -134,15 +135,32 @@
 		"enabled"		"1"
 		"fgcolor"		"mkwhite"
 	}
-
+	"ViewerCountLabelShadow"
+	{
+		"ControlName"	"CExLabel"
+		"fieldName"		"ViewerCountLabelShadow"
+		"font"			"mkblur12"
+		"labelText"		"%viewer_count%"
+		"textAlignment"	"west"
+		"xpos"			"10"
+		"ypos"			"24"
+		"zpos"			"999"
+		"wide"			"125"
+		"tall"			"12"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"fgcolor"		"mkpureblack"
+	}
 	"Stream_URLButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"Stream_URLButton"
-		"xpos"			"3"
+		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"			"100"
-		"wide"			"137"
+		"zpos"			"1000"
+		"wide"			"140"
 		"tall"			"43"
 		"autoResize"	"0"
 		"pinCorner"		"0"

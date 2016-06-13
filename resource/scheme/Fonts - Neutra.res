@@ -50,7 +50,7 @@ Scheme
 			"1"
 			{
 				"name"		"Neutraface2Text-Bold"
-				"tall"		"14"
+				"tall"		"16"
 				
 				"antialias"	"1"
 			}
@@ -60,7 +60,7 @@ Scheme
 			"1"
 			{
 				"name"		"Neutraface2Text-Bold"
-				"tall"		"14"
+				"tall"		"16"
 				
 				"antialias"	"1"
 				"dropshadow" "1"
@@ -71,10 +71,20 @@ Scheme
 			"1"
 			{
 				"name"		"Neutraface2Text-Bold"
-				"tall"		"14"
+				"tall"		"16"
 				
 				"antialias"	"1"
 				"blur"		"1"
+			}
+		}
+		"mkTargetIDName"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"12"
+				
+				"antialias"	"1"
 			}
 		}
 		"mkTargetIDData"
@@ -96,6 +106,16 @@ Scheme
 				"tall"		"24"
 				"antialias"	"1"
 				"outline"	"1"
+			}
+		}
+		"mkKILLFEED"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias"	"1"
 			}
 		}
 		"mk8"
@@ -4563,7 +4583,7 @@ Scheme
 			"1"
 			{
 				"name"		"Neutraface2Text-Bold"
-				"tall"		"6"
+				"tall"		"10"
 				
 				"additive"	"0"
 				"antialias" "1"
@@ -5408,7 +5428,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutraface2Text-Bold"
+				"name"		"Neutraface2Text-Book"
 				"tall"		"12"
 				
 				"additive"	"0"
@@ -5420,7 +5440,7 @@ Scheme
 			"1"
 			{
 				"name"		"Neutraface2Text-Bold"
-				"tall"		"14"
+				"tall"		"10"
 				
 				"additive"	"0"
 				"antialias" "1"
@@ -6084,7 +6104,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutraface2Text-Light"
+				"name"		"Neutraface2Text-Book"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -6094,7 +6114,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutraface2Text-Light"
+				"name"		"Neutraface2Text-Book"
 				"tall"		"9"
 				"antialias" "1"
 			}
@@ -6103,7 +6123,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutraface2Text-Light"
+				"name"		"Neutraface2Text-Book"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -6113,7 +6133,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutraface2Text-Light"
+				"name"		"Neutraface2Text-Book"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -6123,7 +6143,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Neutraface2Text-Light"
+				"name"		"Neutraface2Text-Book"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -6744,22 +6764,22 @@ Scheme
 			"18"
 			{
 				"font" "resource/fonts/RobotoCondensed-Light.ttf"
-				"name" "Neutraface2Text-Light Light"
+				"name" "Roboto Condensed Light"
 			}
 			"19"
 			{
 				"font" "resource/fonts/RobotoCondensed-Bold.ttf"
-				"name" "Neutraface2Text-Light Bold"
+				"name" "Roboto Condensed Bold"
 			}
 			"20"
 			{
 				"font" "resource/fonts/RobotoCondensed.ttf"
-				"name" "Neutraface2Text-Light"
+				"name" "Roboto Condensed"
 			}
 			"21"
 			{
 				"font" "resource/fonts/Roboto-Bold.ttf"
-				"name" "Neutraface2Text-Bold"
+				"name" "Roboto Bold"
 			}
 			"22"
 			{
@@ -6769,7 +6789,32 @@ Scheme
 			"23"
 			{
 				"font" "resource/fonts/Roboto-Light_2.ttf"
+				"name" "Roboto Light"
+			}
+			"24"
+			{
+				"font" "resource/fonts/Neutra2Display-Titling.otf"
+				"name" "Neutraface2Display-Titling"
+			}
+			"25"
+			{
+				"font" "resource/fonts/Neutra2Text-Bold.otf"
+				"name" "Neutraface2Text-Bold"
+			}
+			"26"
+			{
+				"font" "resource/fonts/Neutra2Text-Book.otf"
+				"name" "Neutraface2Text-Book"
+			}
+			"27"
+			{
+				"font" "resource/fonts/Neutra2Text-Light.otf"
 				"name" "Neutraface2Text-Light"
+			}
+			"28"
+			{
+				"font" "resource/fonts/Neutra2Text.otf"
+				"name" "Neutraface2Text-Bold"
 			}
 		}
 	}

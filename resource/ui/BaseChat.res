@@ -10,7 +10,7 @@
 		"ypos"			"r195"	  // r465
 		"wide"	 		"225"	  // 300
 		"tall"	 		"105"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"base3"
 	}
 
@@ -24,7 +24,7 @@
 		"ypos"			"395"
 		"wide"	 		"215"
 		"tall"	 		"2"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 
 	"ChatFiltersButton"

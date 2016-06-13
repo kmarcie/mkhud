@@ -13,14 +13,14 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 0"
 		"infocus_bgcolor_override" "0 0 0 0"
 		"outoffocus_bgcolor_override" " 0 0 0 0"
 		
-		"thumbnail_bgcolor"			"mkBGcolor"
-		"thumbnail_bgcolor_mouseover"	"mkBGcolor"
-		"thumbnail_bgcolor_selected"	"mkBGcolor"
+		"thumbnail_bgcolor"			"mkdarkerblue"
+		"thumbnail_bgcolor_mouseover"	"mkdarkerblue"
+		"thumbnail_bgcolor_selected"	"mkdarkerblue"
 		
 		"thumbnails_rows"		"4"
 		"thumbnails_columns"	"4"
@@ -37,9 +37,9 @@
 			"wide"			"70"
 			"tall"			"49"
 			"visible"		"0"
-			"bgcolor_override"		"mkBGcolor"
+			"bgcolor_override"		"mkdarkerblue"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"paintborder"	"0"
 			
 			"model_xpos"	"7"
@@ -76,7 +76,7 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"../console/background_2fort"
+		"image"				"replay/thumbnails/gif/1"
 	}
 	"CaratLabel"
 	{
@@ -94,7 +94,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "0 86 140 255"
+		"fgcolor_override" "mklightblue"
 	}
 	"ArmoryLabel"
 	{
@@ -173,7 +173,7 @@
 		"wide"			"270"
 		"tall"			"253"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"LoadoutItemMouseOverBorder"
 
@@ -181,7 +181,7 @@
 		{
 			"ControlName"	"CEconItemDetailsRichText"
 			"fieldName"		"Data_TextRichText"
-			"font"			"ScoreboardSmall"
+			"font"			"mkKILLFEED"
 			"labelText"		"%datatext%"
 			"textAlignment"	"north-west"
 			"xpos"			"5"
@@ -217,7 +217,7 @@
 		"tall"			"135"
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
 		"model_hide"	"1"
@@ -242,7 +242,7 @@
 		"tall"			"140"
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 		
 		"model_ypos"	"10"
@@ -272,7 +272,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 220"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
 		"text_ypos"			"20"
@@ -320,6 +320,13 @@
 		"Command"		"prevpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"mkButton"
+		"border_armed"		"mkButtonSelected"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 	}		
 	
 	"CurPageLabel"
@@ -338,7 +345,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor_override" "0 86 140 255"
+		"fgcolor_override" "mklightblue"
 	}
 	
 	"NextPageButton"
@@ -363,6 +370,13 @@
 		"Command"		"nextpage"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"mkButton"
+		"border_armed"		"mkButtonSelected"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 	}	
 		
 	"WikiButton"
@@ -388,6 +402,13 @@
 		"Command"		"wiki"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"mkButton"
+		"border_armed"		"mkButtonSelected"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 	}		
 	
 	"ViewSetButton"
@@ -413,6 +434,13 @@
 		"Command"		"viewset"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"mkButton"
+		"border_armed"		"mkButtonSelected"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 	}		
 	
 	"StoreButton"
@@ -437,6 +465,13 @@
 		"Command"		"openstore"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
+		"border_default"	"mkButton"
+		"border_armed"		"mkButtonSelected"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 	}		
 	
 	"ReloadSchemeButton"

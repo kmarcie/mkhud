@@ -12,19 +12,21 @@
 		
 		"FreezePanelBG"
 		{
-			"ControlName"				"ImagePanel"
+			"ControlName"				"CTFImagePanel"
 			"fieldName"					"FreezePanelBG"
 			"xpos"						"30"
 			"ypos"						"30"
 			"zpos"						"0"
-			"wide"						"100"
-			"tall"						"2"
+			"wide"						"0"
+			"tall"						"0"
 			"visible"					"1"
 			"enabled"					"1"
 		//	"image"						"../hud/color_panel_blu"
 			"scaleImage"				"1"
-			"fillcolor"					"mkhudblue"		
-			
+			"image"					"replay\thumbnails\bg_dead"		
+			"teambg_1"		"replay\thumbnails\bg_hudred"
+			"teambg_2"		"replay\thumbnails\bg_hudblue"
+			"teambg_3"		"replay\thumbnails\bg_hudred"		
 			"src_corner_height"			"23"
 			"src_corner_width"			"23"
 			
@@ -41,7 +43,30 @@
 			"visible"					"0"
 			"enabled"					"0"
 		}
-		
+		"FreezePanelBG2"
+		{
+			"ControlName"				"CTFImagePanel"
+			"fieldName"					"FreezePanelBG2"
+			"xpos"						"30"
+			"ypos"						"30"
+			"zpos"						"0"
+			"wide"						"100"
+			"tall"						"2"
+			"visible"					"1"
+			"enabled"					"1"
+		//	"image"						"../hud/color_panel_blu"
+			"scaleImage"				"1"
+			"image"					"replay\thumbnails\bg_dead"		
+			"teambg_1"		"replay\thumbnails\bg_hudred"
+			"teambg_2"		"replay\thumbnails\bg_hudblue"
+			"teambg_3"		"replay\thumbnails\bg_hudred"		
+			"src_corner_height"			"23"
+			"src_corner_width"			"23"
+			
+			"draw_corner_width"			"3"
+			"draw_corner_height" 		"3"
+		}
+				
 		"FreezePanelHealth"
 		{
 			"ControlName"				"CTFFreezePanelHealth"

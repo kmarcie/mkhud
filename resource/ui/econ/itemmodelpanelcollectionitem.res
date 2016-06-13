@@ -42,7 +42,8 @@
 		"wide"			"f0"
 		"tall"			"f0"
 		"visible"		"1"
-		"bgcolor_override"		"ItemPanelBG"
+		"bgcolor_override"		"0 0 0 0"
+		"border"		"" // LEAVE BLANK, DEFAULTS TO CURRENT BP BORDER
 		
 		"itemmodelpanel"
 		{
@@ -191,7 +192,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"RobotoL10"
+			"font"			"RobotoBold10"
 			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
@@ -201,11 +202,11 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#ItemPanelEquipped"
+			"labelText"		"✓"
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 150"
-			"PaintBackgroundType"	"2"
+			"bgcolor_override"		"0 0 0 200"
+			"PaintBackgroundType"	"1"
 		}
 	
 		"paint_icon"

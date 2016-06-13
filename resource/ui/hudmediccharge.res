@@ -92,7 +92,7 @@
 		"pinCorner"		"0"
 		"visible"		"0"
 		"enabled"		"0"
-		"fillcolor"		"mkbgcolor"
+		"fillcolor"		"mkdarkerblue"
 	}
 	"IndividualChargesLabel"
 	{

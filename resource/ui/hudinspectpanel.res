@@ -11,7 +11,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"38 47 49 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintBorder"	"1"
 		"border"		"OutlinedGreyBox"
 		

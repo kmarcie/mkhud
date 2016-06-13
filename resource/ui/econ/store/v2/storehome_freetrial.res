@@ -34,7 +34,7 @@
 			"enabled"		"1"
 			"bgcolor_override"		"34 30 31 255"
 			"paintbackground"		"1"
-			"paintbackgroundtype"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		
 		// Bottom rounded corners

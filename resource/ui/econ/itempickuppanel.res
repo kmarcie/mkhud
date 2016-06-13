@@ -15,10 +15,10 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"0 0 0 100"
-		"infocus_bgcolor_override" "0 0 0 100"
-		"outoffocus_bgcolor_override" "0 0 0 100"
+		"PaintBackgroundType"	"2"
+		"bgcolor_override"	"0 0 0 0"
+		"infocus_bgcolor_override" "0 0 0 0"
+		"outoffocus_bgcolor_override" "0 0 0 0"
 		
 		"modelpanels_spacing"		"40"
 		"modelpanels_width"			"500"
@@ -51,7 +51,23 @@
 			}
 		}
 	}
-	
+	"bg"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"			"bg"
+		"xpos"				"0"
+		"ypos"				"-24"
+		"zpos"				"-99"
+		"wide"				"f0"
+		"tall"				"480"
+		"autoResize"		"0"
+		"pinCorner"			"1"
+		"visible"			"1"
+		"enabled"			"1"
+		"tabPosition"		"1"
+		"scaleImage"		"1"
+		"image"				"replay/thumbnails/gif/1"
+	}	
 	"classimageoutline"
 	{
 		"ControlName"	"EditablePanel"
@@ -85,11 +101,11 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel"
 		"font"			"RobotoBold24"
-		"labelText"		"YOU HAVE NUU WEAPON"
+		"labelText"		"YOU HAVE NUU WEAPON!"
 		"fgcolor_override"	"mklightblue"
 		"textAlignment"	"center"
 		"xpos"			"0"
-		"ypos"			"0"
+		"ypos"			"10"
 		"zpos"			"1"
 		"wide"			"0"
 		"tall"			"0"
@@ -103,7 +119,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel1"
 		"font"			"RobotoBold24"
-		"labelText"		"YOU HAVE NUU WEAPON"
+		"labelText"		"YOU HAVE NUU WEAPON!"
 		"fgcolor_override"	"mklightblue"
 		"textAlignment"	"center"
 		"xpos"			"0"
@@ -132,6 +148,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override"	"mkaccent"
 	}
 	
 	"ItemCountLabel"
@@ -150,6 +167,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
+		"fgcolor_override"	"mkaccent"
 	}
 	"SelectedItemNumberLabel"
 	{
@@ -192,10 +210,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"			"mkButton"
-		"border_armed"				"mkselected"
+		"border_armed"				"mkbuttonselected"
 		"defaultFgColor_override"		"mklightblue"
 		"armedFgColor_override"		"mkaccent"
 		"depressedFgColor_override"	"mkaccent"
+		"paintbackground"	"0"
 	}
 	"PrevButton"
 	{
@@ -220,10 +239,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"			"mkButton"
-		"border_armed"				"mkselected"
+		"border_armed"				"mkbuttonselected"
 		"defaultFgColor_override"		"mklightblue"
 		"armedFgColor_override"		"mkaccent"
 		"depressedFgColor_override"	"mkaccent"
+		"paintbackground"	"0"
 	}
 	
 	"CloseButton"
@@ -250,10 +270,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"			"mkButton"
-		"border_armed"				"mkselected"
+		"border_armed"				"mkbuttonselected"
 		"defaultFgColor_override"		"mklightblue"
 		"armedFgColor_override"		"mkaccent"
 		"depressedFgColor_override"	"mkaccent"
+		"paintbackground"	"0"
 	}
 	"OpenLoadoutButton"
 	{
@@ -278,10 +299,11 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"			"mkButton"
-		"border_armed"				"mkselected"
+		"border_armed"				"mkbuttonselected"
 		"defaultFgColor_override"		"mklightblue"
 		"armedFgColor_override"		"mkaccent"
 		"depressedFgColor_override"	"mkaccent"
+		"paintbackground"	"0"
 	}
 	
 	"DiscardButton"
@@ -308,13 +330,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 
 		"border_default"			"mkButton"
-		"border_armed"				"mkselected"
+		"border_armed"				"mkbuttonselected"
 		"defaultFgColor_override"		"mklightblue"
 		"armedFgColor_override"		"mkaccent"
 		"depressedFgColor_override"	"mkaccent"
 			
 		"image_drawcolor"	"MKWHITE"		
-		"image_armedcolor"	"MKWHITE"		
+		"image_armedcolor"	"MKWHITE"	
+		"paintbackground"	"0"		
 		
 		"SubImage"
 		{
@@ -344,7 +367,7 @@
 		"tall"			"50"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"MainMenuBGBorder"
+		"border"		"mkborder2"
 		
 		"TipLabel"
 		{
@@ -361,7 +384,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
+			"fgcolor_override"	"mkwhite"
 			"wrap"			"1"
 			"centerwrap"	"1"
 		}
@@ -405,7 +428,7 @@
 		"NumericInputOnly"	"0"
 		"unicode"			"0"
 		"wrap"				"0"
-		"fgcolor_override"	"235 226 202 255"
+		"fgcolor_override"	"mkwhite"
 		"bgcolor_override"	"0 0 0 255"
 		"labelText"			"Enter Score Here"
 		"textAlignment"		"center"

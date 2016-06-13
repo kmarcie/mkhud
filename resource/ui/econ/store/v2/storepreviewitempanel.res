@@ -76,7 +76,7 @@
 		"tall"			"f0"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override" "0 0 0 128"
 	}
 	
@@ -125,7 +125,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
 		}
@@ -178,7 +178,7 @@
 			"wide"			"230"
 			"tall"			"201"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"0 0 0 0"
 			"skip_autoresize"	"1"
 			"autoresize"		"0"
@@ -193,7 +193,7 @@
 				"wide"			"230"
 				"tall"			"222"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
+				"PaintBackgroundType"	"2"
 				"bgcolor_override"	"0 0 0 0"
 				"skip_autoresize"	"1"
 				"autoresize"		"0"
@@ -1353,7 +1353,7 @@
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
+			"PaintBackgroundType"	"2"
 			"defaultBgColor_Override"	"0 0 0 255"
 			
 			"paintborder"		"0"

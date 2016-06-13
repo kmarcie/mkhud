@@ -11,7 +11,7 @@
 		"wide"			"f0"
 		"tall"			"480"
 		
-//		"bgcolor_override"	"0 0 0 240"
+//		"bgcolor_override"	"0 0 0 0"
 		
 		"update_url"	"http://store.steampowered.com/news/?filter=updates&appids=440"
 		"blog_url"		"http://www.teamfortress.com/"
@@ -33,8 +33,8 @@
 				"fieldName"		"SubButton"
 				"xpos"			"0"
 				"ypos"			"0"
-				"wide"			"250"
-				"tall"			"26"
+				"wide"			"0"
+				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"3"
 				"visible"		"1"
@@ -180,11 +180,11 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TeamIndic"
-		"xpos"			"50"
+		"xpos"			"51"
 		"ypos"			"160"
 		"zpos"			"999"
-		"wide"			"155"
-		"tall"			"2"
+		"wide"			"153"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -196,32 +196,38 @@
 	}
 	"MenuBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"MenuBG"
-		"xpos"			"50"
+		"xpos"			"48"
 		"ypos"			"100"
 		"zpos"			"1"
-		"wide"			"155"
+		"wide"			"158"
 		"tall"			"240"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkgui"
+	//	"fillcolor"		"mkgui"
+	//	"border"		"mkborder"
+		"image"			"replay/thumbnails/materialpanel"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}	
 	"MenuBGShdw"
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"MenuBGShdw"
-		"xpos"			"43"
-		"ypos"			"91"
+		"xpos"			"44"
+		"ypos"			"92"
 		"zpos"			"-1"
-		"wide"			"168"
-		"tall"			"256"
+		"wide"			"166"
+		"tall"			"255"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage" 	"1"
 		"image"			"replay\thumbnails\menu\Shadow4"
 	}
@@ -233,7 +239,7 @@
 		"labelText"		"WELCOME TO"
 		"textAlignment"	"west"
 		"xpos"			"65"
-		"ypos"			"100"
+		"ypos"			"105"
 		"zpos"			"100"
 		"wide"			"300"
 		"tall"			"45"
@@ -251,7 +257,7 @@
 		"labelText"		"TEAM FORTRESS 2"
 		"textAlignment"	"west"
 		"xpos"			"65"
-		"ypos"			"132"
+		"ypos"			"137"
 		"zpos"			"100"
 		"wide"			"300"
 		"tall"			"22"
@@ -309,9 +315,9 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 220"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
-		"border"		"MainMenuBGBorder"
+		"border"		"noborder"
 		
 		"text_ypos"			"20"
 		"text_center"		"1"
@@ -349,16 +355,31 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"1"
-		"image"			"../console/background_2fort"
+		"image"			""
+		"scaleImage"	"1"
+	}
+	"Background2"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"Background2"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-9999"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"0"
+		"enabled"		"0"
+		"image"			"replay/thumbnails/gif/1"
 		"scaleImage"	"1"
 		
-		if_operation
+		if_competitive // I have it set to whenever the competitive button is on, my background will appear. This is so that it doesn't appear in game -because the competitive button doesn't show up ingame- and works like the actual background. 
 		{
-			"image"		"../console/background_2fort"
+			"visible"	"1"
+			"enabled"	"1"
 		}
 	}
-					
-	"TFLogoImage"
+						
+	"TFLogoImage" // ignore this lol
 	{
 		"ControlName"	"ImagePanel"
 		"fieldName"		"TFLogoImage"
@@ -369,12 +390,12 @@
 		"tall"			"52"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay\thumbnails\blurfact"
+		"image"			"replay\thumbnails\materialpanel"
 		"scaleImage"	"1"
 
 		if_operation
 		{
-			"image"		"replay\thumbnails\blurfact"
+			"image"		"replay\thumbnails\materialpanel"
 		}
 	}	
 	
@@ -399,13 +420,13 @@
 		"xpos"			"c-2190"
 		"ypos"			"92"
 		"zpos"			"-1"
-		"wide"			"128"
-		"tall"			"256"
+		"wide"			"0"
+		"tall"			"0"
 		"visible"		"1"
 		"pinCorner"		"0"
 		"autoResize"	"0"
-		"PaintBackgroundType"	"0"
-		"border"		"MainMenuBGBorder"
+		"PaintBackgroundType"	"2"
+		"border"		"noborder"
 
 		if_competitive
 		{
@@ -423,7 +444,7 @@
 		"wide"			"150"
 		"tall"			"50"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"border"		"Blank"
 		
 		"TipSubLabel"
@@ -471,8 +492,8 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldname"		"CreateServerButton"
-		"xpos"			"6969"
-		"ypos"			"11383"
+		"xpos"			"9999"
+		"ypos"			"9999"
 		"zpos"			"12"
 		"wide"			"0"
 		"tall"			"0"
@@ -487,8 +508,8 @@
 
 		if_competitive
 		{
-			"xpos"		"12345"
-			"ypos"		"12345"
+			"xpos"		"9999"
+			"ypos"		"9999"
 			"visible" "0"
 		}
 		
@@ -496,14 +517,14 @@
 		{
 			"ControlName"	"CExImageButton"
 			"fieldName"		"SubButton"
-			"xpos"			"1230"
-			"ypos"			"1230"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"wide"			"0"
 			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"3"
-			"visible"		"1"
-			"enabled"		"1"
+			"visible"		"0"
+			"enabled"		"0"
 			"tabPosition"	"0"
 			"textinsetx"	"100"
 			"use_proportional_insets" "1"
@@ -546,18 +567,18 @@
 	{
 			"ControlName"	"EditablePanel"
 			"fieldName"		"TopRightContainer"
-			"xpos"			"c9125"
-			"ypos"			"26"
+			"xpos"			"9999"
+			"ypos"			"9999"
 			"zpos"			"0"
-			"wide"			"212"
-			"tall"			"36"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"3"
 			"pinCorner"		"0"
 			"visible"		"0"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"border"		"MainMenuBGBorder"
-			"PaintBackgroundType"	"0"
+			"border"		"noborder"
+			"PaintBackgroundType"	"2"
 	}
 
 	"Notifications_ShowButtonPanel" // alerts
@@ -734,7 +755,7 @@
 		"wide"			"9999"
 		"tall"			"68"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"noborder"
 
@@ -935,13 +956,13 @@
 	{
 		"ControlName"	"EditablePanel"
 		"fieldName"		"MOTD_Panel"
-		"xpos"			"c-12250" // c-150
-		"ypos"			"150"
+		"xpos"			"9999" // c-150
+		"ypos"			"9999" // 150
 		"zpos"			"1"
 		"wide"			"240"
 		"tall"			"275"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		"border"		"MainMenuHighlightBorder"
 
@@ -1139,7 +1160,7 @@
 			"ypos"			"215"
 			"wide"			"280"
 			"tall"			"115"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"fgcolor"		"LabelDark"
 			
 			"MOTD_TextPanel"
@@ -1151,7 +1172,7 @@
 				"wide"			"250"
 				"tall"			"300"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
+				"PaintBackgroundType"	"2"
 			
 				"MOTD_TextLabel"
 				{
@@ -1358,7 +1379,7 @@
 		"wide"			"240"
 		"tall"			"275"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground"	"0"
 		
 	"AlertsBG"
@@ -1488,7 +1509,7 @@
 			"ypos"			"25"
 			"wide"			"210"
 			"tall"			"135"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"fgcolor_override"	"117 107 94 255"
 			
 			"Notifications_Control"
@@ -1514,7 +1535,7 @@
 		"wide"			"75"
 		"tall"			"15"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"SubButton"
 		{
@@ -1571,7 +1592,7 @@
 		"wide"			"135"
 		"tall"			"36"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"GeneralStoreButton"
 		"navDown"		"VRModeButton"
@@ -1635,7 +1656,7 @@
 		"wide"			"270"
 		"tall"			"36"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"ReplayBrowserButton"
 		"navDown"		"QuitButton"
@@ -1707,7 +1728,7 @@
 		"wide"			"40"
 		"tall"			"40"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"CharacterSetupButton"
 		"navDown"		"VRModeButton"
@@ -1766,7 +1787,7 @@
 		"wide"			"38"
 		"tall"			"40"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"ChangeServerButton"
 		"navDown"		"SteamWorkshopButton"
@@ -1843,7 +1864,7 @@
 		"wide"			"150"
 		"tall"			"40"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"ChangeServerButton"
 		"navDown"		"ReplayBrowserButton"
@@ -1905,8 +1926,8 @@
 		"wide"			""
 		"tall"			""
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"border"		"MainMenuBGBorder"
+		"PaintBackgroundType"	"2"
+		"border"		"noborder"
 
 		if_competitive
 		{
@@ -1924,8 +1945,8 @@
 		"wide"			"260"
 		"tall"			"60"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"border"		"MainMenuBGBorder"
+		"PaintBackgroundType"	"2"
+		"border"		"noborder"
 
 		if_competitive
 		{
@@ -1943,8 +1964,8 @@
 		"wide"			"260"
 		"tall"			"38"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
-		"border"		"MainMenuBGBorder"
+		"PaintBackgroundType"	"2"
+		"border"		"noborder"
 
 		if_competitive
 		{
@@ -2075,7 +2096,7 @@
 		"wide"			"145"
 		"tall"			"31"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		
 		if_competitive
 			{
@@ -2142,7 +2163,7 @@
 		"wide"			"145"
 		"tall"			"31"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"ServerBrowserButton"
 		"navDown"		"QuickplayChangeButton"
@@ -2205,7 +2226,7 @@
 		"wide"			"138"
 		"tall"			"26"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"ResumeGameButton"
 		"navDown"		"ChangeServerButton"
@@ -2268,7 +2289,7 @@
 		"wide"			"115"
 		"tall"			"26"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"QuickplayButton"
 		"navDown"		"ServerBrowserButton"
@@ -2330,7 +2351,7 @@
 		"tall"			"26"
 		"visible"		"1"
 		"enabled"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"PlayPVEButton"
 		"navDown"		"ServerBrowserButton"
@@ -2424,7 +2445,7 @@
 		"wide"			"130"
 		"tall"			"41"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"PlayPVEButton"
 		"navDown"		"ResumeGameButton"
@@ -2487,7 +2508,7 @@
 		"wide"			"130"
 		"tall"			"41"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 		"navUp"			"QuickplayChangeButton"
 		"navDown"		"CharacterSetupButton"
@@ -2649,8 +2670,8 @@
 			"armedFgColor_override"   "mkaccent"
 			"depressedFgColor_override" "mkaccent"
 				
-			"image_drawcolor"	"0 0 0 175"
-			"image_armedcolor"	"0 0 0 255"
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"0 0 0 0"
 			
 			"SubImage"
 			{
@@ -2711,8 +2732,8 @@
 			"armedFgColor_override"   "mkaccent"
 			"depressedFgColor_override" "mkaccent"
 				
-			"image_drawcolor"	"0 0 0 175"
-			"image_armedcolor"	"0 0 0 255"
+			"image_drawcolor"	"0 0 0 0"
+			"image_armedcolor"	"0 0 0 0"
 			
 			"SubImage"
 			{
@@ -3194,8 +3215,8 @@
 		"armedFgColor_override"   "mkaccent"
 		"depressedFgColor_override" "mkaccent"
 				
-		"image_drawcolor"	"0 0 0 175"
-		"image_armedcolor"	"0 0 0 255"
+		"image_drawcolor"	"0 0 0 0"
+		"image_armedcolor"	"0 0 0 0"
 		
 		"SubImage"
 		{
@@ -3316,7 +3337,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -3484,7 +3505,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -3654,7 +3675,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -3766,7 +3787,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -3878,7 +3899,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -3990,7 +4011,7 @@
 		"wide"			"250"
 		"tall"			"60"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -4102,7 +4123,7 @@
 		"wide"			"320"
 		"tall"			"f0"
 		"visible"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 
 			
 		"EventImage"
@@ -4132,11 +4153,11 @@
 			"wide"			"p0.8"
 			"tall"			"120"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"proportionaltoparent"	"1"
 
 			"paintborder"	"1"
-			"border"		"MainMenuBGBorder"
+			"border"		"noborder"
 
 			"OperationTitleLabel"
 			{
@@ -4168,7 +4189,7 @@
 				"wide"			"p0.48"
 				"tall"			"26"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
+				"PaintBackgroundType"	"2"
 				"proportionaltoparent"	"1"
 
 				"SubButton"
@@ -4220,7 +4241,7 @@
 				"wide"			"p0.48"
 				"tall"			"26"
 				"visible"		"0"
-				"PaintBackgroundType"	"0"
+				"PaintBackgroundType"	"2"
 				"proportionaltoparent"	"1"
 
 				"SubButton"
@@ -4276,7 +4297,7 @@
 				"scaleImage"			"1"
 				"proportionaltoparent"	"1"
 
-				"bgcolor_override"		"0 0 0 255"
+				"bgcolor_override"		"0 0 0 0"
 
 				"items"
 				{

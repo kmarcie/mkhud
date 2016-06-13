@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 0"
 		"infocus_bgcolor_override" "0 0 0 0"
 		"outoffocus_bgcolor_override" "0 0 0 0"
@@ -47,7 +47,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"mklightblue"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"3"
 			"paintborder"	"0"
 
 			"Button"
@@ -59,8 +59,8 @@
 				"visible"		"1"
 				"bgcolor_override"		"0 0 0 0"
 				"noitem_textcolor"		"mklightblue"
-				"PaintBackgroundType"	"0"
-				"paintborder"	"0"
+				"PaintBackgroundType"	"2"
+				"paintborder"	"1"
 				"textAlignment"	"center"
 				"labelText"		"%page%"
 				"font"				"product11"
@@ -69,10 +69,11 @@
 				"defaultFgColor_override" 	"mklightblue"
 				"armedFgColor_override" 	"mkaccent"
 				"depressedFgColor_override" "mkaccent"
+				"border"		"mkbutton"
 
 				"defaultBgColor_override" 	"mkdarkerblue"
-				"armedBgColor_override" 	"mkdarkerblue"
-				"depressedBgColor_override" "mkdarkerblue"
+				"armedBgColor_override" 	"33 38 48 255"
+				"depressedBgColor_override" "33 38 48 255"
 			}	
 			"New"
 			{
@@ -110,7 +111,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			
 			"model_xpos"	"2"
@@ -166,14 +167,18 @@
 	{
 		"controlname"		"ScalableImagePanel"
 		"fieldName"			"backpackbg"
-		"xpos"				"c-306"
-		"ypos"				"50"
+		"xpos"				"c-296"
+		"ypos"				"52"
 		"zpos"				"-100"
-		"wide"				"607"
-		"tall"				"240"
+		"wide"				"590"
+		"tall"				"235"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialpanel"
+		"image"				"replay/thumbnails/materialpaneldark"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 	"searchBG"
 	{
@@ -186,20 +191,28 @@
 		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialpanel"
+		"image"				"replay/thumbnails/materialpaneldark"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 	"sortBG"
 	{
 		"controlname"		"ScalableImagePanel"
 		"fieldName"			"sortBG"
-		"xpos"				"c130"
-		"ypos"				"32"
+		"xpos"				"c129"
+		"ypos"				"30"
 		"zpos"				"-100"
 		"wide"				"164"
 		"tall"				"25"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialpanel"
+		"image"				"replay/thumbnails/materialpaneldark"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 	"pagesBG"
 	{
@@ -212,7 +225,11 @@
 		"tall"				"31"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialpanel"
+		"image"				"replay/thumbnails/materialpaneldark"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 	"bg"
 	{
@@ -229,7 +246,7 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"../console/background_2fort"
+		"image"				"replay/thumbnails/gif/1"
 	}
 	"PrevPageButton"
 	{
@@ -449,8 +466,7 @@
 		"fieldName"			"SortByComboBox"
 		"Font"				"product14"
 		"xpos"				"c137" // c137
-		"ypos"				"37"
-		"zpos"				"1111"
+		"ypos"				"35"
 		"wide"				"150"
 		"tall"				"15"
 		"autoResize"		"0"
@@ -486,7 +502,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 220"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
 		"text_center"		"1"
@@ -526,7 +542,7 @@
 		"visible"		"0"
 		"bgcolor_override"		"0 0 0 220"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		
 		"model_ypos"	"3"
@@ -720,7 +736,7 @@
 		"wide"			"250"
 		"tall"			"140"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -895,7 +911,7 @@
 		"wide"			"250"
 		"tall"			"100"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -1117,7 +1133,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -1339,7 +1355,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		"next_explanation"		"SortExplanation"
@@ -1561,7 +1577,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		

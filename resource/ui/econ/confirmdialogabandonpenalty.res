@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"		"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground"		"1"
 		"bgcolor_override"	"mkdarkerblue"
 	}
@@ -96,10 +96,11 @@
 		"sound_depressed"			"UI/buttonclick.wav"
 		"sound_released"			"UI/buttonclickrelease.wav"
 		"border_default"			"mkButton"
-		"border_armed"				"mkselected"
+		"border_armed"				"mkbuttonselected"
 		"FgColor_override"		"mklightblue"
 		"armedFgColor_override"		"mkaccent"
 		"depressedFgColor_override"	"mkaccent"
+		"paintbackground"	"0"
 	}		
 
 	"ConfirmButton"
@@ -127,9 +128,10 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"border_default"			"mkButton"
-		"border_armed"				"mkselected"
+		"border_armed"				"mkbuttonselected"
 		"FgColor_override"		"mklightblue"
 		"armedFgColor_override"		"mkaccent"
 		"depressedFgColor_override"	"mkaccent"
+		"paintbackground"	"0"
 	}			
 }

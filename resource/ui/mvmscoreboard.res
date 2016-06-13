@@ -15,7 +15,7 @@
 		"verbose"			"1"
 		
 			"BG"
-			{
+							{
 			"ControlName"		"ImagePanel"
 			"fieldName"			"BG"
 			"xpos"				"450"
@@ -35,7 +35,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabel"
-		"font"			"MK14"
+		"font"			"MK12"
 		"labelText"		"%popfile%"
 		"textAlignment"	"west"
 		"xpos"			"5"
@@ -48,7 +48,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"PopFileLabelShdw"
-		"font"			"mktargetidshdw"
+		"font"			"mkblur12"
 		"labelText"		"%popfile%"
 		"textAlignment"	"west"
 		"xpos"			"5"

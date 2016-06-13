@@ -9,6 +9,7 @@
 		"wide"			"0"
 		"tall"			"0"
 		"visible"		"1"
+		
 		"HeaderLabel"
 		{
 			"ControlName"	"CExLabel"
@@ -29,6 +30,23 @@
 			"fgcolor_override"	"mklightblue"
 		}
 	}
+	"currentlylivebg"
+	{
+		"ControlName"	"ScalableImagePanel"
+		"fieldName"		"currentlylivebg"
+		"xpos"			"0"
+		"ypos"			"13"
+		"zpos"			"0"
+		"wide"			"125"
+		"tall"			"43"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/materialpanel"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
+	}
 	"BG"
 	{
 		"ControlName"	"ImagePanel"
@@ -36,7 +54,7 @@
 		"xpos"			"0"
 		"ypos"			"5"
 		"zpos"			"-9"
-		"wide"			"f0"
+		"wide"			"0"
 		"tall"			"58"
 		"visible"		"1"
 		"proportionaltoparent"	"1"
@@ -49,7 +67,7 @@
 		"xpos"			"-700"
 		"ypos"			"-6"
 		"zpos"			"-10"
-		"wide"			"9999"
+		"wide"			"0"
 		"tall"			"73"
 		"scaleImage"	"1"
 		"visible"		"1"
@@ -64,7 +82,7 @@
 			"textAlignment"	"west"
 			"labelText"		"CURRENTLY"
 			"xpos"			"13"
-			"ypos"			"17"
+			"ypos"			"18"
 			"zpos"			"1000"
 			"wide"			"100"
 			"tall"			"20"
@@ -83,7 +101,7 @@
 			"textAlignment"	"west"
 			"labelText"		"LIVE ON TWITCH"
 			"xpos"			"14"
-			"ypos"			"32"
+			"ypos"			"33"
 			"zpos"			"1000"
 			"wide"			"120"
 			"tall"			"20"
@@ -93,21 +111,7 @@
 			"enabled"		"1"
 			"PaintBackgroundType" "0"
 			"fgcolor_override"	"mkdarkerblue"
-		}
-	"VerticalLine"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"VerticalLine"
-		"xpos"			"123"
-		"ypos"			"5"
-		"zpos"			"-8"
-		"wide"			"2"
-		"tall"			"58"
-		"scaleImage"	"1"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"mktopbar"
-	}	
+		}	
 	"CloseButton"
 	{
 		"ControlName"	"CExImageButton"
@@ -174,6 +178,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
+		"border"		"mkButton"
 	}
 
 	"Stream2"
@@ -189,6 +194,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
+		"border"		"mkButton"
 	}
 
 	"Stream3"
@@ -204,6 +210,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
+		"border"		"mkButton"
 	}
 
 	"Stream4"
@@ -219,6 +226,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
+		"border"		"mkButton"
 	}
 
 	"Stream5"
@@ -234,6 +242,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"proportionaltoparent"	"1"
+		"border"		"mkButton"
 	}
 
 	"Stream_URLButton"

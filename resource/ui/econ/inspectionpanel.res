@@ -10,7 +10,7 @@
 		"tall"			"f0"
 		"visible"		"0"
 		"proportionaltoparent"	"1"
-		"bgcolor_override"	"0 0 0 150"
+		"bgcolor_override"	"0 0 0 100"
 
 		"BGImage"
 		{
@@ -28,13 +28,27 @@
 			"proportionaltoparent" "1"
 		}
 	}
-
+		"ItemBG"
+		{
+			"ControlName"	"ImagePanel"
+			"fieldName"		"ItemBG"
+			"xpos"			"c-150"
+			"ypos"			"80"
+			"zpos"			"1"
+			"wide"			"300"
+			"tall"			"300"
+			"visible"		"1"
+			"enabled"		"1"
+			"image"			"replay/thumbnails/materialpaneldark"
+			"scaleImage"	"1"
+			"proportionaltoparent" "1"
+		}
 	"ItemName"
 	{		
 		"ControlName"	"CItemModelPanel"
 		"fieldName"		"ItemName"
 		"xpos"			"cs-0.5"
-		"ypos"			"35"
+		"ypos"			"25"
 		"zpos"			"5"
 		"wide"			"o2"
 		"tall"			"p0.5"
@@ -52,6 +66,7 @@
 		"model_hide"	"1"
 		"text_forcesize"	"4"
 		"name_only"	"1"
+		"font"			"RobotoBold16"
 
 		"itemmodelpanel"
 		{
@@ -79,7 +94,7 @@
 		"max_pitch"				"360"
 		"use_pedestal"			"1"
 		"use_particle"			"1"
-		"fov"					"80"
+		"fov"					"90"
 		"model_rotate_yaw_speed" "15"
 
 		"model"
@@ -135,8 +150,8 @@
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"CloseButton"
-		"xpos"			"c92"
-		"ypos"			"c-98"
+		"xpos"			"c132"
+		"ypos"			"25"
 		"zpos"			"100"
 		"wide"			"20"
 		"tall"			"20"
@@ -231,7 +246,7 @@
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
+			"PaintBackgroundType"	"2"
 			"defaultBgColor_Override"	"0 0 0 255"
 			
 			"paintborder"		"0"

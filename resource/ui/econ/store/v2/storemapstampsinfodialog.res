@@ -29,7 +29,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override" "0 0 0 128"
 	}
 	
@@ -79,7 +79,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"paintborder"	"0"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"paintbackground"	"1"
 			"bgcolor_override" "50 46 41 255"
 		}

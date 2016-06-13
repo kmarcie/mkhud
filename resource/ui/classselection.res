@@ -85,7 +85,7 @@
 		"ypos"			"160"
 		"zpos"			"999"
 		"wide"			"155"
-		"tall"			"2"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -97,7 +97,7 @@
 	}
 	"ClassBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"ClassBG"
 		"xpos"			"c-77"
 		"ypos"			"100"
@@ -108,7 +108,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkgui"
+		"image"			"replay/thumbnails/materialpanel"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
 	}	
 	"ClassBGShdw"
 	{
@@ -121,8 +125,8 @@
 		"tall"			"318"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage" 	"1"
 		"image"			"replay\thumbnails\menu\Shadow4"
 	}
@@ -195,7 +199,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectLabelSecond"
 		"xpos"			"c-55"
-		"ypos"			"c-132"
+		"ypos"			"c-128"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"24"
@@ -214,7 +218,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectTeamLabel"
 		"xpos"			"c-56"
-		"ypos"			"c-125"
+		"ypos"			"c-120"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"50"
@@ -928,7 +932,7 @@
 		"tabPosition"	"0"	
 		"image"			"loadout_bottom_gradient"
 		"tileImage"		"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}		
 		
 	"localPlayerImage"
@@ -1160,7 +1164,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numScout"
-		"xpos"			"c18"
+		"xpos"			"c8"
 		"ypos"			"c-65"
 		"zpos"			"999"
 		"wide"			"50"
@@ -1180,7 +1184,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSoldier"
-		"xpos"			"c18"
+		"xpos"			"c8"
 		"ypos"			"c-42"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1200,7 +1204,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numPyro"
-		"xpos"			"c18"
+		"xpos"			"c8"
 		"ypos"			"c-15"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1220,7 +1224,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numDemoman"
-		"xpos"			"c18"
+		"xpos"			"c8"
 		"ypos"			"c8"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1240,7 +1244,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numHeavy"
-		"xpos"			"c18"
+		"xpos"			"c8"
 		"ypos"			"c32"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1260,7 +1264,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numEngineer"
-		"xpos"			"c18"
+		"xpos"			"c8"
 		"ypos"			"c58"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1280,7 +1284,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numMedic"
-		"xpos"			"c18"
+		"xpos"			"c8"
 		"ypos"			"c82"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1300,7 +1304,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSniper"
-		"xpos"			"c18"
+		"xpos"			"c8"
 		"ypos"			"c105"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1320,7 +1324,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"numSpy"
-		"xpos"			"c18"
+		"xpos"			"c8"
 		"ypos"			"c130"
 		"zpos"			"5"
 		"wide"			"50"
@@ -1481,7 +1485,7 @@
 		"wide"			"0"
 		"tall"			"165"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		

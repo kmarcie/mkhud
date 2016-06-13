@@ -48,7 +48,7 @@
 			"font"			"product16"
 			"fgcolor"		"mkwhite"
 			"xpos"			"7"
-			"ypos"			"1"
+			"ypos"			"5"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"15"
@@ -72,17 +72,21 @@
 	}
 	"BlueTimerBG"
 	{
-		"ControlName"		"imagepanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"BlueTimerBG"
-		"xpos"			"35"
-		"ypos"			"0"
+		"xpos"			"33"
+		"ypos"			"-2"
 		"zpos"			"1"
-		"wide"			"41"
-		"tall"			"2"
+		"wide"			"45"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_hudblue"
+		"image"			"replay\thumbnails\bg_blueshadow"
 		"scaleImage"		"1"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
 		
 		if_comp
 		{
@@ -130,7 +134,7 @@
 			"font"			"product16"
 			"fgcolor"		"TanLight"
 			"xpos"			"0"
-			"ypos"			"-2"
+			"ypos"			"2"
 			"zpos"			"3"
 			"wide"			"100"
 			"tall"			"20"
@@ -155,17 +159,21 @@
 	}
 	"RedTimerBG"
 	{
-		"ControlName"		"imagepanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"RedTimerBG"
-		"xpos"			"129"
-		"ypos"			"0"
+		"xpos"			"127"
+		"ypos"			"-2"
 		"zpos"			"1"
-		"wide"			"41"
-		"tall"			"2"
+		"wide"			"46"
+		"tall"			"30"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_hudred"
+		"image"			"replay\thumbnails\bg_redshadow"
 		"scaleImage"		"1"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
 		
 		if_comp
 		{
@@ -174,17 +182,21 @@
 	}
 	"ActiveTimerBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"ActiveTimerBG"
 		"xpos"				"0"
-		"ypos"				"0"
+		"ypos"				"-2"
 		"zpos"				"-2"
-		"wide"				"41"
-		"tall"				"15"
+		"wide"				"51"
+		"tall"				"30"
 		"visible"			"0"
 		"enabled"			"1"
 		"scaleImage"		"1"
-//		"image"				"replay\thumbnails\blurfact"
-		"fillcolor"			"0 0 0 220"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		"image"				"replay\thumbnails\materialpanel"
+	//	"fillcolor"			"0 0 0 220"
 	}
 }

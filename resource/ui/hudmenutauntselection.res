@@ -32,7 +32,7 @@
 		"tabPosition"	"0"	
 		"border"		"mkBorder"
 	//	"fillcolor"		"mkGUI"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"src_corner_height"		"14"				// pixels inside the image
 		"src_corner_width"		"14"
 			
@@ -188,7 +188,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -260,7 +260,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 
 		"model_ypos"	"5"
@@ -332,7 +332,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -404,7 +404,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -476,7 +476,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -548,7 +548,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -620,7 +620,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"
@@ -692,7 +692,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 0"
 		"noitem_textcolor"		"117 107 94 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"0"
 			
 		"model_ypos"	"5"

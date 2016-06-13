@@ -2,14 +2,18 @@
 {
 	"BlackBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BlackBG"
-		"xpos"			"50"
+		"xpos"			"47"
 		"ypos"			"100"
-		"zpos"			"-2"
-		"wide"			"200"
-		"tall"			"30"
-		"fillcolor"		"mkGUI"
+		"zpos"			"0"
+		"wide"			"205"
+		"tall"			"35"
+		"image"			"replay/thumbnails/materialpanel"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
 	}
 	"blueheader"
 	{
@@ -30,7 +34,7 @@
 		"ypos"			"94"
 		"zpos"			"-5"
 		"wide"			"209"
-		"tall"			"40"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -53,28 +57,6 @@
 		"enabled"		"1"
 		"scaleImage" 	"1"
 		"image"			"replay\thumbnails\menu\Shadow3"
-	}
-	"leftline"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"leftline"
-		"xpos"			"50"
-		"ypos"			"100"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"30"
-		"fillcolor"		"mkguibg"
-	}
-	"rightline"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"rightline"
-		"xpos"			"250"
-		"ypos"			"100"
-		"zpos"			"0"
-		"wide"			"0"
-		"tall"			"30"
-		"fillcolor"		"mkguibg"
 	}
 	"TitleLabel"
 	{	

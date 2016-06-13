@@ -31,7 +31,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"mkGUI"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 	"blueheader"
 	{

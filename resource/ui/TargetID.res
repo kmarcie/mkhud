@@ -19,12 +19,34 @@
 		"teambg_1"		"replay\thumbnails\bg_dead"
 		"teambg_2"		"replay\thumbnails\bg_redshadow"
 		"teambg_3"		"replay\thumbnails\bg_blueshadow"
-		"src_corner_height"		"14"				// pixels inside the image
-		"src_corner_width"		"14"
+		"src_corner_height"		"16"				// pixels inside the image
+		"src_corner_width"		"16"
 			
 		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
 	}
+			"HealthBG"
+			{
+				"ControlName"		"ScalableImagePanel"
+				"fieldName"		"HealthBG"
+				"xpos"			"2"
+				"ypos"			"7"
+				"zpos"			"-1"
+				"wide"			"30"
+				"tall"			"20"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/materialbutton"
+
+				"src_corner_height"	"24"				// pixels inside the image
+				"src_corner_width"	"24"
+			
+				"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"8"
+				
+			}
 	"bg"
 	{
 		"ControlName"		"CTFImagePanel"
@@ -43,8 +65,8 @@
 		"teambg_1"		"replay\thumbnails\bg_dead"
 		"teambg_2"		"replay\thumbnails\bg_redshadow"
 		"teambg_3"		"replay\thumbnails\bg_blueshadow"
-		"src_corner_height"		"14"				// pixels inside the image
-		"src_corner_width"		"14"
+		"src_corner_height"		"16"				// pixels inside the image
+		"src_corner_width"		"16"
 			
 		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
@@ -64,8 +86,8 @@
 		"enabled"		"1"
 		"image"		"replay\thumbnails\bg_blueshadow"
 		
-		"src_corner_height"		"14"				// pixels inside the image
-		"src_corner_width"		"14"
+		"src_corner_height"		"16"				// pixels inside the image
+		"src_corner_width"		"16"
 			
 		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
@@ -84,8 +106,8 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			"replay\thumbnails\bg_redshadow"
-		"src_corner_height"		"14"				// pixels inside the image
-		"src_corner_width"		"14"
+		"src_corner_height"		"16"				// pixels inside the image
+		"src_corner_width"		"16"
 			
 		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
@@ -95,7 +117,7 @@
 	{	
 		"ControlName"		"CExLabel"
 		"fieldName"		"TargetNameLabel"
-		"font"			"RobotoL12"
+		"font"			"mkTargetIDName"
 		"fgcolor_override"		"mkWhite"
 		"fgcolor"		"mkWhite"
 		"xpos"			"25"

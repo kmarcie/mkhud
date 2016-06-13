@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 0"
 		"infocus_bgcolor_override" "0 0 0 0"
 		"outoffocus_bgcolor_override" "0 0 0 0"
@@ -49,7 +49,7 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"../console/background_2fort"
+		"image"				"replay/thumbnails/gif/1"
 	}
 	"modifyloadoutbg"
 	{
@@ -62,10 +62,13 @@
 		"tall"				"250"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/greymatpanel"
+		"image"				"replay/thumbnails/materialpanel"
 
 		"alpha"				"255"
-
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 
 	}
 	"Scoutbg"
@@ -79,7 +82,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 
 		"alpha"				"255"
 
@@ -109,7 +112,7 @@
 			"scaleImage"	"1"
 			"visible"		"1"
 			"enabled"		"1"
-			"image"			"replay/thumbnails/scoutbw"
+			"image"			"replay/thumbnails/class/scoutbw"
 		}
 	}
 
@@ -125,7 +128,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"command"			"loadout scout"
-		"labeltext"			""
+		"labeltext"			"&1"
+		"font"				"blank"
 		"scaleImage"		"1"
 
 		"border"			"noborder"
@@ -156,7 +160,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/scout"
+			"image"			"replay/thumbnails/class/scout"
 		}
 	}
 
@@ -197,7 +201,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 
 		"alpha"				"255"
 
@@ -228,7 +232,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/soldierbw"
+			"image"			"replay/thumbnails/class/soldierbw"
 		}
 	}
 
@@ -244,7 +248,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"command"			"loadout soldier"
-		"labeltext"			""
+		"labeltext"			"&2"
+		"font"				"blank"
 		"scaleImage"		"1"
 
 		"border"			"noborder"
@@ -275,7 +280,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/soldier"
+			"image"			"replay/thumbnails/class/soldier"
 		}
 	}
 
@@ -316,7 +321,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 
 		"alpha"				"255"
 
@@ -347,7 +352,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/Pyrobw"
+			"image"			"replay/thumbnails/class/pyrobw"
 		}
 	}
 
@@ -362,8 +367,9 @@
 		"tall"				"113"
 		"visible"			"1"
 		"enabled"			"1"
+		"labeltext"			"&3"
+		"font"				"blank"
 		"command"			"loadout Pyro"
-		"labeltext"			""
 		"scaleImage"		"1"
 
 		"border"			"noborder"
@@ -394,7 +400,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/Pyro"
+			"image"			"replay/thumbnails/class/pyro"
 		}
 	}
 
@@ -435,7 +441,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 
 		"alpha"				"255"
 
@@ -466,7 +472,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/demomanbw"
+			"image"			"replay/thumbnails/class/demomanbw"
 		}
 	}
 
@@ -482,7 +488,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"command"			"loadout demoman"
-		"labeltext"			""
+		"labeltext"			"&4"
+		"font"				"blank"
 		"scaleImage"		"1"
 
 		"border"			"noborder"
@@ -513,7 +520,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/demoman"
+			"image"			"replay/thumbnails/class/demoman"
 		}
 	}
 	
@@ -555,7 +562,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 
 		"alpha"				"255"
 
@@ -585,7 +592,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/Heavyweaponsbw"
+			"image"			"replay/thumbnails/class/heavyweaponsbw"
 		}
 	}
 
@@ -601,7 +608,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"command"			"loadout Heavy"
-		"labeltext"			""
+		"labeltext"			"&5"
+		"font"				"blank"
 		"scaleImage"		"1"
 
 		"border"			"noborder"
@@ -632,7 +640,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/Heavyweapons"
+			"image"			"replay/thumbnails/class/heavyweapons"
 		}
 	}
 
@@ -673,7 +681,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 
 		"alpha"				"255"
 
@@ -704,7 +712,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/Engineerbw"
+			"image"			"replay/thumbnails/class/engineerbw"
 		}
 	}
 
@@ -720,7 +728,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"command"			"loadout Engineer"
-		"labeltext"			""
+		"labeltext"			"&6"
+		"font"				"blank"
 		"scaleImage"		"1"
 
 		"border"			"noborder"
@@ -751,7 +760,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/engineer"
+			"image"			"replay/thumbnails/class/engineer"
 		}
 	}
 
@@ -792,7 +801,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 
 		"alpha"				"255"
 
@@ -823,7 +832,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/medicbw"
+			"image"			"replay/thumbnails/class/medicbw"
 		}
 	}
 
@@ -839,7 +848,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"command"			"loadout Medic"
-		"labeltext"			""
+		"labeltext"			"&7"
+		"font"				"blank"
 		"scaleImage"		"1"
 
 		"border"			"noborder"
@@ -870,7 +880,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/medic"
+			"image"			"replay/thumbnails/class/medic"
 		}
 	}
 	
@@ -911,7 +921,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 
 		"alpha"				"255"
 
@@ -942,7 +952,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/sniperbw"
+			"image"			"replay/thumbnails/class/sniperbw"
 		}
 	}
 
@@ -958,7 +968,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"command"			"loadout Sniper"
-		"labeltext"			""
+		"labeltext"			"&8"
+		"font"				"blank"
 		"scaleImage"		"1"
 
 		"border"			"noborder"
@@ -989,7 +1000,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/sniper"
+			"image"			"replay/thumbnails/class/sniper"
 		}
 	}
 
@@ -1030,7 +1041,7 @@
 		"tall"				"120"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 
 		"alpha"				"255"
 
@@ -1061,7 +1072,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/spybw"
+			"image"			"replay/thumbnails/class/spybw"
 		}
 	}
 
@@ -1077,7 +1088,8 @@
 		"visible"			"1"
 		"enabled"			"1"
 		"command"			"loadout Spy"
-		"labeltext"			""
+		"labeltext"			"&9"
+		"font"				"blank"
 		"scaleImage"		"1"
 
 		"border"			"noborder"
@@ -1108,7 +1120,7 @@
 			"visible"		"1"
 			"enabled"		"1"
 
-			"image"			"replay/thumbnails/spy"
+			"image"			"replay/thumbnails/class/spy"
 		}
 	}
 
@@ -1522,7 +1534,7 @@
 		"wide"			"250"
 		"tall"			"140"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -1697,7 +1709,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -1919,7 +1931,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -2141,7 +2153,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -2363,7 +2375,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -2585,7 +2597,7 @@
 		"wide"			"250"
 		"tall"			"120"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		

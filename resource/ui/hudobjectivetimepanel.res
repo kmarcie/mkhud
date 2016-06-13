@@ -84,12 +84,13 @@
 		"tall"			"19"
 		"visible"		"0"
 		"enabled"		"1"
-		"labelText"		"#game_WaitingForPlayers"
+		"labelText"		"WAITING FOR PLAYERS"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"product10"
+		"font"			"Robotol12"
+		"fgcolor_override"	"mkwhite"
 
 		if_comp
 		{
@@ -132,18 +133,17 @@
 		"zpos"			"5"
 		"wide"			"78"
 		"wide_hidef"	"300"
-		"wide_lodef"	"300"
 		"tall"			"19"
 		"tall_hidef"	"19"
-		"tall_lodef"	"22"
 		"visible"		"0"
 		"enabled"		"0"
-		"labelText"		"#game_Overtime"
+		"labelText"		"OVERTIME"
 		"textAlignment"		"center"
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"product12"
+		"font"			"Robotol12"
+		"fgcolor_override"	"mklightblue"
 
 		if_comp
 		{
@@ -245,7 +245,8 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 		"wrap"			"0"
-		"font"			"product12"
+		"font"			"Robotol12"
+		"fgcolor_override"	"mkwhite"
 
 		if_comp
 		{

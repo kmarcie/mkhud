@@ -13,7 +13,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 0"
 		"infocus_bgcolor_override" "0 0 0 0"
 		"outoffocus_bgcolor_override" "0 0 0 0"
@@ -43,7 +43,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 0"
 			"noitem_textcolor"		"mklightblue"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			"border"		"OutlinedGreyBox"
 			
@@ -83,7 +83,7 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"../console/background_2fort"
+		"image"				"replay/thumbnails/gif/1"
 	}
 		"itemoptionpanels_kv"
 		{
@@ -105,6 +105,14 @@
 			"default"		"1"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
+			"border_default"	"mkButton"
+			"border_armed"		"mkButtonSelected"
+			"paintbackground"	"0"
+			
+			"defaultFgColor_override" "mklightblue"
+			"armedFgColor_override" "mkaccent"
+			"depressedFgColor_override" "mkaccent"
+			"paintbackgroundtype"		"2"
 		}
 	}
 	
@@ -135,7 +143,6 @@
 		"textAlignment"	"center"
 		"xpos"			"c-125"
 		"ypos"			"287"
-		"zpos"			"111"
 		"wide"			"240"
 		"tall"			"30"
 		"autoResize"	"0"
@@ -199,16 +206,20 @@
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"classbg"
-		"xpos"				"c-293"
+		"xpos"				"c-286"
 		"ypos"				"70"
 		"zpos"				"-10"
-		"wide"				"582"
+		"wide"				"569"
 		"tall"				"255"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 
 		"alpha"				"255"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 
 
 	}	
@@ -314,7 +325,7 @@
 		"visible"		"1"
 		"bgcolor_override"		"0 0 0 220"
 		"noitem_textcolor"		"110 110 110 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
 		"border"		"OutlinedGreyBox"
 		
@@ -375,7 +386,17 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
+		"paintbackground"	"2"
+		"cornerradius"	"2"
+		"fgcolor_override"	"mklightblue"
+		"border_default"	"mkButton"
+		"border_armed"		"mkButtonSelected"
 		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"paintbackgroundtype"		"2"
 	}
 	
 	"PresetsExplanation"
@@ -388,7 +409,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		
@@ -500,7 +521,7 @@
 		"autoResize"	"1"
 		"visible"		"0"
 		"bgcolor_override"		"69 64 63 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 
 	"TauntHintLabel"
@@ -522,10 +543,10 @@
 		"centerwrap"	"1"
 	}
 
-	"CharacterLoadoutButton"
+	"CharacterLoadoutButton2"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"CharacterLoadoutButton"
+		"fieldName"		"CharacterLoadoutButton2"
 		"xpos"			"c-56"
 		"ypos"			"90"
 		"zpos"			"2"
@@ -546,12 +567,17 @@
 		"Command"		"characterloadout"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-		"font"			"robotol16"
+		"font"			"robotoBold16"
 		"fgcolor_override"	"mklightblue"
-		"defaultBgColor_override" 	"mkdarkerblue"
-		"armedBgColor_override" 	"mkaccent"
-		"depressedBgColor_override" "mkaccent"
-
+		"border_default"	"mkButton"
+		"border_armed"		"mkButtonSelected"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
+		"paintbackgroundtype"		"2"
+		
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
@@ -568,10 +594,10 @@
 		}
 	}
 
-	"TauntLoadoutButton"
+	"TauntLoadoutButton2"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"TauntLoadoutButton"
+		"fieldName"		"TauntLoadoutButton2"
 		"xpos"			"c-56"
 		"ypos"			"140"
 		"zpos"			"2"
@@ -586,7 +612,7 @@
 		"dulltext"		"0"
 		"brighttext"	"0"
 		"default"		"0"
-		"font"			"robotoL16"
+		"font"			"robotoBold16"
 		"visible"		"1"
 		"Enabled"		"1"
 		"textAlignment"	"center"
@@ -597,6 +623,15 @@
 		"defaultBgColor_override" 	"mkdarkerblue"
 		"armedBgColor_override" 	"mkaccent"
 		"depressedBgColor_override" "mkaccent"
+		"paintbackgroundtype"		"2"
+		
+		"border_default"	"mkButton"
+		"border_armed"		"mkButtonSelected"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 
 		"SubImage"
 		{
@@ -633,19 +668,15 @@
 		"Command"		"sv_cheats 1; r_skin 0"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
 	
-		"defaultFgColor_override" 	"mkwhite"
-		"armedFgColor_override" 	"mkwhite"
-		"depressedFgColor_override" "mkwhite"
-
-		"defaultBgColor_override" 	"mkHudRed"
-		"armedBgColor_override" 	"203 35  30 255"
-		"depressedBgColor_override" "203 35  30 255"
+		"paintbackgroundtype"		"2"
+		"border_default"	"mkButtonRED"
+		"border_armed"		"mkButtonSelectedRED"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "mkhudredtext"
+		"armedFgColor_override" "mkhudredtext"
+		"depressedFgColor_override" "mkhudredtext"
 
 		"SubImage"
 		{
@@ -663,10 +694,10 @@
 		}
 	}
 
-	"BluButton"
+	"BlueButton"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"BluButton"
+		"fieldName"		"BlueButton"
 		"xpos"			"c-56"
 		"ypos"			"240"
 		"zpos"			"2"
@@ -683,19 +714,15 @@
 		"Command"		"sv_cheats 1; r_skin 1"
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
-
-		"border"			"noborder"
-		"border_default"	"noborder"
-		"border_armed"		"noborder"
-		"paintbackground"	"1"
 	
-		"defaultFgColor_override" 	"mkwhite"
-		"armedFgColor_override" 	"mkwhite"
-		"depressedFgColor_override" "mkwhite"
-
-		"defaultBgColor_override" 	"mkhudblue"
-		"armedBgColor_override" 	"0 146 245 255"
-		"depressedBgColor_override" "0 146 245 255"
+		"border_default"	"mkButtonBLUE"
+		"border_armed"		"mkButtonSelectedBLUE"
+		"paintbackground"	"0"
+		
+		"defaultFgColor_override" "0 196 255 255"
+		"armedFgColor_override" "mkhudblue"
+		"depressedFgColor_override" "mkhudblue"
+		"paintbackgroundtype"		"2"
 
 		"SubImage"
 		{
@@ -722,7 +749,7 @@
 		"wide"			"250"
 		"tall"			"160"
 		"visible"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"paintbackground" "0"
 		"border"		"MainMenuHighlightBorder"
 		

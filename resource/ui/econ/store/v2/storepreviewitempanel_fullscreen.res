@@ -12,7 +12,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override" "0 0 0 255"
 		
 		"fullscreen_fade_to_black_duration"	"0.32"
@@ -36,7 +36,7 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"paintbackground"	"1"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override" "0 0 0 255"
 	}
 		
@@ -204,7 +204,7 @@
 			"sound_armed"		"UI/buttonrollover.wav"
 			
 			"paintbackground"	"0"
-			"paintbackgroundtype"	"0"
+			"PaintBackgroundType"	"2"
 			"defaultBgColor_Override"	"0 0 0 255"
 			
 			"paintborder"		"0"

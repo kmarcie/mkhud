@@ -55,7 +55,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectLabelSecond"
 		"xpos"			"c-55"
-		"ypos"			"c-132"
+		"ypos"			"c-128"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"24"
@@ -74,7 +74,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"SelectTeamLabel"
 		"xpos"			"c-54"
-		"ypos"			"c-116"
+		"ypos"			"c-112"
 		"zpos"			"2"
 		"wide"			"f0"
 		"tall"			"50"
@@ -125,7 +125,7 @@
 		"ypos"			"175"
 		"zpos"			"999"
 		"wide"			"155"
-		"tall"			"2"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -137,7 +137,7 @@
 	}
 	"TeamBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"TeamBG"
 		"xpos"			"c-77"
 		"ypos"			"100"
@@ -148,7 +148,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkgui"
+		"image"			"replay/thumbnails/materialpanel"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
 	}	
 	"TeamBGShdw"
 	{
@@ -161,8 +165,8 @@
 		"tall"			"318"
 		"autoResize"	"0"
 		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
+		"visible"		"0"
+		"enabled"		"0"
 		"scaleImage" 	"1"
 		"image"			"replay\thumbnails\menu\Shadow4"
 	}
@@ -198,7 +202,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"1"
-		"font"		"product12"
+		"font"		"product16"
 		"fgcolor"				"mklightblue"
 		"fgcolor_override"		"mklightblue"
 	}

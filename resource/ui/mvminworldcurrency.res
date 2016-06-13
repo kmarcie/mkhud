@@ -13,7 +13,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"ahudWhite"
+		"fillcolor"		"0 0 0 0"
 	}
 	
 	"CurrencyLabel"

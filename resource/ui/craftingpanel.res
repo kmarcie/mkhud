@@ -15,7 +15,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"0 0 0 0"
 		"infocus_bgcolor_override" "0 0 0 0"
 		"outoffocus_bgcolor_override" "0 0 0 0"
@@ -102,7 +102,11 @@
 		"tall"				"40"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/greymatpanel"
+		"image"				"replay/thumbnails/materialpanel"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 	"craftingpanel"
 	{
@@ -115,7 +119,7 @@
 		"tall"				"275"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialpanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 	}
 	"IOpanel"
 	{
@@ -128,7 +132,7 @@
 		"tall"				"250"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialpanel"
+		"image"				"replay/thumbnails/materialpaneldark"
 	}
 	"craftbuttonbg"
 	{
@@ -138,10 +142,14 @@
 		"ypos"				"275"
 		"zpos"				"-99"
 		"wide"				"305"
-		"tall"				"40"
+		"tall"				"0"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialpanel"
+		"image"				"replay/thumbnails/materialpaneldark"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 	"bg"
 	{
@@ -158,7 +166,7 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"../console/background_2fort"
+		"image"				"replay/thumbnails/gif/1"
 	}
 	"ClassLabel"
 	{
@@ -343,7 +351,7 @@
 			"ypos"			"315"
 			"zpos"			"20"
 			"wide"			"287"
-			"tall"			"30"
+			"tall"			"32"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
@@ -356,10 +364,11 @@
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"craft"
+			"paintbackground"	"0"
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 			"border_default"			"mkButton"
-			"border_armed"				"mkselected"
+			"border_armed"				"mkbuttonselected"
 			"fgcolor_override"		"mklightblue"
 			"armedfgcolor_override"		"mkaccent"
 			"depressedfgcolor_override"	"mkaccent"

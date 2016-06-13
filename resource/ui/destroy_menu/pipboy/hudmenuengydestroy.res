@@ -46,7 +46,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"HUDBlack"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"BackgroundEngineer"

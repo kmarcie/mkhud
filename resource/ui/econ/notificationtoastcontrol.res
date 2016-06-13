@@ -14,7 +14,7 @@
 		"border"		"NotificationDefault"
 		"paintborder"			"1"
 		"paintbackground"		"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"		"34 34 34 255"
 	}
 

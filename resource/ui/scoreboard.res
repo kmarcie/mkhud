@@ -57,42 +57,79 @@
 		"killstreak_width"	"15"
 		"killstreak_image_width" ""
 	}
-	"BlueScoreBG"
+	"SCOREBOARDTOPBGBLU"
 	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"BlueScoreBG"
-		"xpos"			"c-293"
-		"ypos"			"16"
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"SCOREBOARDTOPBGBLU"
+		"xpos"			"c-295"
+		"ypos"			"12"
 		"zpos"			"100"
-		"wide"			"292"
-		"tall"			"21"
+		"wide"			"295"
+		"tall"			"28"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkGUI"
-//		"image"			"replay\thumbnails\bg_hudblue"
+		"image"			"replay\thumbnails\materialpanel"
 		"scaleImage"		"1"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
 		
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}
+	"SCOREBOARDTOPBGRED"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"SCOREBOARDTOPBGRED"
+		"xpos"			"c-1"
+		"ypos"			"12"
+		"zpos"			"100"
+		"wide"			"295"
+		"tall"			"28"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\materialpanel"
+		"scaleImage"		"1"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
+		
+		if_mvm
+		{
+			"xpos"			"c-275"
+			"ypos"			"r332"
+			"zpos"			"100"
+			"wide"			"546"
+			"visible"		"1"
+		}
+	}
 	"ScoreboardBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"ScoreboardBG"
 		"xpos"			"c-291"
 		"ypos"			"28"
 		"zpos"			"-100"
-		"wide"			"582"
-		"tall"			"250"
+		"wide"			"291"
+		"tall"			"167"
+		"tall_minmode"	"89"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"image"			"replay\thumbnails\mk_scoreboard"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"
 		"scaleImage"		"1"
 		
 		if_mvm
@@ -101,18 +138,44 @@
 			"ypos"			"160"
 			"visible"		"1"
 			"wide"			"542"
-			"tall"			"250"
+			"tall"			"160"
 		}
 	}
-	"blueBGShadow"
+	"ScoreboardBGSecondHalf"
+	{
+		"ControlName"		"ScalableImagePanel"
+		"fieldName"		"ScoreboardBG"
+		"xpos"			"c0"
+		"ypos"			"28"
+		"zpos"			"-100"
+		"wide"			"291"
+		"tall"			"167"
+		"tall_minmode"	"89"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay\thumbnails\mk_scoreboard"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"
+		"scaleImage"		"1"
+		
+		if_mvm
+		{
+			"visible"		"0"
+		}
+	}
+	"blueBGShadow" // unused
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"blueBGShadow"
 		"xpos"			"c-299"
 		"ypos"			"12"
 		"zpos"			"-5"
-		"wide"			"302"
-		"tall"			"28"
+		"wide"			"0" // 302
+		"tall"			"0" // 28
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -124,15 +187,15 @@
 			"visible"		"0"
 		}	
 	}
-	"redBGShadow"
+	"redBGShadow" // unused
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"redBGShadow"
 		"xpos"			"c-10"
 		"ypos"			"12"
 		"zpos"			"-5"
-		"wide"			"302"
-		"tall"			"29"
+		"wide"			"0" // 302
+		"tall"			"0" // 29
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -144,20 +207,20 @@
 			"xpos"			"c-279"
 			"ypos"			"147"
 			"zpos"			"-5"
-			"wide"			"552"
-			"tall"			"29"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"1"
 		}
 	}
-	"RedScoreBG"
+	"RedScoreBG" // unused
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"		"RedScoreBG"
 		"xpos"			"c-5"
 		"ypos"			"16"
 		"zpos"			"100"
-		"wide"			"292"
-		"tall"			"21"
+		"wide"			"0" // 292
+		"tall"			"0" // 21
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -171,57 +234,37 @@
 			"xpos"			"c-268"
 			"ypos"			"152"
 			"zpos"			"9999"
-			"wide"			"534"
-			"tall"			"21"
+			"wide"			"0"
+			"tall"			"0"
 			"visible"		"1"
 			"visible"		"1"
 		}
 	}
 	"StatsBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"StatsBG"
-		"xpos"			"0"
-		"ypos"			"0"
+		"xpos"			"-6"
+		"ypos"			"r158"
 		"zpos"			"-98"
 		"wide"			"125"
-		"tall"			"35"
+		"tall"			"38"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkGUI"
-//		"image"			"replay\thumbnails\bg_black"
-//		"alpha"			"220"
+		"image"			"replay\thumbnails\materialpanel"
 		"scaleImage"		"1"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
 
 		if_mvm
 		{
 			"visible"		"0"
 		}
 	}	
-	"StatsBGShadow"
-	{
-		"ControlName"		"ImagePanel"
-		"fieldName"		"StatsBGShadow"
-		"xpos"			"-5"
-		"ypos"			"-5"
-		"zpos"			"-99"
-		"wide"			"134"
-		"tall"			"41"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-//		"fillcolor"		"mkGUI"
-		"image"			"replay\thumbnails\menu\Shadow4"
-		"scaleImage"		"1"
-
-		if_mvm
-		{
-			"visible"		"0"
-		}
-	}
 	"MainBG"
 	{
 		"ControlName"		"ImagePanel"
@@ -317,9 +360,9 @@
 		"fieldName"		"BlueTeamScore"
 		"font"			"product32"
 		"labelText"		"%blueteamscore%"
-		"fgcolor"		"mkdarkerblue"
+		"fgcolor"		"mkhudbluetext"
 		"textAlignment"		"center"
-		"xpos"			"c-74"
+		"xpos"			"c-72"
 		"ypos"			"-5" // -5
 		"zpos"			"4212"
 		"wide"			"100"
@@ -342,7 +385,7 @@
 		"labelText"		"o"
 		"fgcolor"		"mkhudblue"
 		"textAlignment"		"east"
-		"xpos"			"c-107"
+		"xpos"			"c-105"
 		"ypos"			"-5"
 		"zpos"			"4212"
 		"wide"			"100"
@@ -365,7 +408,7 @@
 		"labelText"		"o"
 		"fgcolor"		"0 0 0 255"
 		"textAlignment"		"east"
-		"xpos"			"c-107"
+		"xpos"			"c-105"
 		"ypos"			"-4"
 		"zpos"			"4212"
 		"wide"			"100"
@@ -430,7 +473,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"BlueTeamPlayerCount"
-		"font"			"nexalight14"
+		"font"			"mktargetidname"
 		"fgcolor"		"mkdarkerblue"
 		"labelText"		"%blueteamplayercount%"
 		"textAlignment"		"west"
@@ -457,7 +500,7 @@
 		"labelText"		"%redteamname%"
 		"textAlignment"		"east"
 		"Fgcolor"		"mkhudred"
-		"xpos"			"c80"
+		"xpos"			"c87"
 		"ypos"			"12"
 		"zpos"			"1234"
 		"wide"			"200"
@@ -474,6 +517,7 @@
 			"zpos"			"10000"
 			"labelText"		"MANN CO."
 			"visible"		"1"
+			"textAlignment"	"west"
 		}
 	}							
 	"RedTeamScore"
@@ -492,7 +536,7 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mkdarkerblue"
+		"fgcolor"		"mkhudredtext"
 		
 		if_mvm
 		{
@@ -503,7 +547,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"RedTeamPlayerCount"
-		"font"			"nexalight14"
+		"font"			"mktargetidname"
 		"labelText"		"%redteamplayercount%"
 		"textAlignment"		"west"
 		"xpos"			"c50"
@@ -593,11 +637,11 @@
 		"font"			"product9"
 		"labelText"		"#Scoreboard_TimeLeftLabel"
 		"textAlignment"		"center"
-		"xpos"			"1112312"
+		"xpos"			"9999"
 		"ypos"			"2"
 		"zpos"			"2"
-		"wide"			"72"
-		"tall"			"10"
+		"wide"			"0"
+		"tall"			"0"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -616,7 +660,7 @@
 		"labelText"		"%servertime%"
 		"textAlignment"		"center"
 		"xpos"			"22"
-		"ypos"			"15"
+		"ypos"			"r150"
 		"zpos"			"212"
 		"wide"			"72"
 		"tall"			"20"
@@ -682,11 +726,12 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"BluePlayerList"
-		"xpos"			"c-287"
+		"xpos"			"c-288"
 		"ypos"			"24"
 		"zpos"			"-20"
 		"wide"			"287"
 		"tall"			"167"
+		"tall_minmode"	"89"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -706,11 +751,12 @@
 	{
 		"ControlName"	"SectionedListPanel"
 		"fieldName"		"RedPlayerList"
-		"xpos"			"c0	"
+		"xpos"			"c2"
 		"ypos"			"24"
 		"zpos"			"-20"
 		"wide"			"287"
 		"tall"			"167"
+		"tall_minmode"	"89"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
@@ -741,7 +787,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		
 		if_mvm
 		{
@@ -853,7 +899,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		
 		if_mvm
 		{
@@ -1223,7 +1269,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"127 127 127 153"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		
 		if_mvm
 		{
@@ -1328,7 +1374,7 @@
 				"wide"			"36"
 				"tall"			"36"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
+				"PaintBackgroundType"	"2"
 				"bgcolor_override"	"117 107 94 255"
 			}
 			"AvatarImage"
@@ -1407,7 +1453,7 @@
 				"wide"			"36"
 				"tall"			"36"
 				"visible"		"1"
-				"PaintBackgroundType"	"0"
+				"PaintBackgroundType"	"2"
 				"bgcolor_override"	"117 107 94 255"
 			}
 			"AvatarImage"
@@ -1469,7 +1515,7 @@
 		"ControlName"		"EditablePanel"
 		"fieldName"		"LocalPlayerStatsPanel"
 		"xpos"			"5"
-		"ypos"			"25"
+		"ypos"			"r135"
 		"zpos"			"3"
 		"wide"			"600"
 		"tall"			"448"
@@ -2169,7 +2215,7 @@
 		"enabled"		"0"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 153"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 	
 	"ButtonLegend"		[$X360]

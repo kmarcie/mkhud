@@ -121,23 +121,21 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"equippedlabel"
-			"font"			"RobotoL10"
+			"font"			"RobotoBold10"
 			"xpos"			"37"
 			"ypos"			"28"
 			"zpos"			"2"
-			"wide"			"35"
+			"wide"			"10"
 			"tall"			"10"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"labelText"		"#ItemPanelEquipped"
-			"textAlignment"	"center"
+			"labelText"		"✓"
+			"textAlignment"	"east"
 			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 150"
+			"bgcolor_override"		"0 0 0 200"
 			"PaintBackgroundType"	"2"
-			"PaintBackgroundType"	"0"
-			"border"		"NoBorder"
 		}
 		
 		"paint_icon"
@@ -172,7 +170,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 80 60 255"
 			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"border"		"NoBorder"
 		}
 
@@ -194,7 +192,7 @@
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 40 30 255"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"border"		"NoBorder"
 		}
 		
@@ -294,7 +292,7 @@
 			"visible"		"0"
 			"bgcolor_override"		"0 0 0 100"
 			"noitem_textcolor"		"117 107 94 255"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"paintborder"	"1"
 			"useparentbg"	"0"
 			

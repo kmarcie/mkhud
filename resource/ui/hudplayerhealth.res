@@ -88,7 +88,7 @@
 		"labelText"		"%Health%"
 		"textAlignment"	"center"	
 		"font"		"mkhealthammo"
-		"fgcolor"		"230 230 230 255"
+		"fgcolor"		"mkwhite"
 	}	
 	"PlayerStatusHealthValueShadow"
 	{

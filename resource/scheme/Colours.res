@@ -2,38 +2,53 @@ Scheme
 {
 	Colors
 	{
-		// HUD Colours
+		/////// MKHUD COLOURS //////
 		
-		"mkTopBar"			"43  48  58  255"
-		"mkHUDBlue"			"0   156 255 255"
-		"mkHudRed"			"213 45  40  255"
-		"mkBlack"			"34  34  34  255"
-		"mkWhite"			"220 220 220 255" // tanlight 236 227 203
-		"mkRed"				"255 102 106 255"
-		"mkBlue"			"111 211 255 255"
-		"mkDarkBlue"		"0   86  140 255"
-		"mkDarkGrey"		"100 100 100 255"
-		"mkGUI"				"215 215 215 255"
-		"mkGUIbg"			"225 225 225 255"
-		"mkGUIselected"		"214 73  51  255"
-		"mkBGcolor"			"22  25  30  255"
-	// 	"mkBGcolor"			"124 124 124 255"
-		"ItemPanelBG" 		"27  32  37  255"
-		"mkDarkerBlue"		"43  48  58  255"
-		"mkLightBlue"		"146 220 229 255"
-		"mkPanel"			"215 215 215 255"
-		"mkGrey"			"124 124 124 255"
-		"mkAccent"			"214 73  51  255"
-		"mkPureWhite"		"255 255 255 255"
-		"mkPureBlack"		"0   0   0   255"
-		"mkOVERHEAL"		"0   230 118 255"
+		/////// MENU COLOURS //////
+		"mkTopBar"			"38  50  56  255" 				// Top Bar
+		"mkDarkerBlue"		"38  50  56  255" 				// Darker Blue, also controls the colour of the top bar in some menus because I'm not consistent
+		"mkDarkerBlue2"		"45  61  69  255" 				// Slightly darker Darker Blue (what?)
+		"mkLightBlue"		"146 220 229 255" 				// Light Blue
+		"mkLightBlue2"		"116 190 199 255" 				// Slightly darker Light Blue	(what?)
+		"mkAccent"			"214 73  51  255" 				// Accent colour - Reddish Orange
+		"mkDarkerBlueButKindaBright" "65  75  95  255"		// Stupid long name but it's a brighter version of mkDarkerBlue
+		"mkDarkerBlueButKindaBright2" "75  85  105 255" 	// Stupid long name but it's another brighter version of mkDarkerBlue
 		
-		// tf2 colours
-		"Orange"			"214 73  51 255" // i made these two values blue, the original is 178,82,22
+		"mkGUI"				"215 215 215 255" 				// Off-white
+		"mkPanel"			"215 215 215 255" 				// Off-white - No idea why I have 3 things directing to the same colour
+		"mkGUIbg"			"225 225 225 255" 				// Brighter off-white
+		"mkGUIselected"		"214 73  51  255" 				// Accent colour - Reddish Orange
+		
+		"mkHUDBlue"			"0	 145 234 255" 				// Team Colour
+		"mkHudRed"			"198 40  40  255" 				// Team Colour
+		"mkHudRedText"		"255 94  90  255" 				// Team Colour, but brighter by a small bit
+		"mkHudBlueText"		"98  194 255 255" 				// Team Colour, but brighter by a small bit
+		
+		////// MISC ///////
+		
+		"mkBlack"			"34  34  34  255" 				// Off-black
+		"mkWhite"			"215 215 215 255" 				// Off-white
+		"mkDarkGrey"		"124 124 124 255" 				// Dark Grey
+		"mkDarkGreyText"	"177 177 177 255" 				// Dark Grey, but brighter by a small bit
+		"mkGrey"			"124 124 124 255" 				// Grey
+		"mkPureWhite"		"255 255 255 255" 				// Completely white
+		"mkPureBlack"		"0   0   0   255" 				// Completely black
+		
+		"mkOVERHEAL"		"0   230 118 255"				// Overheal Colour
+		"ItemPanelBG" 		"58  62  77  255"
+		
+		
+		
+		
+		
+		
+		// STOCK TF2 COLOURS, SOME ARE MODIFIED
+		
+		"Orange"			"214 73  51 255" 	// Reddish Orange
 		"OrangeDim"			"214 73  51 120"
 		"LightOrange"		"188 112 0   128"
 		"GoalOrange"		"255 133 0"
-		"TFOrange"			"0   0   0   200" // selected
+		"TFOrange"			"38  50  56 255" 	// Darker Blue
 
 		"QuestGold"			"208 147 75 255"
 		"HalloweenThemeColor2015_Light"	"238 126 17 255"
@@ -42,12 +57,12 @@ Scheme
 		"QuestStandardHighlight"	"0 255 0 255"
 		"QuestBonusHighlight"		"150 160 255 255"
 		
-		"White"				"236 227 203 255"
+		"White"				"215 215 215 255" // White
 		"Red"				"192 28 0 140"
-		"RedSolid"			"192 28 0 255" // orig 192 28 0
+		"RedSolid"			"192 28 0 255" 
 		"Blue"				"0 28 162 140"
-		"Yellow"			"251 235 202 255"
-		"TransparentYellow"	"251 235 202 140"
+		"Yellow"			"215 215 215 255"
+		"TransparentYellow"	"215 215 215 140"
 		"BrightYellow"		"251 235 0 255"
 		//"Black"				"0 0 0 255"
 		//Changed black to a NTSC safe color
@@ -94,8 +109,8 @@ Scheme
 		// training
 		"HudTrainingHint"			"212 160 23 255"
 		
-		"TanDark"				"100 100 100 255"
-		"TanLight"				"220 220 220 255"
+		"TanDark"				"124 124 124 255"
+		"TanLight"				"215 215 215 255"
 		"TanDarker"				"40 40 40 255"
 		
 		"StoreDarkTan"			"131 121 104 255"
@@ -103,11 +118,11 @@ Scheme
 		
 		// Building HUD Specific
 		"LowHealthRed"		"255 0 0 255"
-		"ProgressOffWhite"	"251 235 202 255"
+		"ProgressOffWhite"	"215 215 215 255"
 		"ProgressBackground"	"250 234 201 51"
 		"HealthBgGrey"		"72 71 69 255"
 		
-		"ProgressOffWhiteTransparent"	"251 235 202 128"
+		"ProgressOffWhiteTransparent"	"215 215 215 128"
 		
 		"LabelDark"			"48 43 42 255"
 		"LabelTransparent"	"109 96 80 180"
@@ -155,6 +170,23 @@ Scheme
 		"QualityColorHaunted"					"56 243 171 255"
 		"QualityColorCollectors"				"170 0 0 255"
 		"QualityColorPaintkitWeapon"			"250 250 250 255"
+		
+		"QualityColorNormal_GreyedOut"			"148 148 148 255"
+		"QualityColorrarity1_GreyedOut"			"57 96 65 255"
+		"QualityColorrarity2_GreyedOut"			"121 111 55 255"
+		"QualityColorrarity3_GreyedOut"			"92 65 0 255"
+		"QualityColorrarity4_GreyedOut"			"114 60 152 255"
+		"QualityColorVintage_GreyedOut"			"51 78 125 255"
+		"QualityColorUnique_GreyedOut"			"235 195 0 255"
+		"QualityColorCommunity_GreyedOut"		"92 156 54 255"
+		"QualityColorDeveloper_GreyedOut"		"145 0 101 255"
+		"QualityColorSelfMade_GreyedOut"		"92 156 54 255"
+		"QualityColorCustomized_GreyedOut"		"51 78 125 255"
+		"QualityColorStrange_GreyedOut"			"187 86 30 255"
+		"QualityColorCompleted_GreyedOut"		"114 60 152 255"
+		"QualityColorHaunted_GreyedOut"			"36 223 151 255"
+		"QualityColorCollectors_GreyedOut"		"150 0 0 255"
+		"QualityColorPaintkitWeapon_GreyedOut"	"230 230 230 255"
 
 		"ItemRarityDefault"						"131 126 119 255"
 		"ItemRarityCommon"						"176 195 217 255"
@@ -171,23 +203,6 @@ Scheme
 		"ItemRarityMythical_GreyedOut"			"45 24 85 255"
 		"ItemRarityLegendary_GreyedOut"			"70 15 77 255"
 		"ItemRarityAncient_GreyedOut"			"78 25 25 255"
-		
-		"QualityColorNormal_GreyedOut"			"44 44 44 255"
-		"QualityColorrarity1_GreyedOut"			"20 29 21 255"
-		"QualityColorrarity2_GreyedOut"			"35 33 19 255"
-		"QualityColorrarity3_GreyedOut"			"51 51 62 255"
-		"QualityColorrarity4_GreyedOut"			"36 20 43 255"
-		"QualityColorVintage_GreyedOut"			"18 25 36 255"
-		"QualityColorUnique_GreyedOut"			"64 54 0  255"
-		"QualityColorCommunity_GreyedOut"		"28 44 19 255"
-		"QualityColorDeveloper_GreyedOut"		"41 4  30  255"
-		"QualityColorSelfMade_GreyedOut"		"28 44 74 255"
-		"QualityColorCustomized_GreyedOut"		"71 98 19 255"
-		"QualityColorStrange_GreyedOut"			"52 27 13 255"
-		"QualityColorCompleted_GreyedOut"		"34 20 43 255"
-		"QualityColorHaunted_GreyedOut"			"14 61 43 255"
-		"QualityColorCollectors_GreyedOut"		"60 0 0 255"
-		"QualityColorPaintkitWeapon_GreyedOut"	"60 60 60 255"
 		
 		"SaleGreen"								"76 107 34 255"
 		

@@ -23,7 +23,7 @@
 		{
 			"visible"		"0"
 			"wide"			"165"
-			"tall"			"18"
+			"tall"			"25"
 			"zpos"			"100"
 		
 
@@ -53,26 +53,10 @@
 				"ControlName"	"CTFImagePanel"
 				"fieldName"		"PanelShadow"
 				"xpos"			"0"
-				"ypos"			"-26"
-				"zpos"			"-1"
-				"wide"			"0"
-				"tall"			"0"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"0"
-				"enabled"		"0"
-				"scaleImage" 	"1"
-				"image"			"replay\thumbnails\menu\Shadow3"
-			}
-			"PanelShadow2"
-			{
-				"ControlName"	"CTFImagePanel"
-				"fieldName"		"PanelShadow2"
-				"xpos"			"0"
-				"ypos"			"11"
+				"ypos"			"14"
 				"zpos"			"-1"
 				"wide"			"165"
-				"tall"			"30"
+				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -93,7 +77,7 @@
 			"pinCorner"		"0"
 			"visible" 		"1"
 			"enabled" 		"1"
-			"fillcolor" 	"34 34 34 255"
+			"fillcolor" 	"34 34 34 0"
 			}			
 			
 			"PanelLeftHalf"
@@ -175,6 +159,29 @@
 			"enabled" 		"0"
 			"fillcolor" 	"15 15 15 0"
 			}
+			"HealthBG"
+			{
+				"ControlName"		"ScalableImagePanel"
+				"fieldName"		"HealthBG"
+				"xpos"			"0"
+				"ypos"			"3"
+				"zpos"			"-1"
+				"wide"			"27"
+				"tall"			"18"
+				"autoResize"	"0"
+				"pinCorner"		"0"
+				"visible"		"1"
+				"enabled"		"1"
+				"image"			"replay/thumbnails/materialbutton"
+
+
+				"src_corner_height"	"24"				// pixels inside the image
+				"src_corner_width"	"24"
+			
+				"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
+				"draw_corner_height" 	"8"
+				
+			}
 		
 			"playername"
 			{
@@ -182,7 +189,7 @@
 				"fieldName"		"playername"
 				"font"			"mk11"
 				"xpos"			"54"
-				"ypos"			"2"
+				"ypos"			"5"
 				"zpos"			"5"
 				"wide"			"80"
 				"tall"			"16"
@@ -200,7 +207,7 @@
 				"fieldName"		"playernameshdw"
 				"font"			"mkblur11"
 				"xpos"			"54"
-				"ypos"			"2"
+				"ypos"			"5"
 				"zpos"			"5"
 				"wide"			"80"
 				"tall"			"16"
@@ -218,7 +225,7 @@
 				"ControlName"	"CTFClassImage"
 				"fieldName"		"classimage"
 				"xpos"			"27"
-				"ypos"			"-1"
+				"ypos"			"3"
 				"zpos"			"2"
 				"wide"			"19"
 				"tall"			"18"
@@ -241,7 +248,7 @@
 				"visible"		"0"
 				"enabled"		"1"
 				"bgcolor_override"		"Black"
-				"PaintBackgroundType"	"0"
+				"PaintBackgroundType"	"2"
 				
 			}
 			
@@ -250,10 +257,10 @@
 					"ControlName" "EditablePanel"
 					"fieldName" "HealthIcon"
 					"xpos" "0"
-					"ypos" "1"
+					"ypos" "2"
 					"zpos" "3"
 					"wide" "24"
-					"tall" "14"
+					"tall" "16"
 					"visible" "1"
 					"enabled" "1"
 					"HealthBonusPosAdj" "10"
@@ -309,9 +316,9 @@
 				"ControlName"	"CExLabel"
 				"fieldName"		"respawntime"
 				"font"			"mktargetid"
-				"xpos"			"3"
-				"ypos"			"3"
-				"zpos"			"5"
+				"xpos"			"5"
+				"ypos"			"5"
+				"zpos"			"9999"
 				"wide"			"23"
 				"tall"			"10"
 				"autoResize"	"0"
@@ -365,7 +372,7 @@
 				"fieldName"		"chargeamount"
 				"font"			"mktargetid"
 				"xpos"			"130"
-				"ypos"			"3"
+				"ypos"			"5"
 				"zpos"			"6"
 				"wide"			"30"
 				"tall"			"13"
@@ -382,7 +389,7 @@
 				"fieldName"		"chargeamountBG"
 				"font"			"mktargetidshdw"
 				"xpos"			"130"
-				"ypos"			"3"
+				"ypos"			"5"
 				"zpos"			"6"
 				"wide"			"30"
 				"tall"			"13"
@@ -577,7 +584,7 @@
 		"tall"			"100"
 		"visible"		"0"
 		"bgcolor_override"		"255 255 255 0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		
 		"model_ypos"		"15"
 		"model_center_x"	"1"

@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"mkblack"
 		
 		"itempanel_xpos"	"0"
@@ -26,7 +26,7 @@
 			"wide"			"205"
 			"tall"			"35"
 			"bgcolor_override"		"mkblack"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"paintbackground"	"0" 			
 			"paintborder"	"0"
 			"text_forcesize" "2"
@@ -123,7 +123,7 @@
 		"ypos"			"30"
 		"wide"			"230"
 		"tall"			"125"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"fgcolor_override"	"TanLight"
 		"bgcolor_override"	"200 187 161 0"
 		"autohide_buttons" "1"

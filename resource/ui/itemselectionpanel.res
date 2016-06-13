@@ -103,7 +103,7 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"../console/background_2fort"
+		"image"				"replay/thumbnails/gif/1"
 	}
 	"CaratLabel"
 	{
@@ -127,7 +127,7 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ClassLabel"
-		"font"			"robotol16"
+		"font"			"blank"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
 		"xpos"			"c35"
@@ -146,11 +146,11 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"NameFilterLabel"
-		"font"			"HudFontSmallestBold"
+		"font"			"mk9"
 		"labelText"		"#Store_NameFilterLabel"
 		"textAlignment"	"west"
-		"xpos"			"c+205"
-		"ypos"			"0"
+		"xpos"			"c+100"
+		"ypos"			"r155"
 		"zpos"			"1"
 		"wide"			"90"
 		"tall"			"20"
@@ -158,23 +158,26 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fgcolor"		"mkwhite"
+		"fgcolor"		"mklightblue"
 	}
 	"classbg"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"			"classbg"
-		"xpos"				"c-305"
-		"ypos"				"72"
+		"xpos"				"c-294"
+		"ypos"				"77"
 		"zpos"				"-10"
-		"wide"				"620"
-		"tall"				"241"
+		"wide"				"599"
+		"tall"				"231"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialPaneldark"
 
 		"alpha"				"255"
-
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 
 	}
 	"otherbg"
@@ -188,20 +191,23 @@
 		"tall"				"60"
 		"visible"			"1"
 		"enabled"			"1"
-		"image"				"replay/thumbnails/materialPanel"
+		"image"				"replay/thumbnails/materialPaneldark"
 
 		"alpha"				"255"
-
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 
 	}
 	"NameFilterTextEntry"
 	{
 		"ControlName"		"TextEntry"
 		"fieldName"		"NameFilterTextEntry"
-		"xpos"		"c+205"
-		"ypos"		"15"
+		"xpos"		"c+135"
+		"ypos"		"r155"
 		"zpos"		"2"
-		"wide"		"90"
+		"wide"		"70"
 		"tall"		"19"
 		"autoResize"		"0"
 		"pinCorner"		"0"
@@ -212,9 +218,10 @@
 		"editable"		"1"
 		"unicode"		"1"
 		"fgcolor_override"	"mkwhite"
-		"bgcolor_override"	"0 0 0 100"
+		"bgcolor_override"	"0 0 0 150"
 		"paintbackgroundtype" "2"
 		"font"		"HudFontSmallest"
+		"border"	"mkbutton"
 	}
 	
 	"TopLine"
@@ -359,6 +366,7 @@
 		"defaultFgColor_override"	"mklightblue"
 		"armedFgColor_override"		"mkaccent"
 		"depressedFgColor_override" "mkaccent"
+		"paintbackground" "0"
 	}
 	"ShowSelection"
 	{
@@ -389,6 +397,7 @@
 		"defaultFgColor_override"	"mklightblue"
 		"armedFgColor_override"		"mkaccent"
 		"depressedFgColor_override" "mkaccent"
+		"paintbackgroundtype" "0"
 	}
 	
 	"PrevPageButton"
@@ -396,7 +405,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"PrevPageButton"
 		"xpos"			"c210"
-		"ypos"			"320"
+		"ypos"			"325"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -424,6 +433,7 @@
 
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
+		"paintbackgroundtype" "0"
 	}		
 	
 	"CurPageLabel"
@@ -434,7 +444,7 @@
 		"labelText"		"%backpackpage%"
 		"textAlignment"	"center"
 		"xpos"			"c235"
-		"ypos"			"320"
+		"ypos"			"325"
 		"zpos"			"1"
 		"wide"			"40"
 		"tall"			"20"
@@ -450,7 +460,7 @@
 		"ControlName"	"CExButton"
 		"fieldName"		"NextPageButton"
 		"xpos"			"c280"
-		"ypos"			"320"
+		"ypos"			"325"
 		"zpos"			"1"
 		"wide"			"20"
 		"tall"			"20"
@@ -478,6 +488,7 @@
 
 		"border_default"			"NoBorder"
 		"border_armed"				"NoBorder"
+		"paintbackgroundtype" "0"
 	}		
 	
 	"mouseoveritempanel"

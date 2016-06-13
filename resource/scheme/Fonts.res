@@ -66,6 +66,16 @@ Scheme
 				"dropshadow" "1"
 			}
 		}
+		"mkTargetIDName"
+		{
+			"1"
+			{
+				"name"		"Roboto"
+				"tall"		"12"
+				
+				"antialias"	"1"
+			}
+		}
 		"mkTargetIDshdw"
 		{
 			"1"
@@ -96,6 +106,16 @@ Scheme
 				"tall"		"24"
 				"antialias"	"1"
 				"outline"	"1"
+			}
+		}
+		"mkKILLFEED"
+		{
+			"1"
+			{
+				"name"		"Roboto"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias"	"1"
 			}
 		}
 		"mk8"
@@ -482,7 +502,6 @@ Scheme
 				"blur"		"1"
 			}
 		}
-		// bold is not actually bold, there's literally no difference but this is for if i use a different typeface
 		"mkBold9"
 		{
 			"1"
@@ -5408,8 +5427,8 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Bold"
-				"tall"		"12"
+				"name"		"Roboto"
+				"tall"		"11"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -5420,7 +5439,7 @@ Scheme
 			"1"
 			{
 				"name"		"Roboto Bold"
-				"tall"		"14"
+				"tall"		"10"
 				"weight"	"500"
 				"additive"	"0"
 				"antialias" "1"
@@ -6084,7 +6103,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Light"
+				"name"		"Roboto"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -6094,7 +6113,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Light"
+				"name"		"Roboto"
 				"tall"		"9"
 				"antialias" "1"
 			}
@@ -6103,7 +6122,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Light"
+				"name"		"Roboto"
 				"tall"		"9"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -6113,7 +6132,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Light"
+				"name"		"Roboto"
 				"tall"		"10"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -6123,7 +6142,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Light"
+				"name"		"Roboto"
 				"tall"		"14"
 				"additive"	"0"
 				"antialias" 	"1"
@@ -6770,6 +6789,31 @@ Scheme
 			{
 				"font" "resource/fonts/Roboto-Light_2.ttf"
 				"name" "Roboto Light"
+			}
+			"24"
+			{
+				"font" "resource/fonts/Neutra2Display-Titling.otf"
+				"name" "Neutraface2Display-Titling"
+			}
+			"25"
+			{
+				"font" "resource/fonts/Neutra2Text-Bold.otf"
+				"name" "Neutraface2Text-Bold"
+			}
+			"26"
+			{
+				"font" "resource/fonts/Neutra2Text-Book.otf"
+				"name" "Neutraface2Text-Book"
+			}
+			"27"
+			{
+				"font" "resource/fonts/Neutra2Text-Light.otf"
+				"name" "Neutraface2Text-Light"
+			}
+			"28"
+			{
+				"font" "resource/fonts/Neutra2Text.otf"
+				"name" "Neutraface2Text-Bold"
 			}
 		}
 	}

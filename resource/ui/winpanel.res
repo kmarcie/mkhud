@@ -47,28 +47,33 @@
 			"xpos"			"0"
 			"ypos"			"16"
 			"zpos"			"-1"
-			"wide"			"465"
-			"tall"			"20"
+			"wide"			"0"
+			"tall"			"0"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"	"mkgui"
+			"fillcolor"	""
 		}
-		"redBG1"
+		"redBG2"
 		{
-			"ControlName"		"ImagePanel"
-			"fieldName"		"redBG1"
-			"xpos"			"427"
-			"ypos"			"16"
+			"ControlName"		"ScalableImagePanel"
+			"fieldName"		"redBG2"
+			"xpos"			"-99"
+			"ypos"			"13"
 			"zpos"			"-1"
-			"wide"			"999"
-			"tall"			"20"
+			"wide"			"9999"
+			"tall"			"26"
 			"autoResize"	"0"
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"fillcolor"	"mkgui"
+		//	"fillcolor"	"mkgui"
+			"image"			"replay/thumbnails/materialpanel"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
 		}
 		"BlueTeamLabel"
 		{
@@ -93,7 +98,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"BlueTeamScore"
 			"font"			"mk32"
-			"fgcolor"		"mkdarkerblue"
+			"fgcolor"		"mkhudbluetext"
 			"labelText"		"%blueteamscore%"
 			"textAlignment"		"center"
 			"xpos"			"382"
@@ -195,7 +200,7 @@
 			"wide"			"0"
 			"tall"			"0"
 			"visible"		"0"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"mkblack"
 		}
 		"RedTeamLabel"
@@ -221,7 +226,7 @@
 			"ControlName"		"CExLabel"
 			"fieldName"		"RedTeamScore"
 			"font"			"mk32"
-			"fgcolor"		"mkdarkerblue"
+			"fgcolor"		"mkhudredtext"
 			"labelText"		"%redteamscore%"
 			"textAlignment"		"center"
 			"xpos"			"427"
@@ -323,7 +328,7 @@
 			"wide"			"39"
 			"tall"			"39"
 			"visible"		"1"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 			"bgcolor_override"	"mkblack"
 		}
 	}
@@ -493,7 +498,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"0 0 0 150"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 	"TopPlayersLabel"
 	{	
@@ -548,7 +553,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"250 234 201 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 	"Player1Avatar"	
 	{
@@ -810,7 +815,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"	
 		"fillcolor"		"250 234 201 255"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 	}
 	"KillStreakPlayer1Avatar"		[$WIN32]
 	{

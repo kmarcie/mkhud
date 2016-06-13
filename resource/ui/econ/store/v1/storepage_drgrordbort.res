@@ -14,7 +14,7 @@
 		"enabled"		"1"
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
-		"PaintBackgroundType"	"0"
+		"PaintBackgroundType"	"2"
 		"bgcolor_override"	"46 43 42 255"
 		"infocus_bgcolor_override" "46 43 42 255"
 		"outoffocus_bgcolor_override" "46 43 42 255"

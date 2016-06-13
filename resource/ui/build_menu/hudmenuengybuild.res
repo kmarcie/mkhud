@@ -2,14 +2,18 @@
 {
 	"BlackBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"BlackBG"
-		"xpos"			"50"
+		"xpos"			"47"
 		"ypos"			"100"
 		"zpos"			"0"
-		"wide"			"200"
+		"wide"			"205"
 		"tall"			"100"
-		"fillcolor"		"mkGUI"
+		"image"			"replay/thumbnails/materialpanel"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
 	}
 	"blueheader"
 	{
@@ -42,8 +46,8 @@
 		"xpos"			"43"
 		"ypos"			"96"
 		"zpos"			"-9"
-		"wide"			"214"
-		"tall"			"107"
+		"wide"			"0"
+		"tall"			"0"
 		"scaleImage"	"1"
 //		"fillcolor"		"mkGUI"
 		"image"			"replay\thumbnails\menu\Shadow4"

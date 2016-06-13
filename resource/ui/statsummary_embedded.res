@@ -10,7 +10,7 @@
 		"tall"		"480"
 		"visible"	"0"
 		"enabled"	"1"
-		"bgcolor_override"	"mkbgcolor"
+		"bgcolor_override"	"0 0 0 0"
 	}
 	"MainBackground"
 	{
@@ -23,6 +23,19 @@
 		"visible"		"0"
 		"enabled"		"1"
 		"image"			""
+		"scaleImage"		"1"
+	}
+	"MainBackground2"
+	{
+		"ControlName"		"ImagePanel"
+		"fieldName"		"MainBackground2"
+		"xpos"			"0"
+		"ypos"			"-24"
+		"wide"			"f0"
+		"tall"			"480"
+		"visible"		"1"
+		"enabled"		"1"
+		"image"			"replay/thumbnails/gif/1"
 		"scaleImage"		"1"
 	}
 	"OnYourWayLabel" [$WIN32]
@@ -199,7 +212,7 @@
 					"selectedBgColor_override"	"mkWhite"
 					"armedFgColor_override"	"mkblack"
 					"armedBgColor_override"	"mkWhite"
-					"paintbackgroundtype"	"0"
+					"PaintBackgroundType"	"2"
 				}		
 			}
 			"BarChartComboB"
@@ -223,22 +236,22 @@
 				"unicode"		"0"
 				
 				"fgcolor_override"	"mkWhite"
-				"bgcolor_override"	"mkbgcolor"
+				"bgcolor_override"	"mkdarkerblue"
 				"disabledFgColor_override" "mkWhite"
-				"disabledBgColor_override" "mkbgcolor"
-				"selectionColor_override" "mkbgcolor"
+				"disabledBgColor_override" "mkdarkerblue"
+				"selectionColor_override" "mkdarkerblue"
 				"selectionTextColor_override" "mkWhite"
 				"defaultSelectionBG2Color_override" "mkblack"
 		
 				"Button"
 				{
 					"defaultFgColor_override"	"mkWhite"
-					"defaultBgColor_override"	"mkbgcolor"
-					"selectedFgColor_override"	"mkbgcolor"
+					"defaultBgColor_override"	"mkdarkerblue"
+					"selectedFgColor_override"	"mkdarkerblue"
 					"selectedBgColor_override"	"mkWhite"
-					"armedFgColor_override"	"mkbgcolor"
+					"armedFgColor_override"	"mkdarkerblue"
 					"armedBgColor_override"	"mkWhite"
-					"paintbackgroundtype"	"0"
+					"PaintBackgroundType"	"2"
 				}						
 			}
 			"ClassCombo"
@@ -262,22 +275,22 @@
 				"unicode"		"0"
 				
 				"fgcolor_override"	"mkWhite"
-				"bgcolor_override"	"mkbgcolor"
+				"bgcolor_override"	"mkdarkerblue"
 				"disabledFgColor_override" "mkWhite"
-				"disabledBgColor_override" "mkbgcolor"
-				"selectionColor_override" "mkbgcolor"
+				"disabledBgColor_override" "mkdarkerblue"
+				"selectionColor_override" "mkdarkerblue"
 				"selectionTextColor_override" "mkWhite"
-				"defaultSelectionBG2Color_override" "mkbgcolor"
+				"defaultSelectionBG2Color_override" "mkdarkerblue"
 		
 				"Button"
 				{
 					"defaultFgColor_override"	"mkWhite"
-					"defaultBgColor_override"	"mkbgcolor"
-					"selectedFgColor_override"	"mkbgcolor"
+					"defaultBgColor_override"	"mkdarkerblue"
+					"selectedFgColor_override"	"mkdarkerblue"
 					"selectedBgColor_override"	"mkWhite"
-					"armedFgColor_override"	"mkbgcolor"
+					"armedFgColor_override"	"mkdarkerblue"
 					"armedBgColor_override"	"mkWhite"
-					"paintbackgroundtype"	"0"
+					"PaintBackgroundType"	"2"
 				}				
 			}
 		}
@@ -293,7 +306,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"mkbgcolor"
+			"bgcolor_override"		"mkdarkerblue"
 		}
 		"AveragesLabel"
 		{
@@ -327,7 +340,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBarBG1B"
 		{
@@ -344,7 +357,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBar1A"
 		{
@@ -361,7 +374,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBar1B"
 		{
@@ -378,7 +391,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBarLabel1A"
 		{
@@ -446,7 +459,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBarBG2B"
 		{
@@ -463,7 +476,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBar2A"
 		{
@@ -480,7 +493,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBar2B"
 		{
@@ -497,7 +510,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBarLabel2A"
 		{
@@ -565,7 +578,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBarBG3B"
 		{
@@ -582,7 +595,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBar3A"
 		{
@@ -599,7 +612,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBar3B"
 		{
@@ -616,7 +629,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBarLabel3A"
 		{
@@ -684,7 +697,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBarBG4B"
 		{
@@ -701,7 +714,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBar4A"
 		{
@@ -718,7 +731,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBar4B"
 		{
@@ -735,7 +748,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBarLabel4A"
 		{
@@ -803,7 +816,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBarBG5B"
 		{
@@ -820,7 +833,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBar5A"
 		{
@@ -837,7 +850,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBar5B"
 		{
@@ -854,7 +867,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBarLabel5A"
 		{
@@ -922,7 +935,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBarBG6B"
 		{
@@ -939,7 +952,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBar6A"
 		{
@@ -956,7 +969,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBar6B"
 		{
@@ -973,7 +986,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBarLabel6A"
 		{
@@ -1041,7 +1054,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBarBG7B"
 		{
@@ -1058,7 +1071,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBar7A"
 		{
@@ -1075,7 +1088,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBar7B"
 		{
@@ -1092,7 +1105,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBarLabel7A"
 		{
@@ -1160,7 +1173,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBarBG8B"
 		{
@@ -1177,7 +1190,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBar8A"
 		{
@@ -1194,7 +1207,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBar8B"
 		{
@@ -1211,7 +1224,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBarLabel8A"
 		{
@@ -1279,7 +1292,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBarBG9B"
 		{
@@ -1296,7 +1309,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"ClassBar9A"
 		{
@@ -1313,7 +1326,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBar9B"
 		{
@@ -1330,7 +1343,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"mkaccent"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}	
 		"ClassBarLabel9A"
 		{
@@ -1395,7 +1408,7 @@
 			"pinCorner"		"0"
 			"visible"		"1"
 			"enabled"		"1"
-			"bgcolor_override"		"mkbgcolor"
+			"bgcolor_override"		"mkdarkerblue"
 		}
 		"RecordsLabel1"
 		{
@@ -1429,7 +1442,7 @@
 			"enabled"		"1"
 			"tabPosition"	"0"	
 			"fillcolor"		"0 0 0 80"
-			"PaintBackgroundType"	"0"
+			"PaintBackgroundType"	"2"
 		}
 		"RecordsLabel"
 		{

@@ -2,19 +2,24 @@
 {
 	"HudTournamentSetupBG"
 	{
-		"ControlName"		"ImagePanel"
+		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"HudTournamentSetupBG"
-		"xpos"			"0"
+		"xpos"			"-3"
 		"ypos"			"0"
 		"zpos"			"10"
-		"wide"			"180"
+		"wide"			"184"
 		"tall"			"65"
 		"autoResize"		"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"fillcolor"		"mkgui"
-	//	"image"			"replay/thumbnails/bg_item"
+	//	"fillcolor"		"mkgui"
+		"image"			"replay/thumbnails/materialpanel"
+		"src_corner_height"		"24"				// pixels inside the image
+		"src_corner_width"		"24"
+			
+		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+		"draw_corner_height" 	"8"	
 	}
 	"MainMenuBG"
 	{

@@ -14,19 +14,19 @@ Scheme
 	Colors
 	{
 	
-		"G_ActiveWindow"			"43  48  58  150" // Active window bg color
-		"G_InctiveWindow"			"43  48  58  125" // Inactive window bg color
-		"G_TitleBg"					"43  48  58  255" // Title bg color
+		"G_ActiveWindow"			"38  50  56  220" // Active window bg color
+		"G_InctiveWindow"			"38  50  56  200" // Inactive window bg color
+		"G_TitleBg"					"38  50  56  255" // Title bg color
 		"G_TitleText"				"146 220 229 255" // Title text color
 		"G_Highlight"				"214 73  51  255" // Highlight color
-		"G_ConsoleBg"				"43  48  58  255" // Console bg color
-		"G_ListBg"					"43  48  58  255" // List bg color
+		"G_ConsoleBg"				"38  50  56  255" // Console bg color
+		"G_ListBg"					"38  50  56  255" // List bg color
 		"G_Border"					"255 255 255 0" // Border color
 		"G_Text"					"215 215 215 255" // Text color
 		"G_HighlightText"			"215 215 215 255" // Highlight text color
 		"G_SelectedText"			"215 215 215 255" // Selected text color
 		"G_DisabledText"			"182 182 182 150" // Disabled text color
-		"G_ButtonBg"				"214 73  51  255" // Button bg color
+		"G_ButtonBg"				"146 220 229 255" // Button bg color
 		"G_ButtonText"				"43  48  58  255" // Button text color
 		"G_ButtonHoverBg"			"200 63  41  255" // Button hover bg color
 		"G_ButtonHoverText"			"43  48  58  255" // Button hover text color

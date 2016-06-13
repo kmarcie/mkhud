@@ -1384,19 +1384,25 @@
 		
 	"AlertsBG"
 	{
-		"ControlName"	"ImagePanel"
+		"ControlName"	"ScalableImagePanel"
 		"fieldName"		"AlertsBG"
-		"xpos"			"1"
+		"xpos"			"-3"
 		"ypos"			"1"
 		"zpos"			"-1"
-		"wide"			"279"
-		"tall"			"274"
+		"wide"			"245"
+		"tall"			"65"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
 		"PaintBackgroundType" "2"
-		"fillcolor"		"mkGUI"
+		
+		"image"			"replay/thumbnails/materialpanel"
+		"scaleImage"		"1"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"
 	}		
 	"AlertsBGHeader"
 	{

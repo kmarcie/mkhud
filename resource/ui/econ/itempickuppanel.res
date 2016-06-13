@@ -56,7 +56,7 @@
 		"ControlName"		"ImagePanel"
 		"fieldName"			"bg"
 		"xpos"				"0"
-		"ypos"				"-24"
+		"ypos"				"0"
 		"zpos"				"-99"
 		"wide"				"f0"
 		"tall"				"480"

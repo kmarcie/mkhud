@@ -2105,9 +2105,9 @@
 		"PaintBackgroundType"	"2"
 		
 		if_competitive
-			{
-				"ypos"			"165"
-			}
+		{
+			"ypos"			"165"
+		}
 		"SubButton"
 		{
 			"ControlName"	"CExImageButton"
@@ -2121,7 +2121,8 @@
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
-			"textinsetx"	"10"			"use_proportional_insets" "1"
+			"textinsetx"	"10"
+			"use_proportional_insets" "1"
 			"font"			"MenuFont"
 			"textAlignment"		"west"
 			"dulltext"		"0"

@@ -6706,7 +6706,7 @@ Scheme
 				"additive"	"0"
 			}
 		}
-	CustomFontFiles
+		CustomFontFiles
 		{
 			"1" "resource/tf.ttf"
 			"2" "resource/tfd.ttf"
@@ -6818,3 +6818,4 @@ Scheme
 			}
 		}
 	}
+}

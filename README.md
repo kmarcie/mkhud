@@ -16,6 +16,8 @@ If your chat font seems too big, go to mkHUD > Resource > Scheme > Chat > Roboto
 
 I would appreciate it if you didn't redistribute this hud as yours. Please give me credit if you happen to release an edit of this hud.
 
+TargetIDs look better if you use ```tf_hud_target_id_disable_floating_health 1```.
+
 Crosshair
 --------------
 The custom crosshair is manageable through HudPlayerClass.res. I made it like this so when you are dead/in scoreboard/freezecam the crosshair doesn't show up, where as if I put it in hudlayout.res it would show up all the time. 

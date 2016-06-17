@@ -19,7 +19,7 @@ Scheme
 		"mkGUIbg"			"225 225 225 255" 				// Brighter off-white
 		"mkGUIselected"		"214 73  51  255" 				// Accent colour - Reddish Orange
 		
-		"mkHUDBlue"			"0	 145 234 255" 				// Team Colour
+		"mkHUDBlue"			"0   145 234 255" 				// Team Colour
 		"mkHudRed"			"198 40  40  255" 				// Team Colour
 		"mkHudRedText"		"255 94  90  255" 				// Team Colour, but brighter by a small bit
 		"mkHudBlueText"		"98  194 255 255" 				// Team Colour, but brighter by a small bit

@@ -42,14 +42,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"delete"
 		
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
+		"border_default"	"mkbutton"
+		"border_armed"		"mkbuttonselected"
 		"paintbackground"	"0"
 		
-		"defaultBgColor_override"	"100 90 85 255"		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"mkdarkerblue"		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 		
 		"image_drawcolor"	"238 54 36 255"
 		"image_armedcolor"	"200 80 60 255"
@@ -93,14 +93,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"trigger"
 
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
+		"border_default"	"mkbutton"
+		"border_armed"		"mkbuttonselected"
 		"paintbackground"	"0"
 		
-		"defaultBgColor_override"	"0 90 85 255"
-		"defaultFgColor_override"	"mkwhite"
-		"armedFgColor_override"		"235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"mkdarkerblue"		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 		
 		"image_drawcolor"	"mkwhite"
 		"image_armedcolor"	"200 80 60 255"
@@ -144,14 +144,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"accept"
 
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
+		"border_default"	"mkbutton"
+		"border_armed"		"mkbuttonselected"
 		"paintbackground"	"0"
 		
-		"defaultBgColor_override"	"100 90 85 255"
-		"defaultFgColor_override"	"mkwhite"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"mkdarkerblue"		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 		
 		"image_drawcolor"	"mkwhite"
 		"image_armedcolor"	"200 80 60 255"
@@ -195,14 +195,14 @@
 		"sound_released"	"UI/buttonclickrelease.wav"
 		"Command"		"decline"
 
-		"border_default"	"MainMenuMiniButtonDefault"
-		"border_armed"		"MainMenuMiniButtonArmed"
+		"border_default"	"mkbutton"
+		"border_armed"		"mkbuttonselected"
 		"paintbackground"	"0"
 		
-		"defaultBgColor_override"	"100 90 85 255"		
-		"defaultFgColor_override" "46 43 42 255"
-		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "46 43 42 255"
+		"defaultBgColor_override"	"mkdarkerblue"		
+		"defaultFgColor_override" "mklightblue"
+		"armedFgColor_override" "mkaccent"
+		"depressedFgColor_override" "mkaccent"
 		
 		"image_drawcolor"	"238 54 36 255"
 		"image_armedcolor"	"200 80 60 255"

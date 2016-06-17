@@ -3,12 +3,12 @@
 	"CHealthAccountPanel"
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"delta_item_x"			"75"
-		"delta_item_start_y"	"50"
+		"delta_item_x"			"c0"
+		"delta_item_start_y"	"0"
 		"delta_item_end_y"		"0"
-		"PositiveColor"			"255 255 0 255"
+		"PositiveColor"			"mkoverheal"
 		"NegativeColor"			"255 0 0 255"
-		"delta_lifetime"		"1.5"
-		"delta_item_font"		"product20"
+		"delta_lifetime"		".6"
+		"delta_item_font"		"mk24"
 	}
 }

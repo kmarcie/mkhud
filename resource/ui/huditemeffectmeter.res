@@ -72,7 +72,7 @@
 		"textAlignment"			"Left"
 		"dulltext"				"0"
 		"brighttext"			"0"
-		"bgcolor_override"		"mkblack"
-		"fgcolor_override"		"255 255 255 255"
+		"fgcolor_override"		"mklightblue"
+		"Bgcolor_override"		"mktopbar"
 	}					
 }

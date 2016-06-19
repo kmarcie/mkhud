@@ -3,18 +3,20 @@
 
 A hud for Team Fortress 2.
 
+If you use an asset of this HUD, whether it be the main menu or class select menu, please credit me. Preferably in a GitHub readme and (if you have one) the TFTV thread. My work has been resubmitted to another HUD and the person who did didn't credit me in the most noticeable way. 
+
 Constructive criticism is always welcome. Please let me know what I can do fit what other people want. And please tell me what I can do to improve the readability, etc.
 
 Please don't add me for questions about this HUD. Ask them in the huds.tf comments or teamfortress.tv thread.
-
-This HUD is very reliant on VTF files. I do not recommend running this HUD on a potato. You may get 10x more lag if you run this HUD on a potato.
 
 Notes
 ------------
 
 If your chat font seems too big, go to mkHUD > Resource > Scheme > Chat > Roboto/Neutra depending on what font you're using > Edit tall value of "Default" and "ChatFont" to "14".
 
-I would appreciate it if you didn't redistribute this hud as yours. Please give me credit if you happen to release an edit of this hud.
+If you use an asset of this HUD, whether it be the main menu or class select menu, please credit me. Preferably in a GitHub readme and (if you have one) the TFTV thread. My work has been resubmitted to another HUD and the person who did didn't credit me in the most noticeable way. Please give me credit if you happen to release an edit of this hud. And if it's just a couple files edited, don't release that. Unless you heavily edited my menu and ingame etc, that's not a release-worthy HUD.
+
+Again, if you are planning to release a HUD with some of my assets, please give credit where credit is due.
 
 TargetIDs look better if you use ```tf_hud_target_id_disable_floating_health 1```.
 

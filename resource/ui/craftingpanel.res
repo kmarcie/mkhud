@@ -166,7 +166,7 @@
 		"enabled"			"1"
 		"tabPosition"		"1"
 		"scaleImage"		"1"
-		"image"				"replay/thumbnails/gif/1"
+		"image"				"../console/background_upward"
 	}
 	"ClassLabel"
 	{

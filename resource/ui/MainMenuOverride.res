@@ -369,7 +369,7 @@
 		"tall"			"480"
 		"visible"		"0"
 		"enabled"		"0"
-		"image"			"replay/thumbnails/gif/1"
+		"image"			"../console/background_upward"
 		"scaleImage"	"1"
 		
 		if_competitive // I have it set to whenever the competitive button is on, my background will appear. This is so that it doesn't appear in game -because the competitive button doesn't show up ingame- and works like the actual background. 

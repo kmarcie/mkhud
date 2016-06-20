@@ -35,7 +35,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay/thumbnails/gif/1"
+		"image"			"../console/background_upward"
 		"scaleImage"		"1"
 	}
 	"OnYourWayLabel" [$WIN32]

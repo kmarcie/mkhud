@@ -1,4 +1,4 @@
-![alt tag](http://puu.sh/oRp0y/a594ec6009.png)
+![alt tag](http://puu.sh/pzP1A/5fdda5dee6.png)
 =========
 
 A hud for Team Fortress 2.

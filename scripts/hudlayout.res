@@ -178,13 +178,14 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"					"200"
-		"ypos"					"r10"
-		"wide"					"f0"
-		"tall"  				"f0"
-		"visible" 				"1"
-		"enabled" 				"1"
-		"PaintBackgroundType"	"2"
+		"xpos"						"c-165"
+		"ypos"						"r130"
+		"wide"						"116"
+		"tall"  					"190"
+		"zpos"						"-1"
+		"visible" 					"1"
+		"enabled" 					"1"
+		"PaintBackgroundType"		"2"
 	}
 	
 	CDamageAccountPanel
@@ -462,7 +463,7 @@
 		"IconColor"		"mkWhite"
 		"LocalPlayerColor"	"mkblack"
 
-		"BaseBackgroundColor"	"ItemPanelBG"		
+		"BaseBackgroundColor"	"mkdarkerblue"		
 		"LocalBackgroundColor"	"mkWhite"	
 	}
 

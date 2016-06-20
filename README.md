@@ -112,7 +112,7 @@ June 12 - - New animated background
 - Better looking tournament hud
 - 6v6 scoreboard (enabled by enabling minmode)
 - And more stuff I probably forgot about
-- 
+ 
 June 20
 
 - Got bored of the animated background, and it didn't really feel like it fit. Removed it, replaced it with a slightly edited version of Upward

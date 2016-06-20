@@ -5,7 +5,7 @@ A hud for Team Fortress 2.
 
 If you use an asset of this HUD, whether it be the main menu or class select menu, please credit me. Preferably in a GitHub readme and (if you have one) the TFTV thread. My work has been resubmitted to another HUD and the person who did didn't credit me in the most noticeable way. 
 
-Constructive criticism is always welcome. Please let me know what I can do fit what other people want. And please tell me what I can do to improve the readability, etc.
+My commits aren't named properly 80% of the time. I apologize.
 
 Please don't add me for questions about this HUD. Ask them in the huds.tf comments or teamfortress.tv thread.
 

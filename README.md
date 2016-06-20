@@ -45,6 +45,50 @@ Do what Wiethoofd did and make it so the HUD updates almost effortlessly using #
 
 Find a way to make it so when you're ingame, there aren't transparent top and bottom bars on the class / backpack / crafting menus
 
+Changelog
+----------
+
+May 25
+- Release
+
+May 31 
+- Added 16:10 support. Made quickplay result dialog wider.
+
+June 2 
+- Added full MvM support. Essentials should be edited, and the HUD should be usable. Please let me know if I messed something up, I don't play MvM often.
+
+June 3 
+- New backpack, crafting, and class loadout menus. The hud is not as VTF reliant as much now. This should be able to be used in all resolutions. 4:3 support is coming very soon, seeing as there are very few things I have to fix up. Unfortunately, I had to move the stream panel down by like, 15 pixels. Hopefully it doesn't detract much from the look.
+
+June 10 
+- Support for 4:3 and 5:4 resolutions.
+
+June 11 
+- Added MvM and Competitive menus. See post #49 for images.
+
+June 12 
+- New animated background
+- Moved the time limit and stats to the bottom left of the screen to improve compatibility with different resolutions
+- Adjusted almost every element of my HUD to have rounded corners
+- Adjusted some colours
+- New backpack borders
+- New material VTFs
+- New CTF HUD
+- Slightly different stream panel
+- New capture point icons (Better drop shadow, and different colours)
+- Better looking target IDs
+- Better looking tournament hud
+- 6v6 scoreboard (enabled by enabling minmode)
+- And more stuff I probably forgot about
+ 
+June 20
+
+- Got bored of the animated background, and it didn't really feel like it fit. Removed it, replaced it with a slightly edited version of Upward
+- Fixed the CTF icons being reversed
+- Added HealthAccount
+- Added low ammo animations
+- Other stuff I forgot
+
 Credits
 ---------
 
@@ -81,42 +125,3 @@ The reason I made my own HUD is because I liked so many different HUDs, I had no
 <b>teamfortress.tv HUD mods/HUD Q&A thread</b> - The stuff people have posted in this thread is absolutely amazing. Some of the stuff posted in that thread inspired me quite a bit. I also owe a huge thanks to the people that go on the HUD Q&A thread and answer people's questions about hud editing. I had quite a few and most of them were answered the next hour or day.
 
 <b>truktruk's sub discord</b> - Honestly, I don't think I would have ever finished this or released this if I didn't subscribe to truktruk on Twitch and joined the Discord. Speaking of which, you should check out truktruk on Twitch. http://twitch.tv/truktruk/ Also, many people from this discord helped out with feedback, testing and reporting bugs to me. :)
-
-Background of my HUD is from http://annstreetstudio.tumblr.com/post/8227065282/caught-in-the-rain-hope-you-have-a-weekend-full
-
-Changelog
-----------
-
-May 25 - Release
-
-May 31 - Added 16:10 support. Made quickplay result dialog wider.
-
-June 2 - Added full MvM support. Essentials should be edited, and the HUD should be usable. Please let me know if I messed something up, I don't play MvM often.
-
-June 3 - New backpack, crafting, and class loadout menus. The hud is not as VTF reliant as much now. This should be able to be used in all resolutions. 4:3 support is coming very soon, seeing as there are very few things I have to fix up. Unfortunately, I had to move the stream panel down by like, 15 pixels. Hopefully it doesn't detract much from the look.
-
-June 10 - Support for 4:3 and 5:4 resolutions.
-
-June 11 - Added MvM and Competitive menus. See post #49 for images.
-
-June 12 - - New animated background
-- Moved the time limit and stats to the bottom left of the screen to improve compatibility with different resolutions
-- Adjusted almost every element of my HUD to have rounded corners
-- Adjusted some colours
-- New backpack borders
-- New material VTFs
-- New CTF HUD
-- Slightly different stream panel
-- New capture point icons (Better drop shadow, and different colours)
-- Better looking target IDs
-- Better looking tournament hud
-- 6v6 scoreboard (enabled by enabling minmode)
-- And more stuff I probably forgot about
- 
-June 20
-
-- Got bored of the animated background, and it didn't really feel like it fit. Removed it, replaced it with a slightly edited version of Upward
-- Fixed the CTF icons being reversed
-- Added HealthAccount
-- Added low ammo animations
-- Other stuff I forgot

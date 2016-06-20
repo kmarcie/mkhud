@@ -94,3 +94,29 @@ May 31 - Added 16:10 support. Made quickplay result dialog wider.
 June 2 - Added full MvM support. Essentials should be edited, and the HUD should be usable. Please let me know if I messed something up, I don't play MvM often.
 
 June 3 - New backpack, crafting, and class loadout menus. The hud is not as VTF reliant as much now. This should be able to be used in all resolutions. 4:3 support is coming very soon, seeing as there are very few things I have to fix up. Unfortunately, I had to move the stream panel down by like, 15 pixels. Hopefully it doesn't detract much from the look.
+
+June 10 - Support for 4:3 and 5:4 resolutions.
+
+June 11 - Added MvM and Competitive menus. See post #49 for images.
+
+June 12 - - New animated background
+- Moved the time limit and stats to the bottom left of the screen to improve compatibility with different resolutions
+- Adjusted almost every element of my HUD to have rounded corners
+- Adjusted some colours
+- New backpack borders
+- New material VTFs
+- New CTF HUD
+- Slightly different stream panel
+- New capture point icons (Better drop shadow, and different colours)
+- Better looking target IDs
+- Better looking tournament hud
+- 6v6 scoreboard (enabled by enabling minmode)
+- And more stuff I probably forgot about
+- 
+June 20
+
+- Got bored of the animated background, and it didn't really feel like it fit. Removed it, replaced it with a slightly edited version of Upward
+- Fixed the CTF icons being reversed
+- Added HealthAccount
+- Added low ammo animations
+- Other stuff I forgot

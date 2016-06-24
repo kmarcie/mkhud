@@ -357,7 +357,7 @@
 		"enabled"		"1"
 		"image"			""
 		"scaleImage"	"1"
-	}
+	}	
 	"Background2"
 	{
 		"ControlName"	"ImagePanel"
@@ -368,17 +368,14 @@
 		"wide"			"f0"
 		"tall"			"480"
 		"visible"		"0"
-		"enabled"		"0"
-		"image"			"../console/background_upward"
+		"enabled"		"1"
+		"image"			"../console/background_upward_widescreen"
 		"scaleImage"	"1"
-		
-		if_competitive // I have it set to whenever the competitive button is on, my background will appear. This is so that it doesn't appear in game -because the competitive button doesn't show up ingame- and works like the actual background. 
+		if_competitive
 		{
 			"visible"	"1"
-			"enabled"	"1"
 		}
-	}
-						
+	}	
 	"TFLogoImage" // ignore this lol
 	{
 		"ControlName"	"ImagePanel"
@@ -2434,8 +2431,8 @@
 			// Move up/left 10px, bump up to 20x20
 			"xpos"			"80+115"
 			"ypos"			"220"
-			"wide"	"20"
-			"tall"	"20"
+			"wide"	"0"
+			"tall"	"0"
 			"image"	"beta_stress"
 		}
 	}

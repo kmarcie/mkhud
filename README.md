@@ -82,12 +82,17 @@ June 12
 - And more stuff I probably forgot about
  
 June 20
-
 - Got bored of the animated background, and it didn't really feel like it fit. Removed it, replaced it with a slightly edited version of Upward
 - Fixed the CTF icons being reversed
 - Added HealthAccount
 - Added low ammo animations
 - Other stuff I forgot
+
+July 8
+- Overhauled the main menu
+- Updated for MYM
+- Competitive/MVM/Casual lobby screens will be updated soon, just thought I'd get this update out before I get people asking me to update the HUD.
+
 
 Credits
 ---------

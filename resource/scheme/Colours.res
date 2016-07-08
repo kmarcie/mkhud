@@ -11,6 +11,7 @@ Scheme
 		"mkLightBlue"		"146 220 229 255" 				// Light Blue
 		"mkLightBlue2"		"116 190 199 255" 				// Slightly darker Light Blue	(what?)
 		"mkAccent"			"214 73  51  255" 				// Accent colour - Reddish Orange
+		"mkAccent2"			"255 64  129 255" 				// Accent colour two - Hot Pink
 		"mkDarkerBlueButKindaBright" "65  75  95  255"		// Stupid long name but it's a brighter version of mkDarkerBlue
 		"mkDarkerBlueButKindaBright2" "75  85  105 255" 	// Stupid long name but it's another brighter version of mkDarkerBlue
 		

@@ -2419,6 +2419,342 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"Regular9"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"9"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular10"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"10"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular11"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regularblur11"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+		"Regular12"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regularblur12"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"12"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+		"Regular14"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"14"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular16"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"16"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular18"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"18"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular20"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"20"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular21"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"21"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular24"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regularblur24"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"24"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+		"Regular26"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"26"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular28"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"28"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular30"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"30"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular32"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"32"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular36"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"36"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular38"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"38"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular40"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"40"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular42"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"42"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular44"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"44"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular48"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"RegularBlur48"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"48"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+		"Regular50"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"50"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular52"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"52"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular56"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"56"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"RegularBlur56"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"56"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
+		"Regular60"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"60"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular64"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"64"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular68"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"68"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regular72"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"72"
+				"weight"	"500"
+				"antialias"	"1"
+			}
+		}
+		"Regularblur72"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Book"
+				"tall"		"72"
+				"weight"	"500"
+				"antialias"	"1"
+				"blur"		"2"
+			}
+		}
 		"nexaLight9"
 		{
 			"1"
@@ -5612,7 +5948,17 @@ Scheme
 				"italic"	"1"
 			}
 		}
-		
+		"MMPlaylistDesc"
+		{
+			"1"
+			{
+				"name"		"Neutraface2Text-Light"
+				"tall"		"9"
+				"weight"	"500"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}				
 		//
 		//////////////////// REPLAY FONTS //////////////////////////////
 		//

@@ -150,16 +150,16 @@
 		"src_corner_width"		"24"
 		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 		"draw_corner_height" 	"8"	
-	}
+	}	
 	"bg"
 	{
 		"ControlName"		"ImagePanel"
 		"fieldName"			"bg"
 		"xpos"				"0"
 		"ypos"				"-24"
-		"zpos"				"-1116"
+		"zpos"				"-9999"
 		"wide"				"f0"
-		"tall"				"480"
+		"tall"				"f0"
 		"autoResize"		"0"
 		"pinCorner"			"1"
 		"visible"			"1"
@@ -167,7 +167,7 @@
 		"tabPosition"		"1"
 		"scaleImage"		"1"
 		"image"				"../console/background_upward"
-	}
+	}	
 	"ClassLabel"
 	{
 		"ControlName"	"CExLabel"

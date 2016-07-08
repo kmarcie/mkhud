@@ -1,119 +1,84 @@
-"GameMenu" [$WIN32]
+"GameMenu" 
 {
 	"ResumeGameButton"
 	{
-		"label"			"RESUME"
+		"label"			"Resume"
 		"command"		"ResumeGame"
 		"OnlyInGame"	"1"
-		"subimage" "icon_resume"
+		"subimage" "replay/thumbnails/menumat/resume"
 	}
-	"QuickplayButton"
+	"FindAGameButton"
 	{
-		"label" "PUB" 
-		"command" "quickplay"
+		"label" "Play" 
+		"command" "toggle_play_menu"
+		"subimage" "replay/thumbnails/menumat/play"
+		"OnlyAtMenu"	"0"
+	}
+
+	"FindAGameButtonHalfWidth"
+	{
+		"label" "o" 
+		"command" "toggle_play_menu"
 		"subimage" "glyph_multiplayer"
-		"OnlyAtMenu" "1"
+		"OnlyInGame"	"0"
 	}
-	"QuickplayChangeButton"
+	"FindAGameButtonPlusSign"
 	{
-		"label" "PUB" 
-		"command" "quickplay"
-		"subimage" "glyph_server"
-		"OnlyInGame" "1"
+		"label" "+" 
+		"command" "toggle_play_menu"
+		"subimage" "glyph_multiplayer"
+		"OnlyInGame"	"0"
 	}
-	"PlayPVEButton"
+	"Process"
 	{
-		"label" "ROBOTS" 
-		"command" "playpve"
-		"subimage" "glyph_coop"
-		"OnlyAtMenu" "1"
+		"label" "" 
+		"command" "null"
+		"subimage" "replay/thumbnails/menumat/process"
+		"OnlyInGame"	"1"
 	}
-	"PlayCompetitiveButton"
+	"ButtonsBG"
 	{
-		"label" "COMP" 
-		"command" "ladder_ui_show"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "1"
-		"OnlyWhenCompetitiveEnabled" "0"
-	}
-	"ServerBrowserButton"
-	{
-		"label" "SERVERS" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyAtMenu" "1"
-	} 
-	"ChangeServerButton"
-	{
-		"label" "SERVERS" 
-		"command" "OpenServerBrowser"
-		"subimage" "glyph_server_browser"
-		"OnlyInGame" "1"
-	}
-	"ReplayBrowserButton"
-	{
-		"label" "5"
-		"command" "engine replay_reloadbrowser"
-		"subimage" "glyph_tv"
-	}
-	"SteamWorkshopButton"
-	{
-		"label" "#MMenu_SteamWorkshop"
-		"command" "engine OpenSteamWorkshopDialog"
-		"subimage" "glyph_steamworkshop"
+		"label" "" 
+		"command" "null"
+		"subimage" ""
+		"OnlyInGame"	"1"
 	}
 	"VRModeButton"
 	{
-		"label" "#MMenu_VRMode_Activate"
+		"label" ""
 		"command" "engine vr_toggle"
 		"subimage" "glyph_vr"
 		"OnlyWhenVREnabled" "1"
 	}
-	"TrainingButton"
-	{
-		"label" "test hud"
-		"command" "engine map tr_walkway_rc2"
-		"subimage" "glyph_practice"
-		"OnlyAtMenu" "0"
-	}
-	
-	// These buttons get positioned by the MainMenuOverride.res	
-	"CreateServerButton"
-	{
-		"label" "9"
-		"command" "OpenCreateMultiplayerGameDialog"
-		"OnlyAtMenu" "1"
-	}
 	"GeneralStoreButton"
 	{
-		"label" "o"
+		"label" "Store"
 		"command" "engine open_store"
-		"subimage" "glyph_store"
+		"subimage" "replay/thumbnails/menumat/store"
 	}	
 	"CharacterSetupButton"
 	{
-		"label" "INVENTORY"
+		"label" "Loadout"
 		"command" "engine open_charinfo"
-		"subimage" "glyph_items"
+		"subimage" "replay/thumbnails/menumat/loadout"
 	}
 
 	// These buttons are only shown while in-game
 	// and also are positioned by the .res file
 	"CallVoteButton"
 	{
-		"label"			"CALL VOTE"
+		"label"			"Call Vote"
 		"command"		"callvote"
 		"OnlyInGame"	"1"
-		"subimage" "icon_checkbox"
-		"tooltip" "#MMenu_CallVote"
+		"tooltip" ""
 	}
 	"MutePlayersButton"
 	{
-		"label"			"mute"
+		"label"			"Mute Players"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
 		"subimage" "glyph_muted"
-		"tooltip" "#MMenu_MutePlayers"
+		"tooltip" ""
 	}
 	"RequestCoachButton"
 	{
@@ -121,14 +86,14 @@
 		"command"		"engine cl_coach_find_coach"
 		"OnlyInGame"	"1"
 		"subimage" "icon_whistle"
-		"tooltip" "#MMenu_RequestCoach"
+		"tooltip" ""
 	}
 	"ReportPlayerButton"
 	{
-		"label"			"report"
+		"label"			"Report Players"
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
 		"subimage"		"glyph_alert"
-		"tooltip"		"#MMenu_ReportPlayer"
+		"tooltip"		""
 	}
 }

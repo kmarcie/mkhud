@@ -74,9 +74,9 @@
 		"fieldName"			"bg"
 		"xpos"				"0"
 		"ypos"				"-24"
-		"zpos"				"-99"
+		"zpos"				"-111"
 		"wide"				"f0"
-		"tall"				"480"
+		"tall"				"f0"
 		"autoResize"		"0"
 		"pinCorner"			"1"
 		"visible"			"1"
@@ -84,7 +84,7 @@
 		"tabPosition"		"1"
 		"scaleImage"		"1"
 		"image"				"../console/background_upward"
-	}
+	}	
 		"itemoptionpanels_kv"
 		{
 			"ControlName"	"CExButton"

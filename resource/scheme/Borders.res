@@ -1849,7 +1849,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"../console/background_upward"
+			"image"					"replay/thumbnails/materialPanel"
 			"src_corner_height"		"48"				// pixels inside the image
 			"src_corner_width"		"48"
 			"draw_corner_width"		"5"				// screen size of the corners ( and sides ), proportional

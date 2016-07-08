@@ -30,8 +30,23 @@
 		
 		"clientinsetx_override"			"0"
 		"sheetinset_bottom"				"40"
-	}
-	
+	}	
+	"MainMenuBG1"
+	{
+		"ControlName"	"ImagePanel"
+		"fieldName"		"MainMenuBG1"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"-90"
+		"wide"			"f0"
+		"tall"			"f0"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"1"
+		"enabled"		"1"
+		"scaleImage"	"1"
+		"image"			"../console/background_upward_widescreen"
+	}	
 	"BackgroundHeader"
 	{
 		"ControlName"	"ImagePanel"
@@ -127,9 +142,9 @@
 		"fieldName"		"MainMenuBGShadow"
 		"xpos"			"-700"
 		"ypos"			"0"
-		"zpos"			"-10001"
+		"zpos"			"-2"
 		"wide"			"9999"
-		"tall"			"16"
+		"tall"			"17"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"

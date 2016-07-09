@@ -45,8 +45,8 @@
 			"wide"							"f0"
 			"tall"							"480"
 
-			"team1_player_base_y"			"0"
-			"team2_player_base_y"			"0"
+			"team1_player_base_y"			"30"
+			"team2_player_base_y"			"30"
 			"team2_player_base_offset_x"	"-2"
 		}
 		

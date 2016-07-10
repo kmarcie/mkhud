@@ -311,7 +311,7 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_comp
+			if_match
 			{
 				"proportionaltoparent"	"1"
 

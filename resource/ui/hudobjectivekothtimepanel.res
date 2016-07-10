@@ -2,7 +2,7 @@
 {	
 	"HudKothTimeStatus"
 	{
-		if_comp
+		if_match
 		{
 			"zpos"		"5"
 		}
@@ -27,11 +27,11 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"product16"
 
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"-1"
+			"xpos"					"c-66"
+			"ypos"					"8"
 			"delta_item_x"			"10"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -57,16 +57,11 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_comp
-			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"15"
-				"ypos"			"12"
-				"tall"			"10"
-				"wide"			"35"
-				"font"			"HudFontSmall"
-			
+			if_match
+			{	
+				"xpos"			"0"
+				"ypos"			"0"
+				"font"			"regular12"
 			}
 		}	
 	}
@@ -88,9 +83,9 @@
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"
 		
-		if_comp
+		if_match
 		{
-			"wide"	"0"
+			"wide"		"0"
 		}	
 	}
 	"RedTimer"
@@ -112,11 +107,11 @@
 		"delta_lifetime"		"1.5"
 		"delta_item_font"		"product16"
 
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
-			"ypos"					"-1"
+			"xpos"					"c-33"
+			"ypos"					"6"
 			"delta_item_x"			"50"
 			"delta_item_start_y"	"12"
 			"delta_item_end_y"		"50"
@@ -144,16 +139,11 @@
 			"textAlignment"		"center"
 			"labelText"		"0:00"
 
-			if_comp
+			if_match
 			{
-				"proportionaltoparent"	"1"
-
-				"xpos"			"rs1-15"
-				"ypos"			"12"
-				"wide"			"35"
-				"tall"			"10"
-				"font"			"HudFontSmall"
-			
+				"xpos"			"0"
+				"ypos"			"0"
+				"font"			"regular12"
 			}
 		}	
 	}
@@ -175,10 +165,10 @@
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"8"
 		
-		if_comp
+		if_match
 		{
-			"wide"	"0"
-		}	
+			"wide"		"0"
+		}
 	}
 	"ActiveTimerBG"
 	{
@@ -198,5 +188,10 @@
 			"draw_corner_height" 	"8"
 		"image"				"replay\thumbnails\materialpanel"
 	//	"fillcolor"			"0 0 0 220"
+	
+		if_match
+		{
+			"wide"		"0"
+		}
 	}
 }

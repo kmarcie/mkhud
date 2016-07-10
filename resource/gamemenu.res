@@ -69,6 +69,7 @@
 	{
 		"label"			"Call Vote"
 		"command"		"callvote"
+		"subimage"		"replay/thumbnails/menumat/vote"
 		"OnlyInGame"	"1"
 		"tooltip" ""
 	}
@@ -77,7 +78,7 @@
 		"label"			"Mute Players"
 		"command"		"OpenPlayerListDialog"
 		"OnlyInGame"	"1"
-		"subimage" "glyph_muted"
+		"subimage"		"replay/thumbnails/menumat/mute"
 		"tooltip" ""
 	}
 	"RequestCoachButton"
@@ -93,7 +94,7 @@
 		"label"			"Report Players"
 		"command"		"OpenReportPlayerDialog"
 		"OnlyInGame"	"1"
-		"subimage"		"glyph_alert"
+		"subimage"		"replay/thumbnails/menumat/report"
 		"tooltip"		""
 	}
 }

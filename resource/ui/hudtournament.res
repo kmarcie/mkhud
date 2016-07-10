@@ -473,28 +473,11 @@
 		"pinCorner"		"0"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"replay\thumbnails\bg_black"
-		"alpha"			"255"
-		"proportionaltoparent"	"1"
-
-		"src_corner_height"	"23"				// pixels inside the image
-		"src_corner_width"	"23"
-		
-		"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"fillcolor"		"mkdarkerblue"
 		
 		if_mvm
 		{
 			"visible"		"0"
-		}
-		
-		if_competitive
-		{
-			"xpos"			"cs-0.5"
-			"ypos"			"22"
-			"tall"			"15"
-			"wide"			"100"
-			"visible"		"1"
 		}
 	}
 	"TournamentLabel"

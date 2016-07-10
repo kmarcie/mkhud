@@ -2758,7 +2758,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"9"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2768,7 +2768,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"10"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2778,7 +2778,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"11"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2788,7 +2788,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"12"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2798,7 +2798,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2808,7 +2808,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"14"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2819,7 +2819,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2829,7 +2829,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"16"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2840,7 +2840,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"18"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2850,7 +2850,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2860,7 +2860,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"20"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2871,7 +2871,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"21"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2881,7 +2881,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2891,7 +2891,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"24"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2902,7 +2902,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"26"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2912,7 +2912,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"28"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2922,7 +2922,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"30"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2932,7 +2932,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"32"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2942,7 +2942,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"36"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2952,7 +2952,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"38"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2962,7 +2962,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"40"
 				"weight"	"500"
 				"antialias"	"1"
@@ -2991,7 +2991,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"44"
 				"weight"	"500"
 				"antialias"	"1"
@@ -3001,7 +3001,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"48"
 				"weight"	"500"
 				"antialias"	"1"
@@ -3011,7 +3011,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"50"
 				"weight"	"500"
 				"antialias"	"1"
@@ -3021,7 +3021,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"52"
 				"weight"	"500"
 				"antialias"	"1"
@@ -3031,7 +3031,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
@@ -3041,7 +3041,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"56"
 				"weight"	"500"
 				"antialias"	"1"
@@ -3052,7 +3052,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"60"
 				"weight"	"500"
 				"antialias"	"1"
@@ -3062,7 +3062,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"64"
 				"weight"	"500"
 				"antialias"	"1"
@@ -3072,7 +3072,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"68"
 				"weight"	"500"
 				"antialias"	"1"
@@ -3082,7 +3082,7 @@ Scheme
 		{
 			"1"
 			{
-				"name"		"Roboto Condensed"
+				"name"		"Roboto Medium"
 				"tall"		"72"
 				"weight"	"500"
 				"antialias"	"1"
@@ -6216,70 +6216,55 @@ Scheme
 			}
 			"15"
 			{
-				"font" "resource/fonts/Roboto-Regular_1.ttf"
+				"font" "resource/fonts/Roboto-Regular.ttf"
 				"name" "Roboto"
 			}
 			"16"
 			{
-				"font" "resource/fonts/Roboto-Thin_2.ttf"
+				"font" "resource/fonts/Roboto-Thin_0.ttf"
 				"name" "Roboto Thin"
 			}
 			"17"
 			{
-				"font" "resource/fonts/Roboto-Medium_2.ttf"
+				"font" "resource/fonts/Roboto-Medium_0.ttf"
 				"name" "Roboto Medium"
 			}
 			"18"
 			{
-				"font" "resource/fonts/RobotoCondensed-Light.ttf"
-				"name" "Roboto Condensed Light"
-			}
-			"19"
-			{
-				"font" "resource/fonts/RobotoCondensed-Bold.ttf"
-				"name" "Roboto Condensed Bold"
-			}
-			"20"
-			{
-				"font" "resource/fonts/RobotoCondensed.ttf"
-				"name" "Roboto Condensed"
-			}
-			"21"
-			{
 				"font" "resource/fonts/Roboto-Bold.ttf"
 				"name" "Roboto Bold"
 			}
-			"22"
+			"19"
 			{
 				"font" "resource/fonts/Roboto-Black_1.ttf"
 				"name" "Roboto Black"
 			}
-			"23"
+			"20"
 			{
-				"font" "resource/fonts/Roboto-Light_2.ttf"
+				"font" "resource/fonts/Roboto-Light_0.ttf"
 				"name" "Roboto Light"
 			}
-			"24"
+			"21"
 			{
 				"font" "resource/fonts/Neutra2Display-Titling.otf"
 				"name" "Neutraface2Display-Titling"
 			}
-			"25"
+			"22"
 			{
 				"font" "resource/fonts/Neutra2Text-Bold.otf"
 				"name" "Neutraface2Text-Bold"
 			}
-			"26"
+			"23"
 			{
 				"font" "resource/fonts/Neutra2Text-Book.otf"
 				"name" "Neutraface2Text-Book"
 			}
-			"27"
+			"24"
 			{
 				"font" "resource/fonts/Neutra2Text-Light.otf"
 				"name" "Neutraface2Text-Light"
 			}
-			"28"
+			"26"
 			{
 				"font" "resource/fonts/Neutra2Text.otf"
 				"name" "Neutraface2Text-Bold"

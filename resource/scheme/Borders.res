@@ -1882,22 +1882,22 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"button_central"
-			"src_corner_height"		"48"				// pixels inside the image
-			"src_corner_width"		"48"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"image"					"replay/thumbnails/materialButton"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
 		}
 		MainMenuButtonArmed
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"button_central_hover"
-			"src_corner_height"		"48"				// pixels inside the image
-			"src_corner_width"		"48"
-			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
-			"draw_corner_height" 	"4"	
+			"image"					"replay/thumbnails/bg_item"
+			"src_corner_height"		"24"				// pixels inside the image
+			"src_corner_width"		"24"
+			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
+			"draw_corner_height" 	"8"	
 		}
 		MainMenuButtonDisabled
 		{
@@ -1932,12 +1932,12 @@ Scheme
 			"draw_corner_width"		"1"				// screen size of the corners ( and sides ), proportional
 			"draw_corner_height" 	"1"	
 		}
-		MainMenuBGBorder
+		MainMenuBGBorder // FRICK THIS PIECE OF SHIT
 		{
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"replay/thumbnails/bg_item"
+			"image"					"replay/thumbnails/bg_blank"
 			"src_corner_height"		"48"				// pixels inside the image
 			"src_corner_width"		"48"
 			"draw_corner_width"		"4"				// screen size of the corners ( and sides ), proportional
@@ -1970,7 +1970,7 @@ Scheme
 			"bordertype"			"scalable_image"
 			"backgroundtype"		"2"
 			
-			"image"					"callout_bubble"
+			"image"					"replay/thumbnails/materialpaneldark"
 			"src_corner_height"		"48"				// pixels inside the image
 			"src_corner_width"		"48"
 			"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional

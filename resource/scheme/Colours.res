@@ -7,12 +7,12 @@ Scheme
 		/////// MENU COLOURS //////
 		"mkTopBar"			"38  50  56  255" 				// Top Bar
 		"mkDarkerBlue"		"38  50  56  255" 				// Darker Blue, also controls the colour of the top bar in some menus because I'm not consistent
-		"mkDarkerBlue2"		"45  61  69  255" 				// Slightly darker Darker Blue (what?)
+		"mkDarkerBlue2"		"45  61  69  255" 				// Slightly darker Darker Blue (what the fuck am i doing)
 		"mkLightBlue"		"146 220 229 255" 				// Light Blue
-		"mkLightBlue2"		"116 190 199 255" 				// Slightly darker Light Blue	(what?)
+		"mkLightBlue2"		"116 190 199 255" 				// Slightly darker Light Blue	(what the fuck am i doing)
 		"mkAccent"			"214 73  51  255" 				// Accent colour - Reddish Orange
 		"mkAccent2"			"255 64  129 255" 				// Accent colour two - Hot Pink
-		"mkDarkerBlueButKindaBright" "65  75  95  255"		// Stupid long name but it's a brighter version of mkDarkerBlue
+		"mkDarkerBlueButKindaBright" "65  75  95  255"		// Stupid long name but it's a brighter version of mkDarkerBlue (what the fuck)
 		"mkDarkerBlueButKindaBright2" "75  85  105 255" 	// Stupid long name but it's another brighter version of mkDarkerBlue
 		
 		"mkGUI"				"215 215 215 255" 				// Off-white
@@ -28,11 +28,10 @@ Scheme
 		////// MISC ///////
 		
 		"mkBlack"			"34  34  34  255" 				// Off-black
-		"mkWhite"			"215 215 215 255" 				// Off-white
+		"mkWhite"			"215 215 215 255" 				// Off-White
 		"mkDarkGrey"		"124 124 124 255" 				// Dark Grey
 		"mkDarkGreyText"	"177 177 177 255" 				// Dark Grey, but brighter by a small bit
 		"mkGrey"			"124 124 124 255" 				// Grey
-		"mkPureWhite"		"255 255 255 255" 				// Completely white
 		"mkPureBlack"		"0   0   0   255" 				// Completely black
 		
 		"mkOVERHEAL"		"0   230 118 255"				// Overheal Colour

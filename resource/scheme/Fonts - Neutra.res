@@ -6207,70 +6207,55 @@ Scheme
 			}
 			"15"
 			{
-				"font" "resource/fonts/Roboto-Regular_1.ttf"
+				"font" "resource/fonts/Roboto-Regular.ttf"
 				"name" "Roboto"
 			}
 			"16"
 			{
-				"font" "resource/fonts/Roboto-Thin_2.ttf"
+				"font" "resource/fonts/Roboto-Thin_0.ttf"
 				"name" "Roboto Thin"
 			}
 			"17"
 			{
-				"font" "resource/fonts/Roboto-Medium_2.ttf"
+				"font" "resource/fonts/Roboto-Medium_0.ttf"
 				"name" "Roboto Medium"
 			}
 			"18"
 			{
-				"font" "resource/fonts/RobotoCondensed-Light.ttf"
-				"name" "Roboto Condensed Light"
-			}
-			"19"
-			{
-				"font" "resource/fonts/RobotoCondensed-Bold.ttf"
-				"name" "Roboto Condensed Bold"
-			}
-			"20"
-			{
-				"font" "resource/fonts/RobotoCondensed.ttf"
-				"name" "Roboto Condensed"
-			}
-			"21"
-			{
 				"font" "resource/fonts/Roboto-Bold.ttf"
 				"name" "Roboto Bold"
 			}
-			"22"
+			"19"
 			{
 				"font" "resource/fonts/Roboto-Black_1.ttf"
 				"name" "Roboto Black"
 			}
-			"23"
+			"20"
 			{
-				"font" "resource/fonts/Roboto-Light_2.ttf"
+				"font" "resource/fonts/Roboto-Light_0.ttf"
 				"name" "Roboto Light"
 			}
-			"24"
+			"21"
 			{
 				"font" "resource/fonts/Neutra2Display-Titling.otf"
 				"name" "Neutraface2Display-Titling"
 			}
-			"25"
+			"22"
 			{
 				"font" "resource/fonts/Neutra2Text-Bold.otf"
 				"name" "Neutraface2Text-Bold"
 			}
-			"26"
+			"23"
 			{
 				"font" "resource/fonts/Neutra2Text-Book.otf"
 				"name" "Neutraface2Text-Book"
 			}
-			"27"
+			"24"
 			{
 				"font" "resource/fonts/Neutra2Text-Light.otf"
 				"name" "Neutraface2Text-Light"
 			}
-			"28"
+			"26"
 			{
 				"font" "resource/fonts/Neutra2Text.otf"
 				"name" "Neutraface2Text-Bold"

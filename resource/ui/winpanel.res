@@ -555,6 +555,20 @@
 		"fillcolor"		"250 234 201 255"
 		"PaintBackgroundType"	"2"
 	}
+	"Player1Badge"
+	{
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"Player1Badge"
+		"xpos"			"260"
+		"ypos"			"420"
+		"zpos"			"3"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+	}
 	"Player1Avatar"	
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -624,6 +638,20 @@
 		"dulltext"		"0"
 		"brighttext"		"0"
 	}
+	"Player2Badge"
+	{
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"Player2Badge"
+		"xpos"			"260"
+		"ypos"			"435"
+		"zpos"			"3"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
+	}
 	"Player2Avatar"	
 	{
 		"ControlName"		"CAvatarImagePanel"
@@ -692,6 +720,20 @@
 		"textAlignment"		"east"
 		"dulltext"		"0"
 		"brighttext"		"0"
+	}	
+	"Player3Badge"
+	{
+		"ControlName"	"CTFBadgePanel"
+		"fieldName"		"Player3Badge"
+		"xpos"			"290"
+		"ypos"			"435"
+		"zpos"			"3"
+		"wide"			"25"
+		"tall"			"25"
+		"autoResize"	"0"
+		"pinCorner"		"0"
+		"visible"		"0"
+		"enabled"		"1"
 	}
 	"Player3Avatar"		
 	{

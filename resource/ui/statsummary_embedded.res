@@ -35,7 +35,7 @@
 		"tall"			"480"
 		"visible"		"1"
 		"enabled"		"1"
-		"image"			"../console/background_upward"
+		"image"			"replay/thumbnails/menumat/product"
 		"scaleImage"		"1"
 	}
 	"OnYourWayLabel" [$WIN32]

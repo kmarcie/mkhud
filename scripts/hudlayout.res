@@ -451,19 +451,19 @@
 
 		"MaxDeathNotices" "9"
 		"IconScale"	  "0.35"
-		"LineHeight"	  "12"
+		"LineHeight"	  "13"
 		"LineSpacing"	  "1"
 		"CornerRadius"	  "2"
 		"RightJustify"	  "1"	// If 1, draw notices from the right
 		
-		"TextFont"		"mkKILLFEED"
+		"TextFont"		"RobotoBold11"
 		
 		"TeamBlue"		"mkhudblue"
 		"TeamRed"		"mkhudred"
 		"IconColor"		"mkWhite"
 		"LocalPlayerColor"	"mkblack"
 
-		"BaseBackgroundColor"	"mkdarkerblue"		
+		"BaseBackgroundColor"	"0 0 0 220"		
 		"LocalBackgroundColor"	"mkWhite"	
 	}
 
@@ -812,8 +812,8 @@
 		"fieldName"				"WinPanel"
 		"visible"				"1"
 		"enabled"				"1"
-		"xpos"					"c-427"
-		"ypos"					"r163"
+		"xpos"					"0"
+		"ypos"					"0"
 		"wide"					"f0"
 		"tall"					"f0"
 		"zpos"					"4"

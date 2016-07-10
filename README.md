@@ -34,7 +34,7 @@ Resolution Support
 
 16:10 - Yes. Everything should work for the most part. There are some offsets in other resolutions, unfortunately. But they aren't very noticeable.
 
-4:3 - As of right now, no. I will work on supporting 4:3 soon.
+4:3 - Yes. Everything should work for the most part. There are some offsets in other resolutions, unfortunately. But they aren't very noticeable.
 
 To-Do
 ---------

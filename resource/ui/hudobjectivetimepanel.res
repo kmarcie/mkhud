@@ -248,10 +248,10 @@
 		"font"			"Robotol12"
 		"fgcolor_override"	"mkwhite"
 
-		if_comp
+		if_match
 		{
 			"proportionaltoparent"	"1"
-			"xpos"					"cs-0.5"
+			"xpos"					"cs-0.57"
 			"ypos"					"17"
 			"font"					"HudFontSmallestBold"
 		}

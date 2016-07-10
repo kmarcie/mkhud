@@ -499,6 +499,10 @@
 		{
 			"visible"		"0"
 		}
+		if_match
+		{
+			"visible"		"0"
+		}
 	}
 	"TournamentLabel"
 	{	

@@ -315,8 +315,8 @@
 			{
 				"proportionaltoparent"	"1"
 
-				"xpos"			"cs-0.85"
-				"ypos"			"25"
+				"xpos"			"cs-0.60"
+				"ypos"			"11"
 				"tall"			"10"
 				"font"			"HudFontSmall"
 			}

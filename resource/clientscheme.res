@@ -76,16 +76,6 @@ Scheme
 				"font" "resource/fonts/Roboto-Medium_2.ttf"
 				"name" "Roboto Medium"
 			}
-			"18"
-			{
-				"font" "resource/fonts/RobotoCondensed-Light.ttf"
-				"name" "Roboto Condensed Light"
-			}
-			"19"
-			{
-				"font" "resource/fonts/RobotoCondensed-Bold.ttf"
-				"name" "Roboto Condensed Bold"
-			}
 			"20"
 			{
 				"font" "resource/fonts/RobotoCondensed.ttf"

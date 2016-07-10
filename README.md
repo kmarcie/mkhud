@@ -93,6 +93,18 @@ July 8
 - Updated for MYM
 - Competitive/MVM/Casual lobby screens will be updated soon, just thought I'd get this update out before I get people asking me to update the HUD.
 
+July 10
+- Moved competitive KotH timer out of the way so it doesn't clip with Matchmaking UI
+- Fixed the win panel not showing up
+- Changed the menu backgrounds for the loadout/backpack/crafting menus
+- Slightly adjusted the loadout menu to fit better with the menu
+- Fully edited all of the lobby panels. (Casual/MvM/Competitive)
+- Changed colour & font of killfeed
+- Slightly adjusted the class selection menu to fit better with the main menu and loadout sub panel
+- Adjusted the colour of the tournament topbar (wasn't the same compared to the other top bars)
+- Added support for the in-game buttons (report/mute/vote)
+- Fixed promotional codes and VR buttons showing up on the main menu
+- Fixed the new store menu not showing up (I probably will be editing this, but it is definitely a lower priority)
 
 Credits
 ---------

@@ -106,6 +106,10 @@ July 10
 - Fixed promotional codes and VR buttons showing up on the main menu
 - Fixed the new store menu not showing up (I probably will be editing this, but it is definitely a lower priority)
 
+July 14
+- Fixed the casual menu so map selection works 
+- New targetid
+
 Credits
 ---------
 

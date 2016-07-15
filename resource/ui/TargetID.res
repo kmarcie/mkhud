@@ -4,7 +4,7 @@
 	{
 		"ControlName"	"CTFImagePanel"
 		"fieldName"		"TargetIDBG"
-		"xpos"			"-2"
+		"xpos"			"0"
 		"ypos"			"-1"  
 		"zpos"			"-90"
 		"wide"			"640"
@@ -23,59 +23,13 @@
 		"src_corner_width"		"16"
 			
 		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
-	}
-			"HealthBG"
-			{
-				"ControlName"		"ScalableImagePanel"
-				"fieldName"		"HealthBG"
-				"xpos"			"2"
-				"ypos"			"7"
-				"zpos"			"-1"
-				"wide"			"30"
-				"tall"			"20"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"enabled"		"1"
-				"image"			"replay/thumbnails/materialbutton"
-
-				"src_corner_height"	"24"				// pixels inside the image
-				"src_corner_width"	"24"
-			
-				"draw_corner_width"	"8"				// screen size of the corners ( and sides ), proportional
-				"draw_corner_height" 	"8"
-				
-			}
-	"bg"
-	{
-		"ControlName"		"CTFImagePanel"
-		"fieldName"		"bg"
-		"xpos"			"0"
-		"ypos"			"49"
-		"zpos"			"-1"
-		"wide"			"640"
-		"tall"			"1"
-		"autoResize"		"0"
-		"pinCorner"		"0"
-		"visible"		"0"
-		"enabled"		"0"
-		"image"			"replay\thumbnails\bg_black"
-		"scaleImage"		"1"
-		"teambg_1"		"replay\thumbnails\bg_dead"
-		"teambg_2"		"replay\thumbnails\bg_redshadow"
-		"teambg_3"		"replay\thumbnails\bg_blueshadow"
-		"src_corner_height"		"16"				// pixels inside the image
-		"src_corner_width"		"16"
-			
-		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_height" 	"11"
 	}
 	"TargetIDBG_Spec_Blue"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Blue"
-		"xpos"			"-2"
+		"xpos"			"0"
 		"ypos"			"-1"  
 		"zpos"			"-90"
 		"wide"			"640"
@@ -90,13 +44,13 @@
 		"src_corner_width"		"16"
 			
 		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_height" 	"11"	
 	}
 	"TargetIDBG_Spec_Red"
 	{
 		"ControlName"		"ScalableImagePanel"
 		"fieldName"		"TargetIDBG_Spec_Red"
-		"xpos"			"-2"
+		"xpos"			"0"
 		"ypos"			"-1"  
 		"zpos"			"-90"
 		"wide"			"640"
@@ -110,7 +64,7 @@
 		"src_corner_width"		"16"
 			
 		"draw_corner_width"		"8"				// screen size of the corners ( and sides ), proportional
-		"draw_corner_height" 	"8"	
+		"draw_corner_height" 	"11"	
 	}
 	
 	"TargetNameLabel"
@@ -180,7 +134,7 @@
 	{
 		"ControlName"		"EditablePanel"
 		"fieldName"		"SpectatorGUIHealth"
-		"xpos"			"2"
+		"xpos"			"-1"
 		"ypos"			"-3"
 		"wide"			"32"
 		"tall"			"40"

@@ -10,10 +10,10 @@
 		"wide"			"190"
 		"tall"			"100"
 		"visible"		"0"
-		"bgcolor_override"		"38 47 49 255"
+		"bgcolor_override"		"0 0 0 0"
 		"PaintBackgroundType"	"2"
 		"paintBorder"	"1"
-		"border"		"OutlinedGreyBox"
+		"border"		"TFFatLineBorderClearBG"
 		
 		"model_ypos"		"10"
 		"model_center_x"	"1"

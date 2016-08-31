@@ -178,8 +178,8 @@
 	CHealthAccountPanel
 	{
 		"fieldName"				"CHealthAccountPanel"
-		"xpos"						"c-165"
-		"ypos"						"r130"
+		"xpos"						"c-120"
+		"ypos"						"r160"
 		"wide"						"116"
 		"tall"  					"190"
 		"zpos"						"-1"
@@ -237,7 +237,7 @@
 		"priority"	"40"
 		
 		"x_offset" "20"
-		"y_offset" "20"
+		"y_offset" "60"
 	}
 	
 	CSecondaryTargetID

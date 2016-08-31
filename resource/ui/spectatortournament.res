@@ -11,11 +11,11 @@
 		"enabled"		"1"
 				
 		"team1_player_base_offset_x"		"0"
-		"team1_player_base_y"				"220"
+		"team1_player_base_y"				"160"
 		"team1_player_delta_x"				"0"
 		"team1_player_delta_y"				"-16"
 		"team2_player_base_offset_x"		"0"
-		"team2_player_base_y"				"240"
+		"team2_player_base_y"				"180"
 		"team2_player_delta_x"				"0"
 		"team2_player_delta_y"				"16"
 		
@@ -187,12 +187,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"playername"
-				"font"			"mk11"
+				"font"			"RobotoL11"
 				"xpos"			"54"
-				"ypos"			"5"
+				"ypos"			"3"
 				"zpos"			"5"
 				"wide"			"80"
-				"tall"			"16"
+				"tall"			"20"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -201,25 +201,6 @@
 				"fgcolor"		"mkwhite"
 			
 			}
-			"playernameshdw"
-			{
-				"ControlName"	"CExLabel"
-				"fieldName"		"playernameshdw"
-				"font"			"mkblur11"
-				"xpos"			"54"
-				"ypos"			"5"
-				"zpos"			"5"
-				"wide"			"80"
-				"tall"			"16"
-				"autoResize"	"0"
-				"pinCorner"		"0"
-				"visible"		"1"
-				"labelText"		"%playername%"
-				"textAlignment"	"west"
-				"fgcolor"		"0 0 0 255"
-			
-			}
-			
 			"classimage"
 			{
 				"ControlName"	"CTFClassImage"
@@ -370,12 +351,12 @@
 			{
 				"ControlName"	"CExLabel"
 				"fieldName"		"chargeamount"
-				"font"			"mktargetid"
+				"font"			"RobotoL11"
 				"xpos"			"130"
-				"ypos"			"5"
+				"ypos"			"6"
 				"zpos"			"6"
 				"wide"			"30"
-				"tall"			"13"
+				"tall"			"15"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"
@@ -391,8 +372,8 @@
 				"xpos"			"130"
 				"ypos"			"5"
 				"zpos"			"6"
-				"wide"			"30"
-				"tall"			"13"
+				"wide"			"0"
+				"tall"			"0"
 				"autoResize"	"0"
 				"pinCorner"		"0"
 				"visible"		"1"

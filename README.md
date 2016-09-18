@@ -110,6 +110,11 @@ July 14
 - Fixed the casual menu so map selection works 
 - New targetid
 
+Sept 17
+- fixed winpanel for 4:3 and 16:10 res
+- fixed spectator hud for 4:3 and 16:10 res
+- made control point icons compatible with sv_pure 1 servers
+
 Credits
 ---------
 

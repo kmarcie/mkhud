@@ -66,20 +66,10 @@ Scheme
 				"font" "resource/fonts/Roboto-Regular_1.ttf"
 				"name" "Roboto"
 			}
-			"16"
-			{
-				"font" "resource/fonts/Roboto-Thin_2.ttf"
-				"name" "Roboto Thin"
-			}
 			"17"
 			{
 				"font" "resource/fonts/Roboto-Medium_2.ttf"
 				"name" "Roboto Medium"
-			}
-			"20"
-			{
-				"font" "resource/fonts/RobotoCondensed.ttf"
-				"name" "Roboto Condensed"
 			}
 			"21"
 			{

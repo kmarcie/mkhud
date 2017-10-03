@@ -115,6 +115,9 @@ Sept 17
 - fixed spectator hud for 4:3 and 16:10 res
 - made control point icons compatible with sv_pure 1 servers
 
+Oct 2 2017
+- Fixed health animations not disappearing after death
+
 Credits
 ---------
 

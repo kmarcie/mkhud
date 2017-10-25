@@ -3546,6 +3546,16 @@ Scheme
 				"antialias"	"1"
 			}
 		}
+		"mkSymbols20"
+		{
+			"1"
+			{
+				"name"		"mkhud"
+				"tall"		"20"
+				
+				"antialias"	"1"
+			}
+		}
 		"mkSymbols24"
 		{
 			"1"

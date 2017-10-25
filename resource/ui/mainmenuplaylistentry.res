@@ -32,13 +32,29 @@
 		"bgcolor_override"	"0 0 0 0"
 	}
 
+	
+	"ToolTipHack"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"ToolTipHack"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"490"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"1"
+		"enabled"		"1"
+		"mouseinputenabled"	"1"
+		"eatmouseinput"	"0"	
+	}
+
 	"ModeButton"
 	{
 		"ControlName"	"CExButton"
 		"fieldName"		"ModeButton"
 		"xpos"			"rs1-6"
 		"ypos"			"2"
-		"zos"			"2"
+		"zpos"			"5"
 		"wide"			"122"
 		"tall"			"15"
 		"visible"		"1"
@@ -53,19 +69,57 @@
 		"default"		"1"
 		"command"		"%button_command%"
 		"proportionaltoparent" "1"
-		"actionsignallevel"	"5"
+		"actionsignallevel"	"2"
 
 		//"border_default"	"MainMenuMiniButtonDefault"
 		//"border_armed"		"MainMenuMiniButtonArmed"
-		"paintbackground"	"0"
+		"paintbackground"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 
-		"defaultFgColor_override"	"mklightblue"
-		"armedFgColor_override"		"mkaccent"
-		"depressedFgColor_override" "mklightblue"
+		"defaultFgColor_override"	"TanLight"
+		"armedFgColor_override"		"TanLight"
+		"depressedFgColor_override" "TanLight"
 	}	
+
+	"MatchmakingBanPanel"
+	{
+		"ControlName"	"EditablePanel"
+		"fieldName"		"MatchmakingBanPanel"
+		"xpos"			"0"
+		"ypos"			"0"
+		"zpos"			"3"
+		"wide"			"f0"
+		"tall"			"f0"
+		"visible"		"0"
+		"enabled"		"1"
+		"mouseinputenabled"	"0"
+		"bgcolor_override"	"0 0 0 250"
+		"proportionaltoparent"	"1"
+
+		"MatchmakingBanDurationLabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"MatchmakingBanDurationLabel"
+			"font"			"MMenuPlayListDesc"
+			"fgcolor_override"	"RedSolid"
+			"labelText"		"#TF_Matchmaking_Ban_Duration_Remaining"
+			"textalignment"	"south-west"
+			"xpos"			"5"
+			"ypos"			"0"
+			"zpos"			"2"
+			"wide"			"f0"
+			"tall"			"f0"
+			"visible"		"1"
+			"enabled"		"1"
+			"autoResize"	"1"
+			"pinCorner"		"0"
+			"proportionaltoparent"	"1"
+
+			"paintbackground"	"0"
+		}
+	}
 
 	"DescLabel"
 	{
@@ -84,7 +138,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"wrap"			"1"
-		"fgcolor_override" "mkwhite"
+		"fgcolor_override" "TanLight"
 		"proportionaltoparent" "1"
 		"mouseinputenabled"	"0"
 	}
@@ -99,8 +153,8 @@
 		"xpos"			"rs1+1"
 		"ypos"			"19"
 		"zpos"			"1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"125"
+		"tall"			"40"
 		"autoResize"	"0"
 		"pinCorner"		"0"
 		"visible"		"1"
@@ -111,38 +165,40 @@
 		"mouseinputenabled"	"0"
 	}
 	
-	"LockImage"
+	"DisabledIcon"
 	{
 		"ControlName"	"CExImageButton"
-		"fieldName"		"LockImage"
+		"fieldName"		"DisabledIcon"
 		"xpos"			"0"
 		"ypos"			"0"
-		"zpos"				"3"
+		"zpos"				"50"
 		"wide"				"f0"
 		"tall"				"f0"
 		"visible"			"1"
 		"enabled"			"1"
-		"actionsignallevel"	"5"
+		"actionsignallevel"	"1"
 		"command"			"comp_access_info"
 		"labeltext"			""
+		"eatmouseinput"	"0"	
+		"button_activation_type"	"1"
 
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 				
-		"defaultFgColor_override" "mkwhite"
-		"armedFgColor_override" "mkaccent"
-		"depressedFgColor_override" "0 0 0 0"
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
 		"defaultBgColor_override" "0 0 0 0"
 		"armedBgColor_override" "0 0 0 0"
 		"depressedBgColor_override" "0 0 0 0"
 				
-		"image_drawcolor"	"215 215 215 255"
-		"image_armedcolor"	"255 255 255 255"
+		"image_drawcolor"	"117 107 94 255"
+		"image_armedcolor"	"235 226 202 255"
 		"SubImage"
 		{
 			"ControlName"	"ImagePanel"
 			"fieldName"		"SubImage"
-			"xpos"			"100"
+			"xpos"			"110"
 			"ypos"			"2"
 			"zpos"			"1"
 			"wide"			"15"
@@ -153,40 +209,5 @@
 			"scaleImage"	"1"
 			"proportionaltoparent" "1"
 		}	
-	}
-	
-	"TooltipPanel"
-	{
-		"ControlName"	"EditablePanel"
-		"fieldName"		"TooltipPanel"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"250"
-		"tall"			"50"
-		"visible"		"0"
-		"PaintBackgroundType"	"2"
-		"border"		"mkborder2"
-		
-		"TipLabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"TipLabel"
-			"font"			"MMenuPlayListDesc"
-			"labelText"		"%tiptext%"
-			"textAlignment"	"north-west"
-			"wrap"			"1"
-			"xpos"			"20"
-			"ypos"			"5"
-			"zpos"			"2"
-			"wide"			"240"
-			"tall"			"30"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"1"
-			"enabled"		"1"
-			"fgcolor_override"	"235 226 202 255"
-			"auto_wide_tocontents" "1"
-		}
 	}
 }

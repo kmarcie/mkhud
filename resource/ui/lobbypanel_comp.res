@@ -17,7 +17,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"	"46 43 42 255"
 		"proportionaltoparent"	"1"
 	}
 
@@ -28,8 +28,8 @@
 		"xpos"			"0"
 		"ypos"			"0"
 		"zpos"			"-1"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"f0"
+		"tall"			"p0.8"
 		"visible"		"0"
 		"enabled"		"1"
 		"mouseinputenabled" "0"
@@ -108,7 +108,7 @@
 			"tall"			"p1"
 			"visible"		"1"
 			"PaintBackgroundType"	"2"
-			"border"		"mkborder2"
+			"border"		"MainMenuBGBorder"
 			"proportionaltoparent"	"1"
 
 			"pinCorner"		"2"
@@ -125,7 +125,7 @@
 				"tall"			"p0.89"
 				"visible"		"1"
 				"PaintBackgroundType"	"2"
-				"border"		""
+				"border"		"InnerShadowBorder"
 				"proportionaltoparent"	"1"
 				"mouseinputenabled"	"0"
 			}
@@ -136,7 +136,7 @@
 				"fieldName"		"MatchHistoryCategories"
 				"xpos"			"cs-0.5"
 				"ypos"			"25"
-				"zpos"		"0"
+				"zpos"		"10"
 				"wide"			"p0.95"
 				"tall"			"20"
 				"visible"		"1"
@@ -153,7 +153,7 @@
 					"tall"			"p1.3"
 					"visible"		"1"
 					"proportionaltoparent"	"1"
-					"border"		"mkborder2"
+					"border"		"MainMenuBGBorder"
 				}
 
 				"SortArrow"
@@ -388,21 +388,21 @@
 		"PartyGroupBox"
 		{
 			"tall"		"160"
-			"border"		"mkborder2"
+			"border"		"QuickplayBorder"
 		}
 
 		"ChatLog"
 		{
 			"ypos"			"165"
 			"tall"			"100"
-			"border"		"mkborder2"
+			"border"		"QuickplayBorder"
 		}
 
 		"ChatTextEntry"
 		{
 			"ypos"			"270"
 			"tall"			"16"
-			"border"		"mkborder2"
+			"border"		"QuickplayBorder"
 		}
 	}
 

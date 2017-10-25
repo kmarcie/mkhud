@@ -430,7 +430,7 @@
 	{
 		"ControlName"		"CExLabel"
 		"fieldName"		"ReinforcementsLabel"
-		"xpos"			"c-425"
+		"xpos"			"5"
 		"ypos"			"-2"
 		"zpos"			"1111"
 		"wide"			"600"

@@ -10,15 +10,15 @@ Scheme
 		"mkDarkerBlue2"		"45  61  69  255" 				// Slightly darker Darker Blue (what the fuck am i doing)
 		"mkLightBlue"		"146 220 229 255" 				// Light Blue
 		"mkLightBlue2"		"116 190 199 255" 				// Slightly darker Light Blue	(what the fuck am i doing)
-		"mkAccent"			"214 73  51  255" 				// Accent colour - Reddish Orange
-		"mkAccent2"			"255 64  129 255" 				// Accent colour two - Hot Pink
+		"mkAccent"			"255 196 0  255" 				// Accent colour - Reddish Orange
+		"mkAccent2"			"255 176 0  255" 				// Accent colour two - Hot Pink
 		"mkDarkerBlueButKindaBright" "65  75  95  255"		// Stupid long name but it's a brighter version of mkDarkerBlue (what the fuck)
 		"mkDarkerBlueButKindaBright2" "75  85  105 255" 	// Stupid long name but it's another brighter version of mkDarkerBlue
 		
 		"mkGUI"				"215 215 215 255" 				// Off-white
 		"mkPanel"			"215 215 215 255" 				// Off-white - No idea why I have 3 things directing to the same colour
 		"mkGUIbg"			"225 225 225 255" 				// Brighter off-white
-		"mkGUIselected"		"214 73  51  255" 				// Accent colour - Reddish Orange
+		"mkGUIselected"		"255 196 0  255" 				// Accent colour - Reddish Orange
 		
 		"mkHUDBlue"			"0   145 234 255" 				// Team Colour
 		"mkHudRed"			"198 40  40  255" 				// Team Colour
@@ -44,8 +44,8 @@ Scheme
 		
 		// STOCK TF2 COLOURS, SOME ARE MODIFIED
 		
-		"Orange"			"214 73  51 255" 	// Reddish Orange
-		"OrangeDim"			"214 73  51 120"
+		"Orange"			"255 196 0 255" 	// Reddish Orange
+		"OrangeDim"			"255 196 0 120"
 		"LightOrange"		"188 112 0   128"
 		"GoalOrange"		"255 133 0"
 		"TFOrange"			"38  50  56 255" 	// Darker Blue
@@ -84,7 +84,7 @@ Scheme
 		"HudBlack"			"34 34 34 255"
 		"ProgressBarBlue"	"91 122 142 255"
 		
-		"CreditsGreen"		"94 150 49 255"
+		"CreditsGreen"		"0   230 118 255"
 		
 		"Gray"				"178 178 178 255"
 
@@ -146,7 +146,7 @@ Scheme
 		"ItemAttribNegative"					"255 64 64 255"
 
 		"ItemSetName"							"225 255 15 255"
-		"ItemSetItemEquipped"					"214 73  51  255"
+		"ItemSetItemEquipped"					"255 196 0  255"
 		"ItemSetItemMissing"					"139 137 137 255"
 		"ItemIsotope"							"225 255 15 255"
 		"ItemBundleItem"						"149 175 12 255"
@@ -206,8 +206,8 @@ Scheme
 		
 		"SaleGreen"								"76 107 34 255"
 		
-		"LightRed"								"214 73  51  255"
-		"LighterRed"							"214 73  51  255"
+		"LightRed"								"255 196 0  255"
+		"LighterRed"							"255 196 0  255"
 		"LighterDarkBrown"						"59 54 48 255"
 		"DarkBrown"								"41 37 38 255"
 		

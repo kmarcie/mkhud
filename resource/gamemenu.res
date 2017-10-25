@@ -1,34 +1,5 @@
 "GameMenu" 
 {
-	"ResumeGameButton"
-	{
-		"label"			"Resume"
-		"command"		"ResumeGame"
-		"OnlyInGame"	"1"
-		"subimage" "replay/thumbnails/menumat/resume"
-	}
-	"FindAGameButton"
-	{
-		"label" "Play" 
-		"command" "toggle_play_menu"
-		"subimage" "replay/thumbnails/menumat/play"
-		"OnlyAtMenu"	"0"
-	}
-
-	"FindAGameButtonHalfWidth"
-	{
-		"label" "o" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyInGame"	"0"
-	}
-	"FindAGameButtonPlusSign"
-	{
-		"label" "+" 
-		"command" "toggle_play_menu"
-		"subimage" "glyph_multiplayer"
-		"OnlyInGame"	"0"
-	}
 	"Process"
 	{
 		"label" "" 

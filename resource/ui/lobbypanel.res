@@ -15,7 +15,7 @@
 		"tabPosition"	"0"
 		"settitlebarvisible"	"0"
 		"PaintBackgroundType"	"0"
-		"bgcolor_override"	"46 43 42 0"
+		"bgcolor_override"	"46 43 42 255"
 		"proportionaltoparent"	"1"
 
 		"NavToRelay"	"MvMTourOfDutyGroupBox"
@@ -33,7 +33,7 @@
 		"tall"			"0"
 		"visible"		"0"
 		"PaintBackgroundType"	"2"
-		"border"		"mkborder2"
+		"border"		"MainMenuBGBorder"
 		
 		"TipLabel"
 		{
@@ -197,8 +197,8 @@
 		"tall"		"330"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		
-		"border"		"mkborder2"
+		"bgcolor_override"	"0 0 0 200"
+		"border"		"QuickplayBorder"
 
 		"SearchActiveTitle"
 		{
@@ -610,8 +610,8 @@
 			"tall"		"160"
 			"PaintBackgroundType"	"0"
 			"paintbackground"		"1"
-			
-			"border"		"mkborder2"
+			"bgcolor_override"	"0 0 0 200"
+			"border"		"QuickplayBorder"
 
 			"NavToRelay"	"InviteButton"
 
@@ -650,13 +650,7 @@
 				"brighttext"	"0"
 				"default"		"1"
 				"Command"		"invite"
-				"border_default"	"mkButton"
-				"border_armed"		"mkButtonSelected"
-				"paintbackground"	"0"
-				
-				"defaultFgColor_override" "mklightblue"
-				"armedFgColor_override" "mkaccent"
-				"depressedFgColor_override" "mkaccent"
+
 				"sound_depressed"	"UI/buttonclick.wav"
 				"sound_released"	"UI/buttonclickrelease.wav"
 			}
@@ -700,8 +694,8 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"110"
-			
-			"border"		"mkborder2"
+			"bgcolor_override"	"0 0 0 200"
+			"border"		"QuickplayBorder"
 		}
 
 		"ChatTextEntry"
@@ -714,8 +708,8 @@
 			"zpos"			"0"
 			"wide"			"200"
 			"tall"			"20"
-			
-			"border"		"mkborder2"
+			"bgcolor_override"	"0 0 0 200"
+			"border"		"QuickplayBorder"
 		}
 	}
 

@@ -2,23 +2,28 @@
 
 "Resource/UI/LobbyContainerFrame_MvM.res"
 {
-
+	"OptionsButton"
+	{
+		"ControlName"	"CExImageButton"
+		"fieldName"		"OptionsButton"
+		"visible"	"0"
+	}
 	
-	"LearnMoreButton" // stupid mvm guide book button that has a stupid name what the fuck fhsghdfghdfghdfgh
+	"LearnMoreButton"
 	{
 		"ControlName"	"CExImageButton"
 		"fieldName"		"LearnMoreButton"
 		"xpos"			"c106"
 		"ypos"			"385"
 		"zpos"			"2"
-		"wide"			"0"
-		"tall"			"0"
+		"wide"			"195"
+		"tall"			"25"
 		"autoResize"	"0"
 		//"pinCorner"		"3"
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"labelText"		"NO"
+		"labelText"		"#TF_MvM_LearnMore"
 		"font"			"HudFontSmallBold"
 		"textAlignment"	"center"
 		"dulltext"		"0"
@@ -32,60 +37,7 @@
 		"sound_depressed"	"UI/buttonclick.wav"
 		"sound_released"	"UI/buttonclickrelease.wav"
 	}
-	"MainMenuBar"
-	{
-		"ControlName"	"ImagePanel"
-		"fieldName"		"MainMenuBar"
-		"xpos"			"0"
-		"ypos"			"0"
-		"zpos"			"1"
-		"wide"			"f0"
-		"tall"			"15"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"fillcolor"		"mkTopBar"
-	}
-	"MainMenuBarShadow"
-	{
-		"ControlName"	"CTFImagePanel"
-		"fieldName"		"MainMenuBarShadow"
-		"xpos"			"-700"
-		"ypos"			"0"
-		"zpos"			"-1"
-		"wide"			"9999"
-		"tall"			"17"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"scaleImage" 	"1"
-		"image"			"replay\thumbnails\menu\Shadow3"
-	}
-	"GamemodeLabel"
-	{
-		"ControlName"	"CExLabel"
-		"fieldName"		"GamemodeLabel"
-		"font"			"robotobold16"
-		"labelText"		"mvm"
-		"textAlignment"	"west"
-		"xpos"			"4"
-		"ypos"			"-3"
-		"zpos"			"100"
-		"wide"			"50"
-		"tall"			"20"
-		"autoResize"	"0"
-		"pinCorner"		"0"
-		"visible"		"1"
-		"enabled"		"1"
-		"paintbackground"	"0"
-		"paintborder"		"0"
-		"fgcolor"		"mklightblue"
-		"defaultFgColor_override"	"mklightblue"
-		"armedFgColor_override"		"mkaccent"
-		"depressedFgColor_override"	"mkaccent"
-	}
+
 	"PlayNowButton"
 	{
 		"ControlName"	"CExButton"
@@ -120,9 +72,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "mklightblue"
-		"armedFgColor_override" "mkaccent"
-		"depressedFgColor_override" "mklightblue"
+		"defaultFgColor_override" "46 43 42 255"
+		"armedFgColor_override" "235 226 202 255"
+		"depressedFgColor_override" "46 43 42 255"
 	}
 
 	"PracticeButton"
@@ -159,9 +111,9 @@
 		"border_armed"		"MainMenuButtonArmed"
 		"paintbackground"	"0"
 			
-		"defaultFgColor_override" "mklightblue"
+		"defaultFgColor_override" "46 43 42 255"
 		"armedFgColor_override" "235 226 202 255"
-		"depressedFgColor_override" "mklightblue"
+		"depressedFgColor_override" "46 43 42 255"
 	}
 
 	"PlayWithFriendsExplanation"
@@ -175,7 +127,8 @@
 		"tall"			"285"
 		"PaintBackgroundType"	"0"
 		"paintbackground"		"1"
-		"border"		"MKBORDER2"
+		"bgcolor_override"	"0 0 0 200"
+		"border"		"QuickplayBorder"
 
 		"PlayWithFriendsExplanationTitle"
 		{

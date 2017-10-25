@@ -9,6 +9,6 @@
 		"PositiveColor"			"mkoverheal"
 		"NegativeColor"			"255 0 0 255"
 		"delta_lifetime"		".6"
-		"delta_item_font"		"mk24"
+		"delta_item_font"		"mk21"
 	}
 }

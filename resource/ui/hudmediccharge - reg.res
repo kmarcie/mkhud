@@ -42,8 +42,8 @@
 	{
 		"ControlName"	"CExLabel"
 		"fieldName"		"ChargeLabelshdw"
-		"xpos"		"169"
-		"ypos"		"-29"
+		"xpos"		"167"
+		"ypos"		"-30"
 		"zpos"		"123"
 		"wide"		"150"
 		"tall"		"125"
@@ -56,7 +56,7 @@
 		"textAlignment"	"center"
 		"dulltext"		"0"
 		"brighttext"	"0"
-		"font"			"mkhealthammo"
+		"font"			"mkhealthammoblur"
 		"fgcolor_override"	"0 0 0 255"
 	}
 	"ChargeBG1"	

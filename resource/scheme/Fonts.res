@@ -4887,6 +4887,17 @@ Scheme
 				"weight"		"500"
 			}
 		}
+		"ScoreboardSmallest"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"6"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" "1"
+			}
+		}
 		"ScoreboardVerySmall" // scoreboard text
 		{
 			"1"
@@ -6177,6 +6188,53 @@ Scheme
 				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
+
+		"MMenuPlayListDesc"
+		{
+			"1"
+			{
+				"name"		"Roboto"
+				"tall"		"9"
+				"weight"	"400"
+				"additive"	"0"
+				"antialias" 	"1"
+			}
+		}
+
+		"XPSource"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"11"
+				"weight"	"500"
+				"antialias" 	"1"
+			}
+		}
+
+		"XPSource_Glow"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"11"
+				"weight"	"500"
+				"blur"		"3"
+				"additive"	"1"
+				"antialias" 	"1"
+			}
+		}
+
+		"MapVotesPercentage"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"12"
+				"weight"	"500"
+				"additive"	"0"
+				"antialias" "1"
+				"dropshadow"	"1"
 			}
 		}
 	}

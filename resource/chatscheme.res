@@ -638,20 +638,15 @@ Scheme
 		"2"		"resource/HL2EP2.ttf"
       "3"
       {
-         "font" "resource/fonts/ProductSans.ttf"
-         "name" "Product Sans"
-      }     
-      "4"
-      {
          "font" "resource/fonts/Roboto-Regular_1.ttf"
          "name" "Roboto"
       }     
-	  "5"
+	  "4"
       {
          "font" "resource/fonts/Surface.otf"
          "name" "Surface"
       }   
-	  "6"
+	  "5"
       {
          "font" "resource/fonts/Neutra2Text-Book.otf"
          "name" "Neutraface2Text-Book"

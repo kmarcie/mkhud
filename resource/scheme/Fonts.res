@@ -3,7 +3,16 @@ Scheme
 	Fonts
 	{
 		// Roboto
-		
+		"ControllerHintText"
+		{
+			"1"
+			{
+				"name"		"Roboto Bold"
+				"tall"		"15"
+				"antialias" "1"
+				"additive"	"0"
+			}
+		}		
 		"mkHealthAmmo"
 		{
 			"1"
@@ -6177,18 +6186,6 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-		ControllerHintText
-		{
-			"1"
-			{
-				"name"		"Roboto Bold"
-				"tall"		"15"
-				"weight"	"500"
-				"range"		"0x0000 0x007F"	//	Basic Latin
-				"antialias" "1"
-				"additive"	"0"
-
 		"MMenuPlayListDesc"
 		{
 			"1"
@@ -6224,7 +6221,6 @@ Scheme
 				"antialias" 	"1"
 			}
 		}
-
 		"MapVotesPercentage"
 		{
 			"1"
@@ -6238,3 +6234,4 @@ Scheme
 			}
 		}
 	}
+}

@@ -878,9 +878,10 @@ Scheme
 			{
 				"name"	"KnucklesCrosses"
 				"tall"	"50"
-				"antialias" "0"
+				"antialias" "1"
 				"additive"	"0"
 				"outline"	"1"
 			}
 		}
 	}
+}

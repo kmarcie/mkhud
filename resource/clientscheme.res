@@ -106,10 +106,5 @@ Scheme
 				"font" "resource/fonts/Neutra2Text-Light.otf"
 				"name" "Neutraface2Text-Light"
 			}
-			"28"
-			{
-				"font" "resource/fonts/Neutra2Text.otf"
-				"name" "Neutraface2Text-Bold"
-			}
 		}
 }

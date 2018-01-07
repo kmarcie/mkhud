@@ -6167,17 +6167,16 @@ Scheme
 				"antialias" "1"
 			}
 		}
-
-		ControllerHintText
+		"ControllerHintText"
 		{
 			"1"
 			{
 				"name"		"Neutraface2Text-Bold"
 				"tall"		"15"
-				
-				"range"		"0x0000 0x007F"	//	Basic Latin
 				"antialias" "1"
 				"additive"	"0"
+			}
+		}
 		"MMenuPlayListDesc"
 		{
 			"1"
@@ -6227,3 +6226,4 @@ Scheme
 			}
 		}
 	}
+}

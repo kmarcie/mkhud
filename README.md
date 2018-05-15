@@ -119,6 +119,10 @@ Oct 23 2017
 - Updated hud for jungle inferno update
 - Fixed bug with neutra font not displaying the correct font for contracts/twitch
 
+May 15 2018
+- Edited vdf file to show version 3 so the hud works
+- I plan on making the casual stuff look nicer just give me a couple months lol
+
 Credits
 ---------
 https://pastebin.com/LaLZGH8x

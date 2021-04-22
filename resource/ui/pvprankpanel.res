@@ -230,14 +230,8 @@
 			"font"			"HudFontSmallestBold"
 			"fgcolor_override"	"mkwhite"
 			"textAlignment"	"north-west"
-			"labelText"		"%level%"
+			"labelText"		"%desc1%"
 			"proportionaltoparent"	"1"
-
-			if_mini
-			{
-				"xpos"	"67"
-				"ypos"	"4"
-			}
 		}
 
 		"StatsContainer"

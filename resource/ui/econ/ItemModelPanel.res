@@ -133,7 +133,7 @@
 			"enabled"		"1"
 			"labelText"		"✓"
 			"textAlignment"	"east"
-			"fgcolor"		"200 80 60 255"
+			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 0 0 200"
 			"PaintBackgroundType"	"2"
 		}
@@ -156,29 +156,7 @@
 		{
 			"ControlName"	"CExLabel"
 			"fieldName"		"quantitylabel"
-			"font"			"product12"
-			"xpos"			"4"
-			"ypos"			"4"
-			"zpos"			"2"
-			"wide"			"18"
-			"tall"			"10"
-			"autoResize"	"0"
-			"pinCorner"		"0"
-			"visible"		"0"
-			"enabled"		"1"
-			"labelText"		""
-			"textAlignment"	"center"
-			"fgcolor"		"200 80 60 255"
-			"bgcolor_override"		"0 0 0 255"
-			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
-		}
-
-		"serieslabel"
-		{
-			"ControlName"	"CExLabel"
-			"fieldName"		"serieslabel"
-			"font"			"product12"
+			"font"			"Product9"
 			"xpos"			"4"
 			"ypos"			"4"
 			"zpos"			"2"
@@ -191,9 +169,29 @@
 			"labelText"		""
 			"textAlignment"	"center"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
+			"bgcolor_override"		"0 0 0 200"
 			"PaintBackgroundType"	"2"
-			"border"		"NoBorder"
+		}
+
+		"serieslabel"
+		{
+			"ControlName"	"CExLabel"
+			"fieldName"		"serieslabel"
+			"font"			"Product9"
+			"xpos"			"4"
+			"ypos"			"4"
+			"zpos"			"2"
+			"wide"			"18"
+			"tall"			"10"
+			"autoResize"	"0"
+			"pinCorner"		"0"
+			"visible"		"0"
+			"enabled"		"1"
+			"labelText"		""
+			"textAlignment"	"center"
+			"fgcolor"		"200 180 60 255"
+			"bgcolor_override"		"0 0 0 200"
+			"PaintBackgroundType"	"2"
 		}
 		
 		"matcheslabel"
@@ -214,7 +212,7 @@
 			"textAlignment"	"center"
 			"border"		"NoBorder"
 			"fgcolor"		"200 180 60 255"
-			"bgcolor_override"		"0 40 30 255"
+			"bgcolor_override"		"0 0 0 200"
 			"PaintBackgroundType"	"2"
 			}
 

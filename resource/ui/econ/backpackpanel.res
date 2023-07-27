@@ -34,8 +34,8 @@
 		"button_override_delete_xpos" "0"
 
 		"page_button_y"	"288"
-		"page_button_x_delta" "3"
-		"page_button_y_delta" "3"
+		"page_button_x_delta" "2"
+		"page_button_y_delta" "2"
 		"page_button_per_row" "20"
 		"page_button_height" "13"
 
@@ -99,7 +99,6 @@
 				"fgcolor"		"10 10 10 255"
 			}
 		}
-			
 		
 		"modelpanels_kv"
 		{
@@ -125,8 +124,7 @@
 			"inset_eq_x"	"2"
 			"inset_eq_y"	"2"
 
-			"deferred_description"	"1"
-			"deferred_icon"			"1"
+
 			
 			"itemmodelpanel"
 			{
@@ -169,7 +167,7 @@
 		"fieldName"			"backpackbg"
 		"xpos"				"c-296"
 		"ypos"				"52"
-		"zpos"				"-100"
+		"zpos"				"-9998"
 		"wide"				"590"
 		"tall"				"235"
 		"visible"			"1"
@@ -186,7 +184,7 @@
 		"fieldName"			"searchBG"
 		"xpos"				"c-296"
 		"ypos"				"30"
-		"zpos"				"-100"
+		"zpos"				"-9998"
 		"wide"				"142"
 		"tall"				"25"
 		"visible"			"1"
@@ -203,7 +201,7 @@
 		"fieldName"			"sortBG"
 		"xpos"				"c129"
 		"ypos"				"30"
-		"zpos"				"-100"
+		"zpos"				"-9998"
 		"wide"				"164"
 		"tall"				"25"
 		"visible"			"1"
@@ -220,7 +218,7 @@
 		"fieldName"			"pagesBG"
 		"xpos"				"c-295"
 		"ypos"				"320"
-		"zpos"				"-100"
+		"zpos"				"-9998"
 		"wide"				"90"
 		"tall"				"31"
 		"visible"			"1"
@@ -237,7 +235,7 @@
 		"fieldName"			"bg"
 		"xpos"				"0"
 		"ypos"				"-24"
-		"zpos"				"-999"
+		"zpos"				"-10000"
 		"wide"				"f0"
 		"tall"				"f0"
 		"autoResize"		"0"
@@ -500,7 +498,7 @@
 		"wide"			"300"
 		"tall"			"300"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 220"
+		"bgcolor_override"		"0 0 0 150"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"
@@ -540,7 +538,7 @@
 		"wide"			"27"
 		"tall"			"21"
 		"visible"		"0"
-		"bgcolor_override"		"0 0 0 220"
+		"bgcolor_override"		"0 0 0 150"
 		"noitem_textcolor"		"117 107 94 255"
 		"PaintBackgroundType"	"2"
 		"paintborder"	"1"

@@ -135,7 +135,7 @@
 			"textAlignment"	"east"
 			"fgcolor"		"200 180 60 255"
 			"bgcolor_override"		"0 0 0 200"
-			"PaintBackgroundType"	"2"
+			"PaintBackgroundTy	pe"	"2"
 		}
 		
 		"paint_icon"

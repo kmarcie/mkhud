@@ -119,7 +119,7 @@
 		"ControlName"	"CExLabel"
 		"fieldName"		"ItemsFoundLabel1"
 		"font"			"RobotoBold24"
-		"labelText"		"YOU HAVE NUU WEAPON!"
+		"labelText"		"#NewItemsAcquired"
 		"fgcolor_override"	"mklightblue"
 		"textAlignment"	"center"
 		"xpos"			"0"

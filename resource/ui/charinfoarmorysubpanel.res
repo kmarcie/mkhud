@@ -67,7 +67,7 @@
 		"fieldName"			"bg"
 		"xpos"				"0"
 		"ypos"				"-24"
-		"zpos"				"-6"
+		"zpos"				"-999"
 		"wide"				"f0"
 		"tall"				"f0"
 		"autoResize"		"0"

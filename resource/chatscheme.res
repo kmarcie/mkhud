@@ -40,7 +40,7 @@ Scheme
 		"mkGreen"				"92 122 90 255"
 		"mkDarkGreen"			"38 53 36 255"
 		"mkYellow"				"169 123 53 255"
-		"mkBrightYellow"		"218 165 32 255"
+		"mkBrightYellow"		"255 196 0  255"
 		
 		"mkWhite"				"234 234 234 255"
 		"mkDullWhite"			"132 132 132 255"
@@ -49,7 +49,7 @@ Scheme
 		"mkDarkGrey"			"27 27 27 255"
 		"mkDarkerGrey"			"22 22 22 255"
 		"mkBlack"				"34 34 34 255"
-		"mkaccent"				"214 73  51  255"
+		"mkaccent"				"255 196 0  255"
       //base colors
 		"White"				"255 255 255 255"
 		"OffWhite"			"0 0 255 255"

@@ -126,7 +126,7 @@
 		"xpos"			"cs-0.5-292"
 		"ypos"			"cs-0.5-75"
 
-		"zpos"			"-50"
+		"zpos"			"-51"
 		"wide"			"1000"
 		"tall"			"1000"
 		"visible"		"1"

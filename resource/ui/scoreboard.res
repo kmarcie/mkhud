@@ -44,7 +44,7 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"medal_width"		"0" // I disabled medals, set it to 20 to put it back on
+		"medal_width"		"9" // I disabled medals, set it to 20 to put it back on
 		"avatar_width"		"57"
 		"spacer"			"5"
 		"name_width"		"118"

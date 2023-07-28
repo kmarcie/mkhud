@@ -21,17 +21,17 @@
 			"ControlName"	"CExImageButton"
 			"fieldName"		"FindAGameButton"
 			"xpos"			"rs1+18"
-			"ypos"			"-6"
+			"ypos"			"0"
 			"zpos"			"993"
 			"wide"			"115"
-			"tall"			"23"
+			"tall"			"15"
 			"autoResize"	"0"
 			"pinCorner"		"3"
 			"visible"		"1"
 			"enabled"		"1"
 			"tabPosition"	"0"
 			"font"			"RobotoBold16"
-			"textAlignment"	"west"
+			"textAlignment"	"east"
 			"dulltext"		"0"
 			"brighttext"	"0"
 			"Command"		"find_game"
@@ -41,20 +41,18 @@
 			"keyboardinputenabled"	"0"
 			"actionsignallevel"	"2"
 			"roundedcorners"	"1"
-			"textinsety"	"5"
-			"textinsetx"	"25"
+			"textinsety"	"0"
+			"textinsetx"	"23"
 			"use_proportional_insets"	"1"
 
 			"sound_depressed"	"UI/buttonclick.wav"
 			"sound_released"	"UI/buttonclickrelease.wav"
 
-			"armedBgColor_override"		"0 0 0 0"
-			"defaultBgColor_override"	"0 0 0 0"
+			"armedBgColor_override"		"mktopbar"
+			"defaultBgColor_override"	"mktopbar"
 
 			"defaultFgColor_override" "mklightblue"
 			"armedFgColor_override" "mkaccent"
-			"image_drawcolor"	"0 0 0 0"
-			"image_armedcolor"	"0 0 0 0"
 
 			"SubImage"
 			{
@@ -287,7 +285,7 @@
 		{
 			"ControlName"	"CDashboardPartyMember"
 			"fieldName"		"PartySlot3"
-			"xpos"			"104"
+			"xpos"			"102"
 			"ypos"			"rs1-5"
 			"zpos"			"100"
 			"wide"			"o1"
@@ -637,7 +635,6 @@
 				"mouseinputenabled"	"1"
 				"keyboardinputenabled"	"0"
 				"actionsignallevel"	"3"
-
 				"armedBgColor_override"		"CreditsGreen"
 				"defaultBgColor_override"	"SaleGreen"
 

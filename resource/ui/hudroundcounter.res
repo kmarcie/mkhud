@@ -20,8 +20,8 @@
 		"RoundIndicatorPanel_kv"
 		{
 			"ypos"				"3"
-			"wide"				"6"
-			"tall"				"6"
+			"wide"				"4"
+			"tall"				"4"
 			"zpos"				"7"
 			"image"				"../hud/comp_round_counter_dot_bg"
 			"scaleimage"		"1"
@@ -56,7 +56,7 @@
 		"ypos"			"0"
 		"zpos"			"5"
 		"wide"			"o2.7"
-		"tall"			"26"
+		"tall"			"28"
 
 		"backgroundtype"		"2"
 		"proportionaltoparent"	"1"

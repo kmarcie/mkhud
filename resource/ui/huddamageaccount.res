@@ -22,13 +22,13 @@
 		"zpos"			"2"
 		"wide"			"80"
 		"tall"			"19"
-		"visible"		"0"
-		"enabled"		"0"
+		"visible"		"1"
+		"enabled"		"1"
 		"labelText"		"%metal%"
 		"delta_lifetime"		"10.0"
 		"textAlignment"	"center"
-		"fgcolor"		"255 171 64 255"
-		"font"			"mk24"
+		"fgcolor"		"mkaccent"
+		"font"			"mk12"
 	}
 	"DamageAccountValueShadow"
 	{
@@ -39,12 +39,12 @@
 		"zpos"			    "2"
 		"wide"				"80"
 		"tall"				"19"
-		"visible"		    "0"
-		"enabled"		    "0"
+		"visible"		    "1"
+		"enabled"		    "1"
 		"labelText"	 		"%metal%"
 		"delta_lifetime"	"10.0"
 		"textAlignment"	 	"center"
 		"fgcolor"	 		"mkpureblack"
-		"font"	 			"mkblur24"			
+		"font"	 			"mkblur12"			
 	}
 }

@@ -386,17 +386,15 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"	"0"
-		"paintbackground"	"2"
-		"cornerradius"	"2"
+		"paintbackground"	"0"
+		
 		"fgcolor_override"	"mklightblue"
 		"border_default"	"mkButton"
 		"border_armed"		"mkButtonSelected"
-		"paintbackground"	"0"
 		
 		"defaultFgColor_override" "mklightblue"
 		"armedFgColor_override" "mkaccent"
 		"depressedFgColor_override" "mkaccent"
-		"paintbackgroundtype"		"2"
 	}
 	
 	"PresetsExplanation"

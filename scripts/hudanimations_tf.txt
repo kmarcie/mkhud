@@ -532,17 +532,19 @@ event ActiveTimerBGPulse
 
 event ActiveTimerHighlight
 {
-Animate TimePanelValue FgColor TanLight Linear 0.1 0.1
-Animate TimePanelValue FgColor "142 134 115 255" Linear 0.3 0.1
+	Animate TimePanelValue FgColor	TanLight		Linear 0.1 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.3 0.1
 
-Animate TimePanelValue FgColor TanLight Linear 0.5 0.1
-Animate TimePanelValue FgColor "142 134 115 255" Linear 0.7 0.1
+													  
+															   
 
-Animate TimePanelValue FgColor TanLight Linear 0.9 0.1
-Animate TimePanelValue FgColor "142 134 115 255" Linear 1.1 0.1
+	Animate TimePanelValue FgColor	TanLight		Linear 0.5 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 0.7 0.1
 
-Animate TimePanelValue FgColor TanLight Linear 1.3 0.3
+	Animate TimePanelValue FgColor	TanLight		Linear 0.9 0.1
+	Animate TimePanelValue FgColor	"142 134 115 255"		Linear 1.1 0.1
 
+	Animate TimePanelValue FgColor	TanLight		Linear 1.3 0.3
 }
 
 event ActiveTimerDim
@@ -1015,7 +1017,7 @@ event CollectionCrafting_LetterSend
 	Animate LetterFront			xpos	c-320	Deaccel 0 0.3
 	Animate DrawingPanel		xpos	c-320	Deaccel 0 0.3
 
-	RunEventChild BehindItemParticlePanel PlayEnvelopSendParticles 0.3
+	RunEventChild BehindItemParticlePanel StartParticle2 0.3
 	Animate Stamp				xpos 1120	Accel 0.3 0.2
 	Animate LetterFront			xpos 1000	Accel 0.3 0.2
 	Animate DrawingPanel		xpos 1000	Accel 0.3 0.2
@@ -1023,17 +1025,17 @@ event CollectionCrafting_LetterSend
 	FireCommand	0.2 "playsound ui/trade_up_envelope_slide_out.wav"
 }
 
-event PlayNewItemParticles
+event StartParticle0
 {
 	FireCommand 0 "start0"
 }
 
-event PlayCrateSmashParticles
+event StartParticle1
 {
 	FireCommand 0 "start1"
 }
 
-event PlayEnvelopSendParticles
+event StartParticle2
 {
 	FireCommand 0 "start2"
 }
@@ -1053,7 +1055,7 @@ event CollectionCrafting_ItemRecieved
 	FireCommand 0	"playcratesequence1"
 	SetVisible	NewItemPanel					0 0 
 	SetVisible ReturnModel						1 0.05
-	RunEventChild BehindItemParticlePanel PlayCrateSmashParticles 0.2
+	RunEventChild BehindItemParticlePanel StartParticle1 0.2
 
 	FireCommand	0 "playsound ui/trade_up_crate_smash.wav"
 
@@ -1061,9 +1063,9 @@ event CollectionCrafting_ItemRecieved
 	SetVisible CloseButton		  1			1.5
 
 	FireCommand 2.1 "playcratesequence2"
-	RunEventChild BehindItemParticlePanel PlayNewItemParticles 1.5
+//	RunEventChild BehindItemParticlePanel PlayNewItemParticles 1.5
 	
-	FireCommand	1.0 "playsound ../player/taunt_medic_heroic.wav"
+	FireCommand	1.0 "playsound player/taunt_medic_heroic.wav"
 }
 
 event CollectionCrafting_OKBlink_Repeatable
@@ -1490,7 +1492,24 @@ event HudMatchStatus_ShowMatchStartDoors
 	
 	SetVisible CountdownBG 1 11
 }
+event HudMatchStatus_ShowRankMatch
+{
+	// Reset
+	Animate RankUpLabel			ypos 95 Linear 0 0
+	Animate RankUpShadowLabel	ypos 97 Linear 0 0
+	Animate RankUpLabel			alpha 0 Linear 0 0
+	Animate RankUpShadowLabel	alpha 0 Linear 0 0
 
+	Animate RankUpLabel			ypos 80 Deaccel 1 0.2
+	Animate RankUpShadowLabel	ypos 82 Deaccel 1 0.2
+
+	Animate RankUpLabel			alpha 255 Linear 1 0.4
+	Animate RankUpShadowLabel	alpha 255 Linear 1 0.4
+
+	Animate RankUpLabel			alpha 0 Linear 7 0.2
+	Animate RankUpShadowLabel	alpha 0 Linear 7 0.2
+}
+						  
 event HudMatchStatus_ShowCountdown
 {
 	SetVisible CountdownLabel 1 0
@@ -1553,16 +1572,6 @@ event HudTournament_HideTimer
 	SetVisible CountdownBG  0 0
 	SetVisible CountdownLabel 0 0
 	SetVisible CountdownLabelShadow 0 0
-}
-
-event CompetitiveGame_HideDisconnectButton
-{
-	Animate DisconnectButton ypos r-100 Accel 0 0
-}
-
-event CompetitiveGame_ShowDisconnectButton
-{
-	Animate DisconnectButton ypos r30 Accel 0 0.4
 }
 
 event HudTournament_ShowRoundSign
@@ -1718,16 +1727,34 @@ event PvPRankLevelDownModel
 	PlaySound 0.15 "ui/mm_rank_down_medal_shoot_impact.wav"
 }
 
+
+
+
+
+
+
+
+
+
+
 event CompetitiveGame_ShowPvPRankPanel
 {
+	Animate RankBorder ypos r0 Linear 0 0
+	Animate RankBorder ypos r65 Bias 0.90 0.2 0.3
+
 	Animate RankPanel ypos r0 Linear 0 0
-	Animate RankPanel ypos r295 Bias 0.90 0.2 0.3
-	RunEventChild RankPanel PvPRankPanelShowXPChange 1
+	Animate RankPanel ypos r285 Bias 0.90 0.2 0.3
+	RunEventChild RankPanel PvPRankPanelShowXPChange 0
+
+	Animate RankModelPanel ypos r0 Linear 0 0
+	Animate RankModelPanel ypos r1095 Bias 0.90 0.2 0.3
+	RunEventChild RankModelPanel PvPRankPanelShowXPChange 0
 }
 
 event PvPRankPanelShowXPChange
 {
-	FireCommand 0 "begin_xp_lerp"
+	FireCommand 0 "update_base_state"
+	FireCommand 1 "begin_xp_lerp"
 }
 
 event PyroVsHeavyWar_ShowChooseScene
@@ -1743,6 +1770,19 @@ event PyroVsHeavyWar_ShowChooseScene
 	Animate Heavy		ypos -60	Bias 0.9 0 1
 	Animate Pyro		ypos -60	Bias 0.9 0 1
 	Animate Foreground	ypos 65		Bias 0.9 0 1
+}
+
+event PyroVsHeavyWar_PyroWinnerScene
+{
+	// Reset
+	Animate Background			ypos -220 Linear 0 0
+	Animate PyroWinMidground	ypos -180 Linear 0 0
+	Animate Foreground			ypos 40 Linear 0 0
+
+	// Paralax
+	Animate Background			ypos -175	Bias 0.9 0 1
+	Animate PyroWinMidground	ypos -100	Bias 0.9 0 1
+	Animate Foreground			ypos 75		Bias 0.9 0 1
 }
 
 event CasualCategory_Checkbox_Hide
@@ -1775,6 +1815,15 @@ event CasualCategory_NotSelected
 	Animate Title		FgColor TanDark Deaccel 0 0.2
 }
 
+event HealthProgressBar_Selected
+{
+	Animate HealthProgressBar	Alpha 255 Deaccel 0 0.2
+}
+
+event HealthProgressBar_NotSelected
+{
+	Animate HealthProgressBar	Alpha 50 Deaccel 0 0.2
+}
 event MMenu_UpdateButton_StartGlow
 {
 	SetVisible	ViewDetailsGlow	1	0
@@ -1810,7 +1859,36 @@ event MMenu_UpdateButton_SubtleGlow
 
 	RunEvent MMenu_UpdateButton_SubtleGlow 5
 }
+event XPSourceShow_Positive
+{
+	Animate SourceLabel		Alpha		0				Linear 0 0
+	Animate SourceLabelGlow Alpha		0				Linear 0 0
 
+	Animate SourceLabel		Alpha		255				Linear 0.1 0.3
+	Animate SourceLabel FgColor		"100 255 100 255"	Linear	0.1 0
+	Animate SourceLabel FgColor		CreditsGreen		Linear	0.5 1
+	Animate SourceLabel Alpha		0					Linear 2.9 0.3
+
+	Animate SourceLabelGlow Alpha		255					Linear	0.0 0.1
+	Animate SourceLabelGlow FgColor		"100 255 100 255"	Linear	0.1 0
+	Animate SourceLabelGlow FgColor		CreditsGreen		Linear	0.5 1
+	Animate SourceLabelGlow Alpha		200					Linear	0.5 1
+	Animate SourceLabelGlow Alpha		0					Linear 2.9 0.3
+}
+
+event XPSourceShow_Negative
+{
+	Animate SourceLabel		Alpha		0				Linear 0 0
+	Animate SourceLabelGlow Alpha		0				Linear 0 0
+
+	Animate SourceLabel	Alpha		255					Linear	0.1 0.3
+	Animate SourceLabel FgColor		"255 100 100 255"	Linear	0.1 0
+	Animate SourceLabel FgColor		RedSolid			Linear	0.5 1
+	Animate SourceLabel Alpha		0					Linear	2.9 0.1
+	Animate SourceLabel ypos		-15					Linear 0 0.4
+
+	Animate SourceLabelGlow Alpha		0					Linear	0	0
+}
 event CategoryMap_Selected
 {
 	Animate HealthProgressBar	Alpha 255 Deaccel 0 0.2
@@ -1823,70 +1901,37 @@ event CategoryMap_NotSelected
 
 event SurveyShowSequence
 {
-Animate Survey ypos 480 Linear 0 0
-Animate Survey ypos 150 Linear 1 0.3
-Animate Survey ypos 130 Deaccel 1.3 0.1
-Animate Survey ypos 150 Accel 1.4 0.1
+	Animate Survey		ypos	480		Linear 0 0
+	Animate Survey		ypos	150		Linear 1 0.3
+	Animate Survey		ypos	130		Deaccel 1.3 0.1
+	Animate Survey		ypos	150		Accel 1.4 0.1
 }
 
 event SurveySubmitSequence
 {
-// Show submitting
-SetVisible QuestionContainer 0 0
-SetVisible SubmittingContainer 1 0
+	// Show submitting
+	SetVisible	QuestionContainer	0	0
+	SetVisible	SubmittingContainer	1	0
 
-// Show thanks
-SetVisible SubmittingContainer 0 2
-SetVisible ThanksContainer 1 2
+	// Show thanks
+	SetVisible	SubmittingContainer	0	2
+	SetVisible	ThanksContainer		1	2
 
-RunEvent SurveyHideSequence 6
+	RunEvent SurveyHideSequence 6
 }
+
 
 event SurveyDelete
 {
-FireCommand 0 "delete"
+	FireCommand 0 "delete"
 }
 
 event SurveyHideSequence
 {
-SetVisible CloseButton 0 0 
-
-Animate Survey ypos 130 Deaccel 0 0.3
-Animate Survey ypos 480 Accel 0.3 0.2
-RunEventChild Survey SurveyDelete 0.6
-}
-
-event XPSourceShow_Positive
-{
-Animate SourceLabel Alpha 0 Linear 0 0
-Animate SourceLabelGlow Alpha 0 Linear 0 0
-
-Animate SourceLabel Alpha 255 Linear 0.1 0.3
-Animate SourceLabel FgColor "100 255 100 255" Linear 0.1 0
-Animate SourceLabel FgColor CreditsGreen Linear 0.5 1
-Animate SourceLabel ypos -25 Deaccel 0 3.0
-Animate SourceLabel Alpha 0 Linear 2.9 0.3
-
-Animate SourceLabelGlow Alpha 255 Linear 0.0 0.1
-Animate SourceLabelGlow FgColor "100 255 100 255" Linear 0.1 0
-Animate SourceLabelGlow FgColor CreditsGreen Linear 0.5 1
-Animate SourceLabelGlow Alpha 200 Linear 0.5 1
-Animate SourceLabelGlow ypos -25 Deaccel 0 3.0
-Animate SourceLabelGlow Alpha 0 Linear 2.9 0.3
-}
-
-event XPSourceShow_Negative
-{
-Animate SourceLabel Alpha 0 Linear 0 0
-Animate SourceLabelGlow Alpha 0 Linear 0 0
-
-Animate SourceLabel Alpha 255 Linear 0.1 0.3
-Animate SourceLabel FgColor "255 100 100 255" Linear 0.1 0
-Animate SourceLabel FgColor RedSolid Linear 0.5 1
-Animate SourceLabel Alpha 0 Linear 2.9 0.1
-Animate SourceLabel ypos -15 Linear 0 0.4
-
-Animate SourceLabelGlow Alpha 0 Linear 0 0
+	SetVisible CloseButton 0 0 
+	Animate Survey		ypos	130		Deaccel 0 0.3
+	Animate Survey		ypos	480		Accel	0.3 0.2
+	RunEventChild Survey SurveyDelete 0.6
 }
 
 // Health Animations fix (thank u so much mastercoms)

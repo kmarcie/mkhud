@@ -126,6 +126,7 @@ July 27, 2023
 - Changed last damage done to display by default
 - Edited killstreak label back to default
 - Fixed spacing between party slots
+- Edited matchmaking hud to look a bit nicer
 
 Credits
 ---------

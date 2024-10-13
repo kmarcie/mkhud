@@ -44,8 +44,9 @@
 		"visible"		"1"
 		"enabled"		"1"
 		"tabPosition"		"0"
-		"medal_width"		"9" // I disabled medals, set it to 20 to put it back on
-		"avatar_width"		"57"
+		"medal_width"		"15"
+		"medal_column_width" "15"
+		"avatar_width"		"28"
 		"spacer"			"5"
 		"name_width"		"118"
 		"name_width_short"	"85"
@@ -55,7 +56,7 @@
 		"ping_width"		"25"
 		"stats_width"		"30"
 		"killstreak_width"	"15"
-		"killstreak_image_width" ""
+		"killstreak_image_width" "15"
 	}
 	"SCOREBOARDTOPBGBLU"
 	{

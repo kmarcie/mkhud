@@ -15,9 +15,9 @@
 		"mouseinputenabled"		"1"
 		"border"		"noborder"
 
-		"log_font_small"			"HudFontSmall"
-		"log_font_medium"			"HudFontMediumSmallSecondary"
-		"log_font_large"			"HudFontMediumSecondary"
+		"log_font_small"			"Mk8"
+		"log_font_medium"			"Mk10"
+		"log_font_large"			"Mk12"
 
 		"chat_color_default"		"255 255 255 255"
 		"chat_color_player_name"	"255 255 0 255"

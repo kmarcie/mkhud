@@ -141,7 +141,7 @@
 		"font"			"robotol16"
 		"labelText"		"#ClassBeingEquipped"
 		"textAlignment"	"center"
-		"xpos"			"c-125"
+		"xpos"			"c-120"
 		"ypos"			"287"
 		"wide"			"240"
 		"tall"			"30"

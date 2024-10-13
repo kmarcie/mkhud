@@ -161,6 +161,7 @@
 		"tabwidth"		"110"
 		"tabheight"		"35"
 		"transition_time" "0"
+		"yoffset" 		"20"
 		
 		"HeaderLine"
 		{
@@ -184,9 +185,9 @@
 			"textAlignment"		"west"
 			"font"				"mk16"
 			"ypos"				"0"
-			"zpos"				"99999"
-			"selectedcolor"		"mktopbar"
-			"unselectedcolor"	"mktopbar"	
+			"zpos"				"0"
+			"selectedcolor"		"0 0 0 0"
+			"unselectedcolor"	"0 0 0 0"	
 			"paintbackground"	"1"
 			"defaultBgColor_override"	"0 0 0 0"
 			"unselectedBgColor_override"	"0 0 0 0"

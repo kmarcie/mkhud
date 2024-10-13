@@ -12,8 +12,9 @@ Scheme
 		{
 			"1"
 			{
+				"isproportional" "only"
 				"name"		"Neutraface2Text-Book"
-				"tall"		"22"
+				"tall"		"9"
 				"weight"	"0"
 				"antialias"	"1"
 				"dropshadow" "1"
@@ -70,8 +71,9 @@ Scheme
 		{
 			"1"
 			{
+				"isproportional" "only"
 				"name"		"Neutraface2Text-Book"
-				"tall"		"22"	
+				"tall"		"9"	
 				"weight"	"500"
 				"antialias"    "1"
 				"dropshadow" "1"

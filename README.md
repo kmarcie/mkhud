@@ -7,8 +7,6 @@ Please don't add me for questions about this HUD. Ask them in the Git discussion
 Notes
 ------------
 
-If your chat font seems too big, go to mkHUD > Resource > Scheme > Chat > Roboto/Neutra depending on what font you're using > Edit tall value of "Default" and "ChatFont" to "14".
-
 If you are planning to release a HUD with some of my assets, please give credit where credit is due.
 
 TargetIDs look better if you use ```tf_hud_target_id_disable_floating_health 1```.

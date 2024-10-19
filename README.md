@@ -125,7 +125,11 @@ July 27, 2023
 - Edited killstreak label back to default
 - Fixed spacing between party slots
 - Edited matchmaking hud to look a bit nicer
-- Fixed MVM currency not displaying
+- Fixed MVM currency not displaying\
+
+Oct 13, 2024
+- Scream Fortress update - fixed font scaling issues with chat, and loadout panels being shifted downwards
+
 
 Credits
 ---------

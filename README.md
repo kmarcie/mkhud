@@ -133,5 +133,26 @@ Changelog
 
 Credits
 ---------
-https://pastebin.com/LaLZGH8x
+Rawrsor - Huge inspiration for material design elements and getting into making a hud utilizing it. Also learned how to setup the VTF and borders to round out properly from them.
 
+omnibombulator
+
+Broesel
+
+Nokk - helped a lot during the creation process
+
+raysfire - tutorials & answered questions
+
+omphud - item effect meters
+
+JarateKing - used their HUD guide a lot
+
+Knuckles - crosshairs
+
+Stochast1c - Edited chatscheme.res + basechat.res from SolarHUD
+
+yttrium
+
+TFTV HUD Q&A thread
+
+truktruk discord dBj
